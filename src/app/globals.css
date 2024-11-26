@@ -1,42 +1,58 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+body {
+  background-color: #f3eeed;
+  /* height: 100%; */
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+:root {
+  --Website-black-color: #505055;
+  --Website-body-color: #f3eeed;
+  --Website-Page-Footer-Background: rgb(255, 255, 255);
+  --Website-red-color: #a31700;
+
+  --font-size-super-heading: 96px;
+  --font-weight-super-heading: 500;
+
+  --font-size-footer-rights-text: 24px;
+  --font-weight-footer-rights-text: 500;
+
+  --font-size-menu-heading: 84px;
+
+  --font-size-menufooter-left-text: 18px;
+  --font-weight-menufooter-left-text: 500;
+
+  --font-size-page-content: 35px;
+  --font-size-page-heading: 55px;
+
+  --font-size-page-subcontent: 28px;
+  --font-size-page-subheading: 34px;
+
+  --font-size-mobile-main-heading-320: 55px;
+  --font-size-mobile-main-heading-360: 75px;
+
+  --font-size-new-xl-large-heading: 122px;
+  --font-size-new-xl-large-hero-heading: 115px;
+}
+
+/* Global scrollbar styles */
+
+/* WebKit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none; /* Hides the scrollbar */
+  overflow: auto; /* Keep scroll functionality */
+}
+
+/* Ensures the page is scrollable */
+body {
+  overflow: auto;
 }
