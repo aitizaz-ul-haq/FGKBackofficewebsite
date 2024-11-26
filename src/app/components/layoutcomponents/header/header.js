@@ -1,6 +1,7 @@
 import "./header.css";
 import Image from "next/image";
 import Link from "next/link";
+import HeaderContactButton from "../../uicomponents/buttons/headercontactbutton";
 
 export default function Header() {
   return (
@@ -22,7 +23,7 @@ export default function Header() {
           <button className="header-nobackground-button">Team</button>
           <button className="header-nobackground-button">About</button>
           <button className="header-nobackground-button">Careers</button>
-          <button className="header-nobackground-button">Contact</button>
+          <HeaderContactButton name="Contact Us" link="/contact" />
         </div>
       </div>
     </>
