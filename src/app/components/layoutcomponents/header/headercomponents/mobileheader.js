@@ -1,4 +1,5 @@
 import HeaderMobileMenuRightSection from "./headermobilemenurightsection";
+import HeaderLeftSection from "./headerleftsection";
 
 export default function MobileHeader() {
   return (
