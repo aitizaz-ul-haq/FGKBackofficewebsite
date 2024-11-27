@@ -1,0 +1,7 @@
+[
+  { "name": "Services", "link": "/services" },
+  { "name": "Industries", "link": "/industries" },
+  { "name": "Team", "link": "/team" },
+  { "name": "About", "link": "/about" },
+  { "name": "Careers", "link": "/careers" }
+]

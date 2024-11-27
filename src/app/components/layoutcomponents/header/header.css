@@ -20,4 +20,13 @@
   border: none;
   background: none;
   font-size: 16px;
+  cursor: pointer;
+  font-weight: 400; /* Normal weight */
+  color: black; /* Initial color */
+  transition: color 0.3s ease, font-weight 0.3s ease; /* Smooth transition */
+}
+
+.header-nobackground-button:hover {
+  color: #00bcd4; /* Change to your desired hover color */
+  /* font-weight: 500;  */
 }
