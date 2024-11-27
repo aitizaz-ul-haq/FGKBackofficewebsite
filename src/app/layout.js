@@ -1,6 +1,7 @@
 import { Inter, Roboto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "./components/layoutcomponents/header/header";
+import Footer from "./components/layoutcomponents/footer/footer";
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"], // Include necessary subsets
@@ -24,6 +25,9 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable} ${robotoSerif.variable}`}>
         <Header />
         {children}
+        <footer>
+          <Footer />
+        </footer>
       </body>
     </html>
   );

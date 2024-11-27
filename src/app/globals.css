@@ -4,9 +4,32 @@
   box-sizing: border-box;
 }
 
+/* Firefox */
+html {
+  scrollbar-width: none; /* Hides the scrollbar */
+  overflow: auto; /* Keep scroll functionality */
+}
+
 body {
   background-color: #f3eeed;
+  overflow: auto;
   /* height: 100%; */
+}
+
+/* Ensure full height for sticky footer */
+html,
+body {
+  height: 100%; /* Full height of viewport */
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+/* body > * {
+  flex: 1; 
+} */
+
+footer {
+  margin-top: auto; /* Push footer to the bottom */
 }
 
 /* ===== Typography Utilities ===== */
@@ -86,15 +109,4 @@ body {
 /* WebKit-based browsers (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
   width: 0px; /* Width of the scrollbar */
-}
-
-/* Firefox */
-html {
-  scrollbar-width: none; /* Hides the scrollbar */
-  overflow: auto; /* Keep scroll functionality */
-}
-
-/* Ensures the page is scrollable */
-body {
-  overflow: auto;
 }
