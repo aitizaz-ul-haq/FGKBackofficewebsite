@@ -18,12 +18,22 @@ export default function Header() {
           </Link>
         </div>
         <div className="header-right-buttongroupsection">
-          <button className="header-nobackground-button">Services</button>
-          <button className="header-nobackground-button">Industries</button>
-          <button className="header-nobackground-button">Team</button>
-          <button className="header-nobackground-button">About</button>
-          <button className="header-nobackground-button">Careers</button>
-          <HeaderContactButton name="Contact Us" link="/contact" />
+          <button className="header-nobackground-button font-inter">
+            Services
+          </button>
+          <button className="header-nobackground-button font-inter">
+            Industries
+          </button>
+          <button className="header-nobackground-button font-inter">
+            Team
+          </button>
+          <button className="header-nobackground-button font-inter">
+            About
+          </button>
+          <button className="header-nobackground-button font-inter">
+            Careers
+          </button>
+          <HeaderContactButton name="Contact" link="/" />
         </div>
       </div>
     </>
