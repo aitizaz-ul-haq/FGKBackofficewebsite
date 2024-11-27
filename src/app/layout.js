@@ -3,17 +3,19 @@ import "./globals.css";
 import Header from "./components/layoutcomponents/header/header";
 
 const inter = Inter({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"], // Include necessary subsets
   variable: "--font-inter",
-  weight: ["400", "700"],
-  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Full range of weights
+  style: ["normal", "italic"], // Include both styles
+  display: "swap", // Optimizes font loading
 });
 
 const robotoSerif = Roboto_Serif({
-  subsets: ["latin"],
-  variable: "--font-roboto-serif",
-  weight: ["400", "700"],
-  display: "swap",
+  subsets: ["latin", "latin-ext"], // Include necessary subsets
+  variable: "--font-roboto-serif", // CSS variable for font
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Full range of weights
+  style: ["normal", "italic"], // Include both styles
+  display: "swap", // Optimizes font loading
 });
 
 export default function RootLayout({ children }) {
