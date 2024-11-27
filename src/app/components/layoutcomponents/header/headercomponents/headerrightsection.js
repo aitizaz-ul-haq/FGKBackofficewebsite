@@ -1,4 +1,3 @@
-import HeaderContactButton from "@/app/components/uicomponents/buttons/headercontactbutton";
 import HeaderRightSectionButtonSection from "./headerrightsectionbuttongroup";
 
 export default function HeaderRightSection() {
@@ -6,7 +5,6 @@ export default function HeaderRightSection() {
     <>
       <div className="header-right-buttongroupsection">
         <HeaderRightSectionButtonSection />
-        {/* <HeaderContactButton name="Contact" link="/" /> */}
       </div>
     </>
   );
