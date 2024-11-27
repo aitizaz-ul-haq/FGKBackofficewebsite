@@ -5,11 +5,11 @@ import "./header.css";
 export default function Header() {
   return (
     <>
-      <div class="header-main-wrapper">
+      <div className="header-main-wrapper">
         <DesktopHeader />
       </div>
 
-      <div class="header-mobile-wrapper">
+      <div className="header-mobile-wrapper">
         <MobileHeader />
       </div>
     </>
