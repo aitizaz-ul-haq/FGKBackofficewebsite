@@ -45,42 +45,131 @@
 
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
+  .header-main-wrapper {
+    display: none;
+  }
+
+  .header-mobile-container {
+    padding: 1rem;
+  }
 }
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
+  .header-main-wrapper {
+    display: none;
+  }
+
+  .header-mobile-container {
+    padding: 1rem;
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 375px) {
+  .header-main-wrapper {
+    display: none;
+  }
+
+  .header-mobile-container {
+    padding: 1rem;
+  }
 }
 
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
+  .header-main-wrapper {
+    display: none;
+  }
+
+  .header-mobile-container {
+    padding: 1rem;
+  }
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .header-main-wrapper {
+    display: none;
+  }
+
+  .header-mobile-container {
+    padding: 1rem;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .header-main-wrapper {
+    display: none;
+  }
+
+  .header-mobile-container {
+    padding: 1rem;
+  }
 }
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .header-main-wrapper {
+    display: none;
+  }
+
+  .header-mobile-container {
+    padding: 1rem;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
+  .header-main-wrapper {
+    display: block;
+  }
+
+  .header-mobile-wrapper {
+    display: none;
+  }
+
+  .header-right-buttongroupsection {
+    width: 65%;
+  }
+
+  .header-nobackground-button {
+    font-size: 13px;
+  }
 }
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .header-right-buttongroupsection {
+    width: 60%;
+  }
+
+  .header-nobackground-button {
+    font-size: 16px;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
+  .header-right-buttongroupsection {
+    width: 60%;
+  }
+
+  .header-nobackground-button {
+    font-size: 16px;
+  }
 }
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .header-right-buttongroupsection {
+    width: 50%;
+  }
+
+  .header-nobackground-button {
+    font-size: 16px;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
@@ -89,6 +178,13 @@
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .header-right-buttongroupsection {
+    width: 40%;
+  }
+
+  .header-nobackground-button {
+    font-size: 20px;
+  }
 }
 
 /* Iphone SE */

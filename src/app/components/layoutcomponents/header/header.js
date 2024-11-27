@@ -6,14 +6,18 @@ import "./header.css";
 export default function Header() {
   return (
     <>
-      <div className="header-main-container">
-        <HeaderLeftSection />
-        <HeaderRightSection />
+      <div class="header-main-wrapper">
+        <div className="header-main-container">
+          <HeaderLeftSection />
+          <HeaderRightSection />
+        </div>
       </div>
 
-      <div className="header-mobile-container">
-        <HeaderLeftSection />
-        <HeaderMobileMenuRightSection />
+      <div class="header-mobile-wrapper">
+        <div className="header-mobile-container">
+          <HeaderLeftSection />
+          <HeaderMobileMenuRightSection />
+        </div>
       </div>
     </>
   );

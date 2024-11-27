@@ -6,7 +6,7 @@ export default function HeaderRightSection() {
     <>
       <div className="header-right-buttongroupsection">
         <HeaderRightSectionButtonSection />
-        <HeaderContactButton name="Contact" link="/" />
+        {/* <HeaderContactButton name="Contact" link="/" /> */}
       </div>
     </>
   );
