@@ -1,11 +1,13 @@
 .header-main-container {
   width: 100%;
-  background: none;
+  background: transparent;
   height: 100px;
   padding: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative; /* or fixed if it's sticky */
+  z-index: 1000; /* Ensure it appears above the background */
 }
 
 .header-right-buttongroupsection {

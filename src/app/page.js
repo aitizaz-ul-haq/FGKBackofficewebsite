@@ -3,7 +3,10 @@ import MainHeroSection from "./components/layoutcomponents/mainherosection/mainh
 export default function Home() {
   return (
     <>
-      <MainHeroSection />
+      <MainHeroSection
+        title="Explore the World"
+        paragraph="Discover amazing places and unforgettable experiences with us."
+      />
     </>
   );
 }
