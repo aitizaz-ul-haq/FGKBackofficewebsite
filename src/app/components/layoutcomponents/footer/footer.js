@@ -19,15 +19,42 @@ export default function Footer() {
                   />
                 </Link>
               </div>
+              <p className="footer-address font-inter">
+                Office no 212, 213 Pakland VISTA, I-8 Markaz Islamabad.
+              </p>
             </div>
             <div className="footer-upper-subsection-two">
-              <div className="services-listing"></div>
+              <div className="services-listing">
+                <ul className="footer-list-main font-inter">
+                  <li className="footer-list-title">Services</li>
+                  <li className="footer-list-item">Data Management</li>
+                  <li className="footer-list-item">Web Development</li>
+                  <li className="footer-list-item">Human Resources</li>
+                  <li className="footer-list-item">Operations Support</li>
+                  <li className="footer-list-item">Project Management</li>
+                  <li className="footer-list-item">Accounting & Reporting</li>
+                </ul>
+              </div>
             </div>
             <div className="footer-upper-subsection-three">
-              <div className="industries-listing"></div>
+              <div className="industries-listing">
+                <ul className="footer-list-main font-inter">
+                  <li className="footer-list-title">Industries</li>
+                  <li className="footer-list-item">Fintech</li>
+                  <li className="footer-list-item">Insurance</li>
+                  <li className="footer-list-item">Tech Support</li>
+                  <li className="footer-list-item">Financial Services</li>
+                  <li className="footer-list-item">Accountancy & Finance</li>
+                </ul>
+              </div>
             </div>
             <div className="footer-upper-subsection-four">
-              <div className="contact-socialmedia-listing"></div>
+              <div className="contact-socialmedia-listing">
+                <ul className="footer-list-main  font-inter">
+                  <li className="footer-list-title">Contacts</li>
+                  <li className="footer-list-item">hr@fgkbackoffice.com</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="footer-lowersection">

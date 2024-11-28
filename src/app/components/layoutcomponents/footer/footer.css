@@ -29,5 +29,66 @@
   z-index: 2;
 }
 
-.footer-upper-section {
+.footer-uppersection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-upper-subsection-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-address {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 60%;
+  text-align: left;
+}
+
+.footer-upper-subsection-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  height: 250px;
+}
+
+.services-listing {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-upper-subsection-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  height: 220px;
+}
+.footer-upper-subsection-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  height: 110px;
+}
+
+.footer-list-main {
+  list-style-type: none;
+  text-align: left;
+}
+
+.footer-list-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 37px;
+}
+
+.footer-list-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
