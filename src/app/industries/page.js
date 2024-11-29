@@ -1,5 +1,5 @@
 import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
-import testdata from "../data/testdata/testherodata.json";
+import testdata from "../data/industries/industriesherodata.json";
 
 export default function Industries() {
   return (
