@@ -7,9 +7,9 @@ export default function HeaderRightSectionButtonSection() {
     <>
       {headerButtons.map((button, index) => (
         <Link key={index} href={button.link} passHref>
-          <button className="header-nobackground-button font-inter text-light">
+          <div className="header-nobackground-button font-inter text-light">
             {button.name}
-          </button>
+          </div>
         </Link>
       ))}
       <HeaderContactButton name="Contact" link="/" />

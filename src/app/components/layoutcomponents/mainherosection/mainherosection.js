@@ -1,5 +1,4 @@
 import "./mainherosection.css";
-import staticBackgroundImage from "../../../../../public/Hero_Background.png";
 
 // components/HeroSection.js
 export default function MainHeroSection({ title, paragraph, forwardImage }) {
@@ -7,7 +6,7 @@ export default function MainHeroSection({ title, paragraph, forwardImage }) {
     <div
       className="hero-section"
       style={{
-        backgroundImage: `url(${staticBackgroundImage})`,
+        backgroundImage: `url('/Hero_Background.png')`,
       }}
     >
       <div className="hero-content">
