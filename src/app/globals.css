@@ -52,6 +52,9 @@ footer {
   font-weight: 300;
 }
 
+.text-extralight {
+  font-weight: 200;
+}
 /* Font sizes */
 .text-large {
   font-size: var(--font-size-heading);

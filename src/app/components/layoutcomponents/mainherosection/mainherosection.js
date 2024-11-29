@@ -11,8 +11,10 @@ export default function MainHeroSection({ title, paragraph, forwardImage }) {
       }}
     >
       <div className="hero-content">
-        <h1 className="hero-title">{title}</h1>
-        <p className="hero-paragraph">{paragraph}</p>
+        <h1 className="hero-title font-roboto-serif text-extralight">
+          {title}
+        </h1>
+        <p className="hero-paragraph font-inter text-extralight">{paragraph}</p>
       </div>
       {forwardImage && (
         <div className="forward-image-container">
