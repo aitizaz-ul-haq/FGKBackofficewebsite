@@ -8,6 +8,10 @@
 @media (max-width: 360px) {
 }
 
+/* Standard small phones (<= 360px) */
+@media (max-width: 375px) {
+}
+
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
 }

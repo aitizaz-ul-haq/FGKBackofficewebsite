@@ -46,3 +46,692 @@
   border-radius: 8px; /* Optional for rounded corners */
   /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);  */
 }
+
+/* Default styles (mobile-first approach) */
+
+/* Small phones (<= 320px) */
+@media (max-width: 320px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 22rem;
+    margin-bottom: 7.5rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 360px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 22rem;
+    margin-bottom: 9.5rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 375px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 22rem;
+    margin-bottom: 9.5rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* iPhone 14, 15 (standard model) */
+@media (min-width: 390px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 26rem;
+    margin-bottom: 9.5rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* iPhone 14 Pro, 15 Pro */
+@media (min-width: 430px) {
+}
+
+/* Larger phones and phablets (>= 480px) */
+@media (min-width: 480px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 29rem;
+    margin-bottom: 9.5rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 170px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Tablets (>= 600px) */
+@media (min-width: 600px) {
+}
+
+/* Small laptops and larger tablets (>= 768px) */
+@media (min-width: 768px) {
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 29rem;
+    margin-bottom: 11.5rem;
+    padding: 1rem;
+  }
+
+  .forward-image {
+    width: 220px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Medium laptops (>= 1024px) */
+@media (min-width: 1024px) {
+  .hero-section {
+    background-position: center;
+  }
+}
+
+/* Large laptops and desktops (>= 1280px) */
+@media (min-width: 1280px) {
+  .forward-image {
+    width: 320px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Extra-large desktops (>= 1440px) */
+@media (min-width: 1440px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url("../../../../../public/Hero_Background.png");
+    background-size: cover; /* Ensure the image covers the section */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat;
+    position: relative; /* For positioned child elements */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack content */
+    /* justify-content: flex-start;
+    align-items: center; */
+    z-index: 0; /* Ensure it appears below the header */
+  }
+
+  .hero-content {
+    text-align: left;
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+  }
+
+  .hero-title {
+    font-size: 3rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    max-width: 786px;
+  }
+
+  .hero-paragraph {
+    font-size: 1.25rem;
+    max-width: 786px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image-container {
+    position: absolute; /* Position relative to the hero section */
+    bottom: -4px;
+    right: 20px; /* Distance from the right */
+    z-index: 2; /* Ensure it appears above other content */
+  }
+
+  .forward-image {
+    width: 400px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional for rounded corners */
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);  */
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1600px) {
+}
+
+/* 4K screens (>= 1920px) */
+@media (min-width: 2560px) {
+}
+
+/* Iphone SE */
+@media (width: 375px) and (height: 667px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 18rem;
+    margin-bottom: 7.5rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Iphone XR */
+@media (width: 414px) and (height: 896px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 32rem;
+    margin-bottom: 11rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 190px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Iphone 12 Pro */
+@media (width: 390px) and (height: 844px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 30rem;
+    margin-bottom: 9.5rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Iphone 14 Pro Max */
+@media (width: 430px) and (height: 932px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 30rem;
+    margin-bottom: 15rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 240px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Pixel 7 */
+@media (width: 412px) and (height: 915px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 30rem;
+    margin-bottom: 15rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 240px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Samsung Galaxy S8+ */
+@media (width: 360px) and (height: 740px) {
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media (width: 412px) and (height: 915px) {
+}
+
+/* iPad Mini */
+@media (width: 768px) and (height: 1024px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 30rem;
+    margin-bottom: 15rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 1.3rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 240px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* iPad Air */
+@media (width: 820px) and (height: 1180px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 36rem;
+    margin-bottom: 20rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    max-width: 600px;
+  }
+  .hero-paragraph {
+    font-size: 1.3rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 340px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* iPad Pro */
+@media (width: 1024px) and (height: 1366px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 36rem;
+    margin-bottom: 22rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    max-width: 800px;
+  }
+  .hero-paragraph {
+    font-size: 1.8rem;
+    max-width: 800px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 370px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Surface Pro 7 */
+@media (width: 912px) and (height: 1368px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 36rem;
+    margin-bottom: 22rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    max-width: 800px;
+  }
+  .hero-paragraph {
+    font-size: 1.8rem;
+    max-width: 800px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 370px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Surface Duo*/
+@media (width: 540px) and (height: 720px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 20rem;
+    margin-bottom: 15rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 240px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Samsung Galaxy A51/71 */
+@media (width: 412px) and (height: 914px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 20rem;
+    margin-bottom: 17rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 1rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 240px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Nest Hub */
+@media (width: 1024px) and (height: 600px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 20rem;
+    margin-bottom: 17rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 1rem;
+    max-width: 700px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 240px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Nest Hub Max */
+@media (width: 1280px) and (height: 800px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 20rem;
+    margin-bottom: 17rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 1.3rem;
+    max-width: 700px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 240px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
