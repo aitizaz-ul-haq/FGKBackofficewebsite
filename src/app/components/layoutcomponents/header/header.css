@@ -1,25 +1,19 @@
 .header-main-wrapper {
-  width: 100%; /* Full width */
-  position: fixed; /* Fixed at the top */
-  top: 0; /* Stick to the top of the viewport */
-  z-index: 1000; /* Ensure it appears above other elements */
-  /* background: rgba(255, 255, 255, 0.7); */
-  background: transparent;
-  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  */
-  /* backdrop-filter: blur(1px);  */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background: transparent; /* Initial background */
+}
+
+/* Scroll behavior */
+.header-main-wrapper.scrolled {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header-main-container {
-  /* width: 100%;
-  background: transparent;
-  height: 100px;
-  padding: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: relative; 
-  z-index: 1000;  */
-
   width: 100%;
   height: 100px; /* Fixed header height */
   padding: 0 2rem; /* Horizontal padding */
@@ -27,6 +21,10 @@
   justify-content: space-between;
   align-items: center; /* Center items vertically */
   background: transparent; /* Ensure transparency */
+}
+
+.header-main-container.desktop-header-scrolled {
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .header-right-buttongroupsection {
@@ -52,14 +50,19 @@
   /* font-weight: 500;  */
 }
 
+/* Mobile header */
 .header-mobile-container {
   width: 100%;
-  background: none;
   height: 100px;
-  padding: 2rem;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: transparent;
+}
+
+.header-mobile-container.mobile-header-scrolled {
+  background: rgba(255, 255, 255, 0.9);
 }
 
 /* Default styles (mobile-first approach) */
