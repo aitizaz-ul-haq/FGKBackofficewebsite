@@ -6,14 +6,14 @@
 
 /* Firefox */
 html {
-  scrollbar-width: none; /* Hides the scrollbar */
-  overflow: auto; /* Keep scroll functionality */
+  scrollbar-width: none;
+  /* overflow: auto;  */
 }
 
 body {
   /* background-color: #f3eeed; */
-  overflow: auto;
-  /* height: 100%; */
+  /* overflow: auto; */
+  height: 100%;
 }
 
 /* Ensure full height for sticky footer */

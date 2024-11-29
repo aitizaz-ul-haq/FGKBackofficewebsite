@@ -1,22 +1,24 @@
+"use client";
+
 import { Inter, Roboto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "./components/layoutcomponents/header/header";
 import Footer from "./components/layoutcomponents/footer/footer";
 
 const inter = Inter({
-  subsets: ["latin", "latin-ext"], // Include necessary subsets
+  subsets: ["latin", "latin-ext"],
   variable: "--font-inter",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Full range of weights
-  style: ["normal", "italic"], // Include both styles
-  display: "swap", // Optimizes font loading
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  display: "swap",
 });
 
 const robotoSerif = Roboto_Serif({
-  subsets: ["latin", "latin-ext"], // Include necessary subsets
-  variable: "--font-roboto-serif", // CSS variable for font
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Full range of weights
-  style: ["normal", "italic"], // Include both styles
-  display: "swap", // Optimizes font loading
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-roboto-serif",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  display: "swap",
 });
 
 export default function RootLayout({ children }) {
