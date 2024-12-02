@@ -12,6 +12,10 @@ export default function HeaderMobileMenuButton() {
     setIsMenuOpen(!isMenuOpen); // Toggle the menu state
   };
 
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false); // Close the menu when a menu item is clicked
+  };
+
   return (
     <>
       <button
@@ -36,19 +40,34 @@ export default function HeaderMobileMenuButton() {
           </button>
           <ul>
             <li>
-              <Link href="/home">Services</Link>
+              <Link href="/services" onClick={handleMenuItemClick}>
+                Services
+              </Link>
             </li>
             <li>
-              <Link href="/about">Industries</Link>
+              <Link href="/industries" onClick={handleMenuItemClick}>
+                Industries
+              </Link>
             </li>
             <li>
-              <Link href="/services">Team</Link>
+              <Link href="/team" onClick={handleMenuItemClick}>
+                Team
+              </Link>
             </li>
             <li>
-              <Link href="/contact">About</Link>
+              <Link href="/about" onClick={handleMenuItemClick}>
+                About
+              </Link>
             </li>
             <li>
-              <Link href="/contact">Careers</Link>
+              <Link href="/careers" onClick={handleMenuItemClick}>
+                Careers
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" onClick={handleMenuItemClick}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
