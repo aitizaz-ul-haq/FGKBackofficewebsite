@@ -7,7 +7,7 @@ export default function Industries() {
       <MainHeroSection
         title={testdata.title}
         paragraph={testdata.paragraph}
-        forwardImage={testdata.forwardImage}
+        // forwardImage={testdata.forwardImage}
       />
     </>
   );

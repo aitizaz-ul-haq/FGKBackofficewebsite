@@ -1,5 +1,5 @@
 import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
-import testdata from "../data/testdata/testherodata.json";
+import testdata from "../data/team/teamherodata.json";
 
 export default function Team() {
   return (
@@ -7,7 +7,8 @@ export default function Team() {
       <MainHeroSection
         title={testdata.title}
         paragraph={testdata.paragraph}
-        forwardImage={testdata.forwardImage}
+        mobileImage={testdata.mobileImage}
+        desktopImage={testdata.desktopImage}
       />
     </>
   );

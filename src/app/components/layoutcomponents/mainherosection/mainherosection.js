@@ -1,12 +1,19 @@
 import "./mainherosection.css";
 
 // components/HeroSection.js
-export default function MainHeroSection({ title, paragraph, forwardImage }) {
+export default function MainHeroSection({
+  title,
+  paragraph,
+  mobileImage,
+  desktopImage,
+}) {
   return (
     <div
       className="hero-section"
       style={{
         backgroundImage: `url('/Hero_Background.png')`,
+        "--mobile-image": `url(${mobileImage})`,
+        "--desktop-image": `url(${desktopImage})`,
       }}
     >
       <div className="hero-content">
@@ -15,15 +22,20 @@ export default function MainHeroSection({ title, paragraph, forwardImage }) {
         </h1>
         <p className="hero-paragraph font-inter text-extralight">{paragraph}</p>
       </div>
-      {forwardImage && (
-        <div className="forward-image-container">
-          <img
-            src={forwardImage}
-            alt="Hero related object"
-            className="forward-image"
-          />
-        </div>
-      )}
+      {/* {forwardImage && ( */}
+      <div className="forward-image-container">
+        {/* <img
+          src={forwardImage}
+          alt="Hero related object"
+          className="forward-image"
+        /> */}
+        <div
+          // src={forwardImage}
+          // alt="Hero related object"
+          className="forward-image"
+        ></div>
+      </div>
+      {/* )} */}
     </div>
   );
 }
