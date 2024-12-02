@@ -6,7 +6,12 @@ export default function HeaderRightSectionButtonSection() {
   return (
     <>
       {headerButtons.map((button, index) => (
-        <Link key={index} href={button.link} passHref>
+        <Link
+          style={{ textDecoration: "none" }}
+          key={index}
+          href={button.link}
+          passHref
+        >
           <div className="header-nobackground-button font-inter text-light">
             {button.name}
           </div>
