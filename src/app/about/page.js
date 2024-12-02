@@ -7,7 +7,8 @@ export default function About() {
       <MainHeroSection
         title={testdata.title}
         paragraph={testdata.paragraph}
-        // forwardImage={testdata.forwardImage}
+        mobileImage={testdata.mobileImage}
+        desktopImage={testdata.desktopImage}
       />
     </>
   );
