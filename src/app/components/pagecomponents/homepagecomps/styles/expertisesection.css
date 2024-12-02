@@ -1,0 +1,38 @@
+.expertise-container {
+  width: 100%;
+  /* height: 100vh; */
+  background-image: url("../../../../../../public/expertise_section_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start;
+    align-items: center; */
+  z-index: 0;
+  padding-top: 15rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
+  padding-bottom: 18rem;
+  margin-bottom: 0rem;
+}
+
+.expertise-section-heading {
+  margin-bottom: 4rem;
+}
+
+.expertise-card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.expertise-card-grid > * {
+  flex: 1 1 calc(33.333% - 2rem); /* Each card takes up 1/3 of the row */
+  max-width: calc(33.333% - 2rem); /* Ensures a consistent width */
+  box-sizing: border-box; /* Includes padding and border in the size calculation */
+}

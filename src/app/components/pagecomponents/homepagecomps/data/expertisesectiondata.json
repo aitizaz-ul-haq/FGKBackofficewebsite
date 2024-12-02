@@ -1,0 +1,38 @@
+[
+  {
+    "cardicon": "/Data_managment_icon_card.png",
+    "cardtitle": "Data Management",
+    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "buttonlink": "/servicest"
+  },
+  {
+    "cardicon": "/Operations_support.png",
+    "cardtitle": "Operations Support",
+    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "buttonlink": "/servicest"
+  },
+  {
+    "cardicon": "/Accounting_Reporting.png",
+    "cardtitle": "Accounting & Reporting",
+    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "buttonlink": "/servicest"
+  },
+  {
+    "cardicon": "/Project_management.png",
+    "cardtitle": "Project Management",
+    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "buttonlink": "/servicest"
+  },
+  {
+    "cardicon": "/Web_development.png",
+    "cardtitle": "Web Development",
+    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "buttonlink": "/servicest"
+  },
+  {
+    "cardicon": "/Human_Resources.png",
+    "cardtitle": "Human Resources",
+    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "buttonlink": "/servicest"
+  }
+]

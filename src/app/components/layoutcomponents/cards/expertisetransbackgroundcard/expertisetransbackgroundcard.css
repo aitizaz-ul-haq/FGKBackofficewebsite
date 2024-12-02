@@ -1,0 +1,29 @@
+.trans-card-container {
+  width: 23%;
+  height: 390px;
+  background: #59c3c338;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  text-align: left;
+}
+
+.trans-card-heading {
+  font-size: 26px;
+}
+
+.trans-card-description-paragraph {
+  font-size: 17px;
+}
+
+.trans-card-button {
+  width: 129px;
+  height: 38px;
+  border: none;
+  background: #59c3c3;
+  color: white;
+  font-size: 16px;
+  border-radius: 7px;
+}
