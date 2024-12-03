@@ -1,4 +1,5 @@
 import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
+import TeamFullComp from "../components/pagecomponents/teampagecomps/teamfullcomp";
 import testdata from "../data/team/teamherodata.json";
 
 export default function Team() {
@@ -10,6 +11,7 @@ export default function Team() {
         mobileImage={testdata.mobileImage}
         desktopImage={testdata.desktopImage}
       />
+      <TeamFullComp />
     </>
   );
 }

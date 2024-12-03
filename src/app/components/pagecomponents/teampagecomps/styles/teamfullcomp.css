@@ -1,0 +1,9 @@
+.teamfullcomponenet-container {
+  width: 100%;
+  /* height: 100vh; */
+  background-image: url("../../../../../../public/teamfullpage_background_image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
