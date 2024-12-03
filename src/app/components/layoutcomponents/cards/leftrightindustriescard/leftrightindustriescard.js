@@ -13,6 +13,14 @@ export default function LeftRightIndustriesCard({
         <>
           {/* Right section first */}
           <div className="industriescard-rightsection">
+            <Image
+              src={cardicon}
+              alt="card icon"
+              width={150}
+              height={150}
+              className="industriescard-mobile-image"
+            />
+
             <h2 className="rightsection-heading font-robot-sarif">
               {cardheading}
             </h2>
@@ -46,6 +54,14 @@ export default function LeftRightIndustriesCard({
             />
           </div>
           <div className="industriescard-rightsection">
+            <Image
+              src={cardicon}
+              alt="card icon"
+              width={150}
+              height={150}
+              className="industriescard-mobile-image"
+            />
+
             <h2 className="rightsection-heading font-robot-sarif">
               {cardheading}
             </h2>

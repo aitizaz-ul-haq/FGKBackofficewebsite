@@ -187,6 +187,10 @@
   .header-nobackground-button {
     font-size: 16px;
   }
+
+  .industriescard-mobile-image {
+    display: none;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
