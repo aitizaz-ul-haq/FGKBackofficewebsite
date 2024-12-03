@@ -7,7 +7,7 @@ export default function ExpertiseSection() {
     <>
       <div className="expertise-container">
         <h2 className="expertise-section-heading font-roboto-serif text-light">
-          Expertise
+          Our Expertise
         </h2>
         <div className="expertise-section-card-container">
           <div className="expertise-card-grid">
