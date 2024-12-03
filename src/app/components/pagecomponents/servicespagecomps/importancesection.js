@@ -4,12 +4,12 @@ import "./styles/importancesection.css";
 export default function ImportSection() {
   return (
     <>
-      <div className="expertise-container">
-        <h2 className="expertise-section-heading font-roboto-serif text-light">
+      <div className="importance-container">
+        <h2 className="importance-section-heading font-roboto-serif text-light">
           Importance of Our Services for your business
         </h2>
-        <div className="expertise-section-card-container">
-          <div className="expertise-card-grid">
+        <div className="importance-section-card-container">
+          <div className="importance-card-grid">
             {importancedata.map((card, index) => (
               <ServicesTransCircularBackgroundCard
                 key={index}
@@ -18,6 +18,11 @@ export default function ImportSection() {
               />
             ))}
           </div>
+        </div>
+        <div className="circular-card-large-button-container">
+          <button className="circularcard-button font-inter text-bold">
+            Get Expert Advice
+          </button>
         </div>
       </div>
     </>
