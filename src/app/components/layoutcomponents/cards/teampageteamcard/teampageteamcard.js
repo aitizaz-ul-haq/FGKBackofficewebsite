@@ -17,14 +17,21 @@ export default function TeamPageTeamCard({
       {isReversed ? (
         <>
           {/* Right section first */}
+          <Image
+            src={photo}
+            alt="card icon"
+            width={310}
+            height={200}
+            className="teampageteamcard-mobile-image"
+          />
           <div className="teampageteamcard-rightsection">
-            <Image
+            {/* <Image
               src={photo}
               alt="card icon"
               width={550}
               height={350}
-              className="teampageteamcard-mobile-image"
-            />
+              className="teampageteamcard-left-image"
+            /> */}
 
             <h2 className="rightsection-heading font-robot-sarif">{name}</h2>
             <h3 className="rightsection-designation font-inter text-light">
@@ -75,6 +82,13 @@ export default function TeamPageTeamCard({
         </>
       ) : (
         <>
+          <Image
+            src={photo}
+            alt="card icon"
+            width={310}
+            height={200}
+            className="teampageteamcard-mobile-image"
+          />
           {/* Left section first */}
           <div className="teampageteamcard-leftsection">
             <Image
@@ -86,14 +100,6 @@ export default function TeamPageTeamCard({
             />
           </div>
           <div className="teampageteamcard-rightsection">
-            <Image
-              src={photo}
-              alt="card icon"
-              width={550}
-              height={350}
-              className="teampageteamcard-mobile-image"
-            />
-
             <h2 className="rightsection-heading font-robot-sarif">{name}</h2>
             <h3 className="rightsection-designation font-inter text-light">
               {designation}
