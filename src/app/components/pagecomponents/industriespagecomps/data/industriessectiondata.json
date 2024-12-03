@@ -1,0 +1,27 @@
+[
+  {
+    "cardicon": "/finance_industries_icon.png",
+    "cardheading": "Financial Services",
+    "carddescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+  },
+  {
+    "cardicon": "/Accounting_and_finance_icon.png",
+    "cardheading": "Accountancy & Finance",
+    "carddescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+  },
+  {
+    "cardicon": "/Tech_support_icon.png",
+    "cardheading": "Tech Support",
+    "carddescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+  },
+  {
+    "cardicon": "/Fintech_industry_icon.png",
+    "cardheading": "Fintech",
+    "carddescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+  },
+  {
+    "cardicon": "/Insuarance_industry_icon.png",
+    "cardheading": "Insurance",
+    "carddescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+  }
+]

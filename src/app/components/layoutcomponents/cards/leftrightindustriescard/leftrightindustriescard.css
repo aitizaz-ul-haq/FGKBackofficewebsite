@@ -1,0 +1,47 @@
+.industriescard-container {
+  padding-left: 19rem;
+  padding-right: 19rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: #f7f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.industriescard-left-image {
+  margin: 2rem;
+}
+
+.industriescard-rightsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+}
+
+.rightsection-heading {
+  font-size: 52px;
+  font-weight: 100;
+}
+
+.rightsection-description {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.rightsection-button {
+  width: 159px;
+  height: 38px;
+  background-color: #59c3c3;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
