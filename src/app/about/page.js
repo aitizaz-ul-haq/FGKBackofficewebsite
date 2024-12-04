@@ -22,6 +22,7 @@ export default function About() {
         aboutimageone={aboutdata.aboutimageone}
         aboutimagetwo={aboutdata.aboutimagetwo}
         aboutimagethree={aboutdata.aboutimagethree}
+        aboutgridfullimage={aboutdata.aboutgridfullimage}
       />
     </>
   );

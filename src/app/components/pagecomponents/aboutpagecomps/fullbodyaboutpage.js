@@ -11,11 +11,22 @@ export default function FullBodyAboutPage({
   aboutimageone,
   aboutimagetwo,
   aboutimagethree,
+  aboutgridfullimage,
 }) {
   return (
     <div className="aboutpagecontent-container">
       {/* upper section */}
       <div className="aboutpagecontaent-logo-introsection">
+        <div className="left-logo-section-mobile">
+          <Image
+            src={companylogo}
+            alt="FGK logo"
+            width={180}
+            height={180}
+            className="fgk-logo-about-mobile"
+          />
+        </div>
+
         <div className="left-logo-section">
           <Image
             src={companylogo}
@@ -57,33 +68,40 @@ export default function FullBodyAboutPage({
       <div className="aboutpage-grid-container">
         <div className="left-grid-image-section">
           <Image
-            src={aboutimageone}
+            src={aboutgridfullimage}
             alt="FGK logo"
-            width={500}
+            width={720}
             height={370}
-            className="fgk-logo-about"
+            className="grid-images"
           />
         </div>
-        <div className="right-grid-image-section">
-          <div className="grid-right-top-section">
-            <Image
-              src={aboutimagetwo}
-              alt="FGK logo"
-              width={260}
-              height={185}
-              className="fgk-logo-about"
-            />
-          </div>
-          <div className="grid-right-bottom-section">
-            <Image
-              src={aboutimagethree}
-              alt="FGK logo"
-              width={260}
-              height={185}
-              className="fgk-logo-about"
-            />
-          </div>
-        </div>
+      </div>
+
+      {/* image grid mobile */}
+      <div className="aboutpage-grid-container-mobile">
+        <Image
+          src={aboutimageone}
+          alt="FGK logo"
+          width={305}
+          height={220}
+          className="grid-images-mobile"
+        />
+
+        <Image
+          src={aboutimagetwo}
+          alt="FGK logo"
+          width={305}
+          height={220}
+          className="grid-images-mobile"
+        />
+
+        <Image
+          src={aboutimagethree}
+          alt="FGK logo"
+          width={305}
+          height={220}
+          className="grid-images-mobile"
+        />
       </div>
     </div>
   );
