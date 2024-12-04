@@ -1,5 +1,9 @@
 import "./styles/fullbodyaboutpage.css";
-import Image from "next/image";
+import UpperSection from "./subcomps/uppersection";
+import MiddleSection from "./subcomps/middlesection";
+import LastSection from "./subcomps/lastsection";
+import ImageGrid from "./subcomps/imagegrid";
+import ImageGridMobile from "./subcomps/imagegridmobile";
 
 export default function FullBodyAboutPage({
   companylogo,
@@ -16,93 +20,30 @@ export default function FullBodyAboutPage({
   return (
     <div className="aboutpagecontent-container">
       {/* upper section */}
-      <div className="aboutpagecontaent-logo-introsection">
-        <div className="left-logo-section-mobile">
-          <Image
-            src={companylogo}
-            alt="FGK logo"
-            width={180}
-            height={180}
-            className="fgk-logo-about-mobile"
-          />
-        </div>
-
-        <div className="left-logo-section">
-          <Image
-            src={companylogo}
-            alt="FGK logo"
-            width={380}
-            height={380}
-            className="fgk-logo-about"
-          />
-        </div>
-        <div className="right-intro-section">
-          <h2 className="right-heading-section font-inter text-light">
-            About Us
-          </h2>
-          <p className="right-description-section font-inter text-light">
-            {topdescriptionparaone}
-          </p>
-          <p className="right-description-section font-inter text-light">
-            {topdescriptionparatwo}
-          </p>
-        </div>
-      </div>
+      <UpperSection
+        companylogo={companylogo}
+        topdescriptionparaone={topdescriptionparaone}
+        topdescriptionparatwo={topdescriptionparatwo}
+      />
 
       {/* middle section */}
-      <div className="aboutpagecontent-middle-section">
-        <p className="first-para font-inter text-light">
-          {middlesectionparaone}
-        </p>
-        <p className="second-para font-inter text-light">
-          {middlesectionparatwo}
-        </p>
-      </div>
+      <MiddleSection
+        middlesectionparaone={middlesectionparaone}
+        middlesectionparatwo={middlesectionparatwo}
+      />
 
       {/* last section */}
-      <div className="aboutpagecontent-last-section">
-        <p className="last-para font-inter text-light">{lastsectionparaone}</p>
-      </div>
+      <LastSection lastsectionparaone={lastsectionparaone} />
 
       {/* image grid */}
-      <div className="aboutpage-grid-container">
-        <div className="left-grid-image-section">
-          <Image
-            src={aboutgridfullimage}
-            alt="FGK logo"
-            width={720}
-            height={370}
-            className="grid-images"
-          />
-        </div>
-      </div>
+      <ImageGrid aboutgridfullimage={aboutgridfullimage} />
 
       {/* image grid mobile */}
-      <div className="aboutpage-grid-container-mobile">
-        <Image
-          src={aboutimageone}
-          alt="FGK logo"
-          width={305}
-          height={220}
-          className="grid-images-mobile"
-        />
-
-        <Image
-          src={aboutimagetwo}
-          alt="FGK logo"
-          width={305}
-          height={220}
-          className="grid-images-mobile"
-        />
-
-        <Image
-          src={aboutimagethree}
-          alt="FGK logo"
-          width={305}
-          height={220}
-          className="grid-images-mobile"
-        />
-      </div>
+      <ImageGridMobile
+        aboutimageone={aboutimageone}
+        aboutimagetwo={aboutimagetwo}
+        aboutimagethree={aboutimagethree}
+      />
     </div>
   );
 }
