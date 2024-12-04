@@ -1,7 +1,7 @@
 // app/club/layout.js
 
 export const metadata = {
-  title: "The Club | BiellaVita",
+  title: "About | FGk Back Office Services",
   description: "",
   //   openGraph: {
   //     type: "website",
