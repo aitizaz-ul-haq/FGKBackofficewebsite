@@ -58,10 +58,17 @@
 .aboutpagecontent-last-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   padding-left: 4rem;
   padding-right: 4rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.last-para {
+  font-size: 18px;
 }
 
 .aboutpage-grid-container {
@@ -71,6 +78,29 @@
   align-items: center;
 }
 
-.last-para {
-  font-size: 18px;
+.left-grid-image-section {
+  width: 500px;
+  height: 350px;
+  background-color: aqua;
+  margin: 1rem;
+}
+
+.right-grid-image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-right-top-section {
+  width: 250px;
+  height: 175px;
+  background-color: red;
+  /* margin: 1rem; */
+}
+
+.grid-right-bottom-section {
+  width: 250px;
+  height: 175px;
+  background-color: greenyellow;
 }

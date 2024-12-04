@@ -131,29 +131,29 @@ export default function FullBodyAboutPage() {
       <div className="aboutpage-grid-container">
         <div className="left-grid-image-section">
           <Image
-            src="/fgk_circular_logo.png"
+            src="/about1.jpg"
             alt="FGK logo"
-            width={480}
-            height={380}
+            width={500}
+            height={370}
             className="fgk-logo-about"
           />
         </div>
         <div className="right-grid-image-section">
           <div className="grid-right-top-section">
             <Image
-              src="/fgk_circular_logo.png"
+              src="/about2.jpg"
               alt="FGK logo"
-              width={180}
-              height={180}
+              width={260}
+              height={185}
               className="fgk-logo-about"
             />
           </div>
           <div className="grid-right-bottom-section">
             <Image
-              src="/fgk_circular_logo.png"
+              src="/about3.jpg"
               alt="FGK logo"
-              width={180}
-              height={180}
+              width={260}
+              height={185}
               className="fgk-logo-about"
             />
           </div>
