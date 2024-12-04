@@ -1,15 +1,24 @@
 import "./styles/fullbodyaboutpage.css";
 import Image from "next/image";
 
-export default function FullBodyAboutPage() {
+export default function FullBodyAboutPage({
+  companylogo,
+  topdescriptionparaone,
+  topdescriptionparatwo,
+  middlesectionparaone,
+  middlesectionparatwo,
+  lastsectionparaone,
+  aboutimageone,
+  aboutimagetwo,
+  aboutimagethree,
+}) {
   return (
     <div className="aboutpagecontent-container">
       {/* upper section */}
       <div className="aboutpagecontaent-logo-introsection">
         <div className="left-logo-section">
-          {" "}
           <Image
-            src="/fgk_circular_logo.png"
+            src={companylogo}
             alt="FGK logo"
             width={280}
             height={280}
@@ -21,34 +30,10 @@ export default function FullBodyAboutPage() {
             About Us
           </h2>
           <p className="right-description-section font-inter text-light">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a It is a long established fact that a reader will
-            be distracted by the readable content of a page when looking at its
-            layout. The point of using Lorem Ipsum is that it has a more-or-less
-            normal distribution of letters, as opposed to using 'Content here,
-            content here', making it look like readable English. Many desktop
-            publishing packages and web page editors now use Lorem Ipsum as
-            their default model text, and a It is a long established fact that a
-            reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem Ipsum is that it has
-            a more-or-less normal distribution of letters, as opposed to using
-            'Content here, content here', making it look like readable English.
-            Many desktop publishing packages and web page editors now use Lorem
-            Ipsum as their default model text, and a
+            {topdescriptionparaone}
           </p>
           <p className="right-description-section font-inter text-light">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a It is a long established fact that a reader will
+            {topdescriptionparatwo}
           </p>
         </div>
       </div>
@@ -56,82 +41,23 @@ export default function FullBodyAboutPage() {
       {/* middle section */}
       <div className="aboutpagecontent-middle-section">
         <p className="first-para font-inter text-light">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a It
-          is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
+          {middlesectionparaone}
         </p>
         <p className="second-para font-inter text-light">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a It
-          is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a It
-          is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
+          {middlesectionparatwo}
         </p>
       </div>
 
       {/* last section */}
       <div className="aboutpagecontent-last-section">
-        <p className="last-para font-inter text-light">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-        </p>
+        <p className="last-para font-inter text-light">{lastsectionparaone}</p>
       </div>
 
       {/* image grid */}
       <div className="aboutpage-grid-container">
         <div className="left-grid-image-section">
           <Image
-            src="/about1.jpg"
+            src={aboutimageone}
             alt="FGK logo"
             width={500}
             height={370}
@@ -141,7 +67,7 @@ export default function FullBodyAboutPage() {
         <div className="right-grid-image-section">
           <div className="grid-right-top-section">
             <Image
-              src="/about2.jpg"
+              src={aboutimagetwo}
               alt="FGK logo"
               width={260}
               height={185}
@@ -150,7 +76,7 @@ export default function FullBodyAboutPage() {
           </div>
           <div className="grid-right-bottom-section">
             <Image
-              src="/about3.jpg"
+              src={aboutimagethree}
               alt="FGK logo"
               width={260}
               height={185}

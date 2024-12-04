@@ -2,7 +2,7 @@
 
 export const metadata = {
   title: "About | FGk Back Office Services",
-  description: "",
+  // description: "",
   //   openGraph: {
   //     type: "website",
   //     url: "https://www.biellavita.com/club",
