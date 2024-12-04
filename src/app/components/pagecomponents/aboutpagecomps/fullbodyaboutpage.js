@@ -20,8 +20,8 @@ export default function FullBodyAboutPage({
           <Image
             src={companylogo}
             alt="FGK logo"
-            width={280}
-            height={280}
+            width={380}
+            height={380}
             className="fgk-logo-about"
           />
         </div>
