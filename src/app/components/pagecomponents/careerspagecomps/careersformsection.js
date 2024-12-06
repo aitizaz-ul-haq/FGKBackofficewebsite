@@ -1,5 +1,6 @@
 import "./styles/careersformssection.css";
 import Image from "next/image";
+import ApplyForm from "./subcomps/applyform";
 
 export default function CareersFormSection() {
   return (
@@ -41,7 +42,7 @@ export default function CareersFormSection() {
         </div>
 
         <div className="right-section-instructions">
-          <form></form>
+          <ApplyForm />
         </div>
       </div>
     </>
