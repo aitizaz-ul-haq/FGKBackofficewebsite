@@ -1,4 +1,4 @@
-import "./styles/careers/careersfullbodycomp.css";
+import "./styles/careersfullbodycomp.css";
 import CareersOpeningsSection from "./careersopeningssection";
 import CareersFormSection from "./careersformsection";
 

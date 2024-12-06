@@ -1,0 +1,61 @@
+.openings-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.openings-heading {
+  font-size: 42px;
+  font-weight: 100;
+}
+
+.position-heading {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.position-strip {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1rem;
+  border: 1px solid black;
+  padding: 1.5rem;
+  width: 100%;
+  background-color: #f7f5f5;
+}
+
+.careers-details-button-container {
+  padding: 2rem;
+  width: 20%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+}
+
+.position-description-details-button {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 0.5rem;
+}
+
+.position-description {
+  font-weight: 200;
+  width: 100%;
+}
+
+.position-strip-button {
+  /* margin-left: 1rem; */
+  width: 118px;
+  height: 38px;
+  background-color: #59c3c3;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}

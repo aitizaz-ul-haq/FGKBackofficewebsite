@@ -8,31 +8,33 @@ export default function CareersFormSection() {
         <div className="left-section-instructions">
           <div className="careers-form-logo">
             <Image
-              src="/careerspage_logo.png"
+              src="/fgk_circular_logo.png"
               alt="FGK logo"
-              width={80}
-              height={80}
+              width={200}
+              height={200}
               className="careers-page-logo"
             />
           </div>
-          <h2 className="instructions-heading">Job Application Instructions</h2>
+          <h2 className="instructions-heading font-roboto-sarif">
+            Job Application Instructions
+          </h2>
           <div className="instructions-container">
-            <div className="instructions-statement">
+            <div className="instructions-statement font-inter">
               simply dummy text of the printing and typesetting industry.
             </div>
-            <div className="instructions-statement">
+            <div className="instructions-statement font-inter">
               simply dummy text of the printing and typesetting industry. simply
               dummy text of the printing and typesetting industry.
             </div>
-            <div className="instructions-statement">
+            <div className="instructions-statement font-inter">
               simply dummy text of the printing and typesetting industry.
             </div>
-            <div className="instructions-statement">
+            <div className="instructions-statement font-inter">
               simply dummy text of the printing and typesetting industry. simply
               dummy text of the printing and typesetting industry. simply dummy
               text of the printing and typesetting industry.
             </div>
-            <div className="instructions-statement">
+            <div className="instructions-statement font-inter">
               simply dummy text of the printing and typesetting industry.
             </div>
           </div>
