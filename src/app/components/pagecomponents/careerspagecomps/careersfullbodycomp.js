@@ -7,7 +7,7 @@ export default function CareersFullBodyComp() {
     <>
       <div className="careerpage-content-container">
         <CareersOpeningsSection />
-        {/* <CareersFormSection /> */}
+        <CareersFormSection />
       </div>
     </>
   );

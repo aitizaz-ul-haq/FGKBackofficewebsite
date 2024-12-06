@@ -12,7 +12,7 @@ const ApplyForm = () => {
 
   return (
     <div
-      style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
+      style={{ maxWidth: "800px", margin: "0 auto" }}
       className="form-background-settings"
     >
       <h2 className="career-font-title font-robo-sarif">Apply Now</h2>
