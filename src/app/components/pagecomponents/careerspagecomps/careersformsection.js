@@ -1,4 +1,4 @@
-import "./styles/careersformsection.css";
+import "./styles/careersformssection.css";
 import Image from "next/image";
 
 export default function CareersFormSection() {
