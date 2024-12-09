@@ -1,0 +1,25 @@
+.memeberscard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 25%;
+  /* height: 400px; */
+}
+
+.teammemberscard-name-heading {
+  font-size: 24px;
+}
+
+.teammemberscard-designation {
+  font-size: 20px;
+}
+
+.social-media-icons-group-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}

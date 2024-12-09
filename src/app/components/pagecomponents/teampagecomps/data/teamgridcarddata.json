@@ -1,0 +1,50 @@
+[
+  {
+    "photo": "/one_member.png",
+    "name": "john doe",
+    "designation": "Designation here",
+    "facebooklink": "https://www.facebook.com/",
+    "xlink": "https://www.youtube.com/",
+    "linkdinlink": "https://www.linkedin.com/"
+  },
+  {
+    "photo": "/two_member.png",
+    "name": "john doe",
+    "designation": "Designation here",
+    "facebooklink": "https://www.facebook.com/",
+    "xlink": "https://www.youtube.com/",
+    "linkdinlink": "https://www.linkedin.com/"
+  },
+  {
+    "photo": "/three_member.png",
+    "name": "john doe",
+    "designation": "Designation here",
+    "facebooklink": "https://www.facebook.com/",
+    "xlink": "https://www.youtube.com/",
+    "linkdinlink": "https://www.linkedin.com/"
+  },
+  {
+    "photo": "/four_member.png",
+    "name": "john doe",
+    "designation": "Designation here",
+    "facebooklink": "https://www.facebook.com/",
+    "xlink": "https://www.youtube.com/",
+    "linkdinlink": "https://www.linkedin.com/"
+  },
+  {
+    "photo": "/seven_member.png",
+    "name": "john doe",
+    "designation": "Designation here",
+    "facebooklink": "https://www.facebook.com/",
+    "xlink": "https://www.youtube.com/",
+    "linkdinlink": "https://www.linkedin.com/"
+  },
+  {
+    "photo": "/six_member.png",
+    "name": "john doe",
+    "designation": "Designation here",
+    "facebooklink": "https://www.facebook.com/",
+    "xlink": "https://www.youtube.com/",
+    "linkdinlink": "https://www.linkedin.com/"
+  }
+]

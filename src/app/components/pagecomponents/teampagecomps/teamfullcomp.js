@@ -1,5 +1,6 @@
 import "./styles/teamfullcomp.css";
 import TeamPageTeamCard from "../../layoutcomponents/cards/teampageteamcard/teampageteamcard";
+import TeamMembersGridSection from "./teammemebersgridsection";
 import teamdata from "./data/teampageteamdata.json";
 
 export default function TeamFullComp() {
@@ -19,6 +20,7 @@ export default function TeamFullComp() {
             isReversed={index % 2 !== 0} // Pass true for even cards (index is odd because it's 0-based)
           />
         ))}
+        <TeamMembersGridSection />
       </div>
     </>
   );
