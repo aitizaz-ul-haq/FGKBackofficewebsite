@@ -1,14 +1,22 @@
 import "./styles/contactspagebody.css";
 import Image from "next/image";
 
-export default function ContactsPageBody() {
+export default function ContactsPageBody({
+  contactsheading,
+  contactspagelogo,
+  instructionone,
+  instructiontwo,
+  instructionthree,
+  instructionfour,
+  instructionfive,
+}) {
   return (
     <>
       <div className="contacts-content-container">
         <div className="contacts-page-top-section">
           <div className="contacts-left-logo-section">
             <Image
-              src="/fgk_circular_logo.png"
+              src={contactspagelogo}
               alt="FGK logo"
               width={200}
               height={200}
@@ -17,29 +25,24 @@ export default function ContactsPageBody() {
           </div>
           <div className="contacts-right-instructions-section">
             <div className="contacts-instructions-heading font-roboto-sarif text-light">
-              Contact Form Instructions
+              {contactsheading}
             </div>
             <div className="contacts-page-instructions-list font-inter text-light">
               <ul className="contacts-page-list">
                 <li className="contacts-page-list-element font-inter text-light">
-                  simply dummy text of the printing and typesetting industry.
-                  simply dummy text of the printing and typesetting industry.
+                  {instructionone}
                 </li>
                 <li className="contacts-page-list-element font-inter text-light">
-                  simply dummy text of the printing and typesetting industry.
-                  simply dummy text of the printing and typesetting industry.
+                  {instructiontwo}
                 </li>
                 <li className="contacts-page-list-element font-inter text-light">
-                  simply dummy text of the printing and typesetting industry.
-                  simply dummy text of the printing and typesetting industry.
+                  {instructionthree}
                 </li>
                 <li className="contacts-page-list-element font-inter text-light">
-                  simply dummy text of the printing and typesetting industry.
-                  simply dummy text of the printing and typesetting industry.
+                  {instructionfour}
                 </li>
                 <li className="contacts-page-list-element font-inter text-light">
-                  simply dummy text of the printing and typesetting industry.
-                  simply dummy text of the printing and typesetting industry.
+                  {instructionfive}
                 </li>
               </ul>
             </div>
