@@ -19,8 +19,6 @@ export default function TeamMembersGridSection() {
             />
           ))}
         </div>
-
-        {/* <TeamMembersGridCard /> */}
       </div>
     </>
   );
