@@ -29,27 +29,33 @@ export default function TeamMembersGridCard({
           {designation}
         </div>
         <div className="social-media-icons-group-container">
-          <Image
-            src="/facebook dark.png"
-            alt="FGK Team members socials"
-            width={40}
-            height={40}
-            className="team-member-social-media-icon"
-          />
-          <Image
-            src="/linkdin.png"
-            alt="FGK Team members socials"
-            width={40}
-            height={40}
-            className="team-member-social-media-icon"
-          />
-          <Image
-            src="/x.png"
-            alt="FGK Team members socials"
-            width={40}
-            height={40}
-            className="team-member-social-media-icon"
-          />
+          <Link href={facebooklink}>
+            <Image
+              src="/facebook dark.png"
+              alt="FGK Team members socials"
+              width={40}
+              height={40}
+              className="team-member-social-media-icon"
+            />
+          </Link>
+          <Link href={xlink}>
+            <Image
+              src="/linkdin.png"
+              alt="FGK Team members socials"
+              width={40}
+              height={40}
+              className="team-member-social-media-icon"
+            />
+          </Link>
+          <Link href={linkdinlink}>
+            <Image
+              src="/x.png"
+              alt="FGK Team members socials"
+              width={40}
+              height={40}
+              className="team-member-social-media-icon"
+            />
+          </Link>
         </div>
       </div>
     </>
