@@ -1,6 +1,6 @@
 import "./styles/contactspagebody.css";
-
 import ContactsTopSection from "./subcomps/contactstopsection";
+import ContactsPageBottomSection from "./subcomps/contactspagebottomsection";
 
 export default function ContactsPageBody({
   contactsheading,
@@ -23,11 +23,7 @@ export default function ContactsPageBody({
           instructionfour={instructionfour}
           instructionfive={instructionfive}
         />
-        <div className="contacts-page-bottom-section">
-          <div className="contacts-page-contact-form-container">
-            <div className="contacts-page-form"></div>
-          </div>
-        </div>
+        <ContactsPageBottomSection />
       </div>
     </>
   );
