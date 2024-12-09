@@ -13,7 +13,15 @@ export default function Contact() {
         desktopImage={testdata.desktopImage}
       />
 
-      <ContactsPageBody />
+      <ContactsPageBody
+        contactsheading={contactspagedata.contactsheading}
+        contactspagelogo={contactspagedata.contactspagelogo}
+        instructionone={contactspagedata.instructionone}
+        instructiontwo={contactspagedata.instructiontwo}
+        instructionthree={contactspagedata.instructionthree}
+        instructionfour={contactspagedata.instructionfour}
+        instructionfive={contactspagedata.instructionfive}
+      />
     </>
   );
 }
