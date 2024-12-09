@@ -17,7 +17,7 @@ export default function HeaderRightSectionButtonSection() {
           </div>
         </Link>
       ))}
-      <HeaderContactButton name="Contact" link="/" />
+      <HeaderContactButton name="Contact" link="/contact" />
     </>
   );
 }

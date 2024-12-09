@@ -1,5 +1,6 @@
 import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
-import testdata from "../data/testdata/testherodata.json";
+import ContactsPageBody from "../components/pagecomponents/contactspagecomps/contactspagebody";
+import testdata from "../data/contact/contactherodata.json";
 
 export default function Contact() {
   return (
@@ -7,8 +8,11 @@ export default function Contact() {
       <MainHeroSection
         title={testdata.title}
         paragraph={testdata.paragraph}
-        // forwardImage={testdata.forwardImage}
+        mobileImage={testdata.mobileImage}
+        desktopImage={testdata.desktopImage}
       />
+
+      <ContactsPageBody />
     </>
   );
 }
