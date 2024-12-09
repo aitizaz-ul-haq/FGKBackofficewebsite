@@ -107,19 +107,140 @@
 
   .form-background-settings {
     padding: 0.4rem;
+    /* margin-bottom: 2rem; */
   }
 }
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
+  .careersforms-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+
+  .left-section-instructions {
+    width: 100%;
+  }
+
+  .right-section-instructions {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 100%;
+  }
+
+  .instructions-heading {
+    text-align: center;
+  }
+
+  .instructions-container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+  }
+
+  .career-font-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .form-background-settings {
+    padding: 0.4rem;
+    /* margin-bottom: 2rem; */
+  }
 }
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
+  .careersforms-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+
+  .left-section-instructions {
+    width: 100%;
+  }
+
+  .right-section-instructions {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 100%;
+  }
+
+  .instructions-heading {
+    text-align: center;
+  }
+
+  .instructions-container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+  }
+
+  .career-font-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .form-background-settings {
+    padding: 0.4rem;
+    /* margin-bottom: 2rem; */
+  }
 }
 
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
+  .careersforms-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+
+  .left-section-instructions {
+    width: 100%;
+  }
+
+  .right-section-instructions {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 100%;
+  }
+
+  .instructions-heading {
+    text-align: center;
+  }
+
+  .instructions-container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+  }
+
+  .career-font-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .form-background-settings {
+    padding: 0.4rem;
+    /* margin-bottom: 2rem; */
+  }
 }
 
 /* iPhone 14 Pro, 15 Pro */
@@ -148,6 +269,73 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .careersforms-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .left-section-instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .right-section-instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .instructions-heading {
+    font-size: 32px;
+    font-weight: 100;
+  }
+
+  .instructions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding: 20px;
+  }
+
+  .instructions-statement {
+    font-weight: 200;
+    text-align: left;
+  }
+
+  .form-background-settings {
+    padding: 2rem;
+    background-color: rgba(89, 195, 195, 0.4);
+  }
+
+  .career-font-title {
+    color: black;
+    font-weight: 100;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .site-pallete {
+    background: #59c3c3;
+    border: none;
+    color: white;
+    font-size: 16px;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
@@ -156,6 +344,10 @@
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .instructions-statement {
+    font-weight: 200;
+    text-align: center;
+  }
 }
 
 /* Iphone SE */

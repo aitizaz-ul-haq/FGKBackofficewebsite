@@ -9,7 +9,7 @@
   display: flex; /* Flexbox for alignment */
   flex-direction: column; /* Stack content */
   justify-content: flex-end;
-  align-items: start;
+  align-items: flex-start;
   z-index: 0; /* Ensure it appears below the header */
 }
 
@@ -153,7 +153,7 @@
     display: flex; /* Flexbox for alignment */
     flex-direction: column; /* Stack content */
     justify-content: flex-end;
-    align-items: start;
+    align-items: flex-start;
     z-index: 0; /* Ensure it appears below the header */
   }
 
@@ -192,7 +192,7 @@
     display: flex; /* Flexbox for alignment */
     flex-direction: column; /* Stack content */
     justify-content: flex-end;
-    align-items: start;
+    align-items: flex-start;
     z-index: 0; /* Ensure it appears below the header */
   }
 
