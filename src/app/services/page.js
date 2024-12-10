@@ -2,6 +2,7 @@ import MainHeroSection from "../components/layoutcomponents/mainherosection/main
 import testdata from "../data/services/servicesherodata.json";
 import ImportSection from "../components/pagecomponents/servicespagecomps/importancesection";
 import RoundedCardsSection from "../components/pagecomponents/servicespagecomps/roundedcardsection";
+import ServicesBenefitsSection from "../components/pagecomponents/servicespagecomps/servicesbenefitssection";
 
 export default function Services() {
   return (
@@ -14,6 +15,7 @@ export default function Services() {
       />
       <ImportSection />
       <RoundedCardsSection />
+      <ServicesBenefitsSection />
     </>
   );
 }
