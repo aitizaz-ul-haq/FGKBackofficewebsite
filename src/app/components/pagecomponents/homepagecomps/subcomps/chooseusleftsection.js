@@ -1,4 +1,4 @@
-import Points from "../data/choosepoints.json";
+import Points from "../data/chooseuspoints.json";
 import Image from "next/image";
 
 export default function ChooseUsLeftSection() {
