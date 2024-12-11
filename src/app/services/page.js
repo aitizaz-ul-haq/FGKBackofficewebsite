@@ -4,6 +4,7 @@ import ImportSection from "../components/pagecomponents/servicespagecomps/import
 import RoundedCardsSection from "../components/pagecomponents/servicespagecomps/roundedcardsection";
 import ServicesBenefitsSection from "../components/pagecomponents/servicespagecomps/servicesbenefitssection";
 import TrustedBySection from "../components/pagecomponents/servicespagecomps/trustedbysection";
+import ServicesReviewsSection from "../components/pagecomponents/servicespagecomps/servicesreviewssection";
 
 export default function Services() {
   return (
@@ -18,6 +19,7 @@ export default function Services() {
       <RoundedCardsSection />
       <ServicesBenefitsSection />
       <TrustedBySection />
+      <ServicesReviewsSection />
     </>
   );
 }
