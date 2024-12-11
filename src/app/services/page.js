@@ -3,6 +3,7 @@ import testdata from "../data/services/servicesherodata.json";
 import ImportSection from "../components/pagecomponents/servicespagecomps/importancesection";
 import RoundedCardsSection from "../components/pagecomponents/servicespagecomps/roundedcardsection";
 import ServicesBenefitsSection from "../components/pagecomponents/servicespagecomps/servicesbenefitssection";
+import TrustedBySection from "../components/pagecomponents/servicespagecomps/trustedbysection";
 
 export default function Services() {
   return (
@@ -16,6 +17,7 @@ export default function Services() {
       <ImportSection />
       <RoundedCardsSection />
       <ServicesBenefitsSection />
+      <TrustedBySection />
     </>
   );
 }
