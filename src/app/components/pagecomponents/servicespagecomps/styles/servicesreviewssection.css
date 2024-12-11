@@ -1,0 +1,105 @@
+.reviewssection-container {
+  width: 100%;
+  background-image: url("../../../../../../public/review_section_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-heading-review-section {
+  width: 50%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-cards-review-section {
+  width: 50%;
+  padding: 4rem;
+}
+
+.review-column-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.review-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.review-cardone {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgb(89, 195, 195, 28%);
+  padding: 2rem;
+}
+
+.cardone-review-name {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.cardone-designation-name {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.cardone-review-statement {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.review-cardtwo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgb(89, 195, 195, 28%);
+  padding: 2rem;
+}
+
+.cardtwo-review-name {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.cardtwo-designation-name {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.cardtwo-review-statement {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.review-cardthree {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgb(89, 195, 195, 28%);
+  padding: 2rem;
+}
+
+.cardthree-review-name {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.cardthree-designation-name {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.cardthree-review-statement {
+  font-size: 16px;
+  font-weight: 200;
+}
