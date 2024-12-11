@@ -5,6 +5,7 @@ import RoundedCardsSection from "../components/pagecomponents/servicespagecomps/
 import ServicesBenefitsSection from "../components/pagecomponents/servicespagecomps/servicesbenefitssection";
 import TrustedBySection from "../components/pagecomponents/servicespagecomps/trustedbysection";
 import ServicesReviewsSection from "../components/pagecomponents/servicespagecomps/servicesreviewssection";
+import reviewerdata from "../data/services/reviewsdata.json";
 
 export default function Services() {
   return (
@@ -19,7 +20,17 @@ export default function Services() {
       <RoundedCardsSection />
       <ServicesBenefitsSection />
       <TrustedBySection />
-      <ServicesReviewsSection />
+      <ServicesReviewsSection
+        reviewerone={reviewerdata.reviewerone}
+        designationone={reviewerdata.designationone}
+        descriptionone={reviewerdata.descriptionone}
+        reviewertwo={reviewerdata.reviewertwo}
+        designationtwo={reviewerdata.designationtwo}
+        descriptiontwo={reviewerdata.descriptiontwo}
+        reviewerthree={reviewerdata.reviewerthree}
+        designationthree={reviewerdata.designationthree}
+        descriptionthree={reviewerdata.descriptionthree}
+      />
     </>
   );
 }

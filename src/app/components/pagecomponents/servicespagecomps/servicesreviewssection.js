@@ -1,6 +1,16 @@
 import "./styles/servicesreviewssection.css";
 
-export default function ServicesReviewsSection() {
+export default function ServicesReviewsSection({
+  reviewerone,
+  designationone,
+  descriptionone,
+  reviewertwo,
+  designationtwo,
+  descriptiontwo,
+  reviewerthree,
+  designationthree,
+  descriptionthree,
+}) {
   return (
     <>
       <div className="reviewssection-container">
@@ -13,41 +23,35 @@ export default function ServicesReviewsSection() {
           <div className="review-column-cards">
             <div className="review-cardone">
               <div className="cardone-review-name font-inter text-light">
-                Reviewer
+                {reviewerone}
               </div>
               <div className="cardone-designation-name font-inter text-light">
-                Designation & Company Name
+                {designationone}
               </div>
               <div className="cardone-review-statement font-inter text-light">
-                simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley{" "}
+                {descriptionone}
               </div>
             </div>
             <div className="review-cardtwo">
               <div className="cardtwo-review-name font-inter text-light">
-                Reviewer
+                {reviewertwo}
               </div>
               <div className="cardtwo-designation-name font-inter text-light">
-                Designation & Company Name
+                {designationtwo}
               </div>
               <div className="cardtwo-review-statement font-inter text-light">
-                simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley{" "}
+                {descriptiontwo}
               </div>
             </div>
             <div className="review-cardthree">
               <div className="cardthree-review-name font-inter text-light">
-                Reviewer
+                {reviewerthree}
               </div>
               <div className="cardthree-designation-name font-inter text-light">
-                Designation & Company Name
+                {designationthree}
               </div>
               <div className="cardthree-review-statement font-inter text-light">
-                simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley{" "}
+                {descriptionthree}
               </div>
             </div>
           </div>
