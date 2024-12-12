@@ -5,7 +5,7 @@ export default function FooterUpperSubSectionFour() {
     <div className="footer-upper-subsection-four">
       <div className="contact-socialmedia-listing">
         <ul className="footer-list-main  font-inter">
-          <li className="footer-list-title">Contacts</li>
+          <li className="footer-list-title">Contact Us</li>
           <li className="footer-list-item text-light">hr@fgkbackoffice.com</li>
           <li className="footer-list-item">
             <FooterSocialMediaSection />
