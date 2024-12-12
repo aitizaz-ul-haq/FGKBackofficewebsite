@@ -1,0 +1,38 @@
+.homepage-industriescard-container {
+  background-color: rgb(89, 195, 195, 7%);
+  width: 457px;
+  height: 349px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.homepage-industriescard-circular-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.homepage-industriescard-heading {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.homepage-industriescard-description {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.homepage-industriescard-button {
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #59c3c3;
+  width: 123px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

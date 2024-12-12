@@ -1,6 +1,7 @@
 import MainPageHeroSection from "./components/pagecomponents/homepagecomps/mainpageherosection";
 import ExpertiseSection from "./components/pagecomponents/homepagecomps/expertisesection";
 import ChooseUsSection from "./components/pagecomponents/homepagecomps/chooseussection";
+import IndustriescardHomePageSection from "./components/pagecomponents/homepagecomps/industriescardhomepagesection";
 import testdata from "./data/testdata/testherodata.json";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         />
         <ExpertiseSection />
         <ChooseUsSection />
+        {/* <IndustriescardHomePageSection /> */}
       </main>
     </>
   );

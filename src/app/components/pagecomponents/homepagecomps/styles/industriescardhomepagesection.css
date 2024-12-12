@@ -1,0 +1,14 @@
+.industries-cards-inhomepage-container {
+  width: 100%;
+  background-image: url("../../../../../../public/service_benefits_section_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
