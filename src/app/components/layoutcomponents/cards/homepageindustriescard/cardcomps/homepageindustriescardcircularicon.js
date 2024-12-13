@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-export default function HomepageIndustriesCardCircularIcon({ inddata }) {
+export default function HomepageIndustriesCardCircularIcon({ cardicon }) {
   return (
     <div className="homepage-industriescard-circular-icon-container">
       <Image
-        src={inddata.cardicon}
+        src={cardicon}
         width={123}
         height={123}
         className="homepage-industriescard-circular-icon"

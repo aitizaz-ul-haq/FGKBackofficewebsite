@@ -1,7 +1,7 @@
-export default function HomepageIndustriesCardHeading({ inddata }) {
+export default function HomepageIndustriesCardHeading({ cardtitle }) {
   return (
     <div className="homepage-industriescard-heading font-inter text-light">
-      {inddata.cardtitle}
+      {cardtitle}
     </div>
   );
 }
