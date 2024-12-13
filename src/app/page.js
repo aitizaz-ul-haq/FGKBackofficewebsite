@@ -15,7 +15,7 @@ export default function Home() {
         />
         <ExpertiseSection />
         <ChooseUsSection />
-        {/* <IndustriescardHomePageSection /> */}
+        <IndustriescardHomePageSection />
       </main>
     </>
   );
