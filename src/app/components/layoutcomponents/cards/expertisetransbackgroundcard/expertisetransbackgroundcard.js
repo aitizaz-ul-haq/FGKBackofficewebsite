@@ -1,5 +1,7 @@
 import "./expertisetransbackgroundcard.css";
-import Image from "next/image";
+import TopRightCircularIconSection from "./cardcomps/toprightcirculariconsection";
+import TransCardHeadingSection from "./cardcomps/transcardheadingsection";
+import TransCardDescriptionSection from "./cardcomps/transcarddescriptionsection";
 
 export default function ExpertiseTransBackgroundCard({
   cardicon,
@@ -10,21 +12,9 @@ export default function ExpertiseTransBackgroundCard({
   return (
     <>
       <div className="trans-card-container">
-        <div className="top-right-circular-icon">
-          <Image
-            src={cardicon}
-            alt="FGK logo"
-            width={90}
-            height={90}
-            className="footer-social-icon"
-          />
-        </div>
-        <div className="trans-card-heading font-inter text-light">
-          {cardtitle}
-        </div>
-        <div className="trans-card-description-paragraph font-inter text-light">
-          {carddescription}
-        </div>
+        <TopRightCircularIconSection cardicon={cardicon} />
+        <TransCardHeadingSection cardtitle={cardtitle} />
+        <TransCardDescriptionSection carddescription={carddescription} />
         <button className="trans-card-button">Details</button>
       </div>
     </>
