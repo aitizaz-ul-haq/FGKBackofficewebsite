@@ -12,9 +12,12 @@ export default function HomePageIndustriesCard({ inddata, isLast }) {
     >
       <HomepageIndustriesCardCircularIcon cardicon={inddata.cardicon} />
       <HomepageIndustriesCardHeading cardtitle={inddata.cardtitle} />
-      <HomepageIndustriesCardDescription
+      {/* <HomepageIndustriesCardDescription
         carddescription={inddata.carddescription}
-      />
+      /> */}
+      <div className="homepage-industriescard-description font-inter text-light">
+        {inddata.carddescription}
+      </div>
       <div className="homepage-industriescard-button font-inter text-light">
         Discover More
       </div>
