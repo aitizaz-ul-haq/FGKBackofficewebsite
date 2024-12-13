@@ -1,7 +1,5 @@
 import "./homepageindustriescard.css";
-import HomepageIndustriesCardCircularIcon from "./cardcomps/homepageindustriescardcircularicon";
-import HomepageIndustriesCardHeading from "./cardcomps/homepageindustriescardheading";
-import HomepageIndustriesCardDescription from "./cardcomps/homepageindustriescarddescription";
+import Image from "next/image";
 
 export default function HomePageIndustriesCard({ inddata, isLast }) {
   return (
@@ -10,11 +8,17 @@ export default function HomePageIndustriesCard({ inddata, isLast }) {
         isLast ? "last-industry-card" : ""
       }`}
     >
-      <HomepageIndustriesCardCircularIcon cardicon={inddata.cardicon} />
-      <HomepageIndustriesCardHeading cardtitle={inddata.cardtitle} />
-      {/* <HomepageIndustriesCardDescription
-        carddescription={inddata.carddescription}
-      /> */}
+      <div className="homepage-industriescard-circular-icon-container">
+        <Image
+          src={inddata.cardicon}
+          width={123}
+          height={123}
+          className="homepage-industriescard-circular-icon"
+        />
+      </div>
+      <div className="homepage-industriescard-heading font-inter text-light">
+        {inddata.cardtitle}
+      </div>
       <div className="homepage-industriescard-description font-inter text-light">
         {inddata.carddescription}
       </div>
