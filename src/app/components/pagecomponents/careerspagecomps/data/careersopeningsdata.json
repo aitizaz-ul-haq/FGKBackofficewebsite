@@ -1,14 +1,14 @@
 [
   {
+    "designation": "Operation Analyst",
+    "description": "Manage transaction booking, processing, reconciliation (daily, weekly, monthly), data analysis, reporting, and compiling spreadsheets while ensuring accuracy, timely processing, and support for month-end activities."
+  },
+  {
+    "designation": "Finance & Admin Manager",
+    "description": "Manage and record financial transactions, maintain accurate books, produce financial statements, handle taxes, payroll, budgets, procurement, client invoicing, reporting, vendor coordination, administrative tasks, and support communication with accountants and staff while ensuring timely compliance and escalations."
+  },
+  {
     "designation": "Data Analyst",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lore"
-  },
-  {
-    "designation": "Data Operator",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lore"
-  },
-  {
-    "designation": "Data Manager",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lore"
+    "description": "Maintain the portfolio management system, update securities, monitor data feeds, input manual prices, ensure accurate security categorization, manage account openings and KYC compliance, maintain performance data, produce reports, investigate queries, provide statistics, produce meeting minutes, and monitor structured product and bond expiries."
   }
 ]
