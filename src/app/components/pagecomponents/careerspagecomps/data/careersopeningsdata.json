@@ -1,14 +1,110 @@
 [
   {
     "designation": "Operation Analyst",
-    "description": "Manage transaction booking, processing, reconciliation (daily, weekly, monthly), data analysis, reporting, and compiling spreadsheets while ensuring accuracy, timely processing, and support for month-end activities."
+    "description": "Manage transaction booking, processing, reconciliation (daily, weekly, monthly), data analysis, reporting, and compiling spreadsheets while ensuring accuracy, timely processing, and support for month-end activities.",
+    "oversight": "A London-based asset Management Company established its office in Islamabad in 2021. The office has seen rapid growth over the last 12 months and continues to grow in 2023. The company also provides middle and back-office services to our other office in Monaco and Switzerland. London is the operational hub of the entire group. In 2021, the group set up FGK Back Office Services in Islamabad as an offshore centre that supports the London operations. Due to the success of this office, we are now looking to hire additional people to support this office in Islamabad. FGK Back Office Services (Private) Limited is engaged in Back Office Services and is registered with Securities and Exchange Commission of Pakistan. FGK Back Office Services (Private) Limited started its operations in November 2021 with a strategic decision and ambition to provide Back Office Services to Financial and Banking Sector Companies working domestically and overseas. Our Back Office Services include but are not limited to: DATA MANAGEMENT, OPERATIONS SUPPORT, and ACCOUNTING & REPORTING. We are an \"IT Enabled Services\" Company as defined by Pakistan Software Export Board (\"PSEB\"). As an IT Enabled Services Company, we are among the few Companies that Export IT Services worldwide and contribute our share to economic growth and utilize the true potential of talented individuals. Recently, FGK Back Office Services (Private) Limited contracted with a growing Asset Management LLP based in the United Kingdom. We, at FGK, have been providing Back Office services to asset management LLP that includes but is not limited to Data Entry & Analytics, Account reconciliations, and transaction processing, Updating Portfolio accounts. So, to execute these tasks we require Operations Analyst to join a high-performing and professional Operations team at Islamabad.",
+    "responsibilities": [
+      "Transaction booking and processing and maintaining accurate data within application system.",
+      "Daily asset class (equity/fixed income/other asset classes) and cash reconciliation of accounts.",
+      "Daily monitoring of accounts as defined in training and training manual.",
+      "Ensuring the timely and accurate processing of transactions.",
+      "Reconciling the transaction with Bank statements for a number of accounts.",
+      "Weekly and monthly reconciliation of portfolios.",
+      "Calculating, analysing and reporting on data.",
+      "Managing all the data and compiling the spreadsheets based on the activities performed.",
+      "Assisting the month-end process."
+    ],
+    "systems": [
+      "Microsoft Office (Outlook, Excel, Word & PowerPoint)",
+      "Microsoft Teams",
+      "Bloomberg",
+      "Macro writing and/or VBA is an advantage but not a prerequisite."
+    ],
+    "requiredSkillset": [
+      "Qualified to graduate level from a recognised university with majors in Finance or Banking or Management.",
+      "Minimum 1 to 2 years of experience within banking or financial institution or finance department of reputed organization. Fresh candidates can also apply.",
+      "Basic level knowledge and understanding of asset management operations, mutual funds, Equity funds etc. and their relevant accounting systems.",
+      "Experience of working on any management software or Accounting Software or Data Management System.",
+      "Fluent in both written and spoken English.",
+      "Self-starter and motivated.",
+      "Willing to work as part of a team.",
+      "Team player with strong interpersonal skills and a proactive approach.",
+      "Person with intelligent working style & habits."
+    ]
   },
   {
     "designation": "Finance & Admin Manager",
-    "description": "Manage and record financial transactions, maintain accurate books, produce financial statements, handle taxes, payroll, budgets, procurement, client invoicing, reporting, vendor coordination, administrative tasks, and support communication with accountants and staff while ensuring timely compliance and escalations."
+    "description": "Manage and record financial transactions, maintain accurate books, produce financial statements, handle taxes, payroll, budgets, procurement, client invoicing, reporting, vendor coordination, administrative tasks, and support communication with accountants and staff while ensuring timely compliance and escalations.",
+    "oversight": "A London-based asset Management Company established its office in Islamabad in 2021. The office has seen rapid growth over the last 12 months and continues to grow in 2023. The company also provides middle and back-office services to our other office in Monaco and Switzerland. London is the operational hub of the entire group. In 2021, the group set up FGK Back Office Services in Islamabad as an offshore centre that supports the London operations. Due to the success of this office, we are now looking to hire additional people to support this office in Islamabad. FGK Back Office Services (Private) Limited is engaged in Back Office Services and is registered with Securities and Exchange Commission of Pakistan. FGK Back Office Services (Private) Limited started its operations in November 2021 with a strategic decision and ambition to provide Back Office Services to Financial and Banking Sector Companies working domestically and overseas. Our Back Office Services include but are not limited to: DATA MANAGEMENT, OPERATIONS SUPPORT, and ACCOUNTING & REPORTING. We are an \"IT Enabled Services\" Company as defined by Pakistan Software Export Board (\"PSEB\"). As an IT Enabled Services Company, we are among the few Companies that Export IT Services worldwide and contribute our share to economic growth and utilize the true potential of talented individuals. Recently, FGK Back Office Services (Private) Limited contracted with a growing Asset Management LLP based in the United Kingdom. We, at FGK, have been providing Back Office services to asset management LLP that includes but is not limited to Data Entry & Analytics, Account reconciliations, and transaction processing, Updating Portfolio accounts. So, to execute these tasks we require Operations Analyst to join a high-performing and professional Operations team at Islamabad.",
+    "responsibilities": [
+      "Managing and recording day-to-day transactions of Company and maintaining the accurate books of account which includes Fixed assets, Account Receivables, Account payables, Income accounts, expense accounts etc. ",
+      "Producing monthly and annual financial statements of Company and analysing trends and provide Directors with clear results. ",
+      "Managing day-to-day financial operations, verifying invoices, pre-authorization reviews, preparing supporting documents and building audit trail. ",
+      "Submission of Monthly GST, Quarterly Withholding & Annual Income Tax Returns.",
+      "Coordination with vendors, Insurance companies, Banks, Consultants, Auditors.",
+      "Provide administrative support for day-to-day matters which includes, staff/team management, office and general management.",
+      "Procurement as and when required for Office supplies and other equipment following proper procedure.",
+      "Responsible for payroll calculations, tax deductions, payroll disbursements. ",
+      "Generate the monthly revenue calculations and calculate the management fees for portfolio accounts that company manages.",
+      "Generate the client invoices using our internal system.",
+      "Prepare monthly, quarterly budgets, and prepare the projected income, expenses and cash flows. ",
+      "Communicate with Accountant in Monaco (Europe) and provide necessary accounting support and ensure timely delivery of payments. ",
+      "Produce daily, weekly and monthly reports as requested by COO & Team Leader.",
+      "Producing minutes for weekly/monthly meetings.",
+      "Escalation points for local staff."
+    ],
+    "systems": [
+      "Microsoft Office (Outlook, Excel, Word & PowerPoint)",
+      "Microsoft Teams",
+      "QuickBooks",
+      "Bloomberg",
+      "Macro writing and/or VBA is an advantage but not a prerequisite."
+    ],
+    "requiredSkillset": [
+      "Qualified to post-graduate level, preferably, MBA with majors in accounting/finance/banking. ",
+      "Minimum 7+ years of experience in finance department of reputed organization. ",
+      "Experience of working on Accounting Software (QuickBooks).",
+      "Fluent in both written and spoken English. ",
+      "Self-starter and motivated. ",
+      "Willing to work as part of a team. ",
+      "Team player with strong interpersonal skills and a proactive approach. ",
+      "Person with intelligent working style & habits."
+    ]
   },
   {
     "designation": "Data Analyst",
-    "description": "Maintain the portfolio management system, update securities, monitor data feeds, input manual prices, ensure accurate security categorization, manage account openings and KYC compliance, maintain performance data, produce reports, investigate queries, provide statistics, produce meeting minutes, and monitor structured product and bond expiries."
+    "description": "Maintain the portfolio management system, update securities, monitor data feeds, input manual prices, ensure accurate security categorization, manage account openings and KYC compliance, maintain performance data, produce reports, investigate queries, provide statistics, produce meeting minutes, and monitor structured product and bond expiries.",
+    "oversight": "A London-based asset Management Company established its office in Islamabad in 2021. The office has seen rapid growth over the last 12 months and continues to grow in 2023. The company also provides middle and back-office services to our other office in Monaco and Switzerland. London is the operational hub of the entire group. In 2021, the group set up FGK Back Office Services in Islamabad as an offshore centre that supports the London operations. Due to the success of this office, we are now looking to hire additional people to support this office in Islamabad. FGK Back Office Services (Private) Limited is engaged in Back Office Services and is registered with Securities and Exchange Commission of Pakistan. FGK Back Office Services (Private) Limited started its operations in November 2021 with a strategic decision and ambition to provide Back Office Services to Financial and Banking Sector Companies working domestically and overseas. Our Back Office Services include but are not limited to: DATA MANAGEMENT, OPERATIONS SUPPORT, and ACCOUNTING & REPORTING. We are an \"IT Enabled Services\" Company as defined by Pakistan Software Export Board (\"PSEB\"). As an IT Enabled Services Company, we are among the few Companies that Export IT Services worldwide and contribute our share to economic growth and utilize the true potential of talented individuals. Recently, FGK Back Office Services (Private) Limited contracted with a growing Asset Management LLP based in the United Kingdom. We, at FGK, have been providing Back Office services to asset management LLP that includes but is not limited to Data Entry & Analytics, Account reconciliations, and transaction processing, Updating Portfolio accounts. So, to execute these tasks we require Operations Analyst to join a high-performing and professional Operations team at Islamabad.",
+    "responsibilities": [
+      "Maintain the portfolio management system",
+      "Input and update the securities requested by the Front office",
+      "Check and monitor the data feeds",
+      "Input and update the manual prices for the relevant securities ",
+      "Maintain the correct categorization of securities",
+      "Open new accounts at the request of compliance",
+      "Monitor the KYC module and notify compliance of any upcoming expiration of documents ",
+      "Maintain the performance data of the system",
+      "Produce daily, weekly, monthly and quarterly reports as per business requirements",
+      "Investigate data/performance related queries raised by the team ",
+      "Produce weekly meeting minutes for the team meeting",
+      "Monitoring of structured products & bonds expiries."
+    ],
+    "systems": [
+      "Microsoft Office (Outlook, Excel, Word & PowerPoint)",
+      "Microsoft Teams",
+      "Bloomberg",
+      "Macro writing and/or VBA is an advantage but not a prerequisite."
+    ],
+    "requiredSkillset": [
+      "Qualified to graduate level from a recognised university with majors in Data Science, Data Analytics, Finance, Banking or Management.",
+      "Minimum 4 to 5 years of experience of working with data analysis, data visualization at a banking or financial institution or finance department of reputed organization.",
+      "Basic to moderate level understanding of asset management operations, mutual funds, Equity funds, structured products etc. and their relevant accounting system. ",
+      "Minimum 2 years of prior experience of working on any management software or Accounting Software or Data Management System.",
+      "Fluent in both written and spoken English.",
+      "Self-starter and motivated.",
+      "Willing to work as part of a team.",
+      "Team player with strong interpersonal skills and a proactive approach.",
+      "Person with intelligent working style & habits."
+    ]
   }
 ]
