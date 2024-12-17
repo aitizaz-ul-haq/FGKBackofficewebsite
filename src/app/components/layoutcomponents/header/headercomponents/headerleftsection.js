@@ -9,8 +9,8 @@ export default function HeaderLeftSection() {
           <Image
             src="/fgk_letter_logo.png"
             alt="FGK logo"
-            width={205}
-            height={35}
+            width={170}
+            height={28}
           />
         </Link>
       </div>
