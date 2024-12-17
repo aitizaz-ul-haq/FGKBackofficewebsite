@@ -24,7 +24,7 @@
 
 .header-main-container {
   width: 100%;
-  height: 75px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,6 +116,7 @@
   text-decoration: none;
   transition: background-color 0.2s ease;
   font-weight: 300;
+  font-size: 1em;
 }
 
 .header-dropdown-item:hover {
@@ -213,7 +214,7 @@
   }
 
   .header-right-buttongroupsection {
-    width: 65%;
+    width: 69%;
   }
 
   .header-nobackground-button {
