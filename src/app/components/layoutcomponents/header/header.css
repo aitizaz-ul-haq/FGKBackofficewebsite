@@ -80,6 +80,49 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* newer code */
+
+.header-button-wrapper {
+  position: relative;
+}
+
+.header-nobackground-button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-nobackground-button:hover {
+  /* background-color: #f4f4f4; */
+  color: #00bcd4;
+}
+
+.header-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 230px;
+}
+
+.header-dropdown-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  font-weight: 300;
+}
+
+.header-dropdown-item:hover {
+  background-color: rgba(89, 195, 195, 0.7);
+  color: black;
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */

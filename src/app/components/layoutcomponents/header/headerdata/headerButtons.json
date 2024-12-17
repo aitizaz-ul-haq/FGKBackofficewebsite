@@ -1,6 +1,30 @@
 [
-  { "name": "Services", "link": "/services" },
-  { "name": "Industries", "link": "/industries" },
+  {
+    "name": "Services",
+    "link": "/services",
+    "subpages": [
+      { "name": "Operations Support", "link": "/services" },
+      {
+        "name": "Data Management",
+        "link": "/servicest"
+      },
+      { "name": "Project Management", "link": "/servicess" },
+      { "name": "Accounting & Reporting", "link": "/services" },
+      { "name": "Web Development", "link": "/services" },
+      { "name": "Human Resources", "link": "/services" }
+    ]
+  },
+  {
+    "name": "Industries",
+    "link": "/industries",
+    "subpages": [
+      { "name": "Financial Services", "link": "/industries" },
+      { "name": "Accountancy & Finance", "link": "/industries" },
+      { "name": "Tech Support", "link": "/industries" },
+      { "name": "Fintech", "link": "/industries" },
+      { "name": "Insurance", "link": "/industries" }
+    ]
+  },
   { "name": "Team", "link": "/team" },
   { "name": "About", "link": "/about" },
   { "name": "Careers", "link": "/careers" }
