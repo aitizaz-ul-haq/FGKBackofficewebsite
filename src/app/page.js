@@ -4,6 +4,7 @@ import ChooseUsSection from "./components/pagecomponents/homepagecomps/chooseuss
 import IndustriescardHomePageSection from "./components/pagecomponents/homepagecomps/industriescardhomepagesection";
 import HomepageBenefitsSection from "./components/pagecomponents/homepagecomps/homepagebenefitssection";
 import HomepageClientsSection from "./components/pagecomponents/homepagecomps/homepageclientssection";
+import HomepageContactSection from "./components/pagecomponents/homepagecomps/homepagecontactsection";
 import testdata from "./data/testdata/testherodata.json";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <IndustriescardHomePageSection />
         <HomepageBenefitsSection />
         <HomepageClientsSection />
+        <HomepageContactSection />
       </main>
     </>
   );
