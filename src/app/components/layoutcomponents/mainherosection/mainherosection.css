@@ -14,12 +14,12 @@
 }
 
 .hero-content {
-  text-align: left;
+  /* text-align: left; */
   z-index: 1; /* Ensure it appears above the background */
   color: black; /* Text color */
-  margin-top: 22rem;
+  /* margin-top: 22rem;
   margin-bottom: 22rem;
-  padding: 2rem;
+  padding: 2rem; */
 }
 
 .hero-title {
@@ -45,6 +45,27 @@
   height: 500px; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional for rounded corners */
   /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);  */
+}
+
+.hero-button {
+  height: 60px;
+  width: 263px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  gap: 1.2rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 32px;
+  background-color: #59c3c3;
+}
+
+.hero-button:hover {
+  color: black;
+  background-color: white;
 }
 
 /* Default styles (mobile-first approach) */
@@ -474,6 +495,66 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1920px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url("../../../../../public/Hero_Background.png");
+    background-size: cover; /* Ensure the image covers the section */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat;
+    position: relative; /* For positioned child elements */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack content */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hero-content {
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 89%;
+  }
+
+  .hero-title {
+    font-size: 4.5rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    font-weight: 200;
+    text-align: right;
+    max-width: 80%;
+  }
+
+  .hero-paragraph-container {
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .hero-button-container {
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 1.3rem;
+  }
+  .hero-paragraph {
+    font-size: 1.5rem;
+    /* max-width: 776px; */
+    /* margin: 0 auto; */
+  }
 }
 
 /* 4K screens (>= 1920px) */
