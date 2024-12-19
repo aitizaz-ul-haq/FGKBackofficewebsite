@@ -12,7 +12,7 @@ export default function MainHeroSection({
     <div
       className="hero-section"
       style={{
-        backgroundImage: `url('/services_hero_background.png')`,
+        backgroundImage: `url('/services_1920px_hero_background.png')`,
         "--mobile-image": `url(${mobileImage})`,
         "--desktop-image": `url(${desktopImage})`,
       }}
@@ -35,6 +35,21 @@ export default function MainHeroSection({
             />
           </div>
         </div>
+        {/* {forwardImage && ( */}
+        <div className="forward-image-container">
+          {/* <img
+            src={forwardImage}
+            alt="Hero related object"
+            className="forward-image"
+          />
+          <div
+            src={forwardImage}
+            alt="Hero related object"
+            className="forward-image"
+          ></div> */}
+          <div className="forward-image"></div>
+        </div>
+        {/* )} */}
       </div>
     </div>
   );

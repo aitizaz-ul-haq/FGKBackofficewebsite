@@ -36,13 +36,13 @@
 .forward-image-container {
   position: absolute; /* Position relative to the hero section */
   bottom: -4px;
-  right: 20px; /* Distance from the right */
+  left: 20px; /* Distance from the right */
   z-index: 2; /* Ensure it appears above other content */
 }
 
 .forward-image {
-  width: 500px; /* Adjust size as needed */
-  height: 500px; /* Maintain aspect ratio */
+  width: 600px; /* Adjust size as needed */
+  height: 600px; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional for rounded corners */
   /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);  */
 }
@@ -401,40 +401,142 @@
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .hero-section {
-    background-position: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: left;
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack content */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 
   .hero-content {
-    z-index: 1;
-    color: black;
-    margin-top: 28rem;
-    margin-bottom: 12rem;
-    padding: 1rem;
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 2.9rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    font-weight: 200;
+    text-align: right;
+    max-width: 90%;
+  }
+
+  .hero-paragraph-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .hero-paragraph {
+    font-size: 1rem;
+    width: 53%;
+  }
+
+  .hero-button-container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 1.3rem;
+  }
+
+  .hero-button {
+    margin-left: 120px;
   }
 
   .forward-image-container {
-    bottom: -4px;
+    position: absolute; /* Position relative to the hero section */
+    top: 453px;
+    left: 20px;
+    z-index: 2; /* Ensure it appears above other content */
   }
 
   .forward-image {
-    width: 300px;
-    height: 200px;
+    width: 393px;
+    height: 393px;
     background-image: var(--desktop-image);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
+  .hero-section {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack content */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hero-content {
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 4rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    font-weight: 200;
+    text-align: right;
+    max-width: 90%;
+  }
+
+  .hero-paragraph-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .hero-button-container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 1.3rem;
+  }
+
+  .hero-button {
+    margin-left: 50px;
+  }
+  .hero-paragraph {
+    font-size: 1.2rem;
+    /* max-width: 776px; */
+    /* margin: 0 auto; */
+  }
+
+  .forward-image-container {
+    position: absolute; /* Position relative to the hero section */
+    top: 453px;
+    left: 20px;
+    z-index: 2; /* Ensure it appears above other content */
+  }
+
   .forward-image {
-    width: 600px;
-    height: 300px;
+    width: 550px;
+    height: 550px;
     background-image: var(--desktop-image);
-    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -442,71 +544,77 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .hero-section {
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-    background-image: url("../../../../../public/Hero_Background.png");
-    background-size: cover; /* Ensure the image covers the section */
-    background-position: center; /* Center the background */
-    background-repeat: no-repeat;
-    position: relative; /* For positioned child elements */
     display: flex; /* Flexbox for alignment */
     flex-direction: column; /* Stack content */
-    /* justify-content: flex-start;
-    align-items: center; */
-    z-index: 0; /* Ensure it appears below the header */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 
   .hero-content {
-    text-align: left;
     z-index: 1; /* Ensure it appears above the background */
     color: black; /* Text color */
     margin-top: 22rem;
     margin-bottom: 22rem;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 100%;
   }
 
   .hero-title {
-    font-size: 3rem; /* Adjust for responsiveness */
+    font-size: 4.5rem; /* Adjust for responsiveness */
     margin-bottom: 1rem;
-    max-width: 786px;
+    font-weight: 200;
+    text-align: right;
+    max-width: 90%;
   }
 
+  .hero-paragraph-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .hero-button-container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 1.3rem;
+  }
+
+  .hero-button {
+    margin-left: 178px;
+  }
   .hero-paragraph {
-    font-size: 1.25rem;
-    max-width: 786px;
+    font-size: 1.5rem;
+    /* max-width: 776px; */
     /* margin: 0 auto; */
   }
 
   .forward-image-container {
     position: absolute; /* Position relative to the hero section */
-    bottom: -4px;
-    right: 20px; /* Distance from the right */
+    top: 453px;
+    left: 20px;
     z-index: 2; /* Ensure it appears above other content */
   }
 
   .forward-image {
-    width: 850px;
-    height: 590px;
+    width: 650px;
+    height: 650px;
     background-image: var(--desktop-image);
-    background-size: cover;
     background-repeat: no-repeat;
   }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
-}
-
-/* Ultra-wide screens (>= 1600px) */
-@media (min-width: 1920px) {
   .hero-section {
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-    background-image: url("../../../../../public/Hero_Background.png");
-    background-size: cover; /* Ensure the image covers the section */
-    background-position: center; /* Center the background */
-    background-repeat: no-repeat;
-    position: relative; /* For positioned child elements */
     display: flex; /* Flexbox for alignment */
     flex-direction: column; /* Stack content */
     justify-content: center;
@@ -554,6 +662,87 @@
     font-size: 1.5rem;
     /* max-width: 776px; */
     /* margin: 0 auto; */
+  }
+
+  .forward-image-container {
+    position: absolute; /* Position relative to the hero section */
+    top: 453px;
+    left: 20px;
+    z-index: 2; /* Ensure it appears above other content */
+  }
+
+  .forward-image {
+    width: 480px;
+    height: 480px;
+    background-image: var(--desktop-image);
+    background-repeat: no-repeat;
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1920px) {
+  .hero-section {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack content */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hero-content {
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 89%;
+  }
+
+  .hero-title {
+    font-size: 4.5rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    font-weight: 200;
+    text-align: right;
+    max-width: 80%;
+  }
+
+  .hero-paragraph-container {
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .hero-button-container {
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 1.3rem;
+  }
+  .hero-paragraph {
+    font-size: 1.5rem;
+    /* max-width: 776px; */
+    /* margin: 0 auto; */
+  }
+
+  .forward-image-container {
+    position: absolute; /* Position relative to the hero section */
+    top: 493px;
+    left: 80px;
+    z-index: 2; /* Ensure it appears above other content */
+  }
+
+  .forward-image {
+    width: 600px;
+    height: 600px;
+    background-image: var(--desktop-image);
+    background-repeat: no-repeat;
   }
 }
 
