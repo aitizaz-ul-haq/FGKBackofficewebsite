@@ -94,8 +94,9 @@
     margin-bottom: 1rem;
   }
   .hero-paragraph {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     max-width: 600px;
+    margin-bottom: 1rem;
     /* margin: 0 auto; */
   }
 
@@ -107,7 +108,7 @@
   }
 
   .forward-image-container {
-    bottom: 316px;
+    top: 266px;
   }
 }
 
@@ -137,6 +138,7 @@
   .hero-paragraph {
     font-size: 0.9rem;
     max-width: 600px;
+    margin-bottom: 1rem;
     /* margin: 0 auto; */
   }
 
@@ -148,7 +150,7 @@
   }
 
   .forward-image-container {
-    bottom: 316px;
+    top: 316px;
   }
 }
 
@@ -178,6 +180,7 @@
   .hero-paragraph {
     font-size: 0.9rem;
     max-width: 600px;
+    margin-bottom: 1rem;
     /* margin: 0 auto; */
   }
 
@@ -189,7 +192,7 @@
   }
 
   .forward-image-container {
-    bottom: 304px;
+    bottom: 324px;
   }
 }
 
@@ -219,6 +222,7 @@
   .hero-paragraph {
     font-size: 0.9rem;
     max-width: 600px;
+    margin-bottom: 1rem;
     /* margin: 0 auto; */
   }
 
@@ -230,7 +234,7 @@
   }
 
   .forward-image-container {
-    bottom: 271px;
+    bottom: 327px;
   }
 }
 
@@ -271,7 +275,7 @@
   }
 
   .forward-image-container {
-    bottom: 229px;
+    bottom: 300px;
   }
 }
 
@@ -312,7 +316,7 @@
   }
 
   .forward-image-container {
-    bottom: 233px;
+    bottom: 300px;
   }
 }
 
@@ -342,6 +346,7 @@
   .hero-paragraph {
     font-size: 0.9rem;
     max-width: 600px;
+    margin-bottom: 1rem;
     /* margin: 0 auto; */
   }
 
@@ -353,7 +358,7 @@
   }
 
   .forward-image-container {
-    bottom: 203px;
+    bottom: 273px;
   }
 }
 
@@ -383,6 +388,7 @@
   .hero-paragraph {
     font-size: 0.9rem;
     max-width: 600px;
+    margin-bottom: 1rem;
     /* margin: 0 auto; */
   }
 
@@ -394,7 +400,7 @@
   }
 
   .forward-image-container {
-    bottom: 170px;
+    bottom: 240px;
   }
 }
 
@@ -437,7 +443,7 @@
   }
 
   .hero-paragraph {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 53%;
   }
 
@@ -447,7 +453,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    padding-top: 1.3rem;
+    padding-top: 0.5rem;
   }
 
   .hero-button {
@@ -458,7 +464,7 @@
     position: absolute; /* Position relative to the hero section */
     top: 453px;
     left: 20px;
-    z-index: 2; /* Ensure it appears above other content */
+    z-index: 2;
   }
 
   .forward-image {
@@ -518,7 +524,7 @@
   }
 
   .hero-button {
-    margin-left: 50px;
+    margin-left: 93px;
   }
   .hero-paragraph {
     font-size: 1.2rem;
@@ -534,8 +540,8 @@
   }
 
   .forward-image {
-    width: 550px;
-    height: 550px;
+    width: 400px;
+    height: 400px;
     background-image: var(--desktop-image);
     background-repeat: no-repeat;
   }
@@ -564,7 +570,7 @@
   }
 
   .hero-title {
-    font-size: 4.5rem; /* Adjust for responsiveness */
+    font-size: 4rem; /* Adjust for responsiveness */
     margin-bottom: 1rem;
     font-weight: 200;
     text-align: right;
@@ -592,21 +598,21 @@
     margin-left: 178px;
   }
   .hero-paragraph {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     /* max-width: 776px; */
     /* margin: 0 auto; */
   }
 
   .forward-image-container {
     position: absolute; /* Position relative to the hero section */
-    top: 453px;
+    top: 423px;
     left: 20px;
     z-index: 2; /* Ensure it appears above other content */
   }
 
   .forward-image {
-    width: 650px;
-    height: 650px;
+    width: 450px;
+    height: 450px;
     background-image: var(--desktop-image);
     background-repeat: no-repeat;
   }
@@ -648,6 +654,10 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+  }
+
+  .hero-button {
+    margin-left: 130px;
   }
 
   .hero-button-container {
@@ -744,6 +754,10 @@
     background-image: var(--desktop-image);
     background-repeat: no-repeat;
   }
+
+  .hero-button {
+    margin-left: 373px;
+  }
 }
 
 /* 4K screens (>= 1920px) */
@@ -788,6 +802,44 @@
 
 /* Samsung Galaxy S8+ */
 @media (width: 360px) and (height: 740px) {
+  .hero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .hero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 32rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 130px; /* Adjust size as needed */
+    height: 150px; /* Maintain aspect ratio */
+    background-image: var(--mobile-image);
+    background-repeat: no-repeat;
+  }
+
+  .forward-image-container {
+    top: 246px;
+  }
 }
 
 /* Samsung Galaxy S20 Ultra */
@@ -816,7 +868,7 @@
   }
 
   .forward-image-container {
-    bottom: 325px;
+    bottom: 385px;
   }
 }
 
@@ -842,19 +894,17 @@
   }
 
   .forward-image-container {
-    bottom: 325px;
+    bottom: 355px;
   }
 }
 
 /* iPad Pro */
 @media (width: 1024px) and (height: 1366px) {
-  .hero-section {
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-    background-position: top right;
-  }
   .hero-content {
     width: 100%;
+  }
+
+  .hero-content {
     margin-top: 55rem;
   }
 
@@ -865,20 +915,12 @@
   }
 
   .hero-paragraph {
-    font-size: 1.9rem;
-    max-width: 940px;
+    font-size: 1.2rem;
+    max-width: 800px;
   }
 
   .forward-image-container {
-    bottom: 525px;
-  }
-
-  .forward-image {
-    width: 300px;
-    height: 300px;
-    background-image: var(--mobile-image);
-    background-size: cover;
-    background-repeat: no-repeat;
+    top: 995px;
   }
 }
 
@@ -942,7 +984,7 @@
   }
 
   .forward-image-container {
-    bottom: 225px;
+    bottom: 275px;
   }
 }
 
@@ -970,7 +1012,7 @@
   }
 
   .forward-image-container {
-    bottom: 345px;
+    bottom: 385px;
   }
 }
 
@@ -1002,7 +1044,7 @@
 
   .forward-image {
     width: 200px;
-    height: 130px;
+    height: 200px;
     background-image: var(--desktop-image);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1036,8 +1078,8 @@
   }
 
   .forward-image {
-    width: 200px;
-    height: 130px;
+    width: 400px;
+    height: 400px;
     background-image: var(--desktop-image);
     background-size: cover;
     background-repeat: no-repeat;
