@@ -1,8 +1,8 @@
 [
   {
     "photo": "/teambigphoto.png",
-    "name": "Executive Team member Name",
-    "designation": "Executive Team member Designation",
+    "name": "Pier Alberto Furno",
+    "designation": "Senior Board Member",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a",
     "facebooklink": "https://www.facebook.com/",
     "xlink": "https://www.youtube.com/",
@@ -10,8 +10,17 @@
   },
   {
     "photo": "/teambigphoto.png",
-    "name": "john doe",
-    "designation": "Designation here",
+    "name": "Roberto Genasci",
+    "designation": "Senior Board Member",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a",
+    "facebooklink": "https://www.facebook.com/",
+    "xlink": "https://www.youtube.com/",
+    "linkdinlink": "https://www.linkedin.com/"
+  },
+  {
+    "photo": "/teambigphoto.png",
+    "name": "Wajid Khan",
+    "designation": "Chief Executive Officer",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a",
     "facebooklink": "https://www.facebook.com/",
     "xlink": "https://www.youtube.com/",
