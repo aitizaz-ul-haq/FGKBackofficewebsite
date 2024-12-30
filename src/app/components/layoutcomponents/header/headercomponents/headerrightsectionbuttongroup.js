@@ -17,10 +17,12 @@ export default function HeaderRightSectionButtonSection() {
           onMouseEnter={() => setHoveredIndex(index)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
-          <Link style={{ textDecoration: "none" }} href={button.link} passHref>
-            <div className="header-nobackground-button font-inter text-light">
-              {button.name}
-            </div>
+          <Link
+            style={{ textDecoration: "none" }}
+            href={button.link}
+            className="header-nobackground-button font-inter text-light"
+          >
+            {button.name}
           </Link>
 
           {/* Subpages Dropdown */}

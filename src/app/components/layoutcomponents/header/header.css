@@ -57,6 +57,12 @@
   transition: color 0.3s ease, font-weight 0.3s ease; /* Smooth transition */
 }
 
+.header-nobackground-button,
+.header-nobackground-button:visited {
+  color: black !important; /* Retain the original color */
+  text-decoration: none !important; /* Ensure no underline */
+}
+
 .header-nobackground-button:hover {
   color: #00bcd4; /* Change to your desired hover color */
   text-decoration: none;
@@ -84,6 +90,10 @@
 
 .header-button-wrapper {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-nobackground-button {
@@ -257,10 +267,24 @@
   .header-nobackground-button {
     font-size: 16px;
   }
+
+  .header-nobackground-button:visited {
+    color: black; /* Retain the original color */
+    text-decoration: none; /* Ensure no underline */
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .header-nobackground-button:visited {
+    color: black; /* Retain the original color */
+    text-decoration: none; /* Ensure no underline */
+  }
+
+  .header-nobackground-button:visited {
+    color: black; /* Retain the original color */
+    text-decoration: none; /* Ensure no underline */
+  }
 }
 
 /* 4K screens (>= 1920px) */
@@ -271,6 +295,11 @@
 
   .header-nobackground-button {
     font-size: 20px;
+  }
+
+  .header-nobackground-button:visited {
+    color: black; /* Retain the original color */
+    text-decoration: none; /* Ensure no underline */
   }
 }
 

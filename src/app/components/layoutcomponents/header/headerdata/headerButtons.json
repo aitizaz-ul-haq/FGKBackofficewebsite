@@ -3,15 +3,18 @@
     "name": "Services",
     "link": "/services",
     "subpages": [
-      { "name": "Operations Support", "link": "/services" },
+      { "name": "Operations Support", "link": "/services/operationssupport" },
       {
         "name": "Data Management",
-        "link": "/servicest"
+        "link": "/services/datamanagement"
       },
-      { "name": "Project Management", "link": "/services" },
-      { "name": "Accounting & Reporting", "link": "/services" },
-      { "name": "Web Development", "link": "/services" },
-      { "name": "Human Resources", "link": "/services" }
+      { "name": "Project Management", "link": "/services/projectmanagement" },
+      {
+        "name": "Accounting & Reporting",
+        "link": "/services/accountingandreporting"
+      },
+      { "name": "Web Development", "link": "/services/webdevelopment" },
+      { "name": "Human Resources", "link": "/services/humanresources" }
     ]
   },
   {
