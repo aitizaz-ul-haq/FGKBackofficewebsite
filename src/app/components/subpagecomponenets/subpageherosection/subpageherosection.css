@@ -1,0 +1,909 @@
+.subpagehero-section {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-image: url("../../../../../public/Hero_Background.png");
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat;
+  position: relative; /* For positioned child elements */
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Stack content */
+  /* justify-content: flex-start;
+    align-items: center; */
+  z-index: 0; /* Ensure it appears below the header */
+}
+
+.subpagehero-content {
+  /* text-align: left; */
+  z-index: 1; /* Ensure it appears above the background */
+  color: black; /* Text color */
+  /* margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem; */
+}
+
+.subpagehero-title {
+  font-size: 3rem; /* Adjust for responsiveness */
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.subpagehero-paragraph {
+  font-size: 1.25rem;
+  max-width: 600px;
+  font-weight: 300;
+  /* margin: 0 auto; */
+}
+
+.subpagehero-button {
+  height: 38px;
+  width: 169px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 1.2rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: black;
+}
+
+.subpagehero-button:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Default styles (mobile-first approach) */
+
+/* Small phones (<= 320px) */
+@media (max-width: 320px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 30rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 0.7rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 130px; /* Adjust size as needed */
+    height: 150px; /* Maintain aspect ratio */
+    background-image: var(--mobile-image);
+    background-repeat: no-repeat;
+  }
+
+  .forward-image-container {
+    top: 266px;
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 360px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 32rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    /* margin: 0 auto; */
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 375px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 33rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+    /* margin: 0 auto; */
+  }
+}
+
+/* iPhone 14, 15 (standard model) */
+@media (min-width: 390px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 33rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+    /* margin: 0 auto; */
+  }
+}
+
+/* iPhone 14 Pro, 15 Pro */
+@media (min-width: 430px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 35rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+}
+
+/* Larger phones and phablets (>= 480px) */
+@media (min-width: 480px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 35rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    /* margin: 0 auto; */
+  }
+}
+
+/* Tablets (>= 600px) */
+@media (min-width: 600px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 37rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    /* margin: 0 auto; */
+  }
+}
+
+/* Small laptops and larger tablets (>= 768px) */
+@media (min-width: 768px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 39rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    /* margin: 0 auto; */
+  }
+}
+
+/* Medium laptops (>= 1024px) */
+@media (min-width: 1024px) {
+  .subpagehero-section {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: row; /* Stack content */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .subpagehero-content {
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 100%;
+  }
+
+  .subpagehero-title {
+    font-size: 1.7rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    font-weight: 200;
+    text-align: left;
+    max-width: 90%;
+  }
+
+  .subpagehero-paragraph-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .subpagehero-paragraph {
+    font-size: 0.9rem;
+    width: 53%;
+  }
+
+  .subpagehero-button-container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0.5rem;
+  }
+
+  .subpagehero-button {
+    margin-left: 0px;
+  }
+}
+
+/* Large laptops and desktops (>= 1280px) */
+@media (min-width: 1280px) {
+  .subpagehero-section {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: row; /* Stack content */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .subpagehero-content {
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 100%;
+  }
+
+  .subpagehero-title {
+    font-size: 1.8rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    font-weight: 300;
+    text-align: left;
+    max-width: 90%;
+  }
+
+  .subpagehero-paragraph-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .subpagehero-button-container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 1.3rem;
+  }
+
+  .subpagehero-button {
+    margin-left: 0px;
+  }
+  .subpagehero-paragraph {
+    font-size: 1rem;
+    font-weight: 300;
+    /* max-width: 776px; */
+    /* margin: 0 auto; */
+  }
+}
+
+/* Extra-large desktops (>= 1440px) */
+@media (min-width: 1440px) {
+  .subpagehero-section {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: row; /* Stack content */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .subpagehero-content {
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 100%;
+  }
+
+  .subpagehero-title {
+    font-size: 2.5rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    font-weight: 300;
+    text-align: left;
+    max-width: 90%;
+  }
+
+  .subpagehero-paragraph-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .subpagehero-button-container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 1.3rem;
+  }
+
+  .subpagehero-button {
+    margin-left: 0px;
+  }
+  .subpagehero-paragraph {
+    font-size: 1.2rem;
+    font-weight: 300;
+    /* max-width: 776px; */
+    /* margin: 0 auto; */
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1600px) {
+  .subpagehero-section {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: row; /* Stack content */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .subpagehero-content {
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 89%;
+  }
+
+  .subpagehero-title {
+    font-size: 3.1rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    font-weight: 300;
+    text-align: left;
+    max-width: 80%;
+  }
+
+  .subpagehero-paragraph-container {
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .subpagehero-button {
+    margin-left: 0px;
+  }
+
+  .subpagehero-button-container {
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 1.3rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 1.2rem;
+    max-width: 976px;
+    /* margin: 0 auto; */
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1920px) {
+  .subpagehero-section {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: row; /* Stack content */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .subpagehero-content {
+    z-index: 1; /* Ensure it appears above the background */
+    color: black; /* Text color */
+    margin-top: 22rem;
+    margin-bottom: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 89%;
+    /* text-align: left; */
+  }
+
+  .subpagehero-title {
+    font-size: 3.1rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    font-weight: 200;
+    text-align: left;
+    max-width: 80%;
+  }
+
+  .subpagehero-paragraph-container {
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .subpagehero-button-container {
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 1.3rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 1.5rem;
+    max-width: 860px;
+    font-weight: 200;
+    /* margin: 0 auto; */
+  }
+
+  .subpagehero-button {
+    margin-left: 0px;
+  }
+}
+
+/* 4K screens (>= 1920px) */
+@media (min-width: 2560px) {
+  .subpagehero-content {
+    margin-top: 29rem;
+    margin-bottom: 22rem;
+  }
+}
+
+/* Iphone SE */
+@media (width: 375px) and (height: 667px) {
+}
+
+/* Iphone XR */
+@media (width: 414px) and (height: 896px) {
+  .subpagehero-content {
+    margin-top: 41rem;
+  }
+}
+
+/* Iphone 12 Pro */
+@media (width: 390px) and (height: 844px) {
+  .subpagehero-content {
+    margin-top: 40rem;
+  }
+}
+
+/* Iphone 14 Pro Max */
+@media (width: 430px) and (height: 932px) {
+  .subpagehero-content {
+    margin-top: 45rem;
+  }
+}
+
+/* Pixel 7 */
+@media (width: 412px) and (height: 915px) {
+  .subpagehero-content {
+    margin-top: 45rem;
+  }
+}
+
+/* Samsung Galaxy S8+ */
+@media (width: 360px) and (height: 740px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 32rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 0.9rem;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    /* margin: 0 auto; */
+  }
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media (width: 412px) and (height: 915px) {
+  .subpagehero-paragraph {
+    margin-bottom: 4rem;
+  }
+}
+
+/* iPad Mini */
+@media (width: 768px) and (height: 1024px) {
+  .subpagehero-content {
+    max-width: 100%;
+  }
+
+  .subpagehero-content {
+    margin-top: 49rem;
+  }
+
+  .subpagehero-title {
+    font-size: 2rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .subpagehero-paragraph {
+    font-size: 1.25rem;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .forward-image-container {
+    bottom: 385px;
+  }
+}
+
+/* iPad Air */
+@media (width: 820px) and (height: 1180px) {
+  .subpagehero-content {
+    width: 100%;
+  }
+
+  .subpagehero-content {
+    margin-top: 55rem;
+  }
+
+  .subpagehero-title {
+    font-size: 3rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .subpagehero-paragraph {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin-bottom: 4rem;
+  }
+
+  .forward-image-container {
+    bottom: 355px;
+  }
+}
+
+/* iPad Pro */
+@media (width: 1024px) and (height: 1366px) {
+  .subpagehero-content {
+    width: 100%;
+  }
+
+  .subpagehero-content {
+    margin-top: 55rem;
+  }
+
+  .subpagehero-title {
+    font-size: 4.5rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .subpagehero-paragraph {
+    font-size: 1.4rem;
+    max-width: 800px;
+  }
+}
+
+/* Surface Pro 7 */
+@media (width: 912px) and (height: 1368px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+  .subpagehero-content {
+    width: 100%;
+    margin-top: 63rem;
+    margin-bottom: 7rem;
+  }
+
+  .subpagehero-title {
+    font-size: 3rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .subpagehero-paragraph {
+    font-size: 1.9rem;
+    max-width: 940px;
+    /* margin-bottom: 5.8rem; */
+  }
+}
+
+/* Surface Duo*/
+@media (width: 540px) and (height: 720px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+  .subpagehero-content {
+    width: 100%;
+    margin-top: 58rem;
+  }
+
+  .subpagehero-title {
+    font-size: 20px; /* Adjust for responsiveness */
+    font-weight: 300;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .subpagehero-paragraph {
+    font-size: 16px;
+    max-width: 940px;
+    font-weight: 300;
+  }
+}
+
+/* Samsung Galaxy A51/71 */
+@media (width: 412px) and (height: 914px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+  .subpagehero-content {
+    width: 100%;
+    margin-top: 58rem;
+    margin-bottom: 2rem;
+  }
+
+  .subpagehero-title {
+    font-size: 1.9rem; /* Adjust for responsiveness */
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .subpagehero-paragraph {
+    font-size: 1rem;
+    max-width: 940px;
+  }
+}
+
+/* Nest Hub */
+@media (width: 1024px) and (height: 600px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 20rem;
+    margin-bottom: 17rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 1rem;
+    max-width: 700px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 200px;
+    height: 200px;
+    background-image: var(--desktop-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Nest Hub Max */
+@media (width: 1280px) and (height: 800px) {
+  .subpagehero-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-position: top right;
+  }
+
+  .subpagehero-content {
+    z-index: 1;
+    color: black;
+    margin-top: 20rem;
+    margin-bottom: 17rem;
+    padding: 1rem;
+  }
+
+  .subpagehero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  .subpagehero-paragraph {
+    font-size: 1.3rem;
+    max-width: 700px;
+    /* margin: 0 auto; */
+  }
+
+  .forward-image {
+    width: 400px;
+    height: 400px;
+    background-image: var(--desktop-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

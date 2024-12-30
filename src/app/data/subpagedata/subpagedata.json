@@ -1,0 +1,44 @@
+[
+  {
+    "id": "web-development",
+    "title": "Web Development",
+    "paragraph": "We create innovative web solutions tailored to your business needs.",
+    "mobileImage": "/Operations_Support_1920px_hero_section.png",
+    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+  },
+  {
+    "id": "digital-marketing",
+    "title": "Digital Marketing",
+    "paragraph": "Elevate your brand with strategic digital marketing campaigns.",
+    "mobileImage": "/Operations_Support_1920px_hero_section.png",
+    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+  },
+  {
+    "id": "project-management",
+    "title": "Project Management",
+    "paragraph": "Efficient project planning and execution to achieve your goals.",
+    "mobileImage": "/Operations_Support_1920px_hero_section.png",
+    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+  },
+  {
+    "id": "operations-support",
+    "title": "Operations Support",
+    "paragraph": "Streamline your operations with expert support and solutions.",
+    "mobileImage": "/Operations_Support_1920px_hero_section.png",
+    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+  },
+  {
+    "id": "customer-service",
+    "title": "Customer Service",
+    "paragraph": "Deliver exceptional customer experiences with our services.",
+    "mobileImage": "/Operations_Support_1920px_hero_section.png",
+    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+  },
+  {
+    "id": "human-resources",
+    "title": "Human Resources",
+    "paragraph": "Simplify HR management with our tailored solutions.",
+    "mobileImage": "/Operations_Support_1920px_hero_section.png",
+    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+  }
+]
