@@ -1,14 +1,14 @@
 [
   {
-    "id": "web-development",
-    "title": "Web Development",
+    "id": "operations-support",
+    "title": "Operations Support",
     "paragraph": "We create innovative web solutions tailored to your business needs.",
     "mobileImage": "/Operations_Support_1920px_hero_section.png",
     "desktopImage": "/Operations_Support_1920px_hero_section.png"
   },
   {
-    "id": "digital-marketing",
-    "title": "Digital Marketing",
+    "id": "data-management",
+    "title": "Data Management",
     "paragraph": "Elevate your brand with strategic digital marketing campaigns.",
     "mobileImage": "/Operations_Support_1920px_hero_section.png",
     "desktopImage": "/Operations_Support_1920px_hero_section.png"
@@ -21,15 +21,15 @@
     "desktopImage": "/Operations_Support_1920px_hero_section.png"
   },
   {
-    "id": "operations-support",
-    "title": "Operations Support",
+    "id": "accounting-&-reporting",
+    "title": "Accounting & Reporting",
     "paragraph": "Streamline your operations with expert support and solutions.",
     "mobileImage": "/Operations_Support_1920px_hero_section.png",
     "desktopImage": "/Operations_Support_1920px_hero_section.png"
   },
   {
-    "id": "customer-service",
-    "title": "Customer Service",
+    "id": "web-development",
+    "title": "Web Development",
     "paragraph": "Deliver exceptional customer experiences with our services.",
     "mobileImage": "/Operations_Support_1920px_hero_section.png",
     "desktopImage": "/Operations_Support_1920px_hero_section.png"
