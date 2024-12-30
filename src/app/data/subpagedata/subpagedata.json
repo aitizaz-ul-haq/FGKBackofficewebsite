@@ -10,35 +10,35 @@
     "id": "data-management",
     "title": "Data Management",
     "paragraph": "Elevate your brand with strategic digital marketing campaigns.",
-    "mobileImage": "/Operations_Support_1920px_hero_section.png",
-    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+    "mobileImage": "/Data_Management_1920px_hero_section.png",
+    "desktopImage": "/Data_Management_1920px_hero_section.png"
   },
   {
     "id": "project-management",
     "title": "Project Management",
     "paragraph": "Efficient project planning and execution to achieve your goals.",
-    "mobileImage": "/Operations_Support_1920px_hero_section.png",
-    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+    "mobileImage": "/Project_Management_Support_1920px_hero_section.png",
+    "desktopImage": "/Project_Management_Support_1920px_hero_section.png"
   },
   {
     "id": "accounting-&-reporting",
     "title": "Accounting & Reporting",
     "paragraph": "Streamline your operations with expert support and solutions.",
-    "mobileImage": "/Operations_Support_1920px_hero_section.png",
-    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+    "mobileImage": "/Accounting_&_Reporting_1920px_hero_section.png",
+    "desktopImage": "/Accounting_&_Reporting_1920px_hero_section.png"
   },
   {
     "id": "web-development",
     "title": "Web Development",
     "paragraph": "Deliver exceptional customer experiences with our services.",
-    "mobileImage": "/Operations_Support_1920px_hero_section.png",
-    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+    "mobileImage": "/Web_Development_Support_1920px_hero_section.png",
+    "desktopImage": "/Web_Development_Support_1920px_hero_section.png"
   },
   {
     "id": "human-resources",
     "title": "Human Resources",
     "paragraph": "Simplify HR management with our tailored solutions.",
-    "mobileImage": "/Operations_Support_1920px_hero_section.png",
-    "desktopImage": "/Operations_Support_1920px_hero_section.png"
+    "mobileImage": "/Human_Resources_1920px_hero_section.png",
+    "desktopImage": "/Human_Resources_1920px_hero_section.png"
   }
 ]
