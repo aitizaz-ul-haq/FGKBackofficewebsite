@@ -1,0 +1,21 @@
+.subpagesgridcard-container {
+  background: white;
+  padding: 2rem;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  border-radius: 10px;
+}
+
+.subpagesgridcard-card-heading {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.subpagesgridcard-card-description {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+}
