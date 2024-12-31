@@ -6,7 +6,6 @@ export default function SubPagesGridCardSection() {
   return (
     <div className="subpagesgridcardsection-container">
       <div className="subpagesgridcardsection-heading font-inter">
-        {/* {gridcardcontainerheading} */}
         Comprehensive Project Management Solutions
       </div>
 
