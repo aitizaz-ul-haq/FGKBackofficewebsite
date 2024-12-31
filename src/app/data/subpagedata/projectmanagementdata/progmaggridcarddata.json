@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "End-to-End Project Management",
+    "paragraph": "Partner with us to develop and implement effective HR strategies that align with your company’s goals. From workforce planning and talent acquisition to employee retention and performance management, we offer tailored solutions that drive sustainable growth.",
+    "iconLink": "/end_to_end_project_management_icon.png"
+  },
+  {
+    "id": "2",
+    "title": "Project Planning and Strategy",
+    "paragraph": "Finding the right talent is crucial for your business success. We streamline the recruitment process to identify and onboard candidates who not only meet the job requirements but also fit your company culture.",
+    "iconLink": "/project_planning_and_strategy.png"
+  },
+  {
+    "id": "3",
+    "title": "Resource Allocation",
+    "paragraph": "We help foster a positive and respectful work environment. Our team provides expert assistance in managing employee concerns, conflict resolution, and performance feedback, ensuring that both employers and employees feel valued and understood.",
+    "iconLink": "/Resource_Allocation.png"
+  },
+  {
+    "id": "4",
+    "title": "Risk Management",
+    "paragraph": "Empower your employees through professional growth. We offer customized training programs that improve skill sets, enhance leadership capabilities, and contribute to higher job satisfaction.",
+    "iconLink": "/Risk_Management.png"
+  },
+  {
+    "id": "5",
+    "title": "Progress Monitoring and Reporting",
+    "paragraph": "Stay ahead of labor laws and industry regulations with our comprehensive compliance services. We assist in creating and updating policies, employee handbooks, and training programs that meet all local and national standards.",
+    "iconLink": "/Progress_monitoring.png"
+  },
+  {
+    "id": "6",
+    "title": "Change Management",
+    "paragraph": "Attract and retain top talent with competitive compensation packages. Our experts design benefit programs that cater to employee needs while being cost-effective for your organization.",
+    "iconLink": "/Change_Management.png"
+  }
+]
