@@ -48,6 +48,10 @@
 @media (min-width: 1600px) {
 }
 
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1920px) {
+}
+
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
 }
