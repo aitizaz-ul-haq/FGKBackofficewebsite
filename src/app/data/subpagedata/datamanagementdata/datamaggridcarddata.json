@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Data Storage and Organization",
+    "paragraph": "Efficient data structuring and storage solutions that make information accessible, manageable, and ready for analysis.",
+    "iconLink": "/data_storage_and_organization.png"
+  },
+  {
+    "id": "2",
+    "title": "Data Quality and Cleansing",
+    "paragraph": "Identifying and rectifying data inconsistencies, errors, and redundancies to maintain high data quality standards.",
+    "iconLink": "/data_quality_and_cleansing.png"
+  },
+  {
+    "id": "3",
+    "title": "Data Integration",
+    "paragraph": "Seamlessly combining data from various sources into a unified system to support cross-functional collaboration and analysis.",
+    "iconLink": "/data_integration.png"
+  },
+  {
+    "id": "4",
+    "title": "Data Security and Compliance",
+    "paragraph": "Implementing robust security protocols and ensuring regulatory compliance to protect sensitive information.",
+    "iconLink": "/data_security_and_compliance.png"
+  },
+  {
+    "id": "5",
+    "title": "Data Analytics and Insights",
+    "paragraph": "Transforming raw data into actionable insights that support business growth and decision-making.",
+    "iconLink": "/data_analytics_and_insights.png"
+  },
+  {
+    "id": "6",
+    "title": "Data Backup and Recovery",
+    "paragraph": " Establishing reliable backup and recovery systems to prevent data loss and ensure business continuity.",
+    "iconLink": "/data_backup_and_recovery.png"
+  }
+]
