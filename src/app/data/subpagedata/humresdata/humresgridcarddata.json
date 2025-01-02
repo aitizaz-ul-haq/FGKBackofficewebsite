@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "HR Strategy & Consulting",
+    "paragraph": "Partner with us to develop and implement effective HR strategies that align with your company’s goals. From workforce planning and talent acquisition to employee retention and performance management, we offer tailored solutions that drive sustainable growth.",
+    "iconLink": "/hr_strategy_and_consulting.png"
+  },
+  {
+    "id": "2",
+    "title": "Recruitment & Onboarding",
+    "paragraph": "Finding the right talent is crucial for your business success. We streamline the recruitment process to identify and onboard candidates who not only meet the job requirements but also fit your company culture.",
+    "iconLink": "/recruitment_and_onboarding.png"
+  },
+  {
+    "id": "3",
+    "title": "Employee Relations",
+    "paragraph": "We help foster a positive and respectful work environment. Our team provides expert assistance in managing employee concerns, conflict resolution, and performance feedback, ensuring that both employers and employees feel valued and understood.",
+    "iconLink": "/employee_relations.png"
+  },
+  {
+    "id": "4",
+    "title": "Training & Development",
+    "paragraph": "Empower your employees through professional growth. We offer customized training programs that improve skill sets, enhance leadership capabilities, and contribute to higher job satisfaction.",
+    "iconLink": "/training_and_development.png"
+  },
+  {
+    "id": "5",
+    "title": "HR Technology Solutions",
+    "paragraph": "Leverage the latest HR technologies to enhance your operations. We assist in implementing and managing HR software for smoother payroll processing, attendance tracking, and data management.",
+    "iconLink": "/hr_technology_strategy.png"
+  },
+  {
+    "id": "6",
+    "title": "Policy Development",
+    "paragraph": "Stay ahead of labor laws and industry regulations with our comprehensive compliance services. We assist in creating and updating policies, employee handbooks, and training programs that meet all local and national standards.",
+    "iconLink": "/policy_development.png"
+  }
+]
