@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Process Optimization",
+    "paragraph": "We analyze and refine your existing processes to eliminate inefficiencies and ensure smooth, effective operations.",
+    "iconLink": "/process_optimization.png"
+  },
+  {
+    "id": "2",
+    "title": "Technical Support & Maintenance",
+    "paragraph": "From IT troubleshooting to ongoing system maintenance, we offer comprehensive technical support that keeps your business running smoothly.",
+    "iconLink": "/technical_support_&_management.png"
+  },
+  {
+    "id": "3",
+    "title": "Inventory & Supply Chain Management",
+    "paragraph": "Our supply chain experts ensure that inventory levels are optimized, reducing overhead costs while maintaining product availability.",
+    "iconLink": "/inventory_supplychain.png"
+  },
+  {
+    "id": "4",
+    "title": "Customer Support Services",
+    "paragraph": "We provide dedicated customer support solutions to enhance client satisfaction and loyalty through responsive, effective communication.",
+    "iconLink": "/Customer_support.png"
+  },
+  {
+    "id": "5",
+    "title": "Data Management & Analytics",
+    "paragraph": "Using data-driven insights, we improve decision-making and performance across operational activities by organizing and analyzing key business data.",
+    "iconLink": "/data-management _analytics.png"
+  },
+  {
+    "id": "6",
+    "title": "Risk Management & Compliance",
+    "paragraph": "We help you maintain regulatory compliance and minimize operational risks through proactive risk assessments and adherence to industry standards.",
+    "iconLink": "/risk_management_and_compliance.png"
+  }
+]
