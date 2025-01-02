@@ -205,8 +205,8 @@
     padding-bottom: 12rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .humres-text-container {
@@ -217,6 +217,7 @@
     align-items: flex-start;
     gap: 2rem;
     padding-left: 1.2rem;
+    margin-left: 1.2rem;
     border-left: 4px solid #59c3c3;
   }
 }
@@ -224,7 +225,7 @@
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .humres-text-container {
-    width: 67%;
+    width: 57%;
   }
 }
 
@@ -245,8 +246,9 @@
     padding-top: 21rem;
   }
   .humres-text-container {
-    width: 65%;
+    width: 60%;
     padding-right: 17rem;
+    margin-left: 5.2rem;
   }
 }
 

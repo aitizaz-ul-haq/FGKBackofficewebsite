@@ -1,6 +1,7 @@
 import "./styles/accrecgridsection.css";
 import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
 import accandrepdata from "../../../data/subpagedata/accandrepdata/accandrepgrid.json";
+import accandrecardpdata from "../../../data/subpagedata/accandrepdata/accandrepgridcarddata.json";
 
 export default function AccRepGridSection() {
   return (
@@ -21,7 +22,10 @@ export default function AccRepGridSection() {
       </div>
 
       <div className="accandre-grid-section-container">
-        <SubPagesGridCardSection />
+        <SubPagesGridCardSection
+          proggridsecondheading={accandrepdata.proggridsecondheading}
+          cardData={accandrecardpdata}
+        />
       </div>
     </div>
   );

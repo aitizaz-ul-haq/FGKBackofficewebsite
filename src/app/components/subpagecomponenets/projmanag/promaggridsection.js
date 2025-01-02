@@ -2,6 +2,8 @@ import "./styles/progmaggridsection.css";
 import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
 import progmagdata from "../../../data/subpagedata/projectmanagementdata/progmaggrid.json";
 
+import progmagcarddata from "../../../data/subpagedata/projectmanagementdata/progmaggridcarddata.json";
+
 export default function ProgMagGridSection() {
   return (
     <div className="progmag-grid-container">
@@ -21,7 +23,10 @@ export default function ProgMagGridSection() {
       </div>
 
       <div className="progmag-grid-section-container">
-        <SubPagesGridCardSection />
+        <SubPagesGridCardSection
+          proggridsecondheading={progmagdata.proggridsecondheading}
+          cardData={progmagcarddata}
+        />
       </div>
     </div>
   );

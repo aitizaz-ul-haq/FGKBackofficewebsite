@@ -1,6 +1,7 @@
 import "./styles/datamaggridsection.css";
 import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
 import datamagdata from "../../../data/subpagedata/datamanagementdata/datamaggrid.json";
+import datamagcarddata from "../../../data/subpagedata/datamanagementdata/datamaggridcarddata.json";
 
 export default function DataMagGridSection() {
   return (
@@ -21,7 +22,10 @@ export default function DataMagGridSection() {
       </div>
 
       <div className="datamag-grid-section-container">
-        <SubPagesGridCardSection />
+        <SubPagesGridCardSection
+          proggridsecondheading={datamagdata.proggridsecondheading}
+          cardData={datamagcarddata}
+        />
       </div>
     </div>
   );

@@ -1,12 +1,14 @@
 import "./subpagesgridcardsection.css";
 import SubPagesGridCard from "../../sharedcomponents/subpagesgridcard/subpagesgridcard";
-import cardData from "../../../data/subpagedata/webdevdata/webdevgridcarddata.json";
 
-export default function SubPagesGridCardSection() {
+export default function SubPagesGridCardSection({
+  proggridsecondheading,
+  cardData,
+}) {
   return (
     <div className="subpagesgridcardsection-container">
       <div className="subpagesgridcardsection-heading font-inter">
-        Comprehensive Project Management Solutions
+        {proggridsecondheading}
       </div>
 
       <div className="subpagesgridcardsection-cards-container">

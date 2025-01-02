@@ -1,6 +1,7 @@
 import "./styles/webdevgridsection.css";
 import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
 import webdevdata from "../../../data/subpagedata/webdevdata/webdevgrid.json";
+import webdevcarddata from "../../../data/subpagedata/webdevdata/webdevgridcarddata.json";
 
 export default function WebDevGridSection() {
   return (
@@ -21,7 +22,10 @@ export default function WebDevGridSection() {
       </div>
 
       <div className="webdev-grid-section-container">
-        <SubPagesGridCardSection />
+        <SubPagesGridCardSection
+          proggridsecondheading={webdevdata.proggridsecondheading}
+          cardData={webdevcarddata}
+        />
       </div>
     </div>
   );

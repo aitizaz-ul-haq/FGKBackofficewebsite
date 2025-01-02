@@ -1,6 +1,7 @@
 import "./styles/humresgridsection.css";
 import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
 import humresdata from "../../../data/subpagedata/humresdata/humresgrid.json";
+import humrescarddata from "../../../data/subpagedata/humresdata/humresgridcarddata.json";
 
 export default function HumResGridSection() {
   return (
@@ -21,7 +22,10 @@ export default function HumResGridSection() {
       </div>
 
       <div className="humres-grid-section-container">
-        <SubPagesGridCardSection />
+        <SubPagesGridCardSection
+          proggridsecondheading={humresdata.proggridsecondheading}
+          cardData={humrescarddata}
+        />
       </div>
     </div>
   );

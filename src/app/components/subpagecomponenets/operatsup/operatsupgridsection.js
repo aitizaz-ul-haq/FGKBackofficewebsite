@@ -1,6 +1,7 @@
 import "./styles/operatsupgridsection.css";
 import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
 import operatsupdata from "../../../data/subpagedata/operatsup/operatesupgrid.json";
+import cardData from "../../../data/subpagedata/operatsup/operatesupgridcarddata.json";
 
 export default function OperatSupGridSection() {
   return (
@@ -21,7 +22,10 @@ export default function OperatSupGridSection() {
       </div>
 
       <div className="operatsup-grid-section-container">
-        <SubPagesGridCardSection />
+        <SubPagesGridCardSection
+          proggridsecondheading={operatsupdata.proggridsecondheading}
+          cardData={cardData}
+        />
       </div>
     </div>
   );
