@@ -1,6 +1,6 @@
 import "./subpagesgridcardsection.css";
 import SubPagesGridCard from "../../sharedcomponents/subpagesgridcard/subpagesgridcard";
-import cardData from "../../../data/subpagedata/datamanagementdata/datamaggridcarddata.json";
+import cardData from "../../../data/subpagedata/accandrepdata/accandrepgridcarddata.json";
 
 export default function SubPagesGridCardSection() {
   return (

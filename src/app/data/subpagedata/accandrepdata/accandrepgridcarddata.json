@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Bookkeeping and Record-Keeping",
+    "paragraph": "Ensuring accurate, organized records of all financial transactions, providing a solid foundation for reporting and analysis.",
+    "iconLink": "/Bookkeeping_and_record_keeping.png"
+  },
+  {
+    "id": "2",
+    "title": "Financial Reporting and Analysis",
+    "paragraph": "Delivering clear, comprehensive financial reports and insights to guide strategic business decisions.",
+    "iconLink": "/finance_reporting_and_analysis.png"
+  },
+  {
+    "id": "3",
+    "title": "Budgeting and Forecasting",
+    "paragraph": "Developing detailed budgets and forecasts to help you plan for future growth and manage resources effectively.",
+    "iconLink": "/budgeting_and_forecasting.png"
+  },
+  {
+    "id": "4",
+    "title": "Tax Preparation and Compliance",
+    "paragraph": " Assisting with tax filings, compliance checks, and strategic tax planning to minimize liabilities.",
+    "iconLink": "/tax_preperation_and_compliance.png"
+  },
+  {
+    "id": "5",
+    "title": "Cash Flow Management",
+    "paragraph": "Monitoring and optimizing cash flow to ensure adequate liquidity for operational needs and growth initiatives.",
+    "iconLink": "/cash_flow_management.png"
+  },
+  {
+    "id": "6",
+    "title": "Audit Support and Preparation",
+    "paragraph": "Providing assistance with audit preparation, ensuring that financial records meet regulatory standards and internal audit requirements.",
+    "iconLink": "/audit_support_and_preperation.png"
+  }
+]
