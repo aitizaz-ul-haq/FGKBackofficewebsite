@@ -1,12 +1,12 @@
 import "./subpagesgridcardsection.css";
 import SubPagesGridCard from "../../sharedcomponents/subpagesgridcard/subpagesgridcard";
-import cardData from "../../../data/subpagedata/operatsup/operatesupgridcarddata.json";
+import cardData from "../../../data/subpagedata/webdevdata/webdevgridcarddata.json";
 
 export default function SubPagesGridCardSection() {
   return (
     <div className="subpagesgridcardsection-container">
       <div className="subpagesgridcardsection-heading font-inter">
-        Comprehensive Operations Support Solutions
+        Comprehensive Web Development Solutions
       </div>
 
       <div className="subpagesgridcardsection-cards-container">
