@@ -30,7 +30,6 @@ export default function SecondSectionTypeMixed({
               Hire A Professional
             </button>
           </div>
-
           <div className="secondsectionmixed-leftsection-strips-container">
             {leftstripcarddata.map((strip) => (
               <SecondSectionLeftStripCard
