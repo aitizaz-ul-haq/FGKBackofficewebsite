@@ -1,7 +1,7 @@
 // app/club/layout.js
 
 export const metadata = {
-  title: "Operations Support | FGK Back Office",
+  title: "Web Development | FGK Back Office",
   description: "",
   //   openGraph: {
   //     type: "website",
