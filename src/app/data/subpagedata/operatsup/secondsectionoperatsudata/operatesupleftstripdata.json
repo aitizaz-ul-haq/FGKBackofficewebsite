@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "striptitle": "Data-Backed Decisions",
+    "stripdesc": "Leveraging data and analytics, we provide actionable insights that drive informed, effective operational strategies.",
+    "stripicon": "/data_backed_decision.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Scalable Support",
+    "stripdesc": "Our solutions are designed to grow alongside your business, accommodating expanding operations without sacrificing quality or efficiency.",
+    "stripicon": "/scalable_support.png"
+  }
+]

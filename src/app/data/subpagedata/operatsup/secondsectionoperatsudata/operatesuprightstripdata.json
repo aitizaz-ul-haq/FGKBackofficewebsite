@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "striptitle": "Proactive Issue Resolution",
+    "stripdesc": "We anticipate potential issues before they arise, implementing preventive measures to maintain seamless operations.",
+    "stripicon": "/proactive_issue_resolution.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Continuous Improvement",
+    "stripdesc": "We regularly review and refine support processes to ensure that they remain aligned with evolving business goals and industry standards.",
+    "stripicon": "/continious_improvement.png"
+  },
+  {
+    "id": "3",
+    "striptitle": "Client-Centered Solutions",
+    "stripdesc": "We tailor our support to your specific operational needs, working closely with you to understand and address unique challenges.",
+    "stripicon": "/client_centered_solutions.png"
+  },
+  {
+    "id": "4",
+    "striptitle": "Efficiency-Driven Strategy",
+    "stripdesc": "We focus on eliminating wasteful processes and introducing streamlined workflows that enhance productivity and reduce costs.",
+    "stripicon": "/efficient_driven_startegy.png"
+  }
+]
