@@ -1,0 +1,39 @@
+.secondsectionstripcard-container {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border-top-right-radius: 60px; /* Apply radius to the top-right corner */
+  border-bottom-right-radius: 60px;
+  width: 80%;
+}
+
+.secondsectionstripcard-leftsection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.secondsectionstripcard-heading {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.secondsectionstripcard-description {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.secondsectionstripcard-rightsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondsectionstripcard-icon {
+  width: 100%;
+  height: auto;
+}

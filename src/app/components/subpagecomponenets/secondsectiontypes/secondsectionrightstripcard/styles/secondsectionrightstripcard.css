@@ -1,0 +1,39 @@
+.secondsectionstripcardright-container {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border-top-left-radius: 60px; /* Apply radius to the top-left corner */
+  border-bottom-left-radius: 60px;
+  width: 100%;
+}
+
+.secondsectionstripcardright-leftsection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.secondsectionstripcardright-heading {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.secondsectionstripcardright-description {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.secondsectionstripcardright-rightsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondsectionstripcardright-icon {
+  width: 100%;
+  height: auto;
+}
