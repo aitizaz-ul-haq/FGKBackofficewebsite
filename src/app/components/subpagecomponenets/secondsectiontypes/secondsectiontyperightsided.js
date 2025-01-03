@@ -3,7 +3,6 @@ import SecondSectionRightStripCard from "./secondsectionrightstripcard/secondsec
 
 export default function SecondSectionRightSided({
   textdata,
-  leftstripcarddata,
   rightstripcarddata,
 }) {
   return (
