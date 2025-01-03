@@ -1,29 +1,22 @@
 .subpagehero-section {
   width: 100%;
-  height: 100vh; /* Full viewport height */
-  background-image: url("../../../../../public/Hero_Background.png");
-  background-size: cover; /* Ensure the image covers the section */
-  background-position: center; /* Center the background */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  position: relative; /* For positioned child elements */
-  display: flex; /* Flexbox for alignment */
-  flex-direction: column; /* Stack content */
-  /* justify-content: flex-start;
-    align-items: center; */
-  z-index: 0; /* Ensure it appears below the header */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
 }
 
 .subpagehero-content {
-  /* text-align: left; */
-  z-index: 1; /* Ensure it appears above the background */
-  color: black; /* Text color */
-  /* margin-top: 22rem;
-    margin-bottom: 22rem;
-    padding: 2rem; */
+  z-index: 1;
+  color: black;
 }
 
 .subpagehero-title {
-  font-size: 3rem; /* Adjust for responsiveness */
+  font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: 300;
 }
@@ -32,7 +25,6 @@
   font-size: 1.25rem;
   max-width: 600px;
   font-weight: 300;
-  /* margin: 0 auto; */
 }
 
 .subpagehero-button {
@@ -62,7 +54,7 @@
 @media (max-width: 320px) {
   .subpagehero-section {
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     background-position: top right;
     flex-direction: column;
     justify-content: flex-end;

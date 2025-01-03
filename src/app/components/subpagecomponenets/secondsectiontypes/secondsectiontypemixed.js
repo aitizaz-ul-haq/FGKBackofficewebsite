@@ -9,7 +9,12 @@ export default function SecondSectionTypeMixed({
 }) {
   return (
     <>
-      <div className="secondsectionmixed-container">
+      <div
+        className="secondsectionmixed-container"
+        style={{
+          backgroundImage: `url(${textdata.pagebackground})`,
+        }}
+      >
         <div className="secondsectionmixed-leftsection">
           <div className="secondsectionmixed-leftsection-text-container">
             <div className="secondsectionmixed-leftsection-text-heading font-inter">
