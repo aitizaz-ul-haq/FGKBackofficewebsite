@@ -2,6 +2,9 @@ import SubPageHeroSection from "@/app/components/subpagecomponenets/subpageheros
 import { getHeroData } from "@/app/utils/gethreodata";
 import ProgMagGridSection from "@/app/components/subpagecomponenets/projmanag/promaggridsection";
 import SecondSectionTypeMixed from "@/app/components/subpagecomponenets/secondsectiontypes/secondsectiontypemixed";
+import textdata from "@/app/data/subpagedata/projectmanagementdata/secondsectiondata/textdata.json";
+import leftstripcarddata from "@/app/data/subpagedata/projectmanagementdata/secondsectiondata/leftstripdata.json";
+import rightstripcarddata from "@/app/data/subpagedata/projectmanagementdata/secondsectiondata/rightstripdata.json";
 
 export default function ProjectManagement() {
   const data = getHeroData("project-management");
@@ -9,7 +12,11 @@ export default function ProjectManagement() {
     <>
       <SubPageHeroSection data={data} />
       <ProgMagGridSection />
-      <SecondSectionTypeMixed />
+      <SecondSectionTypeMixed
+        textdata={textdata}
+        leftstripcarddata={leftstripcarddata}
+        rightstripcarddata={rightstripcarddata}
+      />
     </>
   );
 }

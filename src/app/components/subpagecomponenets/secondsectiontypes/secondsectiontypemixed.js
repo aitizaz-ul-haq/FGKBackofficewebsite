@@ -2,30 +2,24 @@ import "./styles/secondsectiontypemixed.css";
 import SecondSectionLeftStripCard from "./secondsectionleftstripcard/secondsectionleftstripcard";
 import SecondSectionRightStripCard from "./secondsectionrightstripcard/secondsectionrightstripcard";
 
-export default function SecondSectionTypeMixed() {
+export default function SecondSectionTypeMixed({
+  textdata,
+  leftstripcarddata,
+  rightstripcarddata,
+}) {
   return (
     <>
       <div className="secondsectionmixed-container">
         <div className="secondsectionmixed-leftsection">
           <div className="secondsectionmixed-leftsection-text-container">
             <div className="secondsectionmixed-leftsection-text-heading font-inter">
-              Our Approach to Project Management
+              {textdata.textsectiontitle}
             </div>
             <div className="secondsectionmixed-leftsection-text-description font-inter">
-              At FGK Back Office Services, we employ industry best practices and
-              tailor our approach to meet your specific project requirements.
-              Our process integrates strategic planning, proactive risk
-              management, transparent communication, and efficient execution. We
-              leverage cutting-edge project management tools and methodologies,
-              including Agile, Waterfall, and hybrid approaches, to align with
-              your business goals.
+              {textdata.textsectionparaone}
             </div>
             <div className="secondsectionmixed-leftsection-text-description font-inter">
-              Our process integrates strategic planning, proactive risk
-              management, transparent communication, and efficient execution. We
-              leverage cutting-edge project management tools and methodologies,
-              including Agile, Waterfall, and hybrid approaches, to align with
-              your business goals.
+              {textdata.textsectionparatwo}
             </div>
             <button className="secondsectionmixed-leftsection-text-button font-inter">
               Hire A Professional
@@ -33,15 +27,25 @@ export default function SecondSectionTypeMixed() {
           </div>
 
           <div className="secondsectionmixed-leftsection-strips-container">
-            <SecondSectionLeftStripCard />
-            <SecondSectionLeftStripCard />
+            {leftstripcarddata.map((strip) => (
+              <SecondSectionLeftStripCard
+                key={strip.id}
+                striptitle={strip.striptitle}
+                stripdesc={strip.stripdesc}
+                stripicon={strip.stripicon}
+              />
+            ))}
           </div>
         </div>
         <div className="secondsectionmixed-rightsection">
-          <SecondSectionRightStripCard />
-          <SecondSectionRightStripCard />
-          <SecondSectionRightStripCard />
-          <SecondSectionRightStripCard />
+          {rightstripcarddata.map((rightstrip) => (
+            <SecondSectionRightStripCard
+              key={rightstrip.id}
+              striptitle={rightstrip.striptitle}
+              stripdesc={rightstrip.stripdesc}
+              stripicon={rightstrip.stripicon}
+            />
+          ))}
         </div>
       </div>
     </>

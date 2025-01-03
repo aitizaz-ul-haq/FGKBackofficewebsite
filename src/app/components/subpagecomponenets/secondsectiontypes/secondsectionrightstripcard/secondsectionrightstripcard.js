@@ -1,13 +1,17 @@
 import "./styles/secondsectionrightstripcard.css";
 import Image from "next/image";
 
-export default function SecondSectionRightStripCard() {
+export default function SecondSectionRightStripCard({
+  striptitle,
+  stripdesc,
+  stripicon,
+}) {
   return (
     <>
       <div className="secondsectionstripcardright-container">
         <div className="secondsectionstripcardright-rightsection">
           <Image
-            src="/reponsive_web_design.png"
+            src={stripicon}
             width={40}
             height={40}
             className="secondsectionstripcardright-icon"
@@ -15,11 +19,10 @@ export default function SecondSectionRightStripCard() {
         </div>
         <div className="secondsectionstripcardright-leftsection">
           <div className="secondsectionstripcardright-heading font-roboto-sarif">
-            Timely Delivery
+            {striptitle}
           </div>
           <div className="secondsectionstripcardright-description font-inter">
-            We prioritize clear timelines and ensure all milestones are met to
-            keep your project on track.
+            {stripdesc}
           </div>
         </div>
       </div>

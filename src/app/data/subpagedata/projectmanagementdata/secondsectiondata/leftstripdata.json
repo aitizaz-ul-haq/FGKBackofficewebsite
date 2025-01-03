@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "striptitle": "Timely Delivery",
+    "stripdesc": "We prioritize clear timelines and ensure all milestones are met to keep your project on track.",
+    "stripicon": "/timely_delivery.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Risk Mitigation",
+    "stripdesc": "Through detailed risk analysis and proactive problem-solving, we minimize potential setbacks.",
+    "stripicon": "/risk_mitigation.png"
+  }
+]
