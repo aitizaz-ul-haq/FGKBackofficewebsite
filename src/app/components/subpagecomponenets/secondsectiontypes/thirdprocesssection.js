@@ -15,7 +15,7 @@ export default function ThirdProcessSection({
           backgroundImage: `url(${textdata.thirdsectionpagebackground})`,
         }}
       >
-        <div className="thirdprocesssection-container">
+        <div className="thirdprocesssection-sections-container">
           <div className="thirdprocesssection-leftsection-text-container">
             <div className="thirdprocesssection-leftsection-text-heading font-inter">
               {textdata.thirdsectiontitle}
@@ -53,6 +53,9 @@ export default function ThirdProcessSection({
             ))}
           </div>
         </div>
+        <button className="thirdprocesssection-bottom-button font-inter">
+          Hire A Professional
+        </button>
       </div>
     </>
   );
