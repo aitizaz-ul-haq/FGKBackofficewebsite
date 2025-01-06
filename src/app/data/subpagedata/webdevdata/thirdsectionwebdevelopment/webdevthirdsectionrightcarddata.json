@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "striptitle": "User-Centered Design",
-    "stripdesc": "We prioritize intuitive, user-friendly interfaces that make navigating the website a seamless experience. Every design decision is centered around enhancing user satisfaction and accessibility.",
-    "stripicon": "/user_centered_design.png"
+    "striptitle": "Final Discovery and Forethought ",
+    "stripdesc": "We begin by clearly defining the project’s objectives, scope, and stakeholders. This foundational step sets the stage for a focused and goal-driven project plan.",
+    "stripicon": "/final_discovery_and_forethought.png"
   },
   {
     "id": "2",
-    "striptitle": "Responsive and Adaptive Layouts",
-    "stripdesc": " With a mobile-first approach, we ensure that your website functions perfectly across all devices, offering a consistent experience on desktops, tablets, and smartphones.",
-    "stripicon": "/responsive_and_adaptive_layouts.png"
+    "striptitle": "Design and Prototyping",
+    "stripdesc": "Resources are assigned based on skill sets, availability, and project needs. Ensuring the right people and tools are in place is crucial for smooth execution.",
+    "stripicon": "/design_and_prototype.png"
   },
   {
     "id": "3",
-    "striptitle": "Robust and Scalable Code",
-    "stripdesc": "We use the latest technologies and best practices to write clean, efficient, and scalable code, ensuring your website performs optimally now and can grow with your business.",
-    "stripicon": "/robut_scalable_code.png"
+    "striptitle": "Web Quality and Performance",
+    "stripdesc": "We work closely with your team and stakeholders, ensuring full transparency and smooth coordination.",
+    "stripicon": "/web_quality_and_performance.png"
   },
   {
     "id": "4",
-    "striptitle": "Robust and Scalable Code",
-    "stripdesc": "We use the latest technologies and best practices to write clean, efficient, and scalable code, ensuring your website performs optimally now and can grow with your business.",
-    "stripicon": "/robut_scalable_code.png"
+    "striptitle": "Continuous Maintenance",
+    "stripdesc": "Keeping stakeholders informed is essential for project success. We provide regular updates, conduct review meetings, and ensure that feedback is incorporated promptly.",
+    "stripicon": "/continuous_maintainnace.png"
   }
 ]

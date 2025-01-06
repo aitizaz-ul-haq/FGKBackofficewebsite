@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "striptitle": "User-Centered Design",
-    "stripdesc": "We prioritize intuitive, user-friendly interfaces that make navigating the website a seamless experience. Every design decision is centered around enhancing user satisfaction and accessibility.",
-    "stripicon": "/user_centered_design.png"
+    "striptitle": "Listing the Requisites",
+    "stripdesc": "We create a detailed project plan that outlines tasks, timelines, resources, and risk management strategies. This blueprint acts as the guide for all project activities.",
+    "stripicon": "/listing_the_requisits.png"
   },
   {
     "id": "2",
-    "striptitle": "Responsive and Adaptive Layouts",
-    "stripdesc": " With a mobile-first approach, we ensure that your website functions perfectly across all devices, offering a consistent experience on desktops, tablets, and smartphones.",
-    "stripicon": "/responsive_and_adaptive_layouts.png"
+    "striptitle": "Absolute Web Development",
+    "stripdesc": "The project plan is put into action, with teams completing assigned tasks and project managers overseeing progress. Our managers ensure that each task aligns with project goals and quality standards.",
+    "stripicon": "/absoulute_web_development.png"
   },
   {
     "id": "3",
-    "striptitle": "Robust and Scalable Code",
-    "stripdesc": "We use the latest technologies and best practices to write clean, efficient, and scalable code, ensuring your website performs optimally now and can grow with your business.",
-    "stripicon": "/robut_scalable_code.png"
+    "striptitle": "Ultimate Web Launch",
+    "stripdesc": "Throughout the project, we proactively identify potential risks and implement strategies to mitigate them. This minimizes disruptions and maintains project momentum.",
+    "stripicon": "/ultimate_web_launch.png"
   },
   {
     "id": "4",
-    "striptitle": "Robust and Scalable Code",
-    "stripdesc": "We use the latest technologies and best practices to write clean, efficient, and scalable code, ensuring your website performs optimally now and can grow with your business.",
-    "stripicon": "/robut_scalable_code.png"
+    "striptitle": "Project Closure and Review",
+    "stripdesc": "Once the project is completed, we conduct a thorough review to ensure all deliverables meet the defined standards and objectives. We gather lessons learned to refine future projects and provide final documentation to clients.",
+    "stripicon": "/project_closure_and_review.png"
   }
 ]
