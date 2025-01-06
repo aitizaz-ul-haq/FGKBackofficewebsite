@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "striptitle": "Project Initiation and Definition",
+    "stripdesc": "We begin by clearly defining the project’s objectives, scope, and stakeholders. This foundational step sets the stage for a focused and goal-driven project plan.",
+    "stripicon": "/project_initation.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Resource Allocation and Team Assignment",
+    "stripdesc": "Resources are assigned based on skill sets, availability, and project needs. Ensuring the right people and tools are in place is crucial for smooth execution.",
+    "stripicon": "/resource_allocation_team.png"
+  },
+  {
+    "id": "3",
+    "striptitle": "Progress Tracking and Monitoring",
+    "stripdesc": "We work closely with your team and stakeholders, ensuring full transparency and smooth coordination.",
+    "stripicon": "/progress_tracking.png"
+  },
+  {
+    "id": "4",
+    "striptitle": "Stakeholder Communication and Updates",
+    "stripdesc": "Keeping stakeholders informed is essential for project success. We provide regular updates, conduct review meetings, and ensure that feedback is incorporated promptly.",
+    "stripicon": "/stakeholder-communication_and_updates.png"
+  }
+]

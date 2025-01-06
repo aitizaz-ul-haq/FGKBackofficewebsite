@@ -6,6 +6,11 @@ import textdata from "@/app/data/subpagedata/projectmanagementdata/secondsection
 import leftstripcarddata from "@/app/data/subpagedata/projectmanagementdata/secondsectiondata/leftstripdata.json";
 import rightstripcarddata from "@/app/data/subpagedata/projectmanagementdata/secondsectiondata/rightstripdata.json";
 
+import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
+import ProjMangThirdSectionTextData from "@/app/data/subpagedata/projectmanagementdata/thirdsectionprojectmanagement/projmangthirdsectiontextdata.json";
+import ProjMangThirdSectionLeftCardData from "@/app/data/subpagedata/projectmanagementdata/thirdsectionprojectmanagement/projmangthirdsectionleftcarddata.json";
+import ProjMangThirdSectionRightCardData from "@/app/data/subpagedata/projectmanagementdata/thirdsectionprojectmanagement/projmangthirdsectionrightcarddata.json";
+
 export default function ProjectManagement() {
   const data = getHeroData("project-management");
   return (
@@ -16,6 +21,11 @@ export default function ProjectManagement() {
         textdata={textdata}
         leftstripcarddata={leftstripcarddata}
         rightstripcarddata={rightstripcarddata}
+      />
+      <ThirdProcessSection
+        textdata={ProjMangThirdSectionTextData}
+        leftstripcarddata={ProjMangThirdSectionLeftCardData}
+        rightstripcarddata={ProjMangThirdSectionRightCardData}
       />
     </>
   );
