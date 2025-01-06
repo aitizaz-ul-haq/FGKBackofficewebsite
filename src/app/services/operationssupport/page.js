@@ -6,6 +6,11 @@ import operatetextdata from "@/app/data/subpagedata/operatsup/secondsectionopera
 import operateleftstripdata from "@/app/data/subpagedata/operatsup/secondsectionoperatsudata/operatesupleftstripdata.json";
 import operaterightstripdata from "@/app/data/subpagedata/operatsup/secondsectionoperatsudata/operatesuprightstripdata.json";
 
+import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
+import OperatsupThirdSectionTextData from "@/app/data/subpagedata/operatsup/thirdsectionoperatsup/operatsupthirdsectiontextdata.json";
+import OperatsupThirdSectionLeftCardData from "@/app/data/subpagedata/operatsup/thirdsectionoperatsup/operatsupthirdsectionleftcarddata.json";
+import OperatsupThirdSectionRightCardData from "@/app/data/subpagedata/operatsup/thirdsectionoperatsup/operatsupthirdsectionrightcarddata.json";
+
 export default function OperationsSupport() {
   const data = getHeroData("operations-support");
   return (
@@ -16,6 +21,11 @@ export default function OperationsSupport() {
         textdata={operatetextdata}
         leftstripcarddata={operateleftstripdata}
         rightstripcarddata={operaterightstripdata}
+      />
+      <ThirdProcessSection
+        textdata={OperatsupThirdSectionTextData}
+        leftstripcarddata={OperatsupThirdSectionLeftCardData}
+        rightstripcarddata={OperatsupThirdSectionRightCardData}
       />
     </>
   );
