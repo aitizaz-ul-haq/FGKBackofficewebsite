@@ -5,6 +5,11 @@ import SecondSectionRightSided from "@/app/components/subpagecomponenets/seconds
 import humrestextdata from "@/app/data/subpagedata/humresdata/secondsectionhumanresourcesdata/humrestextdata.json";
 import humresrightsidestripdata from "@/app/data/subpagedata/humresdata/secondsectionhumanresourcesdata/humresrightstripdata.json";
 
+import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
+import HumresThirdSectionTextData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectiontextdata.json";
+import HumresThirdSectionLeftCardData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectionleftcarddata.json";
+import HumresThirdSectionRightCardData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectionrightcarddata.json";
+
 export default function HumanResources() {
   const data = getHeroData("human-resources");
   return (
@@ -14,6 +19,11 @@ export default function HumanResources() {
       <SecondSectionRightSided
         textdata={humrestextdata}
         rightstripcarddata={humresrightsidestripdata}
+      />
+      <ThirdProcessSection
+        textdata={HumresThirdSectionTextData}
+        leftstripcarddata={HumresThirdSectionLeftCardData}
+        rightstripcarddata={HumresThirdSectionRightCardData}
       />
     </>
   );

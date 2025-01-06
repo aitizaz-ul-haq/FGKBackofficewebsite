@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "striptitle": "Workforce Planning",
+    "stripdesc": "Structuring your workforce to align with both current and future business needs.",
+    "stripicon": "/workforce_planning.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Employee Relations Management",
+    "stripdesc": "Managing interactions between employees and the organization to foster a positive and productive work environment.",
+    "stripicon": "/employee_relations_management.png"
+  },
+  {
+    "id": "3",
+    "striptitle": "Performance Monitoring & Evaluation",
+    "stripdesc": "Regularly assessing employee performance and providing actionable feedback.",
+    "stripicon": "/performance_monitoring_evaluation.png"
+  },
+  {
+    "id": "4",
+    "striptitle": "Continuous Improvement",
+    "stripdesc": " Reviewing and refining HR processes to ensure ongoing efficiency and alignment with organizational goals.",
+    "stripicon": "/continuous_improvement_third.png"
+  }
+]

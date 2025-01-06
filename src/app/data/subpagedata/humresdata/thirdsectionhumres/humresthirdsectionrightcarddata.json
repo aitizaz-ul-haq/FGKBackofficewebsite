@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "striptitle": "HR Needs Analysis",
+    "stripdesc": "Assessing your organization’s unique HR requirements to develop a customized HR strategy.",
+    "stripicon": "/hr_needs_analysis.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Talent Acquisition & Onboarding",
+    "stripdesc": "Recruiting and seamlessly integrating new hires into the company culture and workflows.",
+    "stripicon": "/talent_aquisition_and_onboarding.png"
+  },
+  {
+    "id": "3",
+    "striptitle": "Training & Development Programs",
+    "stripdesc": "Implementing skill-building and development initiatives to enhance employee capabilities.",
+    "stripicon": "/training_and_development_programs.png"
+  },
+  {
+    "id": "4",
+    "striptitle": "Compliance Audits & Risk Management",
+    "stripdesc": "Conducting audits to ensure compliance and proactively managing HR risks.",
+    "stripicon": "/compliance_audits_and_risk_management.png"
+  }
+]
