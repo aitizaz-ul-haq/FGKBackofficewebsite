@@ -15,7 +15,7 @@ export default function SecondSectionTypeTopAndBottom({
           backgroundImage: `url(${textdata.pagebackground})`,
         }}
       >
-        <div className="secondsectiontypetopandbottom-leftsection">
+        <div className="secondsectiontypetopandbottom-container">
           <div className="secondsectiontypetopandbottom-leftsection-text-container">
             <div className="secondsectiontypetopandbottom-leftsection-text-heading font-inter">
               {textdata.textsectiontitle}

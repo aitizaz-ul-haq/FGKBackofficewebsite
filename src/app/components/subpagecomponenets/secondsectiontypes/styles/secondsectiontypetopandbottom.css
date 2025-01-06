@@ -222,15 +222,15 @@
 
   .secondsectiontypetopandbottom-bottom-container {
     flex-direction: row;
-    gap: 1rem;
+    gap: 0rem;
   }
 
-  .secondsectiontypetopandbottom-leftsection {
-    width: 100%;
+  .secondsectiontypetopandbottom-leftsection-strips-container {
+    width: 50%;
   }
 
   .secondsectiontypetopandbottom-rightsection {
-    width: 83%;
+    width: 50%;
     padding-left: 1rem;
   }
 
@@ -246,11 +246,54 @@
 }
 
 /* Medium laptops (>= 1024px) */
-/* @media (min-width: 1024px) {
-} */
+@media (min-width: 1024px) {
+  .secondsectiontypetopandbottom-bottom-container {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .secondsectiontypetopandbottom-leftsection-strips-container {
+    width: 40%;
+  }
+
+  .secondsectiontypetopandbottom-rightsection {
+    width: 60%;
+    padding-left: 1rem;
+  }
+
+  .secondsectiontypetopandbottom-leftsection-strips-container {
+    width: 50%;
+  }
+
+  .secondsectiontypetopandbottom-rightsection {
+    width: 50%;
+    padding-left: 1rem;
+  }
+
+  .secondsectiontypetopandbottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secondsectiontypetopandbottom-leftsection-text-container {
+    margin-left: 0.2rem;
+    padding-left: 0.6rem;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    width: 70%;
+  }
+}
 
 /* Large laptops and desktops (>= 1280px) */
-/* @media (min-width: 1280px) {
+@media (min-width: 1280px) {
+  .secondsectiontypetopandbottom-bottom-container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
   .secondsectiontypetopandbottom-leftsection-text-heading {
     font-size: 2rem;
     font-weight: 100;
@@ -260,10 +303,10 @@
     font-size: 1rem;
     font-weight: 200;
   }
-} */
+}
 
 /* Extra-large desktops (>= 1440px) */
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
   .secondsectiontypetopandbottom-leftsection-text-heading {
     font-size: 3.4rem;
     font-weight: 100;
@@ -273,10 +316,10 @@
     font-size: 1rem;
     font-weight: 200;
   }
-} */
+}
 
 /* Ultra-wide screens (>= 1600px) */
-/* @media (min-width: 1600px) {
+@media (min-width: 1600px) {
   .secondsectiontypetopandbottom-leftsection-text-heading {
     font-size: 4rem;
     font-weight: 100;
@@ -286,31 +329,34 @@
     font-size: 1.2rem;
     font-weight: 200;
   }
-} */
+}
 
 /* Ultra-wide screens (>= 1600px) */
-/* @media (min-width: 1920px) {
-} */
+@media (min-width: 1920px) {
+  .secondsectiontypetopandbottom-leftsection-text-container {
+    width: 55%;
+  }
+}
 
 /* 4K screens (>= 1920px) */
-/* @media (min-width: 2560px) {
-} */
+@media (min-width: 2560px) {
+}
 
 /* Iphone SE */
-/* @media (width: 375px) and (height: 667px) {
-} */
+@media (width: 375px) and (height: 667px) {
+}
 
 /* Iphone XR */
-/* @media (width: 414px) and (height: 896px) {
-} */
+@media (width: 414px) and (height: 896px) {
+}
 
 /* Iphone 12 Pro */
-/* @media (width: 390px) and (height: 844px) {
-} */
+@media (width: 390px) and (height: 844px) {
+}
 
 /* Iphone 14 Pro Max */
-/* @media (width: 430px) and (height: 932px) {
-} */
+@media (width: 430px) and (height: 932px) {
+}
 
 /* Pixel 7 */
 @media (width: 412px) and (height: 915px) {
