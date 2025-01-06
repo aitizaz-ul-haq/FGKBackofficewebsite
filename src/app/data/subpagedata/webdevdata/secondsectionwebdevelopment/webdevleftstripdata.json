@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "striptitle": "Recruitment & Talent Acquisition",
-    "stripdesc": "Through detailed risk analysis and proactive problem-solving, we minimize potential setbacks.",
-    "stripicon": "/recruitment_&_talent_aquisition.png"
+    "striptitle": "User-Centered Design",
+    "stripdesc": "We prioritize intuitive, user-friendly interfaces that make navigating the website a seamless experience. Every design decision is centered around enhancing user satisfaction and accessibility.",
+    "stripicon": "/user_centered_design.png"
   },
   {
     "id": "2",
-    "striptitle": "Compensation & Benefits Planning",
-    "stripdesc": "We prioritize clear timelines and ensure all milestones are met to keep your project on track.",
-    "stripicon": "/compensation_&_Benefits.png"
+    "striptitle": "Responsive and Adaptive Layouts",
+    "stripdesc": " With a mobile-first approach, we ensure that your website functions perfectly across all devices, offering a consistent experience on desktops, tablets, and smartphones.",
+    "stripicon": "/responsive_and_adaptive_layouts.png"
   },
   {
     "id": "3",
-    "striptitle": "HR Data & Analytics",
-    "stripdesc": "We work closely with your team and stakeholders, ensuring full transparency and smooth coordination.",
-    "stripicon": "/hr_and_data_analytics.png"
+    "striptitle": "Robust and Scalable Code",
+    "stripdesc": "We use the latest technologies and best practices to write clean, efficient, and scalable code, ensuring your website performs optimally now and can grow with your business.",
+    "stripicon": "/robut_scalable_code.png"
   }
 ]
