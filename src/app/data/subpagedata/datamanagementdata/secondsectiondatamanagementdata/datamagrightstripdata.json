@@ -24,13 +24,13 @@
     "stripicon": "/customized_data_solutions.png"
   },
   {
-    "id": "3",
+    "id": "5",
     "striptitle": "Compliance and Governance",
     "stripdesc": "We ensure all data practices adhere to relevant regulations, safeguarding against legal risks and enhancing data governance.",
     "stripicon": "/compliance_and_governance.png"
   },
   {
-    "id": "4",
+    "id": "6",
     "striptitle": "Continuous Improvement",
     "stripdesc": "We routinely assess data processes, implementing enhancements to improve data accuracy, accessibility, and security.",
     "stripicon": "/conyinious_improvement.png"
