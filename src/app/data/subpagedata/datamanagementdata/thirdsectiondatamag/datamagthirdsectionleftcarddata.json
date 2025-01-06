@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "striptitle": "Data Architecture Design",
+    "stripdesc": "Based on your needs, we develop a data architecture that supports efficient storage, retrieval, and analysis.",
+    "stripicon": "/data_archetechture_design.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Data Cleansing and Quality Assurance",
+    "stripdesc": "We clean and validate data to eliminate inaccuracies and inconsistencies, ensuring data integrity.",
+    "stripicon": "/data_cleansning_and_quality_assurance.png"
+  },
+  {
+    "id": "3",
+    "striptitle": "Data Storage and Backup",
+    "stripdesc": "We set up secure storage solutions and backup systems, ensuring data is readily available and protected against loss.",
+    "stripicon": "/data_storage_backup.png"
+  },
+  {
+    "id": "4",
+    "striptitle": "Ongoing Monitoring and Optimization",
+    "stripdesc": "Regular audits and adjustments ensure data management processes remain efficient, compliant, and aligned with evolving needs.",
+    "stripicon": "/ongoing_monitoring_and_optimization.png"
+  }
+]

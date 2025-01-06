@@ -5,6 +5,11 @@ import SecondSectionRightSided from "@/app/components/subpagecomponenets/seconds
 import textdata from "@/app/data/subpagedata/datamanagementdata/secondsectiondatamanagementdata/datamagtextdata.json";
 import rightstripcarddata from "@/app/data/subpagedata/datamanagementdata/secondsectiondatamanagementdata/datamagrightstripdata.json";
 
+import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
+import DatamagThirdSectionTextData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectiontextdata.json";
+import DatamagThirdSectionLeftCardData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectionleftcarddata.json";
+import DatamagThirdSectionRightCardData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectionrightcarddata.json";
+
 export default function DataManagement() {
   const data = getHeroData("data-management");
   return (
@@ -14,6 +19,11 @@ export default function DataManagement() {
       <SecondSectionRightSided
         textdata={textdata}
         rightstripcarddata={rightstripcarddata}
+      />
+      <ThirdProcessSection
+        textdata={DatamagThirdSectionTextData}
+        leftstripcarddata={DatamagThirdSectionLeftCardData}
+        rightstripcarddata={DatamagThirdSectionRightCardData}
       />
     </>
   );

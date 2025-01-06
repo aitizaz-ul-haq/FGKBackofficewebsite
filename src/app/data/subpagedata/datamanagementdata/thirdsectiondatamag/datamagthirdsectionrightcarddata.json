@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "striptitle": "Data Needs Assessment",
+    "stripdesc": "We begin with a thorough evaluation of your data requirements and current practices, identifying areas for improvement.",
+    "stripicon": "/data_needs_assesment.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Data Integration",
+    "stripdesc": " We integrate data from various sources into a cohesive, unified system to improve accessibility and streamline operations.",
+    "stripicon": "/data_integration_third.png"
+  },
+  {
+    "id": "3",
+    "striptitle": "Data Security Implementation",
+    "stripdesc": "We establish robust security protocols, including encryption and access controls, to protect sensitive data.",
+    "stripicon": "/data_security_implementation.png"
+  },
+  {
+    "id": "4",
+    "striptitle": "Analytics and Reporting Setup",
+    "stripdesc": "We implement tools and processes for data analysis, enabling real-time reporting and actionable insights.",
+    "stripicon": "/analytics_and_reporting_setup.png"
+  }
+]
