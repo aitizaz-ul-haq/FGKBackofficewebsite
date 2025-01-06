@@ -177,7 +177,7 @@
 @media (min-width: 1920px) {
   .secondsectionstripcardright-container {
     /* width: 86%; */
-    padding: 2.5rem;
+    padding: 1.5rem;
     border-top-left-radius: 80px; /* Apply radius to the top-left corner */
     border-bottom-left-radius: 80px;
   }

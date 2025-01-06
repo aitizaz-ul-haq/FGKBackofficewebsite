@@ -190,7 +190,7 @@
 @media (min-width: 1920px) {
   .secondsectionstripcard-container {
     width: 90%;
-    padding: 2.5rem;
+    padding: 1.5rem;
     border-top-right-radius: 80px; /* Apply radius to the top-left corner */
     border-bottom-right-radius: 80px;
   }
