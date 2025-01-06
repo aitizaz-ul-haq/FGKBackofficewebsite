@@ -6,6 +6,11 @@ import webdevtextdata from "@/app/data/subpagedata/webdevdata/secondsectionwebde
 import webdevleftstripdata from "@/app/data/subpagedata/webdevdata/secondsectionwebdevelopment/webdevleftstripdata.json";
 import webdevrightstripdata from "@/app/data/subpagedata/webdevdata/secondsectionwebdevelopment/webdevrightstripdata.json";
 
+import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
+import WebDevThirdSectionTextData from "@/app/data/subpagedata/webdevdata/thirdsectionwebdevelopment/webdevthirdsectiontextdata.json";
+import WebDevThirdSectionLeftCardData from "@/app/data/subpagedata/webdevdata/thirdsectionwebdevelopment/webdevthirdsectionleftcarddata.json";
+import WebDevThirdSectionRightCardData from "@/app/data/subpagedata/webdevdata/thirdsectionwebdevelopment/webdevthirdsectionrightcarddata.json";
+
 export default function WebDevelopment() {
   const data = getHeroData("web-development");
   return (
@@ -16,6 +21,11 @@ export default function WebDevelopment() {
         textdata={webdevtextdata}
         leftstripcarddata={webdevleftstripdata}
         rightstripcarddata={webdevrightstripdata}
+      />
+      <ThirdProcessSection
+        textdata={WebDevThirdSectionTextData}
+        leftstripcarddata={WebDevThirdSectionLeftCardData}
+        rightstripcarddata={WebDevThirdSectionRightCardData}
       />
     </>
   );
