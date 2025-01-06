@@ -6,6 +6,11 @@ import accreptextdata from "@/app/data/subpagedata/accandrepdata/secondsectionac
 import accrepleftstripdata from "@/app/data/subpagedata/accandrepdata/secondsectionaccrep/accrepleftstripdata.json";
 import accreprightstripdata from "@/app/data/subpagedata/accandrepdata/secondsectionaccrep/accreprightstripdata.json";
 
+import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
+import AccrepThirdSectionTextData from "@/app/data/subpagedata/accandrepdata/thirdsectionaccrep/accrepthirdsectiontextdata.json";
+import AccrepThirdSectionLeftCardData from "@/app/data/subpagedata/accandrepdata/thirdsectionaccrep/accrepthirdsectionleftcarddata.json";
+import AccrepThirdSectionRightCardData from "@/app/data/subpagedata/accandrepdata/thirdsectionaccrep/accrepthirdsectionrightcarddata.json";
+
 export default function AccountingAndReporting() {
   const data = getHeroData("accounting-&-reporting");
   return (
@@ -16,6 +21,11 @@ export default function AccountingAndReporting() {
         textdata={accreptextdata}
         leftstripcarddata={accrepleftstripdata}
         rightstripcarddata={accreprightstripdata}
+      />
+      <ThirdProcessSection
+        textdata={AccrepThirdSectionTextData}
+        leftstripcarddata={AccrepThirdSectionLeftCardData}
+        rightstripcarddata={AccrepThirdSectionRightCardData}
       />
     </>
   );

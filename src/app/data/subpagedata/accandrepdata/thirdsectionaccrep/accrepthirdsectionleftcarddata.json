@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "striptitle": "Custom Financial Plan Development",
+    "stripdesc": "Based on our assessment, we create a customized plan that addresses your specific accounting and reporting requirements.",
+    "stripicon": "/custom_financial_plan_development.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Daily Transaction Management",
+    "stripdesc": "Regular bookkeeping and transaction recording ensure all financial data is up-to-date and readily available for reporting.",
+    "stripicon": "/daily_transaction_management.png"
+  },
+  {
+    "id": "3",
+    "striptitle": "Financial Reporting",
+    "stripdesc": "We generate monthly, quarterly, and annual reports, providing detailed insights into your financial health and performance.",
+    "stripicon": "/financial_reporting_thirdsection.png"
+  },
+  {
+    "id": "4",
+    "striptitle": "Ongoing Review and Optimization",
+    "stripdesc": "Regular process reviews help us make adjustments to enhance reporting accuracy, compliance, and efficiency.",
+    "stripicon": "/ongoing_review_and_optimization.png"
+  }
+]
