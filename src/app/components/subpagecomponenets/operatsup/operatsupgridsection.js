@@ -1,5 +1,5 @@
 import "./styles/operatsupgridsection.css";
-import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
+import SubPagesGridCardSection from "../subpagesgridcardsection/subpagesgridcardsection";
 import operatsupdata from "../../../data/subpagedata/operatsup/operatesupgrid.json";
 import cardData from "../../../data/subpagedata/operatsup/operatesupgridcarddata.json";
 

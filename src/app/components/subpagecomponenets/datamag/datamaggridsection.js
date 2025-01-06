@@ -1,5 +1,5 @@
 import "./styles/datamaggridsection.css";
-import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
+import SubPagesGridCardSection from "../subpagesgridcardsection/subpagesgridcardsection";
 import datamagdata from "../../../data/subpagedata/datamanagementdata/datamaggrid.json";
 import datamagcarddata from "../../../data/subpagedata/datamanagementdata/datamaggridcarddata.json";
 

@@ -1,5 +1,5 @@
 import "./styles/webdevgridsection.css";
-import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
+import SubPagesGridCardSection from "../subpagesgridcardsection/subpagesgridcardsection";
 import webdevdata from "../../../data/subpagedata/webdevdata/webdevgrid.json";
 import webdevcarddata from "../../../data/subpagedata/webdevdata/webdevgridcarddata.json";
 

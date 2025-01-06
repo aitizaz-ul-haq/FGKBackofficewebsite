@@ -1,5 +1,5 @@
 import "./styles/humresgridsection.css";
-import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
+import SubPagesGridCardSection from "../subpagesgridcardsection/subpagesgridcardsection";
 import humresdata from "../../../data/subpagedata/humresdata/humresgrid.json";
 import humrescarddata from "../../../data/subpagedata/humresdata/humresgridcarddata.json";
 

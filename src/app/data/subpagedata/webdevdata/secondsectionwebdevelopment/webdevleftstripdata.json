@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "striptitle": "Recruitment & Talent Acquisition",
+    "stripdesc": "Through detailed risk analysis and proactive problem-solving, we minimize potential setbacks.",
+    "stripicon": "/recruitment_&_talent_aquisition.png"
+  },
+  {
+    "id": "2",
+    "striptitle": "Compensation & Benefits Planning",
+    "stripdesc": "We prioritize clear timelines and ensure all milestones are met to keep your project on track.",
+    "stripicon": "/compensation_&_Benefits.png"
+  },
+  {
+    "id": "3",
+    "striptitle": "HR Data & Analytics",
+    "stripdesc": "We work closely with your team and stakeholders, ensuring full transparency and smooth coordination.",
+    "stripicon": "/hr_and_data_analytics.png"
+  }
+]

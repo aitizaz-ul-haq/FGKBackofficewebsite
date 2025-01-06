@@ -1,5 +1,5 @@
 import "./styles/accrecgridsection.css";
-import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
+import SubPagesGridCardSection from "../subpagesgridcardsection/subpagesgridcardsection";
 import accandrepdata from "../../../data/subpagedata/accandrepdata/accandrepgrid.json";
 import accandrecardpdata from "../../../data/subpagedata/accandrepdata/accandrepgridcarddata.json";
 

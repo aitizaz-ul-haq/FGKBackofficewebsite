@@ -1,5 +1,5 @@
 import "./styles/progmaggridsection.css";
-import SubPagesGridCardSection from "../subpagesgridcardsection.js/subpagesgridcardsection";
+import SubPagesGridCardSection from "../subpagesgridcardsection/subpagesgridcardsection";
 import progmagdata from "../../../data/subpagedata/projectmanagementdata/progmaggrid.json";
 
 import progmagcarddata from "../../../data/subpagedata/projectmanagementdata/progmaggridcarddata.json";

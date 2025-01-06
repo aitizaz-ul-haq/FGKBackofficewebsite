@@ -1,0 +1,20 @@
+[
+  {
+    "id": "4",
+    "striptitle": "Employee Engagement & Development",
+    "stripdesc": "Our team consists of certified project management professionals (PMPs) with diverse industry experience.",
+    "stripicon": "/employee_engagement_&_development.png"
+  },
+  {
+    "id": "5",
+    "striptitle": "Compliance & Risk Management",
+    "stripdesc": "We understand that every project is unique. We customize our approach to suit your project's specific challenges and opportunities.",
+    "stripicon": "/compliance_&_Risk_Management.png"
+  },
+  {
+    "id": "4",
+    "striptitle": "Performance Management Systems",
+    "stripdesc": "We utilize the latest project management software and tools to streamline workflows, enhance communication, and provide real-time project tracking.",
+    "stripicon": "/performance_management_system.png"
+  }
+]
