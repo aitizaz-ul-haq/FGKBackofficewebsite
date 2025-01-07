@@ -1,0 +1,12 @@
+.subpagespointcard-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 1rem;
+}
+
+.subpagespointcard-uppersection {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}

@@ -1,0 +1,78 @@
+.subpagesadvantegessection-container {
+  width: 100%;
+  background-image: url("/accrep-advanteges_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-top: 13rem;
+  padding-bottom: 13rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* gap: 30rem; */
+}
+
+.subpagesadvantegessection-rightsection-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.subpagesadvantegessection-leftsection-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  width: 100%;
+}
+
+.advantegespoints-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end;
+  align-items: flex-end; */
+}
+
+.subpagesadvantegessection-heading {
+  font-size: 3rem;
+  font-weight: 100;
+  border-left: 3px solid #59c3c3;
+  padding-left: 1rem;
+}
+
+.subpagesadvantegessection-description {
+  font-size: 1.2rem;
+  font-weight: 200;
+  border-left: 3px solid #59c3c3;
+  padding-left: 1rem;
+}
+
+.left-list {
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.right-list {
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 1.8rem;
+}
+
+.subpagespointcard-heading {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.subpagespointcard-description {
+  font-weight: 300;
+  font-size: 1rem;
+}
