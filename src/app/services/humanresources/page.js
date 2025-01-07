@@ -10,6 +10,9 @@ import HumresThirdSectionTextData from "@/app/data/subpagedata/humresdata/thirds
 import HumresThirdSectionLeftCardData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectionleftcarddata.json";
 import HumresThirdSectionRightCardData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectionrightcarddata.json";
 
+import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
+import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
+
 export default function HumanResources() {
   const data = getHeroData("human-resources");
   return (
@@ -24,6 +27,10 @@ export default function HumanResources() {
         textdata={HumresThirdSectionTextData}
         leftstripcarddata={HumresThirdSectionLeftCardData}
         rightstripcarddata={HumresThirdSectionRightCardData}
+      />
+      <SubPagesIndustriesSection
+        heading={HumresIndustriesData.heading}
+        text={HumresIndustriesData.text}
       />
     </>
   );
