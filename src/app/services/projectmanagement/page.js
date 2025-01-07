@@ -11,6 +11,9 @@ import ProjMangThirdSectionTextData from "@/app/data/subpagedata/projectmanageme
 import ProjMangThirdSectionLeftCardData from "@/app/data/subpagedata/projectmanagementdata/thirdsectionprojectmanagement/projmangthirdsectionleftcarddata.json";
 import ProjMangThirdSectionRightCardData from "@/app/data/subpagedata/projectmanagementdata/thirdsectionprojectmanagement/projmangthirdsectionrightcarddata.json";
 
+import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
+import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
+
 export default function ProjectManagement() {
   const data = getHeroData("project-management");
   return (
@@ -26,6 +29,10 @@ export default function ProjectManagement() {
         textdata={ProjMangThirdSectionTextData}
         leftstripcarddata={ProjMangThirdSectionLeftCardData}
         rightstripcarddata={ProjMangThirdSectionRightCardData}
+      />
+      <SubPagesIndustriesSection
+        heading={HumresIndustriesData.heading}
+        text={HumresIndustriesData.text}
       />
     </>
   );

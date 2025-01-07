@@ -10,6 +10,9 @@ import DatamagThirdSectionTextData from "@/app/data/subpagedata/datamanagementda
 import DatamagThirdSectionLeftCardData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectionleftcarddata.json";
 import DatamagThirdSectionRightCardData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectionrightcarddata.json";
 
+import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
+import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
+
 export default function DataManagement() {
   const data = getHeroData("data-management");
   return (
@@ -24,6 +27,10 @@ export default function DataManagement() {
         textdata={DatamagThirdSectionTextData}
         leftstripcarddata={DatamagThirdSectionLeftCardData}
         rightstripcarddata={DatamagThirdSectionRightCardData}
+      />
+      <SubPagesIndustriesSection
+        heading={HumresIndustriesData.heading}
+        text={HumresIndustriesData.text}
       />
     </>
   );

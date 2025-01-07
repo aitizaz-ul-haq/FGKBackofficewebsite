@@ -11,6 +11,9 @@ import WebDevThirdSectionTextData from "@/app/data/subpagedata/webdevdata/thirds
 import WebDevThirdSectionLeftCardData from "@/app/data/subpagedata/webdevdata/thirdsectionwebdevelopment/webdevthirdsectionleftcarddata.json";
 import WebDevThirdSectionRightCardData from "@/app/data/subpagedata/webdevdata/thirdsectionwebdevelopment/webdevthirdsectionrightcarddata.json";
 
+import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
+import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
+
 export default function WebDevelopment() {
   const data = getHeroData("web-development");
   return (
@@ -26,6 +29,10 @@ export default function WebDevelopment() {
         textdata={WebDevThirdSectionTextData}
         leftstripcarddata={WebDevThirdSectionLeftCardData}
         rightstripcarddata={WebDevThirdSectionRightCardData}
+      />
+      <SubPagesIndustriesSection
+        heading={HumresIndustriesData.heading}
+        text={HumresIndustriesData.text}
       />
     </>
   );

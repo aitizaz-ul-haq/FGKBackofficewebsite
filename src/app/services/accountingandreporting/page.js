@@ -11,6 +11,9 @@ import AccrepThirdSectionTextData from "@/app/data/subpagedata/accandrepdata/thi
 import AccrepThirdSectionLeftCardData from "@/app/data/subpagedata/accandrepdata/thirdsectionaccrep/accrepthirdsectionleftcarddata.json";
 import AccrepThirdSectionRightCardData from "@/app/data/subpagedata/accandrepdata/thirdsectionaccrep/accrepthirdsectionrightcarddata.json";
 
+import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
+import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
+
 export default function AccountingAndReporting() {
   const data = getHeroData("accounting-&-reporting");
   return (
@@ -26,6 +29,10 @@ export default function AccountingAndReporting() {
         textdata={AccrepThirdSectionTextData}
         leftstripcarddata={AccrepThirdSectionLeftCardData}
         rightstripcarddata={AccrepThirdSectionRightCardData}
+      />
+      <SubPagesIndustriesSection
+        heading={HumresIndustriesData.heading}
+        text={HumresIndustriesData.text}
       />
     </>
   );

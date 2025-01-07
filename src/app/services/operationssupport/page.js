@@ -11,6 +11,9 @@ import OperatsupThirdSectionTextData from "@/app/data/subpagedata/operatsup/thir
 import OperatsupThirdSectionLeftCardData from "@/app/data/subpagedata/operatsup/thirdsectionoperatsup/operatsupthirdsectionleftcarddata.json";
 import OperatsupThirdSectionRightCardData from "@/app/data/subpagedata/operatsup/thirdsectionoperatsup/operatsupthirdsectionrightcarddata.json";
 
+import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
+import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
+
 export default function OperationsSupport() {
   const data = getHeroData("operations-support");
   return (
@@ -26,6 +29,10 @@ export default function OperationsSupport() {
         textdata={OperatsupThirdSectionTextData}
         leftstripcarddata={OperatsupThirdSectionLeftCardData}
         rightstripcarddata={OperatsupThirdSectionRightCardData}
+      />
+      <SubPagesIndustriesSection
+        heading={HumresIndustriesData.heading}
+        text={HumresIndustriesData.text}
       />
     </>
   );
