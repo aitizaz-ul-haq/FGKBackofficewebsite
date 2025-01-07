@@ -10,3 +10,18 @@
   flex-direction: row;
   gap: 1rem;
 }
+
+.subpagespointcard-heading {
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.subpagespointcard-description {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.subpagespointcard-bullet {
+  width: 7%;
+  height: auto;
+}

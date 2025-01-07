@@ -1,36 +1,45 @@
 import "./subpagesadvantegessection.css";
 import SubPagesPointCard from "../subpagespointcard/subpagespointcard";
 
-export default function SubPagesAdvantegesSection() {
+export default function SubPagesAdvantegesSection({
+  advtitle,
+  advdesc,
+  leftdata,
+  rightdata,
+}) {
   return (
     <>
       <div className="subpagesadvantegessection-container">
         <div className="subpagesadvantegessection-leftsection-container">
           <div className="subpagesadvantegessection-heading font-inter">
-            Advantages of Our Accounting & Reporting Services
+            {advtitle}
           </div>
           <div className="subpagesadvantegessection-description font-inter">
-            Choosing us for project management brings numerous benefits that
-            drive the success of your projects. By leveraging our expertise,
-            commitment to excellence, and client-focused approach, you will see
-            significant improvements in both project outcomes and operational
-            efficiency.
+            {advdesc}
           </div>
         </div>
 
         <div className="subpagesadvantegessection-rightsection-container">
           <div className="advantegespoints-container">
             <div className="left-list">
-              <SubPagesPointCard />
-              <SubPagesPointCard />
-              <SubPagesPointCard />
-              <SubPagesPointCard />
+              {leftdata.map((lefty) => (
+                <SubPagesPointCard
+                  key={lefty.id}
+                  advtitle={lefty.advlefttitle}
+                  advdesc={lefty.advdesc}
+                  advicon={lefty.advicon}
+                />
+              ))}
             </div>
             <div className="right-list">
-              <SubPagesPointCard />
-              <SubPagesPointCard />
-              <SubPagesPointCard />
-              <SubPagesPointCard />
+              {rightdata.map((righty) => (
+                <SubPagesPointCard
+                  key={righty.id}
+                  advtitle={righty.advrighttitle}
+                  advdesc={righty.advdesc}
+                  advicon={righty.advicon}
+                />
+              ))}
             </div>
           </div>
         </div>

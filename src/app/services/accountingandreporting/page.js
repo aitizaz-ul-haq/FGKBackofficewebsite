@@ -15,6 +15,10 @@ import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpa
 import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
 
 import SubPagesAdvantegesSection from "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection";
+import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/accadvtextdata.json";
+
+import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
+import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
 
 export default function AccountingAndReporting() {
   const data = getHeroData("accounting-&-reporting");
@@ -36,7 +40,12 @@ export default function AccountingAndReporting() {
         heading={HumresIndustriesData.heading}
         text={HumresIndustriesData.text}
       />
-      <SubPagesAdvantegesSection />
+      <SubPagesAdvantegesSection
+        advtitle={assadvtextdata.advtitle}
+        advdesc={assadvtextdata.advdesc}
+        leftdata={leftadvdata}
+        rightdata={rightadvdata}
+      />
     </>
   );
 }
