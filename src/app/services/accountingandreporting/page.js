@@ -20,6 +20,8 @@ import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegesse
 import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
 import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
 
+import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
+
 export default function AccountingAndReporting() {
   const data = getHeroData("accounting-&-reporting");
   return (
@@ -46,6 +48,7 @@ export default function AccountingAndReporting() {
         leftdata={leftadvdata}
         rightdata={rightadvdata}
       />
+      <SubPagesGetStartedSection />
     </>
   );
 }
