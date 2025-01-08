@@ -57,36 +57,137 @@
 @media (max-width: 320px) {
   .subpagesgetstartedsection-container {
     padding-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     padding-bottom: 2rem;
   }
 
+  .subpagesgetstartedsection-text-container {
+    width: 90%;
+    padding-left: 0.8rem;
+    margin-left: 0.8rem;
+  }
+
   .subpagesgetstartedsection-heading {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 100;
   }
 
   .subpagesgetstartedsection-description {
-    font-size: 0.2rem;
+    font-size: 1rem;
     font-weight: 200;
+  }
+
+  .subpagesgetstartedsection-button {
+    margin-left: 2rem;
+    height: 47px;
+    width: 80%;
   }
 }
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
+  .subpagesgetstartedsection-container {
+    padding-top: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+  }
+
+  .subpagesgetstartedsection-text-container {
+    width: 90%;
+    padding-left: 0.8rem;
+    margin-left: 0.8rem;
+  }
+
+  .subpagesgetstartedsection-heading {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+
+  .subpagesgetstartedsection-description {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+
+  .subpagesgetstartedsection-button {
+    margin-left: 2rem;
+    height: 47px;
+    width: 80%;
+  }
 }
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
+  .subpagesgetstartedsection-container {
+    padding-top: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+  }
+
+  .subpagesgetstartedsection-text-container {
+    width: 90%;
+    padding-left: 0.8rem;
+    margin-left: 0.8rem;
+  }
+
+  .subpagesgetstartedsection-heading {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+
+  .subpagesgetstartedsection-description {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+
+  .subpagesgetstartedsection-button {
+    margin-left: 2rem;
+    height: 47px;
+    width: 80%;
+  }
 }
 
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
+  .subpagesgetstartedsection-container {
+    padding-top: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+  }
+
+  .subpagesgetstartedsection-text-container {
+    width: 90%;
+    padding-left: 0.8rem;
+    margin-left: 0.8rem;
+  }
+
+  .subpagesgetstartedsection-heading {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+
+  .subpagesgetstartedsection-description {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+
+  .subpagesgetstartedsection-button {
+    margin-left: 2rem;
+    height: 47px;
+    width: 80%;
+  }
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .subpagesgetstartedsection-button {
+    margin-left: 5rem;
+    height: 47px;
+    width: 60%;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
@@ -95,6 +196,23 @@
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .subpagesgetstartedsection-container {
+    padding-top: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 7rem;
+  }
+  .subpagesgetstartedsection-button {
+    margin-left: 1rem;
+    height: 47px;
+    width: 169px;
+    border: 2px solid black;
+    border-radius: 0.4rem;
+    color: white;
+    background-color: #59c3c3;
+    font-weight: 600;
+    font-size: 15px;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
@@ -103,6 +221,21 @@
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .subpagesgetstartedsection-container {
+    padding-top: 17rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 17rem;
+  }
+
+  .subpagesgetstartedsection-text-container {
+    width: 60%;
+    margin-left: 4rem;
+  }
+
+  .subpagesgetstartedsection-button {
+    margin-left: 4rem;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
@@ -111,6 +244,21 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .subpagesgetstartedsection-container {
+    padding-top: 17rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 17rem;
+  }
+
+  .subpagesgetstartedsection-text-container {
+    width: 55%;
+    margin-left: 14rem;
+  }
+
+  .subpagesgetstartedsection-button {
+    margin-left: 14rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
@@ -119,10 +267,33 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
+  .subpagesgetstartedsection-container {
+    padding-top: 27rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-bottom: 32rem;
+  }
+
+  .subpagesgetstartedsection-text-container {
+    width: 55%;
+    margin-left: 20rem;
+  }
+
+  .subpagesgetstartedsection-button {
+    margin-left: 20rem;
+  }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .subpagesgetstartedsection-text-container {
+    width: 50%;
+    margin-left: 20rem;
+  }
+
+  .subpagesgetstartedsection-button {
+    margin-left: 20rem;
+  }
 }
 
 /* Iphone SE */
