@@ -19,7 +19,7 @@ export async function POST(req) {
     // Define the email options
     const mailOptions = {
       from: `"${firstName} ${lastName}" <${email}>`, // Sender's name and email
-      to: "sahmed@fgkltd.com", // Replace with your HR email address
+      to: "Wkhan@nemesisam.com", // Replace with your HR email address
       subject: `Contact Form Submission from ${firstName} ${lastName}`,
       text: `
         Name: ${firstName} ${lastName}
