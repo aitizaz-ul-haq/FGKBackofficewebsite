@@ -14,17 +14,17 @@
   /* gap: 30rem; */
 }
 
-.subpagesadvantegessection-rightsection-container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 5rem;
-}
-
 .subpagesadvantegessection-leftsection-container {
   display: flex;
   flex-direction: column;
   padding-left: 2rem;
   width: 100%;
+}
+
+.subpagesadvantegessection-rightsection-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
 }
 
 .advantegespoints-container {
@@ -75,4 +75,428 @@
 .subpagespointcard-description {
   font-weight: 300;
   font-size: 1rem;
+}
+
+/* Default styles (mobile-first approach) */
+
+/* Small phones (<= 320px) */
+@media (max-width: 320px) {
+  .subpagesadvantegessection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .subpagesadvantegessection-leftsection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8rem;
+  }
+
+  .subpagesadvantegessection-heading {
+    font-size: 2rem;
+  }
+
+  .advantegespoints-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-list {
+    width: 450px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .right-list {
+    width: 450px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-top: 2.2rem;
+    margin-left: 0rem;
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 360px) {
+  .subpagesadvantegessection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .subpagesadvantegessection-leftsection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8rem;
+  }
+
+  .subpagesadvantegessection-heading {
+    font-size: 2rem;
+  }
+
+  .advantegespoints-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-list {
+    width: 350px;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .right-list {
+    width: 350px;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-top: 2.2rem;
+    margin-left: 0rem;
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 375px) {
+  .subpagesadvantegessection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .subpagesadvantegessection-leftsection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8rem;
+  }
+
+  .subpagesadvantegessection-heading {
+    font-size: 2rem;
+  }
+
+  .advantegespoints-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-list {
+    width: 350px;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .right-list {
+    width: 350px;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-top: 2.2rem;
+    margin-left: 0rem;
+  }
+}
+
+/* iPhone 14, 15 (standard model) */
+@media (min-width: 390px) {
+  .subpagesadvantegessection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .subpagesadvantegessection-leftsection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8rem;
+  }
+
+  .subpagesadvantegessection-heading {
+    font-size: 2rem;
+  }
+
+  .advantegespoints-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-list {
+    width: 100%;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .right-list {
+    width: 100%;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-top: 2.2rem;
+    margin-left: 0rem;
+  }
+}
+
+/* iPhone 14 Pro, 15 Pro */
+@media (min-width: 430px) {
+  .left-list {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .right-list {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+/* Larger phones and phablets (>= 480px) */
+@media (min-width: 480px) {
+}
+
+/* Tablets (>= 600px) */
+@media (min-width: 600px) {
+}
+
+/* Small laptops and larger tablets (>= 768px) */
+@media (min-width: 768px) {
+}
+
+/* Medium laptops (>= 1024px) */
+@media (min-width: 1024px) {
+  .subpagesadvantegessection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .subpagesadvantegessection-leftsection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8rem;
+    width: 70%;
+  }
+
+  .subpagesadvantegessection-heading {
+    font-size: 2rem;
+  }
+
+  .advantegespoints-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left-list {
+    width: 100%;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .right-list {
+    width: 100%;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+/* Large laptops and desktops (>= 1280px) */
+@media (min-width: 1280px) {
+}
+
+/* Extra-large desktops (>= 1440px) */
+@media (min-width: 1440px) {
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1600px) {
+  .subpagesadvantegessection-container {
+    width: 100%;
+    background-image: url("/accrep-advanteges_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 21rem;
+    padding-bottom: 21rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* gap: 30rem; */
+  }
+
+  .subpagesadvantegessection-leftsection-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    width: 100%;
+  }
+
+  .subpagesadvantegessection-rightsection-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .advantegespoints-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+  }
+
+  .subpagesadvantegessection-heading {
+    font-size: 2rem;
+    font-weight: 100;
+    border-left: 3px solid #59c3c3;
+    padding-left: 1rem;
+  }
+
+  .subpagesadvantegessection-description {
+    font-size: 1.2rem;
+    font-weight: 200;
+    border-left: 3px solid #59c3c3;
+    padding-left: 1rem;
+  }
+
+  .left-list {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .right-list {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 1.8rem;
+  }
+
+  .subpagespointcard-heading {
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+
+  .subpagespointcard-description {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1920px) {
+  .subpagesadvantegessection-heading {
+    font-size: 3rem;
+  }
+}
+
+/* 4K screens (>= 1920px) */
+@media (min-width: 2560px) {
+}
+
+/* Iphone SE */
+@media (width: 375px) and (height: 667px) {
+}
+
+/* Iphone XR */
+@media (width: 414px) and (height: 896px) {
+}
+
+/* Iphone 12 Pro */
+@media (width: 390px) and (height: 844px) {
+}
+
+/* Iphone 14 Pro Max */
+@media (width: 430px) and (height: 932px) {
+}
+
+/* Pixel 7 */
+@media (width: 412px) and (height: 915px) {
+}
+
+/* Samsung Galaxy S8+ */
+@media (width: 360px) and (height: 740px) {
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media (width: 412px) and (height: 915px) {
+}
+
+/* iPad Mini */
+@media (width: 768px) and (height: 1024px) {
+}
+
+/* iPad Air */
+@media (width: 820px) and (height: 1180px) {
+}
+
+/* iPad Pro */
+@media (width: 1024px) and (height: 1366px) {
+}
+
+/* Surface Pro 7 */
+@media (width: 912px) and (height: 1368px) {
+}
+
+/* Surface Duo*/
+@media (width: 540px) and (height: 720px) {
+}
+
+/* Samsung Galaxy A51/71 */
+@media (width: 412px) and (height: 914px) {
+}
+
+/* Nest Hub */
+@media (width: 1024px) and (height: 600px) {
+}
+
+/* Nest Hub Max */
+@media (width: 1280px) and (height: 800px) {
 }
