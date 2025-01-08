@@ -4,20 +4,17 @@ import HumResGridSection from "@/app/components/subpagecomponenets/humres/humres
 import SecondSectionRightSided from "@/app/components/subpagecomponenets/secondsectiontypes/secondsectiontyperightsided";
 import humrestextdata from "@/app/data/subpagedata/humresdata/secondsectionhumanresourcesdata/humrestextdata.json";
 import humresrightsidestripdata from "@/app/data/subpagedata/humresdata/secondsectionhumanresourcesdata/humresrightstripdata.json";
-
 import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
 import HumresThirdSectionTextData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectiontextdata.json";
 import HumresThirdSectionLeftCardData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectionleftcarddata.json";
 import HumresThirdSectionRightCardData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectionrightcarddata.json";
-
 import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
 import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
-
 import SubPagesAdvantegesSection from "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection";
 import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/accadvtextdata.json";
-
 import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
 import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
+import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
 
 export default function HumanResources() {
   const data = getHeroData("human-resources");
@@ -44,6 +41,7 @@ export default function HumanResources() {
         leftdata={leftadvdata}
         rightdata={rightadvdata}
       />
+      <SubPagesGetStartedSection />
     </>
   );
 }

@@ -19,7 +19,7 @@ import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegesse
 
 import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
 import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
-
+import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
 export default function WebDevelopment() {
   const data = getHeroData("web-development");
   return (
@@ -46,6 +46,7 @@ export default function WebDevelopment() {
         leftdata={leftadvdata}
         rightdata={rightadvdata}
       />
+      <SubPagesGetStartedSection />
     </>
   );
 }
