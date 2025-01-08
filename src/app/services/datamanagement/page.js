@@ -13,6 +13,12 @@ import DatamagThirdSectionRightCardData from "@/app/data/subpagedata/datamanagem
 import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
 import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
 
+import SubPagesAdvantegesSection from "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection";
+import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/accadvtextdata.json";
+
+import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
+import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
+
 export default function DataManagement() {
   const data = getHeroData("data-management");
   return (
@@ -31,6 +37,12 @@ export default function DataManagement() {
       <SubPagesIndustriesSection
         heading={HumresIndustriesData.heading}
         text={HumresIndustriesData.text}
+      />
+      <SubPagesAdvantegesSection
+        advtitle={assadvtextdata.advtitle}
+        advdesc={assadvtextdata.advdesc}
+        leftdata={leftadvdata}
+        rightdata={rightadvdata}
       />
     </>
   );
