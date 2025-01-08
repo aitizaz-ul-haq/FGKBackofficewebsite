@@ -12,19 +12,17 @@ export default function ContactsPageBody({
   instructionfive,
 }) {
   return (
-    <>
-      <div className="contacts-content-container">
-        <ContactsTopSection
-          contactsheading={contactsheading}
-          contactspagelogo={contactspagelogo}
-          instructionone={instructionone}
-          instructiontwo={instructiontwo}
-          instructionthree={instructionthree}
-          instructionfour={instructionfour}
-          instructionfive={instructionfive}
-        />
-        <ContactsPageBottomSection />
-      </div>
-    </>
+    <div className="contacts-content-container">
+      <ContactsTopSection
+        contactsheading={contactsheading}
+        contactspagelogo={contactspagelogo}
+        instructionone={instructionone}
+        instructiontwo={instructiontwo}
+        instructionthree={instructionthree}
+        instructionfour={instructionfour}
+        instructionfive={instructionfive}
+      />
+      <ContactsPageBottomSection />
+    </div>
   );
 }
