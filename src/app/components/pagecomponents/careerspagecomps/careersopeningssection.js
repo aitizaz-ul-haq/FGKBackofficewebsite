@@ -20,13 +20,11 @@ export default function CareersOpeningsSection() {
 
   return (
     <div className="openings-container">
-      <h2 className="openings-heading font-roboto-sarif text-light">
-        Openings
-      </h2>
+      <h2 className="openings-heading font-inter">Openings</h2>
       {openingsdata.map((opening, index) => (
         <div key={index} className="position-strip">
           <div className="position-description-details-button">
-            <h3 className="position-heading font-roboto-sarif">
+            <h3 className="position-heading font-inter">
               {opening.designation}
             </h3>
             <p className="position-description font-inter">

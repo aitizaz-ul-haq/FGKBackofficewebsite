@@ -16,27 +16,28 @@ export default function CareersFormSection() {
               className="careers-page-logo"
             />
           </div>
-          <h2 className="instructions-heading font-roboto-sarif">
+          <h2 className="instructions-heading font-inter">
             Job Application Instructions
           </h2>
           <div className="instructions-container">
             <div className="instructions-statement font-inter">
-              simply dummy text of the printing and typesetting industry.
+              Ensure you enter your first and last name as they appear on
+              official documents.
             </div>
             <div className="instructions-statement font-inter">
-              simply dummy text of the printing and typesetting industry. simply
-              dummy text of the printing and typesetting industry.
+              Fill in your active email address and phone number for further
+              communication.
             </div>
             <div className="instructions-statement font-inter">
-              simply dummy text of the printing and typesetting industry.
+              Attach your updated resume in PDF format (maximum size: 5MB)
             </div>
             <div className="instructions-statement font-inter">
-              simply dummy text of the printing and typesetting industry. simply
-              dummy text of the printing and typesetting industry. simply dummy
-              text of the printing and typesetting industry.
+              Briefly summarize your relevant skills and professional background
+              in the provided text box.
             </div>
             <div className="instructions-statement font-inter">
-              simply dummy text of the printing and typesetting industry.
+              Verify all fields are correctly filled out before clicking the
+              “Submit” button.
             </div>
           </div>
         </div>
