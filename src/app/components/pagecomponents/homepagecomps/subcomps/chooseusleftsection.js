@@ -4,7 +4,7 @@ import Points from "../data/chooseuspoints.json";
 export default function ChooseUsLeftSection() {
   return (
     <div className="chooseus-left-section">
-      <div className="chooseus-heading font-robot-sarif text-light">
+      <div className="chooseus-heading font-inter text-light">
         Why Choose Us
       </div>
       <div className="points-list-container">

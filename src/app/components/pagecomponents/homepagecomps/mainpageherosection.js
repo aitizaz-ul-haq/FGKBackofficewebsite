@@ -5,7 +5,7 @@ export default function MainPageHeroSection({ title, paragraph }) {
   return (
     <div className="main-page-hero-section">
       <div className="main-page-hero-content">
-        <h1 className="main-page-hero-title font-roboto-serif text-extralight">
+        <h1 className="main-page-hero-title font-inter text-extralight">
           {herodata.title}
         </h1>
         <p className="main-page-hero-paragraph font-inter text-extralight">

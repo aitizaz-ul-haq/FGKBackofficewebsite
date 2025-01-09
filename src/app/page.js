@@ -9,20 +9,18 @@ import testdata from "./data/testdata/testherodata.json";
 
 export default function Home() {
   return (
-    <>
-      <main>
-        <MainPageHeroSection
-          title={testdata.title}
-          paragraph={testdata.paragraph}
-          forwardImage={testdata.forwardImage}
-        />
-        <ExpertiseSection />
-        <ChooseUsSection />
-        <IndustriescardHomePageSection />
-        <HomepageBenefitsSection />
-        <HomepageClientsSection />
-        <HomepageContactSection />
-      </main>
-    </>
+    <main>
+      <MainPageHeroSection
+        title={testdata.title}
+        paragraph={testdata.paragraph}
+        forwardImage={testdata.forwardImage}
+      />
+      <ExpertiseSection />
+      <ChooseUsSection />
+      <IndustriescardHomePageSection />
+      <HomepageBenefitsSection />
+      <HomepageClientsSection />
+      <HomepageContactSection />
+    </main>
   );
 }

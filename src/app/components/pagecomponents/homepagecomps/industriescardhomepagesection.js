@@ -5,7 +5,7 @@ import honepageindustriesdata from "./data/industrieshomepagedata.json";
 export default function IndustriescardHomePageSection() {
   return (
     <div className="industries-cards-inhomepage-container">
-      <div className="industries-cards-inhomepage-heading font-roboto-sarif">
+      <div className="industries-cards-inhomepage-heading font-inter">
         Industries
       </div>
       <div className="industries-homepage-grid-container">

@@ -5,152 +5,121 @@ export default function HomePageContactLeftSection() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
-    email: "",
-    phone: "",
     company: "",
-    designation: "",
+    phone: "",
+    email: "",
     message: "",
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
-      if (response.ok) {
-        alert("Message sent successfully!");
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: "",
-          company: "",
-          designation: "",
-          message: "",
-        });
+
+      const result = await response.json();
+
+      if (result.success) {
+        alert("Email sent successfully!");
       } else {
-        alert("Failed to send message.");
+        alert("Failed to send email. Please try again.");
       }
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("An error occurred. Please try again later.");
     }
+
+    // Optionally reset the form
+    setFormData({
+      firstName: "",
+      lastName: "",
+      company: "",
+      phone: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
-    <div className="homepage-contact-left-section">
-      <h2 className="form-title font-inter">Contact Us</h2>
-      <form className="contact-form" onSubmit={handleSubmit}>
-        {/* Input Fields */}
-        <div className="form-group">
-          <label htmlFor="firstName" className="form-titles font-inter">
-            First Name
-          </label>
+    <div className="form-container">
+      <h2>Contact Us</h2>
+      <form onSubmit={handleSubmit}>
+        {/* First Row: First Name & Last Name */}
+        <div className="form-row">
           <input
             type="text"
-            id="firstName"
             name="firstName"
-            placeholder="Enter your first name"
+            placeholder="First Name"
             value={formData.firstName}
             onChange={handleChange}
             required
           />
         </div>
 
-        <div className="form-group">
-          <label htmlFor="lastName" className="form-titles font-inter">
-            Last Name
-          </label>
+        {/* First Row: First Name & Last Name */}
+        <div className="form-row">
           <input
             type="text"
-            id="lastName"
             name="lastName"
-            placeholder="Enter your last name"
+            placeholder="Last Name"
             value={formData.lastName}
             onChange={handleChange}
             required
           />
         </div>
 
-        <div className="form-group">
-          <label htmlFor="email" className="form-titles font-inter">
-            Email Address
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="phone" className="form-titles font-inter">
-            Phone Number
-          </label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            placeholder="Enter your phone number"
-            value={formData.phone}
-            onChange={handleChange}
-            required
-          />
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="company" className="form-titles font-inter">
-            Company Name
-          </label>
+        {/* Second Row: Company Name */}
+        <div className="form-row">
           <input
             type="text"
-            id="company"
             name="company"
-            placeholder="Enter your company name"
+            placeholder="Company Name"
             value={formData.company}
             onChange={handleChange}
             required
           />
         </div>
 
-        <div className="form-group">
-          <label htmlFor="designation" className="form-titles font-inter">
-            Your Designation
-          </label>
+        {/* Third Row: Phone & Email */}
+        <div className="form-row">
           <input
-            type="text"
-            id="designation"
-            name="designation"
-            placeholder="Enter your designation"
-            value={formData.designation}
+            type="tel"
+            name="phone"
+            placeholder="Phone Number"
+            value={formData.phone}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            value={formData.email}
             onChange={handleChange}
             required
           />
         </div>
 
-        <div className="form-group">
-          <label htmlFor="message" className="form-titles font-inter">
-            Message
-          </label>
+        {/* Fourth Row: Message Box */}
+        <div className="form-row">
           <textarea
-            id="message"
             name="message"
-            rows="5"
-            placeholder="Write your message here"
+            placeholder="Your Message"
+            rows="4"
             value={formData.message}
             onChange={handleChange}
             required
@@ -158,10 +127,77 @@ export default function HomePageContactLeftSection() {
         </div>
 
         {/* Submit Button */}
-        <button type="submit" className="submit-button">
-          Send
-        </button>
+        <div className="form-row">
+          <button type="submit">Submit</button>
+        </div>
       </form>
+
+      <style jsx>{`
+        .form-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          // height: 100vh;
+          padding: 20px;
+          box-sizing: border-box;
+          background-color: rgb(89, 195, 195, 7%);
+        }
+
+        h2 {
+          margin-bottom: 20px;
+          font-family: Inter, sans-serif;
+          font-weight: 100;
+        }
+
+        form {
+          width: 100%;
+          max-width: 600px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .form-row {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-bottom: 15px;
+        }
+
+        input,
+        textarea,
+        button {
+          flex: 1;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-sizing: border-box;
+        }
+
+        input {
+          flex: 1 1 calc(50% - 10px);
+        }
+
+        textarea {
+          flex: 1 1 100%;
+          resize: none;
+        }
+
+        button {
+          flex: 1 1 100%;
+          background-color: #59c3c3;
+          color: white;
+          border: none;
+          cursor: pointer;
+          font-size: 18px;
+          transition: background-color 0.3s;
+        }
+
+        button:hover {
+          background-color: #449f9f;
+        }
+      `}</style>
     </div>
   );
 }
