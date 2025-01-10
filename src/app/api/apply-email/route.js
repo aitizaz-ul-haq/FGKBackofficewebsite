@@ -1,26 +1,19 @@
 import nodemailer from "nodemailer";
 import fs from "fs/promises";
-import path from "path";
 
-// Disable body parsing
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
+// ✅ Updated config for Next.js 14
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
 
 export async function POST(req) {
   try {
     const formData = await req.formData();
 
-    // Extract fields
     const fields = {};
     for (const [key, value] of formData.entries()) {
-      if (value instanceof File) continue; // Skip the file entry
       fields[key] = value;
     }
 
-    // Extract file
     const file = formData.get("resume");
     if (!file) {
       return new Response(
@@ -29,13 +22,8 @@ export async function POST(req) {
       );
     }
 
-    const filePath = path.join(process.cwd(), "uploads", file.name);
     const buffer = Buffer.from(await file.arrayBuffer());
 
-    // Save file locally (optional, for reference)
-    await fs.writeFile(filePath, buffer);
-
-    // Email setup
     const transporter = nodemailer.createTransport({
       service: "Gmail",
       auth: {
@@ -44,7 +32,6 @@ export async function POST(req) {
       },
     });
 
-    // Email options
     const mailOptions = {
       from: `${fields.firstName} ${fields.lastName} <${fields.email}>`,
       to: "atz.softprgmr@gmail.com",
@@ -67,7 +54,6 @@ export async function POST(req) {
       ],
     };
 
-    // Send email
     await transporter.sendMail(mailOptions);
 
     return new Response(
