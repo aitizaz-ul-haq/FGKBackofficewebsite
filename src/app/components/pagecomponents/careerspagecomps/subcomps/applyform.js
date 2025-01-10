@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 const ApplyForm = () => {
   const [formData, setFormData] = useState({
@@ -13,6 +13,8 @@ const ApplyForm = () => {
     message: "",
     resume: null,
   });
+
+  const fileInputRef = useRef(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -47,6 +49,22 @@ const ApplyForm = () => {
 
       if (result.success) {
         alert("Application submitted successfully!");
+
+        console.log("Application submitted successfully!");
+        // ✅ Reset the form visually and internally
+        e.target.reset();
+
+        // ✅ Reset form data state
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          position: "",
+          address: "",
+          message: "",
+          resume: null,
+        });
       } else {
         alert("Failed to submit the application. Please try again.");
       }
@@ -137,6 +155,7 @@ const ApplyForm = () => {
             name="resume"
             id="resume"
             accept=".pdf,.doc,.docx"
+            ref={fileInputRef}
             onChange={handleFileChange}
             required
           />
