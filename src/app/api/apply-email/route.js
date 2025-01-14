@@ -75,13 +75,13 @@ export async function POST(req) {
           </table>
           
           <!-- Middle Section -->
-          <h1 style="text-align: center; color: #333; font-size: 24px; font-weight: 300; font-family:inter, serif">Thank You for sharing your resume</h1>
-          <p style="font-size: 16px; color: #555; text-align: center;">
+          <h1 style="text-align: left; color: #333; font-size: 24px; font-weight: 300; font-family:inter, serif">Thank You for sharing your resume</h1>
+          <p style="font-size: 16px; color: #555; text-align: left;">
             Dear ${fields.firstName} ${fields.lastName},<br> 
             Thank you for taking interest in a career at FGK Back Office Services.We would like to inform you that we have received your job application for the position of ${fields.position}.
             Our HR team will review your resume and get back to you shortly.
           </p>
-          <p style="font-size: 16px; color: #555; text-align: center;">
+          <p style="font-size: 16px; color: #555; text-align: left;">
             For any further inquiries, feel free to contact us at <a href="mailto:fgkbackofficeservices@gmail.com">fgkbackofficeservices@gmail.com</a> or visit our website at <a href="https://fgkbackofficeservices.com">fgkbackofficeservices.com</a>.
           </p>
           
