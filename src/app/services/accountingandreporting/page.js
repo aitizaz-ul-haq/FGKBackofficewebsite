@@ -21,7 +21,6 @@ export default function AccountingAndReporting() {
   const data = getHeroData("accounting-&-reporting");
   return (
     <>
-      {/* 300009843297 */}
       <SubPageHeroSection data={data} />
       <AccRepGridSection />
       <SecondSectionTypeTopAndBottom

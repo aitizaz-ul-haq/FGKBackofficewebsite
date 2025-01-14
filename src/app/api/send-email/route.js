@@ -9,17 +9,17 @@ export async function POST(req) {
 
     // Create a transporter using your email service
     const transporter = nodemailer.createTransport({
-      service: "Gmail", // You can change this to your email provider
+      service: "Gmail",
       auth: {
-        user: process.env.EMAIL_USER, // Your email address
-        pass: process.env.EMAIL_PASS, // Your email password or app password
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
     });
 
-    // Define the email options
-    const mailOptions = {
-      from: `"${firstName} ${lastName}" <${email}>`, // Sender's name and email
-      to: "Wkhan@nemesisam.com", // Replace with your HR email address
+    // Define the email options for HR
+    const hrMailOptions = {
+      from: `"${firstName} ${lastName}" <${email}>`,
+      to: "atz.softprgmr@gmail.com",
       subject: `Contact Form Submission from ${firstName} ${lastName}`,
       text: `
         Name: ${firstName} ${lastName}
@@ -32,11 +32,65 @@ export async function POST(req) {
       `,
     };
 
-    // Send the email
-    const info = await transporter.sendMail(mailOptions);
+    // Define the thank-you email options for the user
+    const thankYouMailOptions = {
+      from: `FGK Back Office Services <${process.env.EMAIL_USER}>`,
+      to: email,
+      subject: "Thank You for Contacting Us!",
+      html: `
+        <div style="font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; border: 1px solid #ddd;">
+          <!-- Header Section -->
+          <table width="100%" style="border-collapse: collapse;">
+            <tr>
+              <td align="left">
+                <img src="https://i.postimg.cc/qv15pn6T/fgk-circular-logo.png" alt="FGK Back Office Services" style="height: 100px;">
+              </td>
+              <td align="right">
+                <!-- Empty right section -->
+              </td>
+            </tr>
+          </table>
+          
+          <!-- Middle Section -->
+          <h1 style="text-align: center; color: #333; font-size: 24px; font-weight: 300; font-family:inter, serif">Thank You for Contacting FGK Back Office Services</h1>
+          <p style="font-size: 16px; color: #555; text-align: center;">
+            Thank you for contacting FGK Back Office Services. We would like to inform you that we have received your email, and our HR department will get back to you as soon as possible.
+          </p>
+          <p style="font-size: 16px; color: #555; text-align: center;">
+            In the meantime, feel free to contact us at <a href="mailto:fgkbackofficeservices@gmail.com">fgkbackofficeservices@gmail.com</a> for any queries or for more details, please visit our website at <a href="https://fgkbackofficeservices.com">fgkbackofficeservices.com</a>.
+          </p>
+          
+          <!-- Footer Section -->
+          <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+          <table width="100%" style="border-collapse: collapse;">
+            <tr>
+              <td align="left" style="font-size: 14px; color: #555; font-weight:"300">
+                <strong>FGK Back Office Services</strong><br>
+                Office no 212, 213 Pakland VISTA,<br>
+                I-8 Markaz Islamabad.<br>
+                <p>Follow us on:
+                  <a href="https://twitter.com" target="_blank">Twitter</a> |
+                  <a href="https://facebook.com" target="_blank">Facebook</a> |
+                  <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                </p>
+              </td>
+              <td align="right">
+                <img src="https://i.postimg.cc/QCZ6fJwp/fgk-letter-logo.png" alt="FGK Back Office Services" style="height: 25px;">
+              </td>
+            </tr>
+          </table>
+        </div>
+      `,
+    };
+
+    // Send the email to HR
+    await transporter.sendMail(hrMailOptions);
+
+    // Send the thank-you email to the user
+    await transporter.sendMail(thankYouMailOptions);
 
     return new Response(
-      JSON.stringify({ success: true, message: "Email sent successfully!" }),
+      JSON.stringify({ success: true, message: "Emails sent successfully!" }),
       { status: 200 }
     );
   } catch (error) {
