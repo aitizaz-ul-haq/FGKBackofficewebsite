@@ -24,16 +24,30 @@
   background: rgba(89, 195, 195, 0.9); /* Dark semi-transparent background */
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start;
+
   z-index: 9999;
 }
 
 /* Close button */
 .mobile-menu-close-button {
   position: absolute;
-  top: 1rem;
+  top: 0rem;
   right: 1rem;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 5.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.mobile-menu-logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
   background: none;
   border: none;
   color: #ffffff;
@@ -51,24 +65,153 @@
 /* Center the menu items */
 .mobile-menu ul {
   list-style: none; /* Remove bullets */
-  padding: 0;
+  padding-left: 1.2rem;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .mobile-menu li {
-  margin: 1rem 0; /* Space between items */
+  margin: 0.6rem 0; /* Space between items */
 }
 
 .mobile-menu a {
   text-decoration: none; /* Remove underline */
-  color: #ffffff; /* White text */
+  color: black; /* White text */
   font-size: 2.5rem; /* Large text */
-  font-family: var(--font-roboto-serif), serif;
-  font-weight: 500;
+  font-family: var(--font-inter), serif;
+  font-weight: 200;
   transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.submenu-toggle {
+  text-decoration: none; /* Remove underline */
+  color: black; /* White text */ /* White text */
+  font-size: 2.5rem; /* Large text */
+  font-family: var(--font-inter), serif;
+  font-weight: 200;
+  transition: color 0.3s ease; /* Smooth hover effect */
+  background: none;
+  border: none;
+}
+
+.submenu-item {
+  color: rgb(248, 248, 248) !important; /* White text */
+  font-size: 1.5rem !important; /* Large text */
+  font-family: var(--font-inter), serif !important;
+  font-weight: 200 !important;
+  transition: color 0.3s ease !important;
 }
 
 .mobile-menu a:hover {
   color: black; /* Highlight color on hover */
+}
+
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.submenu.active {
+  max-height: 500px;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Iphone SE */
+@media (width: 375px) and (height: 667px) {
+  .mobile-menu a {
+    font-size: 1.7rem; /* Large text */
+  }
+
+  .submenu-toggle {
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+
+  .submenu-item {
+    font-size: 1.2rem !important; /* Large text */
+    font-weight: 300 !important;
+  }
+}
+
+/* Iphone XR */
+@media (width: 414px) and (height: 896px) {
+}
+
+/* Iphone 12 Pro */
+@media (width: 390px) and (height: 844px) {
+}
+
+/* Iphone 14 Pro Max */
+@media (width: 430px) and (height: 932px) {
+}
+
+/* Pixel 7 */
+@media (width: 412px) and (height: 915px) {
+}
+
+/* Samsung Galaxy S8+ */
+@media (width: 360px) and (height: 740px) {
+  .mobile-menu a {
+    font-size: 1.9rem; /* Large text */
+  }
+
+  .submenu-toggle {
+    font-size: 1.9rem;
+    font-weight: 200;
+  }
+
+  .submenu-item {
+    font-size: 1.4rem !important; /* Large text */
+    font-weight: 300 !important;
+  }
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media (width: 412px) and (height: 915px) {
+}
+
+/* iPad Mini */
+@media (width: 768px) and (height: 1024px) {
+}
+
+/* iPad Air */
+@media (width: 820px) and (height: 1180px) {
+}
+
+/* iPad Pro */
+@media (width: 1024px) and (height: 1366px) {
+}
+
+/* Surface Pro 7 */
+@media (width: 912px) and (height: 1368px) {
+}
+
+/* Surface Duo*/
+@media (width: 540px) and (height: 720px) {
+  .mobile-menu a {
+    font-size: 1.7rem; /* Large text */
+  }
+
+  .submenu-toggle {
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+
+  .submenu-item {
+    font-size: 1.2rem !important; /* Large text */
+    font-weight: 300 !important;
+  }
+}
+
+/* Samsung Galaxy A51/71 */
+@media (width: 412px) and (height: 914px) {
+}
+
+/* Nest Hub */
+@media (width: 1024px) and (height: 600px) {
+}
+
+/* Nest Hub Max */
+@media (width: 1280px) and (height: 800px) {
 }
