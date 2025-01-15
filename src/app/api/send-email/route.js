@@ -52,9 +52,9 @@ export async function POST(req) {
           </table>
           
           <!-- Middle Section -->
-          <h1 style="text-align: center; color: #333; font-size: 24px; font-weight: 300; font-family:inter, serif">Thank You for Contacting FGK Back Office Services</h1>
+          <h1 style="text-align: center; color: #333; font-size: 24px; font-weight: 300; font-family:inter, serif">Thank You for contacting FGK Back Office Services</h1>
           <p style="font-size: 16px; color: #555; text-align: center;">
-            Thank you for contacting FGK Back Office Services. We would like to inform you that we have received your email, and our HR department will get back to you as soon as possible.
+            We would like to inform you that we have revieved your email and a memeber of our team will get back to you as soon as possible
           </p>
           <p style="font-size: 16px; color: #555; text-align: center;">
             In the meantime, feel free to contact us at <a href="mailto:fgkbackofficeservices@gmail.com">fgkbackofficeservices@gmail.com</a> for any queries or for more details, please visit our website at <a href="https://fgkbackofficeservices.com">fgkbackofficeservices.com</a>.
@@ -66,7 +66,7 @@ export async function POST(req) {
             <tr>
               <td align="left" style="font-size: 14px; color: #555; font-weight:"300">
                 <strong>FGK Back Office Services</strong><br>
-                Office no 212, 213 Pakland VISTA,<br>
+                Office no 212, Pakland VISTA,<br>
                 I-8 Markaz Islamabad.<br>
                 <p>Follow us on:
                   <a href="https://twitter.com" target="_blank">Twitter</a> |
@@ -82,6 +82,8 @@ export async function POST(req) {
         </div>
       `,
     };
+
+    // it support services
 
     // Send the email to HR
     await transporter.sendMail(hrMailOptions);
