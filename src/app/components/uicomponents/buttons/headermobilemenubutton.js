@@ -44,13 +44,13 @@ export default function HeaderMobileMenuButton() {
           >
             &times;
           </button>
-          <Image
+          {/* <Image
             src="/fgk_circular_logo.png"
             alt="Mobile Menu Icon"
             width={70}
             height={70}
             className="mobile-menu-logo"
-          />
+          /> */}
           <ul>
             <li>
               <button
