@@ -5,9 +5,8 @@ export default function SubPageHeroSection({ data }) {
     <div
       className="subpagehero-section"
       style={{
-        backgroundImage: `url(${data.desktopImage})`,
-        "--mobile-image": `url(${data.mobileImage})`,
-        "--desktop-image": `url(${data.desktopImage})`,
+        "--background-desktop": `url(${data.desktopImage})`,
+        "--background-mobile": `url(${data.mobileImage})`,
       }}
     >
       <div className="subpagehero-content">

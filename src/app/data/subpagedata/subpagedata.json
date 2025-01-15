@@ -3,42 +3,42 @@
     "id": "operations-support",
     "title": "Operations Support",
     "paragraph": "We create innovative web solutions tailored to your business needs.",
-    "mobileImage": "/Operations_Support_1920px_hero_section.png",
+    "mobileImage": "/op_sup.jpg",
     "desktopImage": "/Operations_Support_1920px_hero_section.png"
   },
   {
     "id": "data-management",
     "title": "Data Management",
     "paragraph": "Elevate your brand with strategic digital marketing campaigns.",
-    "mobileImage": "/Data_Management_1920px_hero_section.png",
+    "mobileImage": "/data_mang.jpg",
     "desktopImage": "/Data_Management_1920px_hero_section.png"
   },
   {
     "id": "project-management",
     "title": "Project Management",
     "paragraph": "Efficient project planning and execution to achieve your goals.",
-    "mobileImage": "/Project_Management_Support_1920px_hero_section.png",
+    "mobileImage": "/proj-mang.jpg",
     "desktopImage": "/Project_Management_Support_1920px_hero_section.png"
   },
   {
-    "id": "accounting-&-reporting",
+    "id": "accounting-and-reporting",
     "title": "Accounting & Reporting",
     "paragraph": "Streamline your operations with expert support and solutions.",
-    "mobileImage": "/Accounting_&_Reporting_1920px_hero_section.png",
+    "mobileImage": "/Accounting_and_Reporting.jpg",
     "desktopImage": "/Accounting_&_Reporting_1920px_hero_section.png"
   },
   {
     "id": "web-development",
     "title": "Web Development",
     "paragraph": "Deliver exceptional customer experiences with our services.",
-    "mobileImage": "/Web_Development_Support_1920px_hero_section.png",
+    "mobileImage": "/web_dev.jpg",
     "desktopImage": "/Web_Development_Support_1920px_hero_section.png"
   },
   {
     "id": "human-resources",
     "title": "Human Resources",
     "paragraph": "Simplify HR management with our tailored solutions.",
-    "mobileImage": "/Human_Resources_1920px_hero_section.png",
+    "mobileImage": "/human_res.jpg",
     "desktopImage": "/Human_Resources_1920px_hero_section.png"
   }
 ]

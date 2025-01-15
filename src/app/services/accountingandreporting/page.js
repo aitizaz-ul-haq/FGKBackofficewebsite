@@ -18,7 +18,7 @@ import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessect
 import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
 
 export default function AccountingAndReporting() {
-  const data = getHeroData("accounting-&-reporting");
+  const data = getHeroData("accounting-and-reporting");
   return (
     <>
       <SubPageHeroSection data={data} />

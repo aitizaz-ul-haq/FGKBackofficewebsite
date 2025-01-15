@@ -59,6 +59,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: start;
+    background-image: var(--mobile-image);
   }
 
   .subpagehero-content {
@@ -101,6 +102,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: start;
+    background-image: var(--background-mobile);
   }
 
   .subpagehero-content {
@@ -132,6 +134,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: start;
+    background-image: var(--background-mobile);
   }
 
   .subpagehero-content {
@@ -163,6 +166,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: start;
+    background-image: var(--background-mobile);
   }
 
   .subpagehero-content {
@@ -194,6 +198,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: start;
+    background-image: var(--background-mobile);
   }
 
   .subpagehero-content {
@@ -224,6 +229,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: start;
+    background-image: var(--background-mobile);
   }
 
   .subpagehero-content {
@@ -318,6 +324,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
+    background-image: var(--background-desktop);
   }
 
   .subpagehero-content {
@@ -375,6 +382,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
+    background-image: var(--background-desktop);
   }
 
   .subpagehero-content {
@@ -433,6 +441,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
+    background-image: var(--background-desktop);
   }
 
   .subpagehero-content {
@@ -491,6 +500,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
+    background-image: var(--background-desktop);
   }
 
   .subpagehero-content {
@@ -548,6 +558,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
+    background-image: var(--background-desktop);
   }
 
   .subpagehero-content {
@@ -628,7 +639,7 @@
 /* Iphone 14 Pro Max */
 @media (width: 430px) and (height: 932px) {
   .subpagehero-content {
-    margin-top: 45rem;
+    margin-top: 48rem;
   }
 }
 
@@ -653,7 +664,7 @@
   .subpagehero-content {
     z-index: 1;
     color: black;
-    margin-top: 32rem;
+    margin-top: 36rem;
     margin-bottom: 0rem;
     padding: 1rem;
   }
@@ -681,10 +692,7 @@
 @media (width: 768px) and (height: 1024px) {
   .subpagehero-content {
     max-width: 100%;
-  }
-
-  .subpagehero-content {
-    margin-top: 49rem;
+    margin-top: 51rem;
   }
 
   .subpagehero-title {
@@ -708,10 +716,7 @@
 @media (width: 820px) and (height: 1180px) {
   .subpagehero-content {
     width: 100%;
-  }
-
-  .subpagehero-content {
-    margin-top: 55rem;
+    margin-top: 60rem;
   }
 
   .subpagehero-title {
@@ -762,7 +767,7 @@
   }
   .subpagehero-content {
     width: 100%;
-    margin-top: 63rem;
+    margin-top: 67rem;
     margin-bottom: 7rem;
   }
 
