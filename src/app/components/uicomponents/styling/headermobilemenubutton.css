@@ -121,6 +121,72 @@
   transition: max-height 0.3s ease-in-out;
 }
 
+/* Small phones (<= 320px) */
+@media (max-width: 320px) {
+  .mobile-menu {
+    background-image: url("/mobile menu background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 360px) {
+  .mobile-menu {
+    background-image: url("/mobile menu background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 375px) {
+  .mobile-menu {
+    background-image: url("/mobile menu background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+/* iPhone 14, 15 (standard model) */
+@media (min-width: 390px) {
+  .mobile-menu {
+    background-image: url("/mobile menu background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+/* iPhone 14 Pro, 15 Pro */
+@media (min-width: 430px) {
+  .mobile-menu {
+    background-image: url("/mobile menu background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+/* Larger phones and phablets (>= 480px) */
+@media (min-width: 480px) {
+  .mobile-menu {
+    background-image: url("/mobile menu background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
 /* Iphone SE */
 @media (width: 375px) and (height: 667px) {
   .mobile-menu a {
