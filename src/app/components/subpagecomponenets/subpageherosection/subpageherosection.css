@@ -65,7 +65,7 @@
   .subpagehero-content {
     z-index: 1;
     color: black;
-    margin-top: 30rem;
+    margin-top: 31rem;
     margin-bottom: 0rem;
     padding: 1rem;
   }
@@ -140,7 +140,7 @@
   .subpagehero-content {
     z-index: 1;
     color: black;
-    margin-top: 33rem;
+    margin-top: 38rem;
     margin-bottom: 0rem;
     padding: 1rem;
   }
@@ -172,7 +172,7 @@
   .subpagehero-content {
     z-index: 1;
     color: black;
-    margin-top: 33rem;
+    margin-top: 37rem;
     margin-bottom: 0rem;
     padding: 1rem;
   }
@@ -204,7 +204,7 @@
   .subpagehero-content {
     z-index: 1;
     color: black;
-    margin-top: 35rem;
+    margin-top: 38rem;
     margin-bottom: 0rem;
     padding: 1rem;
   }
@@ -235,7 +235,7 @@
   .subpagehero-content {
     z-index: 1;
     color: black;
-    margin-top: 35rem;
+    margin-top: 39rem;
     margin-bottom: 0rem;
     padding: 1rem;
   }
@@ -265,7 +265,7 @@
   .subpagehero-content {
     z-index: 1;
     color: black;
-    margin-top: 37rem;
+    margin-top: 39rem;
     margin-bottom: 0rem;
     padding: 1rem;
   }
@@ -298,7 +298,7 @@
   .subpagehero-content {
     z-index: 1;
     color: black;
-    margin-top: 39rem;
+    margin-top: 41rem;
     margin-bottom: 0rem;
     padding: 1rem;
   }
@@ -625,14 +625,14 @@
 /* Iphone XR */
 @media (width: 414px) and (height: 896px) {
   .subpagehero-content {
-    margin-top: 41rem;
+    margin-top: 44rem;
   }
 }
 
 /* Iphone 12 Pro */
 @media (width: 390px) and (height: 844px) {
   .subpagehero-content {
-    margin-top: 40rem;
+    margin-top: 41rem;
   }
 }
 
