@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "../styling/headermobilemenubutton.css";
@@ -8,6 +8,20 @@ import "../styling/headermobilemenubutton.css";
 export default function HeaderMobileMenuButton() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSubMenu, setActiveSubMenu] = useState(null);
+
+  // Disable/Enable body scroll when menu state changes
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    // Cleanup on component unmount
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [isMenuOpen]);
 
   const handleMobileMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -44,13 +58,13 @@ export default function HeaderMobileMenuButton() {
           >
             &times;
           </button>
-          {/* <Image
+          <Image
             src="/fgk_circular_logo.png"
             alt="Mobile Menu Icon"
             width={70}
             height={70}
             className="mobile-menu-logo"
-          /> */}
+          />
           <ul>
             <li>
               <button
@@ -65,11 +79,7 @@ export default function HeaderMobileMenuButton() {
                 }`}
               >
                 <li>
-                  <Link
-                    href="/services"
-                    onClick={handleMenuItemClick}
-                    className="submenu-item"
-                  >
+                  <Link href="/services" onClick={handleMenuItemClick}>
                     Overview
                   </Link>
                 </li>
@@ -77,7 +87,6 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/services/operationssupport"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
                     Operations Support
                   </Link>
@@ -86,7 +95,6 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/services/datamanagement"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
                     Data Management
                   </Link>
@@ -95,7 +103,6 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/services/projectmanagement"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
                     Project Management
                   </Link>
@@ -104,7 +111,6 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/services/accountingandreporting"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
                     Accounting & Reporting
                   </Link>
@@ -113,7 +119,6 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/services/webdevelopment"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
                     Web Development
                   </Link>
@@ -122,9 +127,8 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/services/humanresources"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
-                    Human Resorces
+                    Human Resources
                   </Link>
                 </li>
               </ul>
@@ -145,7 +149,6 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/industries/technology"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
                     Financial Services
                   </Link>
@@ -154,7 +157,6 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/industries/healthcare"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
                     Accountancy & Finance
                   </Link>
@@ -163,7 +165,6 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/industries/finance"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
                     Tech Support
                   </Link>
@@ -172,17 +173,12 @@ export default function HeaderMobileMenuButton() {
                   <Link
                     href="/industries/education"
                     onClick={handleMenuItemClick}
-                    className="submenu-item"
                   >
                     Fintech
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="/industries/retail"
-                    onClick={handleMenuItemClick}
-                    className="submenu-item"
-                  >
+                  <Link href="/industries/retail" onClick={handleMenuItemClick}>
                     Insurance
                   </Link>
                 </li>

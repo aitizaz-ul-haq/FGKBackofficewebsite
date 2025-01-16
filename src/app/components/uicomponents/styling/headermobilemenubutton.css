@@ -12,11 +12,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/mobile menu background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 /* Full-screen mobile menu */
@@ -31,6 +26,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.2); /* White with opacity */
+  backdrop-filter: blur(20px); /* Background blur */
+  -webkit-backdrop-filter: blur(20px); /* Safari support */
   z-index: 9999;
 }
 
@@ -100,7 +98,7 @@
 
 .submenu-item {
   color: black !important; /* White text */
-  font-size: 1.5rem !important; /* Large text */
+  font-size: 1rem !important; /* Large text */
   font-family: var(--font-inter), serif !important;
   font-weight: 200 !important;
   transition: color 0.3s ease !important;
@@ -121,74 +119,30 @@
   transition: max-height 0.3s ease-in-out;
 }
 
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background 320p.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  .mobile-menu a {
+    font-size: 1.2rem; /* Large text */
+  }
+
+  .submenu-toggle {
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+
+  .submenu-item {
+    font-size: 1.2rem !important; /* Large text */
+    font-weight: 300 !important;
   }
 }
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background 320p.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
-
-/* Standard small phones (<= 360px) */
-@media (max-width: 375px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background 320p.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
-
-/* iPhone 14, 15 (standard model) */
-@media (min-width: 390px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background 320p.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
-
-/* iPhone 14 Pro, 15 Pro */
-@media (min-width: 430px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background 320p.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
-
-/* Larger phones and phablets (>= 480px) */
-@media (min-width: 480px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background 320p.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
-
-/* Iphone SE */
-@media (width: 375px) and (height: 667px) {
   .mobile-menu a {
     font-size: 1.7rem; /* Large text */
   }
@@ -202,58 +156,107 @@
     font-size: 1.2rem !important; /* Large text */
     font-weight: 300 !important;
   }
+}
 
-  .mobile-menu {
-    background-image: url("/mobile menu background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+/* Standard small phones (<= 360px) */
+@media (max-width: 375px) {
+  .mobile-menu a {
+    font-size: 1.5rem; /* Large text */
+  }
+
+  .submenu-toggle {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+
+  .submenu-item {
+    font-size: 1rem !important; /* Large text */
+    font-weight: 300 !important;
+  }
+}
+
+/* iPhone 14, 15 (standard model) */
+@media (min-width: 390px) {
+  .mobile-menu a {
+    font-size: 1.9rem; /* Large text */
+  }
+
+  .submenu-toggle {
+    font-size: 1.9rem;
+    font-weight: 200;
+  }
+
+  .submenu-item {
+    font-size: 1rem !important; /* Large text */
+    font-weight: 300 !important;
+  }
+}
+
+/* iPhone 14 Pro, 15 Pro */
+@media (min-width: 430px) {
+  .mobile-menu a {
+    font-size: 1.9rem; /* Large text */
+  }
+
+  .submenu-toggle {
+    font-size: 1.9rem;
+    font-weight: 200;
+  }
+
+  .submenu-item {
+    font-size: 1.2rem !important; /* Large text */
+    font-weight: 300 !important;
+  }
+}
+
+/* Larger phones and phablets (>= 480px) */
+@media (min-width: 480px) {
+  .mobile-menu a {
+    font-size: 1.9rem; /* Large text */
+  }
+
+  .submenu-toggle {
+    font-size: 1.9rem;
+    font-weight: 200;
+  }
+
+  .submenu-item {
+    font-size: 1.2rem !important; /* Large text */
+    font-weight: 300 !important;
+  }
+}
+
+/* Iphone SE */
+@media (width: 375px) and (height: 667px) {
+  .mobile-menu a {
+    font-size: 1.2rem; /* Large text */
+  }
+
+  .submenu-toggle {
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+
+  .submenu-item {
+    font-size: 1.2rem !important; /* Large text */
+    font-weight: 300 !important;
   }
 }
 
 /* Iphone XR */
 @media (width: 414px) and (height: 896px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background iphone xr.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* Iphone 12 Pro */
 @media (width: 390px) and (height: 844px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background iphone 12 pro.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* Iphone 14 Pro Max */
 @media (width: 430px) and (height: 932px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background iphone 14 pro max.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* Pixel 7 */
 @media (width: 412px) and (height: 915px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background pixel 7.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* Samsung Galaxy S8+ */
@@ -271,25 +274,10 @@
     font-size: 1.4rem !important; /* Large text */
     font-weight: 300 !important;
   }
-
-  .mobile-menu {
-    background-image: url("/mobile menu background GALAXY S8+.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* Samsung Galaxy S20 Ultra */
 @media (width: 412px) and (height: 915px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background GALAXY S20 ultra.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* iPad Mini */
@@ -306,13 +294,6 @@
 
 /* Surface Pro 7 */
 @media (width: 912px) and (height: 1368px) {
-  .mobile-menu {
-    background-image: url("/mobile menu background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* Surface Duo*/
@@ -330,25 +311,10 @@
     font-size: 1.2rem !important; /* Large text */
     font-weight: 300 !important;
   }
-
-  .mobile-menu {
-    background-image: url("/mobile menu background Surface duo.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* Samsung Galaxy A51/71 */
 @media (width: 412px) and (height: 914px) {
-  .mobile-menu {
-    background-image: url("/71.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 /* Nest Hub */
