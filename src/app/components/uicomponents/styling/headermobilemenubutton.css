@@ -12,6 +12,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("/mobile menu background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Full-screen mobile menu */
