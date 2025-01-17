@@ -10,13 +10,11 @@ export default function ExpertiseTransBackgroundCard({
   buttonlink,
 }) {
   return (
-    <>
-      <div className="trans-card-container">
-        <TopRightCircularIconSection cardicon={cardicon} />
-        <TransCardHeadingSection cardtitle={cardtitle} />
-        <TransCardDescriptionSection carddescription={carddescription} />
-        <button className="trans-card-button">Details</button>
-      </div>
-    </>
+    <div className="trans-card-container">
+      <TopRightCircularIconSection cardicon={cardicon} />
+      <TransCardHeadingSection cardtitle={cardtitle} />
+      <TransCardDescriptionSection carddescription={carddescription} />
+      <button className="trans-card-button">Details</button>
+    </div>
   );
 }
