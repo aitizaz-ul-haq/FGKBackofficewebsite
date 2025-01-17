@@ -9,14 +9,16 @@ export default function ScrollToHash() {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    const hash = window.location.hash;
+    if (typeof window !== "undefined") {
+      const hash = window.location.hash;
 
-    if (hash) {
-      const targetElement = document.querySelector(hash);
-      if (targetElement) {
-        setTimeout(() => {
-          targetElement.scrollIntoView({ behavior: "smooth" });
-        }, 100);
+      if (hash) {
+        const targetElement = document.querySelector(hash);
+        if (targetElement) {
+          setTimeout(() => {
+            targetElement.scrollIntoView({ behavior: "smooth" });
+          }, 300); // Increased timeout to ensure content loads
+        }
       }
     }
   }, [pathname, searchParams]);

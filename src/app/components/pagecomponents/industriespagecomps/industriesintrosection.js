@@ -8,7 +8,7 @@ export default function IndustriesIntro() {
       {Industriesdata.map((industry, index) => (
         <div id={industry.id} key={index}>
           {" "}
-          {/* Added ID here */}
+          {/* Ensure unique ID */}
           <LeftRightIndustriesCard
             cardicon={industry.cardicon}
             cardheading={industry.cardheading}
