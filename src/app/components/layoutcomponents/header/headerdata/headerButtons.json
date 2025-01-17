@@ -21,11 +21,17 @@
     "name": "Industries",
     "link": "/industries",
     "subpages": [
-      { "name": "Financial Services", "link": "/industries" },
-      { "name": "Accountancy & Finance", "link": "/industries" },
-      { "name": "Tech Support", "link": "/industries" },
-      { "name": "Fintech", "link": "/industries" },
-      { "name": "Insurance", "link": "/industries" }
+      {
+        "name": "Financial Services",
+        "link": "/industries#financial-services"
+      },
+      {
+        "name": "Accountancy & Finance",
+        "link": "/industries#accountancy-finance"
+      },
+      { "name": "Tech Support", "link": "/industries#tech-support" },
+      { "name": "Fintech", "link": "/industries#fintech" },
+      { "name": "Insurance", "link": "/industries#insurance" }
     ]
   },
   { "name": "Team", "link": "/team" },

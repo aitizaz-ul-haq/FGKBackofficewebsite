@@ -31,7 +31,7 @@ export default function HeaderRightSectionButtonSection() {
               {button.subpages.map((subpage, subIndex) => (
                 <Link
                   key={subIndex}
-                  href={subpage.link}
+                  href={`${button.link}#${subpage.link.split("/").pop()}`} // Append the section ID
                   passHref
                   className="header-dropdown-item font-inter"
                 >
