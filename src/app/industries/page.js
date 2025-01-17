@@ -2,6 +2,7 @@ import MainHeroSection from "../components/layoutcomponents/mainherosection/main
 import IndustriesIntro from "../components/pagecomponents/industriespagecomps/industriesintrosection";
 import testdata from "../data/industries/industriesherodata.json";
 import ScrollToHash from "../components/pagecomponents/industriespagecomps/scrolltohash";
+import { Suspense } from "react";
 
 export default function Industries() {
   return (
@@ -13,7 +14,9 @@ export default function Industries() {
         desktopImage={testdata.desktopImage}
       />
       <IndustriesIntro />
-      <ScrollToHash />
+      <Suspense fallback={null}>
+        <ScrollToHash />
+      </Suspense>
     </>
   );
 }
