@@ -2,19 +2,19 @@
   {
     "id": "1",
     "striptitle": "User-Centered Design",
-    "stripdesc": "We prioritize intuitive, user-friendly interfaces that make navigating the website a seamless experience. Every design decision is centered around enhancing user satisfaction and accessibility.",
+    "stripdesc": "We craft intuitive and engaging interfaces that prioritise user needs and seamless experiences.",
     "stripicon": "/user_centered_design.png"
   },
   {
     "id": "2",
     "striptitle": "Responsive and Adaptive Layouts",
-    "stripdesc": " With a mobile-first approach, we ensure that your website functions perfectly across all devices, offering a consistent experience on desktops, tablets, and smartphones.",
+    "stripdesc": "Our designs ensure flawless functionality across all devices, from desktops to mobile screens.",
     "stripicon": "/responsive_and_adaptive_layouts.png"
   },
   {
     "id": "3",
     "striptitle": "Robust and Scalable Code",
-    "stripdesc": "We use the latest technologies and best practices to write clean, efficient, and scalable code, ensuring your website performs optimally now and can grow with your business.",
+    "stripdesc": "Our codebase is clean, efficient, and scalable, ensuring your website can grow with your business.",
     "stripicon": "/robut_scalable_code.png"
   }
 ]

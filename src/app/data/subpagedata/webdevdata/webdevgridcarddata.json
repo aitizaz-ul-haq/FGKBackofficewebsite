@@ -1,38 +1,38 @@
 [
   {
     "id": "1",
-    "title": "Custom Development",
-    "paragraph": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "title": "Custom Web Development",
+    "paragraph": "Tailored web solutions designed to meet your unique business needs and goals.",
     "iconLink": "/custom_development.png"
   },
   {
     "id": "2",
     "title": "Custom Web Design",
-    "paragraph": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "paragraph": "Visually stunning and user-centric designs that reflect your brand identity.",
     "iconLink": "/custom_web_design.png"
   },
   {
     "id": "3",
     "title": "Responsive Design",
-    "paragraph": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "paragraph": "Seamlessly adaptable websites that deliver flawless performance across all devices.",
     "iconLink": "/reponsive_web_design.png"
   },
   {
     "id": "4",
     "title": "Website Maintenance",
-    "paragraph": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "paragraph": "Reliable ongoing support to keep your website secure, updated, and performing at its best.",
     "iconLink": "/website_maintainance.png"
   },
   {
     "id": "5",
-    "title": "Search Engine Optimization",
-    "paragraph": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "title": "Search Engine Optimisation",
+    "paragraph": "Optimised websites to enhance visibility and drive organic traffic to your business.",
     "iconLink": "/seo_services.png"
   },
   {
     "id": "6",
     "title": "Latest Tech Stack",
-    "paragraph": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "paragraph": "Cutting-edge tools and technologies for modern, high-performing, and future-ready websites.",
     "iconLink": "/latest_tech_stack.png"
   }
 ]

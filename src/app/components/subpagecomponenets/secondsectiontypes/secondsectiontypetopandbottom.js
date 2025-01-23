@@ -23,9 +23,9 @@ export default function SecondSectionTypeTopAndBottom({
             <div className="secondsectiontypetopandbottom-leftsection-text-description font-inter">
               {textdata.textsectionparaone}
             </div>
-            <div className="secondsectiontypetopandbottom-leftsection-text-description font-inter">
+            {/* <div className="secondsectiontypetopandbottom-leftsection-text-description font-inter">
               {textdata.textsectionparatwo}
-            </div>
+            </div> */}
             <button className="secondsectiontypetopandbottom-leftsection-text-button font-inter">
               Hire A Professional
             </button>

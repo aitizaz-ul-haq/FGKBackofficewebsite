@@ -12,13 +12,13 @@ import WebDevThirdSectionLeftCardData from "@/app/data/subpagedata/webdevdata/th
 import WebDevThirdSectionRightCardData from "@/app/data/subpagedata/webdevdata/thirdsectionwebdevelopment/webdevthirdsectionrightcarddata.json";
 
 import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
-import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
+import WebdevIndustriesData from "@/app/data/subpagedata/webdevdata/industriesectionwebdev/industrieswebdev.json";
 
 import SubPagesAdvantegesSection from "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection";
-import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/accadvtextdata.json";
+import webdevadv from "@/app/data/subpagedata/webdevdata/webdevadvantegessectiondata/webdevadvtextdata.json";
 
-import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
-import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
+import leftadvdata from "@/app/data/subpagedata/webdevdata/webdevadvantegessectiondata/webdevlefsideadvdata.json";
+import rightadvdata from "@/app/data/subpagedata/webdevdata/webdevadvantegessectiondata/webdevrightsideadvdata.json";
 import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
 export default function WebDevelopment() {
   const data = getHeroData("web-development");
@@ -37,12 +37,12 @@ export default function WebDevelopment() {
         rightstripcarddata={WebDevThirdSectionRightCardData}
       />
       <SubPagesIndustriesSection
-        heading={HumresIndustriesData.heading}
-        text={HumresIndustriesData.text}
+        heading={WebdevIndustriesData.heading}
+        text={WebdevIndustriesData.text}
       />
       <SubPagesAdvantegesSection
-        advtitle={assadvtextdata.advtitle}
-        advdesc={assadvtextdata.advdesc}
+        advtitle={webdevadv.advtitle}
+        advdesc={webdevadv.advdesc}
         leftdata={leftadvdata}
         rightdata={rightadvdata}
       />

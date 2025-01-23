@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0",
+    "advlefttitle": "Tailored Solutions for Your Business",
+    "advdesc": "Custom-built websites designed to reflect your brand identity and meet your specific objectives.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "1",
+    "advlefttitle": "User-Centered Design",
+    "advdesc": "Intuitive and visually appealing interfaces that priorities user experience and drive engagement.",
+    "advicon": "/adv_black_bullet.png"
+  },
+  {
+    "id": "2",
+    "advlefttitle": "Enhanced SEO Performance",
+    "advdesc": "Websites optimised to rank higher in search engines, ensuring increased visibility and organic traffic.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "3",
+    "advlefttitle": "Mobile-Responsive Designs",
+    "advdesc": "Seamlessly adaptive websites that perform flawlessly across devices, from desktops to smartphones.",
+    "advicon": "/adv_black_bullet.png"
+  }
+]

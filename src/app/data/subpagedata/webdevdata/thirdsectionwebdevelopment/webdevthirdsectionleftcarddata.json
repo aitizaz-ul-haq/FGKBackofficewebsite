@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "striptitle": "Listing the Requisites",
-    "stripdesc": "We create a detailed project plan that outlines tasks, timelines, resources, and risk management strategies. This blueprint acts as the guide for all project activities.",
+    "striptitle": "Listing Requisites",
+    "stripdesc": "Clear documentation of requirements, features, and functionality to align expectations and avoid confusion.",
     "stripicon": "/listing_the_requisits.png"
   },
   {
     "id": "2",
     "striptitle": "Absolute Web Development",
-    "stripdesc": "The project plan is put into action, with teams completing assigned tasks and project managers overseeing progress. Our managers ensure that each task aligns with project goals and quality standards.",
+    "stripdesc": "Building your website using the latest technologies, ensuring robust and scalable performance.",
     "stripicon": "/absolute_web_development.png"
   },
   {
     "id": "3",
     "striptitle": "Ultimate Web Launch",
-    "stripdesc": "Throughout the project, we proactively identify potential risks and implement strategies to mitigate them. This minimizes disruptions and maintains project momentum.",
+    "stripdesc": "Seamlessly deploying your website with a smooth transition from development to live status.",
     "stripicon": "/ultimate_web_launch.png"
   },
   {
