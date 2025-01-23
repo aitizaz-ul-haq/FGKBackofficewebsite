@@ -8,10 +8,12 @@ export default function SubPagesGetStartedSection() {
           Get Started with Us Today
         </div>
         <div className="subpagesgetstartedsection-description font-inter">
-          Partner with [Your Company Name] for reliable, efficient, and
-          results-driven project management. Let us turn your project vision
-          into reality. Contact us today to discuss your project needs and
-          discover how we can support your business’s growth.
+          Ready to take your online presence to the next level? Partner with FGK
+          Back Office Services for web development services that deliver
+          innovation, performance, and results. Whether you need a custom
+          website, responsive design, or ongoing support, we’re here to bring
+          your vision to life. Contact us today to discuss your project and
+          start building a digital solution tailored to your success!
         </div>
       </div>
       <button className="subpagesgetstartedsection-button">

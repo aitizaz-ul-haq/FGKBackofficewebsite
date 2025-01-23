@@ -31,7 +31,7 @@ export default function HeaderRightSectionButtonSection() {
               {button.subpages.map((subpage, subIndex) => (
                 <Link
                   key={subIndex}
-                  href={`/industries#${subpage.link.split("#")[1]}`} // Correct hash link
+                  href={subpage.link} // Use the link directly
                   passHref
                   className="header-dropdown-item font-inter"
                 >
