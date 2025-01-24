@@ -1,20 +1,25 @@
+// importing human resources service page subcomponents
 import SubPageHeroSection from "@/app/components/subpagecomponenets/subpageherosection/subpageherosection";
-import { getHeroData } from "@/app/utils/gethreodata";
 import HumResGridSection from "@/app/components/subpagecomponenets/humres/humresgridsection";
 import SecondSectionRightSided from "@/app/components/subpagecomponenets/secondsectiontypes/secondsectiontyperightsided";
+import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
+import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
+import SubPagesAdvantegesSection from "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection";
+import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
+
+// importing human resources page data
 import humrestextdata from "@/app/data/subpagedata/humresdata/secondsectionhumanresourcesdata/humrestextdata.json";
 import humresrightsidestripdata from "@/app/data/subpagedata/humresdata/secondsectionhumanresourcesdata/humresrightstripdata.json";
-import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
 import HumresThirdSectionTextData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectiontextdata.json";
 import HumresThirdSectionLeftCardData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectionleftcarddata.json";
 import HumresThirdSectionRightCardData from "@/app/data/subpagedata/humresdata/thirdsectionhumres/humresthirdsectionrightcarddata.json";
-import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
 import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
-import SubPagesAdvantegesSection from "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection";
 import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/accadvtextdata.json";
 import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
 import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
-import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
+
+// importing utility method
+import { getHeroData } from "@/app/utils/gethreodata";
 
 export default function HumanResources() {
   const data = getHeroData("human-resources");
