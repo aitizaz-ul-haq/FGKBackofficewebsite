@@ -1,5 +1,8 @@
+//importing subcomponenets
 import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
 import FullBodyAboutPage from "../components/pagecomponents/aboutpagecomps/fullbodyaboutpage";
+
+//importing componenet data
 import testdata from "../data/about/aboutherodata.json";
 import aboutdata from "../data/about/fullbodyaboutpagedata.json";
 
