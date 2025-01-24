@@ -1,8 +1,15 @@
+//importing library
+import { Suspense } from "react";
+
+// importing subcomponenets
 import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
 import IndustriesIntro from "../components/pagecomponents/industriespagecomps/industriesintrosection";
+
+//importing componenet data
 import testdata from "../data/industries/industriesherodata.json";
+
+//importing utility function
 import ScrollToHash from "../components/pagecomponents/industriespagecomps/scrolltohash";
-import { Suspense } from "react";
 
 export default function Industries() {
   return (

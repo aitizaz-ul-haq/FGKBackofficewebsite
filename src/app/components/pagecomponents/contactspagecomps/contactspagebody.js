@@ -1,6 +1,9 @@
-import "./styles/contactspagebody.css";
+//importing sub componenets
 import ContactsTopSection from "./subcomps/contactstopsection";
 import ContactsPageBottomSection from "./subcomps/contactspagebottomsection";
+
+// importing style files
+import "./styles/contactspagebody.css";
 
 export default function ContactsPageBody({
   contactsheading,

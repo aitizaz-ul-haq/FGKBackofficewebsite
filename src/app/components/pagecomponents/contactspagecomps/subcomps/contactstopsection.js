@@ -1,3 +1,4 @@
+// importing sub componenets
 import ContactsLeftLogoSection from "./contactsleftlogosection";
 import ContactsRightInstructionsSection from "./contactsrightinstructionssections";
 
@@ -11,19 +12,16 @@ export default function ContactsTopSection({
   instructionfive,
 }) {
   return (
-    <>
-      <div className="contacts-page-top-section">
-        <ContactsLeftLogoSection contactspagelogo={contactspagelogo} />
-
-        <ContactsRightInstructionsSection
-          contactsheading={contactsheading}
-          instructionone={instructionone}
-          instructiontwo={instructiontwo}
-          instructionthree={instructionthree}
-          instructionfour={instructionfour}
-          instructionfive={instructionfive}
-        />
-      </div>
-    </>
+    <div className="contacts-page-top-section">
+      <ContactsLeftLogoSection contactspagelogo={contactspagelogo} />
+      <ContactsRightInstructionsSection
+        contactsheading={contactsheading}
+        instructionone={instructionone}
+        instructiontwo={instructiontwo}
+        instructionthree={instructionthree}
+        instructionfour={instructionfour}
+        instructionfive={instructionfive}
+      />
+    </div>
   );
 }

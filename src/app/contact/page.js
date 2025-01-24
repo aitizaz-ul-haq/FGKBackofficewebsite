@@ -1,5 +1,8 @@
+// importing subcomponents
 import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
 import ContactsPageBody from "../components/pagecomponents/contactspagecomps/contactspagebody";
+
+// importing componenet data
 import testdata from "../data/contact/contactherodata.json";
 import contactspagedata from "../components/pagecomponents/contactspagecomps/data/contactspagedate.json";
 

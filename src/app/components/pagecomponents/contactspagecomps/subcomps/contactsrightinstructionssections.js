@@ -1,3 +1,4 @@
+// importing subcomponenets
 import ContactsHeadingSection from "./contactsheadingsections";
 import ContactsInstructionsList from "./contactsinstructionslist";
 
@@ -10,17 +11,15 @@ export default function ContactsRightInstructionsSection({
   instructionfive,
 }) {
   return (
-    <>
-      <div className="contacts-right-instructions-section">
-        <ContactsHeadingSection contactsheading={contactsheading} />
-        <ContactsInstructionsList
-          instructionone={instructionone}
-          instructiontwo={instructiontwo}
-          instructionthree={instructionthree}
-          instructionfour={instructionfour}
-          instructionfive={instructionfive}
-        />
-      </div>
-    </>
+    <div className="contacts-right-instructions-section">
+      <ContactsHeadingSection contactsheading={contactsheading} />
+      <ContactsInstructionsList
+        instructionone={instructionone}
+        instructiontwo={instructiontwo}
+        instructionthree={instructionthree}
+        instructionfour={instructionfour}
+        instructionfive={instructionfive}
+      />
+    </div>
   );
 }
