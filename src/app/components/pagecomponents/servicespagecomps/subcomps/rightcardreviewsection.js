@@ -1,8 +1,6 @@
-import "./styles/servicesreviewssection.css";
-import { LeftHeadingReviewSection } from "./subcomps/leftheadingreviewsection";
-import { RightCardReviewSection } from "./subcomps/rightcardreviewsection";
+import ColumnCards from "./columncards";
 
-export default function ServicesReviewsSection({
+export const RightCardReviewSection = ({
   reviewerone,
   designationone,
   descriptionone,
@@ -12,11 +10,10 @@ export default function ServicesReviewsSection({
   reviewerthree,
   designationthree,
   descriptionthree,
-}) {
+}) => {
   return (
-    <div className="reviewssection-container">
-      <LeftHeadingReviewSection />
-      <RightCardReviewSection
+    <div className="right-cards-review-section">
+      <ColumnCards
         reviewerone={reviewerone}
         designationone={designationone}
         descriptionone={descriptionone}
@@ -29,4 +26,4 @@ export default function ServicesReviewsSection({
       />
     </div>
   );
-}
+};
