@@ -1,6 +1,9 @@
-import "./styles/servicesreviewssection.css";
+// import subcomponenets
 import { LeftHeadingReviewSection } from "./subcomps/leftheadingreviewsection";
 import { RightCardReviewSection } from "./subcomps/rightcardreviewsection";
+
+// importing style files
+import "./styles/servicesreviewssection.css";
 
 export default function ServicesReviewsSection({
   reviewerone,
