@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "instruction": "Ensure you enter your first and last name as they appear on official documents."
+  },
+  {
+    "id": 2,
+    "instruction": "Fill in your active email address and phone number for further communication."
+  },
+  {
+    "id": 3,
+    "instruction": "Attach your updated resume in PDF format (maximum size: 5MB)"
+  },
+  {
+    "id": 4,
+    "instruction": "Briefly summarize your relevant skills and professional background in the provided text box."
+  },
+  {
+    "id": 5,
+    "instruction": "Verify all fields are correctly filled out before clicking the “Submit” button."
+  }
+]
