@@ -15,7 +15,7 @@ export default function FooterUpperSubSectionOne() {
         </Link>
       </div>
       <p className="footer-address font-inter text-light">
-        Office no 212, 213 Pakland VISTA, I-8 Markaz Islamabad.
+        Office no 212 Pakland VISTA, I-8 Markaz Islamabad.
       </p>
     </div>
   );
