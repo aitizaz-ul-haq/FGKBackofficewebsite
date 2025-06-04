@@ -19,6 +19,7 @@ export default function About() {
         companylogo={aboutdata.companylogo}
         topdescriptionparaone={aboutdata.topdescriptionparaone}
         topdescriptionparatwo={aboutdata.topdescriptionparatwo}
+        topdescriptionparathree={aboutdata.topdescriptionparathree}
         middlesectionparaone={aboutdata.middlesectionparaone}
         middlesectionparatwo={aboutdata.middlesectionparatwo}
         lastsectionparaone={aboutdata.lastsectionparaone}

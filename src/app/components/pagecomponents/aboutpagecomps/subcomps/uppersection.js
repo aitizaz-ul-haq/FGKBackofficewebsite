@@ -4,6 +4,7 @@ export default function UpperSection({
   companylogo,
   topdescriptionparaone,
   topdescriptionparatwo,
+  topdescriptionparathree,
 }) {
   return (
     <div className="aboutpagecontaent-logo-introsection">
@@ -35,6 +36,9 @@ export default function UpperSection({
         </p>
         <p className="right-description-section font-inter text-light">
           {topdescriptionparatwo}
+        </p>
+         <p className="right-description-section font-inter text-light">
+          {topdescriptionparathree}
         </p>
       </div>
     </div>

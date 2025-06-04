@@ -12,6 +12,7 @@ export default function FullBodyAboutPage({
   companylogo,
   topdescriptionparaone,
   topdescriptionparatwo,
+  topdescriptionparathree,
   middlesectionparaone,
   middlesectionparatwo,
   lastsectionparaone,
@@ -27,26 +28,27 @@ export default function FullBodyAboutPage({
         companylogo={companylogo}
         topdescriptionparaone={topdescriptionparaone}
         topdescriptionparatwo={topdescriptionparatwo}
+        topdescriptionparathree={topdescriptionparathree}
       />
 
       {/* middle section */}
-      <MiddleSection
+      {/* <MiddleSection
         middlesectionparaone={middlesectionparaone}
         middlesectionparatwo={middlesectionparatwo}
-      />
+      /> */}
 
       {/* last section */}
-      <LastSection lastsectionparaone={lastsectionparaone} />
+      {/* <LastSection lastsectionparaone={lastsectionparaone} /> */}
 
       {/* image grid */}
-      <ImageGrid aboutgridfullimage={aboutgridfullimage} />
+      {/* <ImageGrid aboutgridfullimage={aboutgridfullimage} /> */}
 
       {/* image grid mobile */}
-      <ImageGridMobile
+      {/* <ImageGridMobile
         aboutimageone={aboutimageone}
         aboutimagetwo={aboutimagetwo}
         aboutimagethree={aboutimagethree}
-      />
+      /> */}
     </div>
   );
 }

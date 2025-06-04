@@ -4,11 +4,11 @@ import ImportSection from "../components/pagecomponents/servicespagecomps/import
 import RoundedCardsSection from "../components/pagecomponents/servicespagecomps/roundedcardsection";
 import ServicesBenefitsSection from "../components/pagecomponents/servicespagecomps/servicesbenefitssection";
 import TrustedBySection from "../components/pagecomponents/servicespagecomps/trustedbysection";
-import ServicesReviewsSection from "../components/pagecomponents/servicespagecomps/servicesreviewssection";
+// import ServicesReviewsSection from "../components/pagecomponents/servicespagecomps/servicesreviewssection";
 
 // importing services page data
 import testdata from "../data/services/servicesherodata.json";
-import reviewerdata from "../data/services/reviewsdata.json";
+// import reviewerdata from "../data/services/reviewsdata.json";
 
 export default function Services() {
   return (
@@ -23,7 +23,7 @@ export default function Services() {
       <RoundedCardsSection />
       <ServicesBenefitsSection />
       <TrustedBySection />
-      <ServicesReviewsSection
+      {/* <ServicesReviewsSection
         reviewerone={reviewerdata.reviewerone}
         designationone={reviewerdata.designationone}
         descriptionone={reviewerdata.descriptionone}
@@ -33,7 +33,7 @@ export default function Services() {
         reviewerthree={reviewerdata.reviewerthree}
         designationthree={reviewerdata.designationthree}
         descriptionthree={reviewerdata.descriptionthree}
-      />
+      /> */}
     </>
   );
 }

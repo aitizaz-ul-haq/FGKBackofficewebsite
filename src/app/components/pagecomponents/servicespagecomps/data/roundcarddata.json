@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Operations Support",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a",
+    "description": "Our operations support services are tailored to keep your business running smoothly. We handle daily operational tasks, internal coordination and process optimisation to eliminate bottlenecks and improve overall efficiency, allowing your teams to stay focused on strategic goals.",
     "iconMobile": "/operations_support_mobile_icon.png",
     "iconCircular": "/operations_support_circular_icon.png",
     "buttonText": "Consult with Us"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Data Management",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a",
+    "description": "Efficient and secure data management is at the core of every successful operation. We organise, store and maintain your business data with precision, ensuring easy access, compliance and accuracy. From digital record keeping to database structuring, our solutions support informed decision making and long term scalability.",
     "iconMobile": "/data_management_mobile_icon.png",
     "iconCircular": "/data_management_circular_icon.png",
     "buttonText": "Consult with Us"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Project Management",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a",
+    "description": "Bring structure and clarity to your initiatives with our project management services. We plan, execute and monitor projects of all sizes, ensuring deadlines are met, resources are utilised efficiently and goals are achieved through a results driven approach.",
     "iconMobile": "/project_management_mobile_icon.png",
     "iconCircular": "/project_management_circular_icon.png",
     "buttonText": "Consult with Us"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Accounting & Reporting",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a",
+    "description": "Stay financially informed and compliant with our professional accounting and reporting services. We manage expense tracking, budget planning, financial statements and regular reporting to ensure transparency and support effective financial oversight for your business.",
     "iconMobile": "/accounting_and_reporting_mobile_icon.png",
     "iconCircular": "/accounting_and_reporting_circular_icon.png",
     "buttonText": "Consult with Us"
@@ -34,17 +34,9 @@
   {
     "id": 5,
     "title": "Web Development",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a",
+    "description": "We build modern, scalable and user friendly web applications tailored to your business needs. From internal tools to public facing platforms, our development team leverages the latest technologies to deliver high performance solutions that drive engagement and productivity.",
     "iconMobile": "/web_development_mobile_icon.png",
     "iconCircular": "/web_development_circular_icon.png",
-    "buttonText": "Consult with Us"
-  },
-  {
-    "id": 6,
-    "title": "Human Resources",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a",
-    "iconMobile": "/human_resources_mobile_icon.png",
-    "iconCircular": "/human_resources_circular_icon.png",
     "buttonText": "Consult with Us"
   }
 ]

@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "benefitname": "Benefit One",
-    "benefitdescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+    "benefitname": "Improved Efficiency",
+    "benefitdescription": "Streamline daily operations to save time and reduce manual workload."
   },
   {
     "id": 2,
-    "benefitname": "Benefit Two",
-    "benefitdescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+    "benefitname": "Data Accuracy",
+    "benefitdescription": "Ensure reliable, consistent, and error-free business information."
   },
   {
     "id": 3,
-    "benefitname": "Benefit Three",
-    "benefitdescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+    "benefitname": "Cost Reduction",
+    "benefitdescription": "Lower overheads by outsourcing back-office functions efficiently."
   },
   {
     "id": 4,
-    "benefitname": "Benefit Four",
-    "benefitdescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+    "benefitname": "Regulatory Compliance",
+    "benefitdescription": "Stay aligned with industry standards and avoid legal pitfalls."
   },
   {
     "id": 5,
-    "benefitname": "Benefit Five",
-    "benefitdescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+    "benefitname": "Scalable Support",
+    "benefitdescription": "Adapt quickly as your business grows or changes direction."
   },
   {
     "id": 6,
-    "benefitname": "Benefit Six",
-    "benefitdescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+    "benefitname": "Enhanced Focus",
+    "benefitdescription": "Let your core team concentrate on strategy, not administration tasks."
   },
   {
     "id": 7,
-    "benefitname": "Benefit Five",
-    "benefitdescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+    "benefitname": "Technology Integration",
+    "benefitdescription": "Leverage modern tools for automation and performance tracking."
   },
   {
     "id": 8,
-    "benefitname": "Benefit Six",
-    "benefitdescription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a"
+    "benefitname": "Informed Decisions",
+    "benefitdescription": "Gain clear, structured insights for smarter business planning."
   }
 ]

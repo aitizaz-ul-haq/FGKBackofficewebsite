@@ -7,18 +7,19 @@
     "xlink": "https://www.youtube.com/",
     "linkdinlink": "https://www.linkedin.com/"
   },
+  
   {
-    "photo": "/two_member.png",
-    "name": "Syed Muhammad Arslan Ahmed",
-    "designation": "Finance & Admin Manager",
+    "photo": "/six_member.png",
+    "name": "Aitaizaz-ul-haq",
+    "designation": "Senior Full Stack Web Developer/Designer",
     "facebooklink": "https://www.facebook.com/",
     "xlink": "https://www.youtube.com/",
     "linkdinlink": "https://www.linkedin.com/"
   },
   {
-    "photo": "/three_member.png",
-    "name": "Ayesha Aftab",
-    "designation": "Assistant Manager Operations",
+    "photo": "/two_member.png",
+    "name": "Syed Muhammad Arslan Ahmed",
+    "designation": "Finance & Admin Manager",
     "facebooklink": "https://www.facebook.com/",
     "xlink": "https://www.youtube.com/",
     "linkdinlink": "https://www.linkedin.com/"
@@ -32,33 +33,9 @@
     "linkdinlink": "https://www.linkedin.com/"
   },
   {
-    "photo": "/seven_member.png",
-    "name": "Ahmar Haseeb",
-    "designation": "Operations Analyst",
-    "facebooklink": "https://www.facebook.com/",
-    "xlink": "https://www.youtube.com/",
-    "linkdinlink": "https://www.linkedin.com/"
-  },
-  {
     "photo": "/six_member.png",
     "name": "Abdullah Rahim",
     "designation": "Operations Analyst",
-    "facebooklink": "https://www.facebook.com/",
-    "xlink": "https://www.youtube.com/",
-    "linkdinlink": "https://www.linkedin.com/"
-  },
-  {
-    "photo": "/six_member.png",
-    "name": "Umair Ali",
-    "designation": "Data Analyst",
-    "facebooklink": "https://www.facebook.com/",
-    "xlink": "https://www.youtube.com/",
-    "linkdinlink": "https://www.linkedin.com/"
-  },
-  {
-    "photo": "/six_member.png",
-    "name": "Aitaizaz-ul-haq",
-    "designation": "Senior Full Stack Web Developer/Designer",
     "facebooklink": "https://www.facebook.com/",
     "xlink": "https://www.youtube.com/",
     "linkdinlink": "https://www.linkedin.com/"
