@@ -13,7 +13,7 @@ export default function IndustriescardHomePageSection() {
           <HomePageIndustriesCard
             inddata={inddata}
             key={index}
-            isLast={index === honepageindustriesdata.length - 1}
+            // isLast={index === honepageindustriesdata.length - 1}
           />
         ))}
       </div>

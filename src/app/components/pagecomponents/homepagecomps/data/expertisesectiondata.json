@@ -2,37 +2,32 @@
   {
     "cardicon": "/Data_managment_icon_card.png",
     "cardtitle": "Data Management",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "carddescription": "Securely organising, storing and maintaining your business information for easy access and informed decisions.",
     "buttonlink": "/servicest"
   },
   {
     "cardicon": "/Operations_support.png",
     "cardtitle": "Operations Support",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "carddescription": "Managing daily tasks and workflows to improve coordination, reduce delays and boost overall efficiency.",
     "buttonlink": "/servicest"
   },
   {
     "cardicon": "/Accounting_Reporting.png",
     "cardtitle": "Accounting & Reporting",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "carddescription": "Providing clear, timely financial records and insights to support planning, compliance and control.",
     "buttonlink": "/servicest"
   },
   {
     "cardicon": "/Project_management.png",
     "cardtitle": "Project Management",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "carddescription": "Planning and guiding projects from start to finish with structure, clarity and measurable results.",
     "buttonlink": "/servicest"
   },
   {
     "cardicon": "/Web_development.png",
     "cardtitle": "Web Development",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
-    "buttonlink": "/servicest"
-  },
-  {
-    "cardicon": "/Human_Resources.png",
-    "cardtitle": "Human Resources",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "carddescription": "Creating fast, modern and user friendly websites and tools tailored to your business goals.",
     "buttonlink": "/servicest"
   }
+
 ]

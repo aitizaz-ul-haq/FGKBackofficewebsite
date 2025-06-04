@@ -2,31 +2,25 @@
   {
     "cardicon": "/finance_industries_icon.png",
     "cardtitle": "FInanacial Services",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "carddescription": "We support banks, investment firms and financial institutions with secure data handling and compliance focused processes.",
     "buttonlink": "/"
   },
   {
     "cardicon": "/Accounting_and_finance_icon.png",
     "cardtitle": "Accountancy & Finance",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "carddescription": "Our team assists accounting professionals with bookkeeping, reporting, reconciliations and client records.",
     "buttonlink": "/"
   },
   {
     "cardicon": "/Tech_support_icon.png",
     "cardtitle": "Tech Support",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "carddescription": "We work with tech companies to manage tickets, documentation and workflow systems that improve service delivery.",
     "buttonlink": "/"
   },
   {
     "cardicon": "/Fintech_industry_icon.png",
     "cardtitle": "Fintech",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
-    "buttonlink": "/"
-  },
-  {
-    "cardicon": "/Insuarance_industry_icon.png",
-    "cardtitle": "Insurance",
-    "carddescription": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley ",
+    "carddescription": "From onboarding to transaction support, we offer efficient, scalable solutions for fast moving financial technology platforms.",
     "buttonlink": "/"
   }
 ]
