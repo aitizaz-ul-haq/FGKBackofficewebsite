@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "instruction": "Ensure you enter your first and last name as they appear on official documents."
+    "instruction": "Please provide your complete name as it appears on official documents."
   },
   {
     "id": 2,
-    "instruction": "Fill in your active email address and phone number for further communication."
+    "instruction": "Ensure your email is correct, as all communication regarding your application will be sent here."
   },
   {
     "id": 3,
-    "instruction": "Attach your updated resume in PDF format (maximum size: 5MB)"
+    "instruction": "Choose the relevant job title from the list to help us route your application appropriately."
   },
   {
     "id": 4,
-    "instruction": "Briefly summarize your relevant skills and professional background in the provided text box."
+    "instruction": "Summarise your relevant experience, qualifications, or areas of expertise in a few lines."
   },
   {
     "id": 5,
-    "instruction": "Verify all fields are correctly filled out before clicking the “Submit” button."
+    "instruction": "Please upload your most recent and updated CV in PDF format (maximum size: 5MB)"
   }
 ]
