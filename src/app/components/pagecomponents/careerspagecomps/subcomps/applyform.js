@@ -130,11 +130,12 @@ const ApplyForm = () => {
             <option value="" disabled>
               Select Position
             </option>
-            <option value="data-analyst">Data Analyst</option>
+            {/* <option value="data-analyst">Data Analyst</option>
             <option value="finance-admin-manager">
               Finance and Admin Manager
             </option>
-            <option value="operations-manager">Operations Manager</option>
+            <option value="operations-manager">Operations Manager</option> */}
+             <option value="hr-admin-executive">HR & Admin Executive</option>
           </select>
         </div>
         <div className="form-row">
