@@ -1,9 +1,9 @@
 {
   "contactsheading": "Contact Form Instructions",
   "contactspagelogo": "/fgk_circular_logo.png",
-  "instructionone": " Please enter your first and last name for accurate identification.",
-  "instructiontwo": "Ensure your company email is correct so we can respond promptly",
-  "instructionthree": "If you'd like a quicker response, share your contact number.",
-  "instructionfour": "Provide as much detail as possible to help us assist you effectively",
-  "instructionfive": "Double-check your information before clicking Submit. We will get back to you shortly"
+  "instructionone": "Please provide your complete legal or business name so we can address you properly.",
+  "instructiontwo": "Ensure your email address is accurate, as we will use it to reply to your enquiry.",
+  "instructionthree": "Indicate which of our services your enquiry relates to so it reaches the appropriate team.",
+  "instructionfour": "Describe your query or requirements in detail so we can respond with relevant information.",
+  "instructionfive": "If you represent a business, please mention the company name to help us tailor our response."
 }
