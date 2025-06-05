@@ -14,10 +14,11 @@ import rightstripcarddata from "@/app/data/subpagedata/projectmanagementdata/sec
 import ProjMangThirdSectionTextData from "@/app/data/subpagedata/projectmanagementdata/thirdsectionprojectmanagement/projmangthirdsectiontextdata.json";
 import ProjMangThirdSectionLeftCardData from "@/app/data/subpagedata/projectmanagementdata/thirdsectionprojectmanagement/projmangthirdsectionleftcarddata.json";
 import ProjMangThirdSectionRightCardData from "@/app/data/subpagedata/projectmanagementdata/thirdsectionprojectmanagement/projmangthirdsectionrightcarddata.json";
-import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
-import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/accadvtextdata.json";
-import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
-import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
+import ProjectIndustriesData from "@/app/data/subpagedata/projectmanagementdata/industriesectionprojdata/industriesprojdata.json";
+import projadvtextdata from "@/app/data/subpagedata/projectmanagementdata/projmanagementadvantegessectiondata/projmangadvtextdata.json";
+import leftprojmangdata from "@/app/data/subpagedata/projectmanagementdata/projmanagementadvantegessectiondata/lefsideadvdataprojmang.json";
+import rightprojmangdata from "@/app/data/subpagedata/projectmanagementdata/projmanagementadvantegessectiondata/rightsideadvdataprojmang.json";
+import projmanggetstarteddata from "@/app/data/subpagedata/projectmanagementdata/projmanggetstarted.json";
 
 // importing utility method
 import { getHeroData } from "@/app/utils/gethreodata";
@@ -39,16 +40,19 @@ export default function ProjectManagement() {
         rightstripcarddata={ProjMangThirdSectionRightCardData}
       />
       <SubPagesIndustriesSection
-        heading={HumresIndustriesData.heading}
-        text={HumresIndustriesData.text}
+        heading={ProjectIndustriesData.heading}
+        text={ProjectIndustriesData.text}
       />
       <SubPagesAdvantegesSection
-        advtitle={assadvtextdata.advtitle}
-        advdesc={assadvtextdata.advdesc}
-        leftdata={leftadvdata}
-        rightdata={rightadvdata}
+        advtitle={projadvtextdata.advtitle}
+        advdesc={projadvtextdata.advdesc}
+        leftdata={leftprojmangdata}
+        rightdata={rightprojmangdata}
       />
-      <SubPagesGetStartedSection />
+      <SubPagesGetStartedSection 
+      headinggetstarted={projmanggetstarteddata.proggridheadinggetstarted}
+      descriptiongetstarted={projmanggetstarteddata.proggriddescriptiongetstarted}
+      />
     </>
   );
 }

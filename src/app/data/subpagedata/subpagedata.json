@@ -1,36 +1,36 @@
 [
   {
     "id": "operations-support",
-    "title": "Operations Support",
-    "paragraph": "We create innovative web solutions tailored to your business needs.",
+    "title": "Operational Excellence, Seamlessly Delivered",
+    "paragraph": "At FGK Back Office Services, we provide comprehensive operations support that empowers your business to run smoother, faster, and more efficiently. From investment operations to compliance reporting, our expert-driven solutions help reduce complexity, manage risk, and enhance performance—so you can stay focused on growth.",
     "mobileImage": "/op_sup.jpg",
     "desktopImage": "/Operations_Support_1920px_hero_section.png"
   },
   {
     "id": "data-management",
-    "title": "Data Management",
-    "paragraph": "Elevate your brand with strategic digital marketing campaigns.",
+    "title": "Unlock the Power of Your Data",
+    "paragraph": "At FGK Back Office Services, our data management solutions help you transform raw information into strategic intelligence. From analytics to reconciliation, we ensure your data is clean, secure, and actionable—driving smarter decisions across your organisation.",
     "mobileImage": "/data_mang.jpg",
     "desktopImage": "/Data_Management_1920px_hero_section.png"
   },
   {
     "id": "project-management",
-    "title": "Project Management",
-    "paragraph": "Efficient project planning and execution to achieve your goals.",
+    "title": "Strategic Project Management That Delivers Results",
+    "paragraph": "At FGK Back Office Services, we offer end-to-end project management solutions tailored to your business goals. From planning to execution, our expert team ensures your projects are delivered on time, within budget, and to the highest standards. Whether you're launching a new initiative, managing complex operations, or scaling existing workflows, we provide the tools, structure, and strategic oversight needed to succeed.",
     "mobileImage": "/proj-mang.jpg",
     "desktopImage": "/Project_Management_Support_1920px_hero_section.png"
   },
   {
     "id": "accounting-and-reporting",
-    "title": "Accounting & Reporting",
-    "paragraph": "Streamline your operations with expert support and solutions.",
+    "title": "Clarity Through Expert Accounting",
+    "paragraph": "At FGK Back Office Services, we deliver precise, compliant, and insight-driven accounting solutions tailored to your business. From bookkeeping and financial reporting to performance analysis and forecasting, we help you understand your numbers—so you can focus on growth with confidence.",
     "mobileImage": "/Accounting_and_Reporting.jpg",
     "desktopImage": "/Accounting_&_Reporting_1920px_hero_section.png"
   },
   {
     "id": "web-development",
-    "title": "Empowering Businesses with Cutting-Edge Web Development Solutions",
-    "paragraph": "At FGK Back Office Services, we specialise in delivering innovative web development solutions that help businesses thrive in the digital age. From custom designs to responsive layouts and robust functionality, we create websites that enhance user experiences and drive measurable results. Let us help you establish a powerful online presence with scalable, secure, and visually stunning websites tailored to your unique needs.",
+    "title": "Custom Web Solutions That Perform",
+    "paragraph": "At FGK Back Office Services, we craft high-end, fully tailored web applications that combine modern design with powerful functionality. Whether it's a corporate site, internal dashboard, or scalable web app, our solutions are built to reflect your vision, enhance user experience, and support your business goals with cutting-edge technology.",
     "mobileImage": "/web_dev.jpg",
     "desktopImage": "/Web_Development_Support_1920px_hero_section.png"
   },

@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "striptitle": "Comprehensive Planning",
-    "stripdesc": "We create a detailed project plan that outlines tasks, timelines, resources, and risk management strategies. This blueprint acts as the guide for all project activities.",
+    "striptitle": "Planning & Scheduling",
+    "stripdesc": "Milestones, timelines, and deliverables are mapped out clearly.",
     "stripicon": "/comprehensive_planning.png"
   },
   {
     "id": "2",
-    "striptitle": "Execution and Task Management",
-    "stripdesc": "The project plan is put into action, with teams completing assigned tasks and project managers overseeing progress. Our managers ensure that each task aligns with project goals and quality standards.",
+    "striptitle": "Task Execution Phase",
+    "stripdesc": "We initiate work with clear responsibilities and focus.",
     "stripicon": "/execution_and_task_management.png"
   },
   {
     "id": "3",
-    "striptitle": "Risk Management and Mitigation",
-    "stripdesc": "Throughout the project, we proactively identify potential risks and implement strategies to mitigate them. This minimizes disruptions and maintains project momentum.",
+    "striptitle": "Performance Review Cycle",
+    "stripdesc": "Issues are addressed early to maintain project integrity.",
     "stripicon": "/risk_management_and_mitigation.png"
   },
   {
     "id": "4",
-    "striptitle": "Project Closure and Review",
-    "stripdesc": "Once the project is completed, we conduct a thorough review to ensure all deliverables meet the defined standards and objectives. We gather lessons learned to refine future projects and provide final documentation to clients.",
+    "striptitle": "Final Project Closure",
+    "stripdesc": "Delivery is completed and outcomes are formally evaluated.",
     "stripicon": "/project_closure_review.png"
   }
 ]

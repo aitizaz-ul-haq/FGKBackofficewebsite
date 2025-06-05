@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "striptitle": "Expert Project Managers",
-    "stripdesc": "Our team consists of certified project management professionals (PMPs) with diverse industry experience.",
+    "striptitle": "Clear Planning",
+    "stripdesc": "We define goals, scope, and deliverables from the outset.",
     "stripicon": "/expert_project_managers.png"
   },
   {
     "id": "2",
-    "striptitle": "Customized Solutions",
-    "stripdesc": "We understand that every project is unique. We customize our approach to suit your project's specific challenges and opportunities.",
+    "striptitle": "Team Alignment",
+    "stripdesc": "Stakeholders and teams are aligned for unified execution.",
     "stripicon": "/customized_solutions.png"
   },
   {
     "id": "3",
-    "striptitle": "Seamless Collaboration",
-    "stripdesc": "We work closely with your team and stakeholders, ensuring full transparency and smooth coordination.",
+    "striptitle": "Precise Execution",
+    "stripdesc": "Every task is managed with structure and accountability.",
     "stripicon": "/seamless_collaboration.png"
   },
   {
     "id": "4",
-    "striptitle": "Advanced Tools And Technology",
-    "stripdesc": "We utilize the latest project management software and tools to streamline workflows, enhance communication, and provide real-time project tracking.",
+    "striptitle": "Quality Assurance",
+    "stripdesc": "Each phase undergoes review to ensure high standards.",
     "stripicon": "/advanced_tools_and_technology.png"
   }
 ]

@@ -1,14 +1,14 @@
 [
   {
     "id": "1",
-    "striptitle": "Timely Delivery",
-    "stripdesc": "We prioritize clear timelines and ensure all milestones are met to keep your project on track.",
+    "striptitle": "Progress Tracking",
+    "stripdesc": "Real-time updates keep projects on schedule and transparent.",
     "stripicon": "/timely_delivery.png"
   },
   {
     "id": "2",
     "striptitle": "Risk Mitigation",
-    "stripdesc": "Through detailed risk analysis and proactive problem-solving, we minimize potential setbacks.",
+    "stripdesc": "We identify and resolve risks before they escalate.",
     "stripicon": "/risk_mitigation.png"
   }
 ]

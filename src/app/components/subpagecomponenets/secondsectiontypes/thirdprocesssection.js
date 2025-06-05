@@ -22,9 +22,9 @@ export default function ThirdProcessSection({
           <div className="thirdprocesssection-leftsection-text-description font-inter">
             {textdata.thirdsectionparaone}
           </div>
-          {/* <div className="thirdprocesssection-leftsection-text-description font-inter">
+          <div className="thirdprocesssection-leftsection-text-description font-inter">
             {textdata.thirdtextsectionparatwo}
-          </div> */}
+          </div>
           <button className="thirdprocesssection-leftsection-text-button font-inter">
             Hire A Professional
           </button>

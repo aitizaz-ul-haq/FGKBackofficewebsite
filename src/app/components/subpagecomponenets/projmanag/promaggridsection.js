@@ -15,7 +15,7 @@ export default function ProgMagGridSection() {
           {progmagdata.proggriddescription}
         </div>
         <div className="progmag-grid-text-description font-inter">
-          {progmagdata.proggriddescription}
+          {progmagdata.proggriddescriptiontwo}
         </div>
         <button className="progmag-grid-text-button font-inter">
           Hire A Professional

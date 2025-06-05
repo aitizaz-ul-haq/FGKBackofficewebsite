@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0",
+    "advlefttitle": "Expert-Led Delivery",
+    "advdesc": "Skilled project managers ensure smooth, structured execution.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "1",
+    "advlefttitle": "End-to-End Support",
+    "advdesc": "From planning to closure, we manage the full lifecycle.",
+    "advicon": "/adv_black_bullet.png"
+  },
+  {
+    "id": "2",
+    "advlefttitle": "Clear Communication Channels",
+    "advdesc": "Regular updates keep all stakeholders aligned and informed.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "3",
+    "advlefttitle": "Customised Solutions Fit",
+    "advdesc": "Tailored methods to suit your industry and project type.",
+    "advicon": "/adv_black_bullet.png"
+  }
+]

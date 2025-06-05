@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "advrighttitle": "Data-Driven Insights",
+    "advdesc": "We use analytics to guide decisions and improve outcomes.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "2",
+    "advrighttitle": "Risk Mitigation Strategy",
+    "advdesc": "We detect and address risks before they become problems.",
+    "advicon": "/adv_black_bullet.png"
+  },
+  {
+    "id": "3",
+    "advrighttitle": "Quality Control Standards",
+    "advdesc": "Every phase is reviewed for accuracy and compliance.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "4",
+    "advrighttitle": "Timely Project Completion",
+    "advdesc": "We deliver results on schedule without compromising quality.",
+    "advicon": "/adv_black_bullet.png"
+  }
+]
