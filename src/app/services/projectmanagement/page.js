@@ -49,9 +49,11 @@ export default function ProjectManagement() {
         leftdata={leftprojmangdata}
         rightdata={rightprojmangdata}
       />
-      <SubPagesGetStartedSection 
-      headinggetstarted={projmanggetstarteddata.proggridheadinggetstarted}
-      descriptiongetstarted={projmanggetstarteddata.proggriddescriptiongetstarted}
+      <SubPagesGetStartedSection
+        headinggetstarted={projmanggetstarteddata.proggridheadinggetstarted}
+        descriptiongetstarted={
+          projmanggetstarteddata.proggriddescriptiongetstarted
+        }
       />
     </>
   );

@@ -13,8 +13,7 @@
         "name": "Accounting & Reporting",
         "link": "/services/accountingandreporting"
       },
-      { "name": "Web Development", "link": "/services/webdevelopment" },
-      { "name": "Human Resources", "link": "/services/humanresources" }
+      { "name": "Web Development", "link": "/services/webdevelopment" }
     ]
   },
   {
@@ -30,8 +29,7 @@
         "link": "/industries#accountancy-finance"
       },
       { "name": "Tech Support", "link": "/industries#tech-support" },
-      { "name": "Fintech", "link": "/industries#fintech" },
-      { "name": "Insurance", "link": "/industries#insurance" }
+      { "name": "Fintech", "link": "/industries#fintech" }
     ]
   },
   { "name": "Team", "link": "/team" },
