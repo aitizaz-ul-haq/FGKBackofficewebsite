@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "advrighttitle": "Reduced Error Rates",
+    "advdesc": "Minimize manual mistakes through automation and oversight.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "2",
+    "advrighttitle": "Real-Time Visibility",
+    "advdesc": "Track operations and data flow with full transparency.",
+    "advicon": "/adv_black_bullet.png"
+  },
+  {
+    "id": "3",
+    "advrighttitle": "Cost-Saving Solutions",
+    "advdesc": "Lower overhead by outsourcing complex operational tasks.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "4",
+    "advrighttitle": "Expert-Driven Execution",
+    "advdesc": "Benefit from specialised knowledge across functions and sectors.",
+    "advicon": "/adv_black_bullet.png"
+  }
+]

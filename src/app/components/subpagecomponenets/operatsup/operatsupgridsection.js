@@ -14,7 +14,7 @@ export default function OperatSupGridSection() {
           {operatsupdata.proggriddescription}
         </div>
         <div className="operatsup-grid-text-description font-inter">
-          {operatsupdata.proggriddescription}
+          {operatsupdata.proggriddescriptiontwo}
         </div>
         <button className="operatsup-grid-text-button font-inter">
           Hire A Professional

@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "striptitle": "Strategic Planning",
-    "stripdesc": "We develop a customized operations support plan that aligns with your business goals and addresses key areas of improvement.",
+    "striptitle": "Task Allocation Strategy",
+    "stripdesc": "Assign responsibilities clearly across systems and teams.",
     "stripicon": "/stretegic_planning.png"
   },
   {
     "id": "2",
-    "striptitle": "Resource Allocation",
-    "stripdesc": "We assign the right resources, including personnel, technology, and tools, to ensure optimal support for each operational area.",
+    "striptitle": "Reconciliation & Validation",
+    "stripdesc": "Identify discrepancies and ensure accurate data alignment.",
     "stripicon": "/resource_allocation_third.png"
   },
   {
     "id": "3",
-    "striptitle": "Data Collection & Analysis",
-    "stripdesc": "We gather and analyze data on performance metrics, providing insights that drive ongoing improvements.",
+    "striptitle": "Performance Review Cycle",
+    "stripdesc": "Continuously measure outcomes against defined KPIs.",
     "stripicon": "/data_allocation_and_analysis.png"
   },
   {
     "id": "4",
-    "striptitle": "Continuous Improvement & Review",
-    "stripdesc": "We conduct regular reviews of support processes, making adjustments to enhance efficiency and maintain alignment with your business objectives.",
+    "striptitle": "Final Reporting Delivery",
+    "stripdesc": "Generate and submit complete and timely reports.",
     "stripicon": "/continious_improvement_third.png"
   }
 ]

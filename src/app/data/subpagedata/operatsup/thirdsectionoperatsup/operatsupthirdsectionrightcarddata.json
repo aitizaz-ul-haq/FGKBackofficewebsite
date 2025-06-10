@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "striptitle": "Needs Assessment",
-    "stripdesc": "We begin with a thorough assessment of your operational needs, identifying areas for improvement and prioritizing them based on impact.",
+    "striptitle": "Initial Process Mapping",
+    "stripdesc": "We assess and outline your existing operational structure.",
     "stripicon": "/needs_assesment.png"
   },
   {
     "id": "2",
-    "striptitle": "Process Design & Implementation",
-    "stripdesc": "New processes are designed and implemented to optimize efficiency, reduce costs, and improve overall effectiveness.",
+    "striptitle": "Data Flow Monitoring",
+    "stripdesc": "Track real-time movement of data across all platforms.",
     "stripicon": "/process_design.png"
   },
   {
     "id": "3",
-    "striptitle": "Real-Time Monitoring",
-    "stripdesc": "Using advanced monitoring tools, we track operations continuously to detect and address any issues as they arise.",
+    "striptitle": "Regulatory Checks Applied",
+    "stripdesc": "Validate compliance with local and international standards.",
     "stripicon": "/real_time_monitoring.png"
   },
   {
     "id": "4",
-    "striptitle": "Stakeholder Communication",
-    "stripdesc": "Regular updates and performance reports keep all stakeholders informed and aligned on operational goals.",
+    "striptitle": "Issue Resolution Protocol",
+    "stripdesc": "Escalate and resolve problems with minimal disruption.",
     "stripicon": "/stakeholder_communication.png"
   }
 ]

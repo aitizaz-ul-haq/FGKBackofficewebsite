@@ -14,10 +14,11 @@ import operaterightstripdata from "@/app/data/subpagedata/operatsup/secondsectio
 import OperatsupThirdSectionTextData from "@/app/data/subpagedata/operatsup/thirdsectionoperatsup/operatsupthirdsectiontextdata.json";
 import OperatsupThirdSectionLeftCardData from "@/app/data/subpagedata/operatsup/thirdsectionoperatsup/operatsupthirdsectionleftcarddata.json";
 import OperatsupThirdSectionRightCardData from "@/app/data/subpagedata/operatsup/thirdsectionoperatsup/operatsupthirdsectionrightcarddata.json";
-import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
-import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/accadvtextdata.json";
-import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
-import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
+import Operatesupindustriesdata from "@/app/data/subpagedata/operatsup/industriesoperatesupdata.json";
+import Operatesupadvtextdata from "@/app/data/subpagedata/operatsup/operatesupvantegessectiondata/operatesupdvtextdata.json";
+import Operatesupleftdata from "@/app/data/subpagedata/operatsup/operatesupvantegessectiondata/operatesuplefsideadvdata.json";
+import Operatesuprightdata from "@/app/data/subpagedata/operatsup/operatesupvantegessectiondata/operatesuprightsideadvdata.json";
+import Operatesupgetstarteddata from "@/app/data/subpagedata/operatsup/operatesupgettingstarted.json";
 
 // importing utility methods
 import { getHeroData } from "@/app/utils/gethreodata";
@@ -39,16 +40,19 @@ export default function OperationsSupport() {
         rightstripcarddata={OperatsupThirdSectionRightCardData}
       />
       <SubPagesIndustriesSection
-        heading={HumresIndustriesData.heading}
-        text={HumresIndustriesData.text}
+        heading={Operatesupindustriesdata.heading}
+        text={Operatesupindustriesdata.text}
       />
       <SubPagesAdvantegesSection
-        advtitle={assadvtextdata.advtitle}
-        advdesc={assadvtextdata.advdesc}
-        leftdata={leftadvdata}
-        rightdata={rightadvdata}
+        advtitle={Operatesupadvtextdata.advtitle}
+        advdesc={Operatesupadvtextdata.advdesc}
+        leftdata={Operatesupleftdata}
+        rightdata={Operatesuprightdata}
       />
-      <SubPagesGetStartedSection />
+      <SubPagesGetStartedSection
+        headinggetstarted={Operatesupgetstarteddata.heading}
+        descriptiongetstarted={Operatesupgetstarteddata.text}
+      />
     </>
   );
 }

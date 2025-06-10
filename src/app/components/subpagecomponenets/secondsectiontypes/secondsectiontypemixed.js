@@ -25,6 +25,9 @@ export default function SecondSectionTypeMixed({
           <div className="secondsectionmixed-leftsection-text-description font-inter">
             {textdata.textsectionparatwo}
           </div>
+          <div className="secondsectionmixed-leftsection-text-description font-inter">
+            {textdata.textsectionparathree}
+          </div>
           <button className="secondsectionmixed-leftsection-text-button font-inter">
             Hire A Professional
           </button>

@@ -1,38 +1,38 @@
 [
   {
     "id": "1",
-    "title": "Process Optimization",
-    "paragraph": "We analyze and refine your existing processes to eliminate inefficiencies and ensure smooth, effective operations.",
+    "title": "Investment Operations Support",
+    "paragraph": "Manage trade execution, settlement, and portfolio risk oversight with precision.",
     "iconLink": "/process_optimization.png"
   },
   {
     "id": "2",
-    "title": "Technical Support & Maintenance",
-    "paragraph": "From IT troubleshooting to ongoing system maintenance, we offer comprehensive technical support that keeps your business running smoothly.",
+    "title": "Fund Accounting Services",
+    "paragraph": "Ensure accurate NAV reviews, reporting, and audit readiness.",
     "iconLink": "/technical_support_&_management.png"
   },
   {
     "id": "3",
-    "title": "Inventory & Supply Chain Management",
-    "paragraph": "Our supply chain experts ensure that inventory levels are optimized, reducing overhead costs while maintaining product availability.",
+    "title": "Compliance Reporting Solutions",
+    "paragraph": "Meet FCA, MiFID II, AML, and ESG obligations with confidence.",
     "iconLink": "/inventory_supplychain.png"
   },
   {
     "id": "4",
-    "title": "Customer Support Services",
-    "paragraph": "We provide dedicated customer support solutions to enhance client satisfaction and loyalty through responsive, effective communication.",
+    "title": "Data Reconciliation Services",
+    "paragraph": "Identify and resolve discrepancies across systems in real-time.",
     "iconLink": "/Customer_support.png"
   },
   {
     "id": "5",
-    "title": "Data Management & Analytics",
-    "paragraph": "Using data-driven insights, we improve decision-making and performance across operational activities by organizing and analyzing key business data.",
+    "title": "Performance Measurement Tools",
+    "paragraph": "Track investment returns and benchmark your financial outcomes.",
     "iconLink": "/data-management _analytics.png"
   },
   {
     "id": "6",
-    "title": "Risk Management & Compliance",
-    "paragraph": "We help you maintain regulatory compliance and minimize operational risks through proactive risk assessments and adherence to industry standards.",
+    "title": "Tax & Regulatory Reporting",
+    "paragraph": "Stay compliant with timely, detailed tax and regulatory reports.",
     "iconLink": "/risk_management_and_compliance.png"
   }
 ]
