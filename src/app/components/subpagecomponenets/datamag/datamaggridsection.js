@@ -14,7 +14,7 @@ export default function DataMagGridSection() {
           {datamagdata.proggriddescription}
         </div>
         <div className="datamag-grid-text-description font-inter">
-          {datamagdata.proggriddescription}
+          {datamagdata.proggriddescriptiontwo}
         </div>
         <button className="datamag-grid-text-button font-inter">
           Hire A Professional

@@ -13,10 +13,11 @@ import rightstripcarddata from "@/app/data/subpagedata/datamanagementdata/second
 import DatamagThirdSectionTextData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectiontextdata.json";
 import DatamagThirdSectionLeftCardData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectionleftcarddata.json";
 import DatamagThirdSectionRightCardData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectionrightcarddata.json";
-import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
-import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/accadvtextdata.json";
-import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
-import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
+import DataMangIndustriesectdata from "@/app/data/subpagedata/datamanagementdata/industriesdatamang.json";
+import DataMangadvtext from "@/app/data/subpagedata/datamanagementdata/datamangadvantegessectiondata/datamangadvtextdata.json";
+import DataMangadvleftdata from "@/app/data/subpagedata/datamanagementdata/datamangadvantegessectiondata/datamanglefsideadvdata.json";
+import DataMangadvrightdata from "@/app/data/subpagedata/datamanagementdata/datamangadvantegessectiondata/datamangrightsideadvdata.json";
+import DataManggetstarted from "@/app/data/subpagedata/datamanagementdata/datamanggetstrated.json";
 
 // importing utility menthods
 import { getHeroData } from "@/app/utils/gethreodata";
@@ -37,16 +38,19 @@ export default function DataManagement() {
         rightstripcarddata={DatamagThirdSectionRightCardData}
       />
       <SubPagesIndustriesSection
-        heading={HumresIndustriesData.heading}
-        text={HumresIndustriesData.text}
+        heading={DataMangIndustriesectdata.heading}
+        text={DataMangIndustriesectdata.text}
       />
       <SubPagesAdvantegesSection
-        advtitle={assadvtextdata.advtitle}
-        advdesc={assadvtextdata.advdesc}
-        leftdata={leftadvdata}
-        rightdata={rightadvdata}
+        advtitle={DataMangadvtext.advtitle}
+        advdesc={DataMangadvtext.advdesc}
+        leftdata={DataMangadvleftdata}
+        rightdata={DataMangadvrightdata}
       />
-      <SubPagesGetStartedSection />
+      <SubPagesGetStartedSection
+        headinggetstarted={DataManggetstarted.heading}
+        descriptiongetstarted={DataManggetstarted.text}
+      />
     </>
   );
 }

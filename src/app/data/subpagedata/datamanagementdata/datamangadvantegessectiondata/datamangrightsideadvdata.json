@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "advrighttitle": "Faster Decision Making",
+    "advdesc": "Access clean, structured data to support quick insights.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "2",
+    "advrighttitle": "Regulatory Compliance Assurance",
+    "advdesc": "Stay aligned with industry standards and data laws.",
+    "advicon": "/adv_black_bullet.png"
+  },
+  {
+    "id": "3",
+    "advrighttitle": "Seamless System Integration",
+    "advdesc": "Sync data effortlessly across platforms and tools.",
+    "advicon": "/adv_green_bullet.png"
+  },
+  {
+    "id": "4",
+    "advrighttitle": "Scalable Infrastructure Support",
+    "advdesc": "Our architecture grows with your business and data volume.",
+    "advicon": "/adv_black_bullet.png"
+  }
+]

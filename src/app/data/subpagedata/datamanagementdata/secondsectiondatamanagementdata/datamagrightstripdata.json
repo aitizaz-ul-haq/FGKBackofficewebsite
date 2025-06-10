@@ -1,38 +1,38 @@
 [
   {
     "id": "1",
-    "striptitle": "Data Accuracy and Reliability",
-    "stripdesc": "We emphasize accuracy by ensuring that all data is carefully processed, verified, and maintained, providing a reliable foundation for analysis.",
+    "striptitle": "Structured Data Foundation",
+    "stripdesc": "We begin by organising and standardising your data sources.",
     "stripicon": "/data_accuracy_and_reliablility.png"
   },
   {
     "id": "2",
-    "striptitle": "Scalability",
-    "stripdesc": "Our solutions are designed to grow alongside your business, accommodating increasing data volumes and complexities.",
+    "striptitle": "End-to-End Visibility",
+    "stripdesc": "Gain full control over your data lifecycle, from input to insight.",
     "stripicon": "/scalibility.png"
   },
   {
     "id": "3",
-    "striptitle": "Data Security First",
-    "stripdesc": "Security is at the core of our services, with strict protocols and measures in place to protect sensitive information.",
+    "striptitle": "Secure Data Governance",
+    "stripdesc": "Compliance, access control, and integrity are built into every step.",
     "stripicon": "/data_security_first.png"
   },
   {
     "id": "4",
-    "striptitle": "Customized Solutions",
-    "stripdesc": " Every business has unique data needs, and we tailor our approach to fit specific requirements, industry standards, and goals.",
+    "striptitle": "Automation and Accuracy",
+    "stripdesc": "Automated processes reduce manual errors and improve consistency.",
     "stripicon": "/customized_data_solutions.png"
   },
   {
     "id": "5",
-    "striptitle": "Compliance and Governance",
-    "stripdesc": "We ensure all data practices adhere to relevant regulations, safeguarding against legal risks and enhancing data governance.",
+    "striptitle": "Business-Aligned Strategy",
+    "stripdesc": "Data solutions tailored to meet your unique operational goals.",
     "stripicon": "/compliance_and_governance.png"
   },
   {
     "id": "6",
-    "striptitle": "Continuous Improvement",
-    "stripdesc": "We routinely assess data processes, implementing enhancements to improve data accuracy, accessibility, and security.",
+    "striptitle": "Scalable Architecture Design",
+    "stripdesc": "We build data systems that grow as your business evolves.",
     "stripicon": "/conyinious_improvement.png"
   }
 ]
