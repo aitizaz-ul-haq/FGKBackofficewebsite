@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "striptitle": "Scalability",
-    "stripdesc": "Our solutions adapt as your business grows, offering consistent support from start-up to enterprise-level needs.",
+    "striptitle": "Insight Analysis",
+    "stripdesc": "We interpret trends, ratios, and variances for better strategy.",
     "stripicon": "/scalibility_strip.png"
   },
   {
     "id": "2",
-    "striptitle": "Client-Centric Approach",
-    "stripdesc": "We tailor our services to each client, ensuring that we address unique challenges and provide solutions aligned with business goals.",
+    "striptitle": "Data Validation",
+    "stripdesc": "We ensure all entries meet accuracy and compliance standards.",
     "stripicon": "/client_centric_approach.png"
   },
   {
     "id": "3",
-    "striptitle": "Continuous Improvement",
-    "stripdesc": "We regularly evaluate our accounting processes, implementing enhancements to maintain optimal accuracy, compliance, and efficiency.",
+    "striptitle": "Clear Reporting",
+    "stripdesc": "Generate structured, easy-to-read financial statements and summaries.",
     "stripicon": "/continioua_improvement.png"
   }
 ]

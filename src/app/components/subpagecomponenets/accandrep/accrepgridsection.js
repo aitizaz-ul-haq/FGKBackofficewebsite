@@ -14,7 +14,7 @@ export default function AccRepGridSection() {
           {accandrepdata.proggriddescription}
         </div>
         <div className="accandre-grid-text-description font-inter">
-          {accandrepdata.proggriddescription}
+          {accandrepdata.proggriddescriptiontwo}
         </div>
         <button className="accandre-grid-text-button font-inter">
           Hire A Professional

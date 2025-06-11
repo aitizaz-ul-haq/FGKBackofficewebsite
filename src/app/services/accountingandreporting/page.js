@@ -14,10 +14,11 @@ import accreprightstripdata from "@/app/data/subpagedata/accandrepdata/secondsec
 import AccrepThirdSectionTextData from "@/app/data/subpagedata/accandrepdata/thirdsectionaccrep/accrepthirdsectiontextdata.json";
 import AccrepThirdSectionLeftCardData from "@/app/data/subpagedata/accandrepdata/thirdsectionaccrep/accrepthirdsectionleftcarddata.json";
 import AccrepThirdSectionRightCardData from "@/app/data/subpagedata/accandrepdata/thirdsectionaccrep/accrepthirdsectionrightcarddata.json";
-import HumresIndustriesData from "@/app/data/subpagedata/humresdata/industriesectionhumresdata/industrieshumresdata.json";
+import Accandrepindustriesdata from "@/app/data/subpagedata/accandrepdata/accandrepindustries.json";
 import assadvtextdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/accadvtextdata.json";
 import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/lefsideadvdata.json";
 import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
+import Accandrepgettingstarted from "@/app/data/subpagedata/accandrepdata/accandrepgettingstarted.json";
 
 // importing utility mentods
 import { getHeroData } from "@/app/utils/gethreodata";
@@ -39,8 +40,8 @@ export default function AccountingAndReporting() {
         rightstripcarddata={AccrepThirdSectionRightCardData}
       />
       <SubPagesIndustriesSection
-        heading={HumresIndustriesData.heading}
-        text={HumresIndustriesData.text}
+        heading={Accandrepindustriesdata.heading}
+        text={Accandrepindustriesdata.text}
       />
       <SubPagesAdvantegesSection
         advtitle={assadvtextdata.advtitle}
@@ -48,7 +49,10 @@ export default function AccountingAndReporting() {
         leftdata={leftadvdata}
         rightdata={rightadvdata}
       />
-      <SubPagesGetStartedSection />
+      <SubPagesGetStartedSection
+        headinggetstarted={Accandrepgettingstarted.heading}
+        descriptiongetstarted={Accandrepgettingstarted.text}
+      />
     </>
   );
 }

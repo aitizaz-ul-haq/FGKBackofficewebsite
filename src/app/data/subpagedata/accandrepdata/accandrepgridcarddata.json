@@ -1,38 +1,38 @@
 [
   {
     "id": "1",
-    "title": "Bookkeeping and Record-Keeping",
-    "paragraph": "Ensuring accurate, organized records of all financial transactions, providing a solid foundation for reporting and analysis.",
+    "title": " Bookkeeping Services",
+    "paragraph": "Maintain accurate financial records for smooth daily operations.",
     "iconLink": "/Bookkeeping_and_record_keeping.png"
   },
   {
     "id": "2",
-    "title": "Financial Reporting and Analysis",
-    "paragraph": "Delivering clear, comprehensive financial reports and insights to guide strategic business decisions.",
+    "title": "Financial Statement Reporting",
+    "paragraph": "Generate clear, compliant reports to track business health.",
     "iconLink": "/finance_reporting_and_analysis.png"
   },
   {
     "id": "3",
-    "title": "Budgeting and Forecasting",
-    "paragraph": "Developing detailed budgets and forecasts to help you plan for future growth and manage resources effectively.",
+    "title": "Payroll Management",
+    "paragraph": "Ensure accurate, on-time salary processing and compliance.",
     "iconLink": "/budgeting_and_forecasting.png"
   },
   {
     "id": "4",
-    "title": "Tax Preparation and Compliance",
-    "paragraph": " Assisting with tax filings, compliance checks, and strategic tax planning to minimize liabilities.",
+    "title": "Tax Filing",
+    "paragraph": "Prepare and file taxes according to local reporting standards while minimising liabilities.",
     "iconLink": "/tax_preperation_and_compliance.png"
   },
   {
     "id": "5",
-    "title": "Cash Flow Management",
-    "paragraph": "Monitoring and optimizing cash flow to ensure adequate liquidity for operational needs and growth initiatives.",
+    "title": "Cash Flow Analysis",
+    "paragraph": "Track liquidity and forecast future financial needs.",
     "iconLink": "/cash_flow_management.png"
   },
   {
     "id": "6",
-    "title": "Audit Support and Preparation",
-    "paragraph": "Providing assistance with audit preparation, ensuring that financial records meet regulatory standards and internal audit requirements.",
+    "title": "Budgeting and Forecasting",
+    "paragraph": "Plan strategically with data-backed financial projections.",
     "iconLink": "/audit_support_and_preperation.png"
   }
 ]

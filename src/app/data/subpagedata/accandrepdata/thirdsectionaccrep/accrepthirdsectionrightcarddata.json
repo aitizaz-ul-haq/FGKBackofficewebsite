@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "striptitle": "Initial Consultation and Needs Assessment",
-    "stripdesc": "We begin by understanding your business needs, assessing current financial practices, and identifying areas for improvement.",
+    "striptitle": "Transaction Data Entry",
+    "stripdesc": "Record all financial activities with speed and precision.",
     "stripicon": "/initial_consultation.png"
   },
   {
     "id": "2",
-    "striptitle": "System Setup and Integration",
-    "stripdesc": "We implement or integrate accounting systems to automate and streamline financial processes.",
+    "striptitle": "Account Reconciliation Process",
+    "stripdesc": "Ensure internal records match bank and third-party data.",
     "stripicon": "/system_setup_and_integration.png"
   },
   {
     "id": "3",
-    "striptitle": "Monthly Reconciliation",
-    "stripdesc": "Monthly account reconciliation keeps records accurate and prevents discrepancies, maintaining a clear financial picture.",
+    "striptitle": "Variance and Ratio Analysis",
+    "stripdesc": "Compare actuals vs. budgets and track financial performance.",
     "stripicon": "/monthly_reconcilliation.png"
   },
   {
     "id": "4",
-    "striptitle": "Regular Compliance Audits",
-    "stripdesc": " We perform routine compliance checks to ensure all financial practices meet current legal and regulatory standards.",
+    "striptitle": "Insightful Report Delivery",
+    "stripdesc": "Provide stakeholders with timely, clear financial insights.",
     "stripicon": "/regular_compliance_audits.png"
   }
 ]

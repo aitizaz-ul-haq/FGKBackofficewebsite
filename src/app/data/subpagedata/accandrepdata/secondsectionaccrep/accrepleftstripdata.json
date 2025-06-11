@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "striptitle": "Accuracy and Precision",
-    "stripdesc": "We ensure every financial detail is meticulously recorded and verified, providing a strong basis for trustworthy reporting.",
+    "striptitle": "Needs Assessment",
+    "stripdesc": "We start by understanding your financial goals and structure.",
     "stripicon": "/accuracy_and_precision.png"
   },
   {
     "id": "2",
-    "striptitle": "Transparency and Compliance",
-    "stripdesc": " Our practices meet or exceed regulatory standards, ensuring transparent financial reporting and full compliance with industry regulations.",
+    "striptitle": "Accurate Recording",
+    "stripdesc": "Every transaction is recorded promptly and precisely.",
     "stripicon": "/transperency_and_compliance.png"
   },
   {
     "id": "3",
-    "striptitle": "Risk Data-Driven Insights",
-    "stripdesc": "Leveraging financial data, we identify trends and patterns to provide actionable insights for strategic planning.",
+    "striptitle": "Strategic Advisory",
+    "stripdesc": "Provide proactive guidance to support planning and growth.",
     "stripicon": "/risk_data_driven_insights.png"
   }
 ]

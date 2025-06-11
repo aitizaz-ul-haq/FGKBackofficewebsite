@@ -1,26 +1,26 @@
 [
   {
     "id": "0",
-    "advlefttitle": "Accuracy and Precision",
-    "advdesc": "We ensure every financial detail is meticulously recorded and verified, providing a strong basis for trustworthy reporting.",
+    "advlefttitle": "Accurate Financial Records",
+    "advdesc": "Maintain precise, up-to-date books for full transparency.",
     "advicon": "/adv_green_bullet.png"
   },
   {
     "id": "1",
-    "advlefttitle": "Accuracy and Precision",
-    "advdesc": "We ensure every financial detail is meticulously recorded and verified, providing a strong basis for trustworthy reporting.",
+    "advlefttitle": "Regulatory Compliance Support",
+    "advdesc": "Ensure alignment with local tax laws and accounting standards.",
     "advicon": "/adv_black_bullet.png"
   },
   {
     "id": "2",
-    "advlefttitle": "Accuracy and Precision",
-    "advdesc": "We ensure every financial detail is meticulously recorded and verified, providing a strong basis for trustworthy reporting.",
+    "advlefttitle": "Cost Efficiency Gains",
+    "advdesc": "Reduce overhead through streamlined financial operations.",
     "advicon": "/adv_green_bullet.png"
   },
   {
     "id": "3",
-    "advlefttitle": "Accuracy and Precision",
-    "advdesc": "We ensure every financial detail is meticulously recorded and verified, providing a strong basis for trustworthy reporting.",
+    "advlefttitle": "Performance Visibility Tools",
+    "advdesc": "Track financial KPIs for improved operational control.",
     "advicon": "/adv_black_bullet.png"
   }
 ]
