@@ -14,7 +14,7 @@ export default function WebDevGridSection() {
           {webdevdata.proggriddescription}
         </div>
         <div className="webdev-grid-text-description font-inter">
-          {webdevdata.proggriddescription}
+          {webdevdata.proggriddescriptiontwo}
         </div>
         <button className="webdev-grid-text-button font-inter">
           Hire A Professional

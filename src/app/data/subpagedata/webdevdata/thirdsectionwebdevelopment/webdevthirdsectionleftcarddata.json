@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "striptitle": "Listing Requisites",
-    "stripdesc": "Clear documentation of requirements, features, and functionality to align expectations and avoid confusion.",
+    "striptitle": "Planning Architecture",
+    "stripdesc": "Define site structure, functionality, and user flow before design.",
     "stripicon": "/listing_the_requisits.png"
   },
   {
     "id": "2",
-    "striptitle": "Absolute Web Development",
-    "stripdesc": "Building your website using the latest technologies, ensuring robust and scalable performance.",
+    "striptitle": "Visual Design",
+    "stripdesc": "Design high-fidelity UI based on brand, usability, and trends.",
     "stripicon": "/absolute_web_development.png"
   },
   {
     "id": "3",
-    "striptitle": "Ultimate Web Launch",
-    "stripdesc": "Seamlessly deploying your website with a smooth transition from development to live status.",
+    "striptitle": "Back-end Integration",
+    "stripdesc": "Implement secure, scalable server-side logic and database support.",
     "stripicon": "/ultimate_web_launch.png"
   },
   {
     "id": "4",
-    "striptitle": "Project Closure and Review",
-    "stripdesc": "Once the project is completed, we conduct a thorough review to ensure quality and performance",
+    "striptitle": "Launch & Support",
+    "stripdesc": "Launch the final product with ongoing maintenance and updates.",
     "stripicon": "/project_closure_and_review.png"
   }
 ]

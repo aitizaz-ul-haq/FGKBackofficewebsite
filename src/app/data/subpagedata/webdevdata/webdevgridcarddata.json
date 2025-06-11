@@ -1,38 +1,38 @@
 [
   {
     "id": "1",
-    "title": "Custom Web Development",
-    "paragraph": "Tailored web solutions designed to meet your unique business needs and goals.",
+    "title": "Tailored Solutions",
+    "paragraph": "Fully customised web development aligned with your business needs.",
     "iconLink": "/custom_development.png"
   },
   {
     "id": "2",
-    "title": "Custom Web Design",
-    "paragraph": "Visually stunning and user-centric designs that reflect your brand identity.",
+    "title": "Modern Design",
+    "paragraph": "High-end, visually engaging UI built for performance and clarity.",
     "iconLink": "/custom_web_design.png"
   },
   {
     "id": "3",
-    "title": "Responsive Design",
-    "paragraph": "Seamlessly adaptable websites that deliver flawless performance across all devices.",
+    "title": "Responsive Layouts",
+    "paragraph": "Seamless user experience across all devices and screen sizes.",
     "iconLink": "/reponsive_web_design.png"
   },
   {
     "id": "4",
-    "title": "Website Maintenance",
-    "paragraph": "Reliable ongoing support to keep your website secure, updated, and performing at its best.",
+    "title": "Site Maintenance",
+    "paragraph": "Ongoing website maintenance to ensure security and smooth operation.",
     "iconLink": "/website_maintainance.png"
   },
   {
     "id": "5",
-    "title": "Search Engine Optimisation",
-    "paragraph": "Optimised websites to enhance visibility and drive organic traffic to your business.",
+    "title": "SEO Optimization",
+    "paragraph": "Boost visibility and ranking through on-page and technical SEO.",
     "iconLink": "/seo_services.png"
   },
   {
     "id": "6",
-    "title": "Latest Tech Stack",
-    "paragraph": "Cutting-edge tools and technologies for modern, high-performing, and future-ready websites.",
+    "title": "Tech Integration",
+    "paragraph": "Developed using the latest frameworks, tools, and web standards.",
     "iconLink": "/latest_tech_stack.png"
   }
 ]

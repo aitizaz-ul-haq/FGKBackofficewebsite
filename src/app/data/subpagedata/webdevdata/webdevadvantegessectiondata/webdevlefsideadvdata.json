@@ -1,26 +1,26 @@
 [
   {
     "id": "0",
-    "advlefttitle": "Tailored Solutions for Your Business",
-    "advdesc": "Custom-built websites designed to reflect your brand identity and meet your specific objectives.",
+    "advlefttitle": "Custom-Built Solutions",
+    "advdesc": "Tailored websites that reflect your brand and business needs.",
     "advicon": "/adv_green_bullet.png"
   },
   {
     "id": "1",
-    "advlefttitle": "User-Centered Design",
-    "advdesc": "Intuitive and visually appealing interfaces that priorities user experience and drive engagement.",
+    "advlefttitle": "Responsive Experience Delivery",
+    "advdesc": "Optimised for flawless performance across all screen sizes.",
     "advicon": "/adv_black_bullet.png"
   },
   {
     "id": "2",
-    "advlefttitle": "Enhanced SEO Performance",
-    "advdesc": "Websites optimised to rank higher in search engines, ensuring increased visibility and organic traffic.",
+    "advlefttitle": "Scalable Codebase Architecture",
+    "advdesc": "Web apps that evolve effortlessly with your business growth.",
     "advicon": "/adv_green_bullet.png"
   },
   {
     "id": "3",
-    "advlefttitle": "Mobile-Responsive Designs",
-    "advdesc": "Seamlessly adaptive websites that perform flawlessly across devices, from desktops to smartphones.",
+    "advlefttitle": "Fast Load Speed",
+    "advdesc": "Performance optimised for speed, engagement, and conversions.",
     "advicon": "/adv_black_bullet.png"
   }
 ]

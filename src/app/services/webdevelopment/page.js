@@ -18,6 +18,7 @@ import WebdevIndustriesData from "@/app/data/subpagedata/webdevdata/industriesec
 import webdevadv from "@/app/data/subpagedata/webdevdata/webdevadvantegessectiondata/webdevadvtextdata.json";
 import leftadvdata from "@/app/data/subpagedata/webdevdata/webdevadvantegessectiondata/webdevlefsideadvdata.json";
 import rightadvdata from "@/app/data/subpagedata/webdevdata/webdevadvantegessectiondata/webdevrightsideadvdata.json";
+import Webdevgetstarteddata from "@/app/data/subpagedata/webdevdata/webdevgettingstarted.json";
 
 // importing utility methods
 import { getHeroData } from "@/app/utils/gethreodata";
@@ -49,7 +50,10 @@ export default function WebDevelopment() {
         leftdata={leftadvdata}
         rightdata={rightadvdata}
       />
-      <SubPagesGetStartedSection />
+      <SubPagesGetStartedSection
+        headinggetstarted={Webdevgetstarteddata.heading}
+        descriptiongetstarted={Webdevgetstarteddata.text}
+      />
     </>
   );
 }

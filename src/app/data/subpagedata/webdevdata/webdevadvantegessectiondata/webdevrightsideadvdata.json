@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "advrighttitle": "State-of-the-Art Technology",
-    "advdesc": "Development using the latest tech stack ensures high performance, scalability, and future-readiness.",
+    "advrighttitle": "Modern Tech Stack",
+    "advdesc": "Developed using the latest frameworks and best practices.",
     "advicon": "/adv_green_bullet.png"
   },
   {
     "id": "2",
-    "advrighttitle": "Secure and Reliable Websites",
-    "advdesc": "Advanced security protocols to protect your website and user data, instilling trust and confidence.",
+    "advrighttitle": "SEO-Friendly Structure",
+    "advdesc": "Built from the ground up to rank better and load faster.",
     "advicon": "/adv_black_bullet.png"
   },
   {
     "id": "3",
-    "advrighttitle": "Ongoing Support and Maintenance",
-    "advdesc": "Dedicated support to keep your website updated, secure, and running at peak performance.",
+    "advrighttitle": "Secure by Design",
+    "advdesc": "Integrated security protocols to protect your users and data.",
     "advicon": "/adv_green_bullet.png"
   },
   {
     "id": "4",
-    "advrighttitle": "Proven Process for Success",
-    "advdesc": "A structured and transparent workflow that guarantees timely delivery and high-quality results.",
+    "advrighttitle": "Post-Launch Support",
+    "advdesc": "Ongoing maintenance and updates to keep your site running smoothly.",
     "advicon": "/adv_black_bullet.png"
   }
 ]

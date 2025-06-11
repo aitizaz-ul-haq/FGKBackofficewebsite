@@ -1,6 +1,7 @@
 {
   "textsectiontitle": "Our Approach to Web Development",
-  "textsectionparaone": "At FGK Back Office Services, our web development process is meticulously designed to deliver high-quality, tailor-made solutions that align with your business objectives. From the initial consultation to the final deployment, we priorities collaboration, innovation, and precision at every step. Our holistic approach ensures that every project we undertake not only meets but exceeds your expectations, focusing on user experience, functionality, and long-term success.",
-  "textsectionparatwo": "Effective project management is the cornerstone of any successful business operation. Our comprehensive Project Management Services ensure that your projects are delivered on time, within budget, and exceed quality expectations. We bring years of expertise and a proven track record of successful project completions across various industries.",
+  "textsectionparaone": "At FGK Back Office Services, our approach to web development starts with understanding your business goals. We collaborate closely to define requirements, user expectations, and technical needs—ensuring that every project begins with clear direction and purpose.",
+  "textsectionparatwo": "We follow a modular, scalable development process built on modern frameworks and clean code practices. From front-end design to back-end architecture, we focus on performance, accessibility, and long-term maintainability to deliver web solutions that are both beautiful and robust.",
+  "textsectionparathree": "Quality assurance is embedded throughout our workflow. Every feature is tested across devices and browsers, while security, SEO, and speed are optimised from day one, resulting in a site that’s ready for users, search engines, and scale.",
   "pagebackground": "/web_development_second_section.png"
 }

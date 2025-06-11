@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "striptitle": "SEO Optimisation",
-    "stripdesc": "Every website is built with a solid SEO foundation to maximise visibility and drive organic traffic.",
+    "striptitle": "Search Visibility",
+    "stripdesc": "Built with SEO best practices to improve rankings and reach.",
     "stripicon": "/seo_optimization.png"
   },
   {
     "id": "2",
-    "striptitle": "Security and Privacy",
-    "stripdesc": "We implement robust security measures to protect your website and user data at every level.",
+    "striptitle": "Built-In Security",
+    "stripdesc": "Development with strong data protection and privacy compliance in mind.",
     "stripicon": "/security_and_privacy.png"
   },
   {
     "id": "3",
-    "striptitle": "Ongoing Support and Maintenance",
-    "stripdesc": "We provide continuous support to keep your website updated, secure, and performing at its peak.",
+    "striptitle": "Continual Support",
+    "stripdesc": "Ongoing updates, monitoring, and maintenance for lasting performance.",
     "stripicon": "/ongoing_support_and_maintainance.png"
   }
 ]
