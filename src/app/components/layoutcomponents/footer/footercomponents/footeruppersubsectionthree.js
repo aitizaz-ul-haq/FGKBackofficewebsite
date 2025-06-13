@@ -5,7 +5,7 @@ export default function FooterUpperSubSectionThree() {
         <ul className="footer-list-main font-inter">
           <li className="footer-list-title">Industries</li>
           <li className="footer-list-item text-light">Fintech</li>
-          <li className="footer-list-item text-light">Insurance</li>
+          {/* <li className="footer-list-item text-light">Insurance</li> */}
           <li className="footer-list-item text-light">Tech Support</li>
           <li className="footer-list-item text-light">Financial Services</li>
           <li className="footer-list-item text-light">Accountancy & Finance</li>
