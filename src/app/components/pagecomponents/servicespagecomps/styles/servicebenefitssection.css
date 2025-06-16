@@ -1,6 +1,6 @@
 .services-benefits-container {
   width: 100%;
-  background-image: url("../../../../../../public/service_benefits_section_background.png");
+  background-image: url("https://i.postimg.cc/631pGvG3/service-benefits-section-background.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@
 @media (min-width: 1280px) {
   .services-benefits-container {
     width: 100%;
-    background-image: url("../../../../../../public/service_benefits_section_background.png");
+    background-image: url("https://i.postimg.cc/631pGvG3/service-benefits-section-background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
