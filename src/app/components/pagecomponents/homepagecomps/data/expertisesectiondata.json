@@ -1,30 +1,30 @@
 [
   {
-    "cardicon": "/Data_managment_icon_card.png",
+    "cardicon": "https://i.postimg.cc/6qb7fP2d/Data-managment-icon-card.webp",
     "cardtitle": "Data Management",
     "carddescription": "Securely organising, storing and maintaining your business information for easy access and informed decisions.",
     "buttonlink": "/servicest"
   },
   {
-    "cardicon": "/Operations_support.png",
+    "cardicon": "https://i.postimg.cc/2yvBxGYy/Operations-support.webp",
     "cardtitle": "Operations Support",
     "carddescription": "Managing daily tasks and workflows to improve coordination, reduce delays and boost overall efficiency.",
     "buttonlink": "/servicest"
   },
   {
-    "cardicon": "/Accounting_Reporting.png",
+    "cardicon": "https://i.postimg.cc/FKV7nwtM/Accounting-Reporting.webp",
     "cardtitle": "Accounting & Reporting",
     "carddescription": "Providing clear, timely financial records and insights to support planning, compliance and control.",
     "buttonlink": "/servicest"
   },
   {
-    "cardicon": "/Project_management.png",
+    "cardicon": "https://i.postimg.cc/QdLZPb3s/Project-management.webp",
     "cardtitle": "Project Management",
     "carddescription": "Planning and guiding projects from start to finish with structure, clarity and measurable results.",
     "buttonlink": "/servicest"
   },
   {
-    "cardicon": "/Web_development.png",
+    "cardicon": "https://i.postimg.cc/5yb6wC4W/Web-development.webp",
     "cardtitle": "Web Development",
     "carddescription": "Creating fast, modern and user friendly websites and tools tailored to your business goals.",
     "buttonlink": "/servicest"

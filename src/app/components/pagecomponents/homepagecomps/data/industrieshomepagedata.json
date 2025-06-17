@@ -1,24 +1,24 @@
 [
   {
-    "cardicon": "/finance_industries_icon.png",
+    "cardicon": "https://i.postimg.cc/9fNg7m1b/finance-industries-icon.webp",
     "cardtitle": "FInanacial Services",
     "carddescription": "We support banks, investment firms and financial institutions with secure data handling and compliance focused processes.",
     "buttonlink": "/"
   },
   {
-    "cardicon": "/Accounting_and_finance_icon.png",
+    "cardicon": "https://i.postimg.cc/MTtfXNd7/Accounting-and-finance-icon.webp",
     "cardtitle": "Accountancy & Finance",
     "carddescription": "Our team assists accounting professionals with bookkeeping, reporting, reconciliations and client records.",
     "buttonlink": "/"
   },
   {
-    "cardicon": "/Tech_support_icon.png",
+    "cardicon": "https://i.postimg.cc/25kcXH01/Tech-support-icon.webp",
     "cardtitle": "Tech Support",
     "carddescription": "We work with tech companies to manage tickets, documentation and workflow systems that improve service delivery.",
     "buttonlink": "/"
   },
   {
-    "cardicon": "/Fintech_industry_icon.png",
+    "cardicon": "https://i.postimg.cc/NM9J83zc/Fintech-industry-icon.webp",
     "cardtitle": "Fintech",
     "carddescription": "From onboarding to transaction support, we offer efficient, scalable solutions for fast moving financial technology platforms.",
     "buttonlink": "/"

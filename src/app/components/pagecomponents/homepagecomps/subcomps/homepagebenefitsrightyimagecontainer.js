@@ -4,7 +4,7 @@ export default function HomepageBenefitsRightyImageContainer() {
   return (
     <div className="homepage-right-section-image-container">
       <Image
-        src="/homepage_right_section.png"
+        src="https://i.postimg.cc/5yjxm2Mt/homepage-right-section.webp"
         width={240}
         height={240}
         className="homepage-benefits-left-image"

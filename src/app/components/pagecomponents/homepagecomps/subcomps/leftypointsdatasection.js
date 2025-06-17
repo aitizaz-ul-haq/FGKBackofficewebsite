@@ -8,7 +8,7 @@ export default function LeftPointsDataSection() {
         <div className="homepage-benefits-point-container" key={index}>
           <div className="homepage-left-section-benefits-listing-container">
             <Image
-              src="/benefits_bullet.png"
+              src="https://i.postimg.cc/gkbrmYYC/benefits-bullet.webp"
               width={60}
               height={60}
               className=""
