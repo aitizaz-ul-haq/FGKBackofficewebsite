@@ -43,7 +43,7 @@ export default function TeamPageTeamCard({
             <div className="rightsection-button-group">
               <Link href={facebooklink} passHref>
                 <Image
-                  src="/facebook dark.png"
+                  src="https://i.postimg.cc/bN3xJ6mH/facebook-dark.webp"
                   alt="facebookicon"
                   width={50}
                   height={50}
@@ -52,7 +52,7 @@ export default function TeamPageTeamCard({
               </Link>
               <Link href={linkdinlink} passHref>
                 <Image
-                  src="/linkdin.png"
+                  src="https://i.postimg.cc/rshNvgbJ/linkdin.webp"
                   alt="lindinicon"
                   width={50}
                   height={50}
@@ -61,7 +61,7 @@ export default function TeamPageTeamCard({
               </Link>
               <Link href={xlink} passHref>
                 <Image
-                  src="/x.png"
+                  src="https://i.postimg.cc/1z0SDYf4/x.webp"
                   alt="xicon"
                   width={50}
                   height={50}
@@ -110,7 +110,7 @@ export default function TeamPageTeamCard({
             <div className="rightsection-button-group">
               <Link href={facebooklink} passHref>
                 <Image
-                  src="/facebook dark.png"
+                  src="https://i.postimg.cc/bN3xJ6mH/facebook-dark.webp"
                   alt="facebookicon"
                   width={50}
                   height={50}
@@ -119,7 +119,7 @@ export default function TeamPageTeamCard({
               </Link>
               <Link href={linkdinlink} passHref>
                 <Image
-                  src="/linkdin.png"
+                  src="https://i.postimg.cc/rshNvgbJ/linkdin.webp"
                   alt="lindinicon"
                   width={50}
                   height={50}
@@ -128,7 +128,7 @@ export default function TeamPageTeamCard({
               </Link>
               <Link href={xlink} passHref>
                 <Image
-                  src="/x.png"
+                  src="https://i.postimg.cc/1z0SDYf4/x.webp"
                   alt="xicon"
                   width={50}
                   height={50}

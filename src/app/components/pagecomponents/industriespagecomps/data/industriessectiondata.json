@@ -1,25 +1,25 @@
 [
   {
     "id": "financial-services",
-    "cardicon": "/finance_industries_icon.png",
+    "cardicon": "https://i.postimg.cc/9fNg7m1b/finance-industries-icon.webp",
     "cardheading": "Financial Services",
     "carddescription": "We provide comprehensive back-office support to financial institutions, including data management, compliance documentation, process automation, and client servicing. Our services help reduce administrative burdens, improve accuracy, and maintain regulatory readiness."
   },
   {
     "id": "accountancy-finance",
-    "cardicon": "/Accounting_and_finance_icon.png",
+    "cardicon": "https://i.postimg.cc/MTtfXNd7/Accounting-and-finance-icon.webp",
     "cardheading": "Accountancy and Finance",
     "carddescription": "From invoice processing to ledger maintenance and reconciliations, our team handles the routine so your accounting professionals can focus on advisory work. We ensure timely financial reporting and dependable support for audits and filings."
   },
   {
     "id": "tech-support",
-    "cardicon": "/Tech_support_icon.png",
+    "cardicon": "https://i.postimg.cc/25kcXH01/Tech-support-icon.webp",
     "cardheading": "Tech Support",
     "carddescription": "We assist tech companies with back-end coordination, ticket management, client communications, and performance reporting. Our tech-savvy support teams ensure smooth operations and help maintain high customer satisfaction across support channels."
   },
   {
     "id": "fintech",
-    "cardicon": "/Fintech_industry_icon.png",
+    "cardicon": "https://i.postimg.cc/NM9J83zc/Fintech-industry-icon.webp",
     "cardheading": "Fintech",
     "carddescription": "In the fast-paced world of fintech, we offer specialised support in KYC documentation, compliance checks, transaction monitoring, customer onboarding, and dispute resolution. We align with your platform’s workflow to deliver friction-less financial technology operations."
   }

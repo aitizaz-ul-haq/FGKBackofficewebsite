@@ -7,7 +7,7 @@ export default function FooterUpperSubSectionOne() {
       <div className="footer-logo-container">
         <Link href="/">
           <Image
-            src="/fgk_letter_logo.png"
+            src="https://i.postimg.cc/Nj2KcbS0/fgk-letter-logo.webp"
             alt="FGK logo"
             width={205}
             height={35}

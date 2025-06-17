@@ -31,7 +31,7 @@ export default function TeamMembersGridCard({
         <div className="social-media-icons-group-container">
           <Link href={facebooklink}>
             <Image
-              src="/facebook dark.png"
+              src="https://i.postimg.cc/bN3xJ6mH/facebook-dark.webp"
               alt="FGK Team members socials"
               width={40}
               height={40}
@@ -40,7 +40,7 @@ export default function TeamMembersGridCard({
           </Link>
           <Link href={xlink}>
             <Image
-              src="/linkdin.png"
+              src="https://i.postimg.cc/rshNvgbJ/linkdin.webp"
               alt="FGK Team members socials"
               width={40}
               height={40}
@@ -49,7 +49,7 @@ export default function TeamMembersGridCard({
           </Link>
           <Link href={linkdinlink}>
             <Image
-              src="/x.png"
+              src="https://i.postimg.cc/1z0SDYf4/x.webp"
               alt="FGK Team members socials"
               width={40}
               height={40}

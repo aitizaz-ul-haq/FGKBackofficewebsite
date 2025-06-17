@@ -6,7 +6,7 @@ export default function HeaderLeftSection() {
     <div className="header-left-logosection">
       <Link href="/">
         <Image
-          src="/fgk_letter_logo.png"
+          src="https://i.postimg.cc/Nj2KcbS0/fgk-letter-logo.webp"
           alt="FGK logo"
           width={170}
           height={28}

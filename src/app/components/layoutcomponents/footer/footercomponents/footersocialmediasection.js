@@ -6,7 +6,7 @@ export default function FooterSocialMediaSection() {
     <div className="social-media-button-container button-group">
       <Link href="/">
         <Image
-          src="/youtube.png"
+          src="https://i.postimg.cc/8CxvrcfT/youtube.webp"
           alt="FGK logo"
           width={40}
           height={40}
@@ -15,7 +15,7 @@ export default function FooterSocialMediaSection() {
       </Link>
       <Link href="/">
         <Image
-          src="/facebook.png"
+          src="https://i.postimg.cc/DwnNVY8r/facebook.webp"
           alt="FGK logo"
           width={40}
           height={40}
@@ -24,7 +24,7 @@ export default function FooterSocialMediaSection() {
       </Link>
       <Link href="/">
         <Image
-          src="/x.png"
+          src="https://i.postimg.cc/1z0SDYf4/x.webp"
           alt="FGK logo"
           width={40}
           height={40}
@@ -33,7 +33,7 @@ export default function FooterSocialMediaSection() {
       </Link>
       <Link href="/">
         <Image
-          src="/linkdin.png"
+          src="https://i.postimg.cc/rshNvgbJ/linkdin.webp"
           alt="FGK logo"
           width={40}
           height={40}
@@ -42,7 +42,7 @@ export default function FooterSocialMediaSection() {
       </Link>
       <Link href="/">
         <Image
-          src="/instagram.png"
+          src="https://i.postimg.cc/VNyWQJ73/instagram.webp"
           alt="FGK logo"
           width={40}
           height={40}

@@ -12,7 +12,7 @@ export default function MainHeroSection({
     <div
       className="hero-section"
       style={{
-        backgroundImage: `url('/services_1920px_hero_background.png')`,
+        backgroundImage: `url('https://i.postimg.cc/J0f7pCxC/services-1920px-hero-background.webp')`,
         "--mobile-image": `url(${mobileImage})`,
         "--desktop-image": `url(${desktopImage})`,
       }}

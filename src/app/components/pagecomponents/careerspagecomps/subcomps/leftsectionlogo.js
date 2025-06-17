@@ -5,7 +5,7 @@ export const LeftSectionLogo = () => {
   return (
     <div className="careers-form-logo">
       <Image
-        src="/fgk_circular_logo.png"
+        src="https://i.postimg.cc/4y8YJ0XY/fgk-circular-logo.webp"
         alt="FGK logo"
         width={200}
         height={200}
