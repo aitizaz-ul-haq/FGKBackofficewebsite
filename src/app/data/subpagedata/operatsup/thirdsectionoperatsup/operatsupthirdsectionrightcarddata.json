@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Initial Process Mapping",
     "stripdesc": "We assess and outline your existing operational structure.",
-    "stripicon": "/needs_assesment.png"
+    "stripicon": "https://i.postimg.cc/yd3JVjkj/needs-assesment.webp"
   },
   {
     "id": "2",
     "striptitle": "Data Flow Monitoring",
     "stripdesc": "Track real-time movement of data across all platforms.",
-    "stripicon": "/process_design.png"
+    "stripicon": "https://i.postimg.cc/pdYGsQ20/process-design.webp"
   },
   {
     "id": "3",
     "striptitle": "Regulatory Checks Applied",
     "stripdesc": "Validate compliance with local and international standards.",
-    "stripicon": "/real_time_monitoring.png"
+    "stripicon": "https://i.postimg.cc/B6CxWNyz/real-time-monitoring.webp"
   },
   {
     "id": "4",
     "striptitle": "Issue Resolution Protocol",
     "stripdesc": "Escalate and resolve problems with minimal disruption.",
-    "stripicon": "/stakeholder_communication.png"
+    "stripicon": "https://i.postimg.cc/8z98WmZx/stakeholder-communication.webp"
   }
 ]

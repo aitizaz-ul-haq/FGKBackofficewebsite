@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Task Allocation Strategy",
     "stripdesc": "Assign responsibilities clearly across systems and teams.",
-    "stripicon": "/stretegic_planning.png"
+    "stripicon": "https://i.postimg.cc/VkcLM15j/stretegic-planning.webp"
   },
   {
     "id": "2",
     "striptitle": "Reconciliation & Validation",
     "stripdesc": "Identify discrepancies and ensure accurate data alignment.",
-    "stripicon": "/resource_allocation_third.png"
+    "stripicon": "https://i.postimg.cc/xCVRVXdX/resource-allocation-third.webp"
   },
   {
     "id": "3",
     "striptitle": "Performance Review Cycle",
     "stripdesc": "Continuously measure outcomes against defined KPIs.",
-    "stripicon": "/data_allocation_and_analysis.png"
+    "stripicon": "https://i.postimg.cc/JhyWs2mf/data-allocation-and-analysis.webp"
   },
   {
     "id": "4",
     "striptitle": "Final Reporting Delivery",
     "stripdesc": "Generate and submit complete and timely reports.",
-    "stripicon": "/continious_improvement_third.png"
+    "stripicon": "https://i.postimg.cc/05FHVyYJ/continious-improvement-third.webp"
   }
 ]

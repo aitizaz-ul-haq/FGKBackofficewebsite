@@ -3,36 +3,36 @@
     "id": "1",
     "title": "Investment Operations Support",
     "paragraph": "Manage trade execution, settlement, and portfolio risk oversight with precision.",
-    "iconLink": "/process_optimization.png"
+    "iconLink": "https://i.postimg.cc/0Q984C7r/process-optimization.webp"
   },
   {
     "id": "2",
     "title": "Fund Accounting Services",
     "paragraph": "Ensure accurate NAV reviews, reporting, and audit readiness.",
-    "iconLink": "/technical_support_&_management.png"
+    "iconLink": "https://i.postimg.cc/SN9vXYXx/technical-support-management.webp"
   },
   {
     "id": "3",
     "title": "Compliance Reporting Solutions",
     "paragraph": "Meet FCA, MiFID II, AML, and ESG obligations with confidence.",
-    "iconLink": "/inventory_supplychain.png"
+    "iconLink": "https://i.postimg.cc/2Sg2kc59/inventory-supplychain.webp"
   },
   {
     "id": "4",
     "title": "Data Reconciliation Services",
     "paragraph": "Identify and resolve discrepancies across systems in real-time.",
-    "iconLink": "/Customer_support.png"
+    "iconLink": "https://i.postimg.cc/qRXMj5YN/Customer-support.webp"
   },
   {
     "id": "5",
     "title": "Performance Measurement Tools",
     "paragraph": "Track investment returns and benchmark your financial outcomes.",
-    "iconLink": "/data-management _analytics.png"
+    "iconLink": "https://i.postimg.cc/htHm6w2M/data-management-analytics.webp"
   },
   {
     "id": "6",
     "title": "Tax & Regulatory Reporting",
     "paragraph": "Stay compliant with timely, detailed tax and regulatory reports.",
-    "iconLink": "/risk_management_and_compliance.png"
+    "iconLink": "https://i.postimg.cc/wM0cNFQN/risk-management-and-compliance.webp"
   }
 ]

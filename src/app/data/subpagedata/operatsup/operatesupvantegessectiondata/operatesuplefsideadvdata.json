@@ -3,24 +3,24 @@
     "id": "0",
     "advlefttitle": "Improved Process Efficiency",
     "advdesc": "Streamline tasks and reduce operational delays.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "https://i.postimg.cc/L5t9n1Hr/adv-green-bullet.webp"
   },
   {
     "id": "1",
     "advlefttitle": "Regulatory Compliance Assurance",
     "advdesc": "Meet industry standards with accurate, timely reporting.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "https://i.postimg.cc/zBL3XvHr/adv-black-bullet.webp"
   },
   {
     "id": "2",
     "advlefttitle": "Risk Management Support",
     "advdesc": "Identify and address issues before they escalate.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "https://i.postimg.cc/L5t9n1Hr/adv-green-bullet.webp"
   },
   {
     "id": "3",
     "advlefttitle": "Scalable Service Model",
     "advdesc": "Adapt our support as your business grows.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "https://i.postimg.cc/zBL3XvHr/adv-black-bullet.webp"
   }
 ]
