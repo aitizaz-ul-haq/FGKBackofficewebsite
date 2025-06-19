@@ -1,32 +1,21 @@
 import "./styles/accrecgridsection.css";
-import SubPagesGridCardSection from "../subpagesgridcardsection/subpagesgridcardsection";
 import accandrepdata from "../../../data/subpagedata/accandrepdata/accandrepgrid.json";
 import accandrecardpdata from "../../../data/subpagedata/accandrepdata/accandrepgridcarddata.json";
+import AccandreTextContainer from "./accandrepmicrocomps/accandretextcontainer";
+import AccandreGridContainer from "./accandrepmicrocomps/accandregridcontainer";
 
 export default function AccRepGridSection() {
   return (
     <div className="accandre-grid-container">
-      <div className="accandre-text-container">
-        <div className="accandre-grid-text-heading font-inter">
-          {accandrepdata.proggridheading}
-        </div>
-        <div className="accandre-grid-text-description font-inter">
-          {accandrepdata.proggriddescription}
-        </div>
-        <div className="accandre-grid-text-description font-inter">
-          {accandrepdata.proggriddescriptiontwo}
-        </div>
-        <button className="accandre-grid-text-button font-inter">
-          Hire A Professional
-        </button>
-      </div>
-
-      <div className="accandre-grid-section-container">
-        <SubPagesGridCardSection
-          proggridsecondheading={accandrepdata.proggridsecondheading}
-          cardData={accandrecardpdata}
-        />
-      </div>
+      <AccandreTextContainer
+        accheading={accandrepdata.proggridheading}
+        accdescription={accandrepdata.proggriddescription}
+        accdescriptiontw0={accandrepdata.proggriddescriptiontwo}
+      />
+      <AccandreGridContainer
+        accheading={accandrepdata.proggridsecondheading}
+        accandrecardpdata={accandrecardpdata}
+      />
     </div>
   );
 }
