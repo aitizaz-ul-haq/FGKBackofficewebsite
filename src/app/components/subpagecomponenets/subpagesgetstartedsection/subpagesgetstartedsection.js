@@ -1,22 +1,18 @@
 import "./subpagesgetstartedsection.css";
+import GetStartedTextContainer from "./getstartedmicrocomps/getstartedtextcontainer";
+import GetStartedSectionButton from "./getstartedmicrocomps/getstartedsectionbutton";
 
 export default function SubPagesGetStartedSection({
   headinggetstarted,
-  descriptiongetstarted
+  descriptiongetstarted,
 }) {
   return (
     <div className="subpagesgetstartedsection-container">
-      <div className="subpagesgetstartedsection-text-container">
-        <div className="subpagesgetstartedsection-heading font-inter">
-          {headinggetstarted}
-        </div>
-        <div className="subpagesgetstartedsection-description font-inter">
-          {descriptiongetstarted}
-        </div>
-      </div>
-      <button className="subpagesgetstartedsection-button">
-        Hire A Professional
-      </button>
+      <GetStartedTextContainer
+        getstartedheading={headinggetstarted}
+        getstarteddescription={descriptiongetstarted}
+      />
+      <GetStartedSectionButton />
     </div>
   );
 }

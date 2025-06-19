@@ -1,6 +1,6 @@
 import "./styles/secondsectiontypemixed.css";
-import SecondSectionLeftStripCard from "./secondsectionleftstripcard/secondsectionleftstripcard";
 import SecondSectionRightStripCard from "./secondsectionrightstripcard/secondsectionrightstripcard";
+import SecondSectionLeftStripCard from "./secondsectionleftstripcard/secondsectionleftstripcard";
 
 export default function SecondSectionTypeMixed({
   textdata,
