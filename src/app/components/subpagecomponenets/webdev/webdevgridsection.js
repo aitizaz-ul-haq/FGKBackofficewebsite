@@ -2,31 +2,21 @@ import "./styles/webdevgridsection.css";
 import SubPagesGridCardSection from "../subpagesgridcardsection/subpagesgridcardsection";
 import webdevdata from "../../../data/subpagedata/webdevdata/webdevgrid.json";
 import webdevcarddata from "../../../data/subpagedata/webdevdata/webdevgridcarddata.json";
+import WebDevTextContainer from "./webdevmicrocomps/webdevtextcontainer";
+import WebDevGridSectionContainer from "./webdevmicrocomps/webdevgridsectioncontainer";
 
 export default function WebDevGridSection() {
   return (
     <div className="webdev-grid-container">
-      <div className="webdev-text-container">
-        <div className="webdev-grid-text-heading font-inter">
-          {webdevdata.proggridheading}
-        </div>
-        <div className="webdev-grid-text-description font-inter">
-          {webdevdata.proggriddescription}
-        </div>
-        <div className="webdev-grid-text-description font-inter">
-          {webdevdata.proggriddescriptiontwo}
-        </div>
-        <button className="webdev-grid-text-button font-inter">
-          Hire A Professional
-        </button>
-      </div>
-
-      <div className="webdev-grid-section-container">
-        <SubPagesGridCardSection
-          proggridsecondheading={webdevdata.proggridsecondheading}
-          cardData={webdevcarddata}
-        />
-      </div>
+      <WebDevTextContainer
+        webdevheading={webdevdata.proggridheading}
+        webdevdescription={webdevdata.proggriddescription}
+        webdevdescriptiontwo={webdevdata.proggriddescriptiontwo}
+      />
+      <WebDevGridSectionContainer
+        webdevcarddata={webdevcarddata}
+        proggridsecondheading={webdevdata.proggridsecondheading}
+      />
     </div>
   );
 }
