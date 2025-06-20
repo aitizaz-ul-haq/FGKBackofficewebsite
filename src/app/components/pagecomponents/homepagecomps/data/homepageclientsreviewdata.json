@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "Reviewrname": "Reviewer",
-    "Designation": "Designation & Company Name",
+    "Reviewrname": "Wajid Khan",
+    "Designation": "Nemesis Asset Management LLP",
     "Reviewtext": "A highly professional team delivering a high level of quality service.  They are very response and accurate in their work."
   },
   {
     "id": "2",
-    "Reviewrname": "Reviewer",
-    "Designation": "Designation & Company Name",
+    "Reviewrname": "Mickey Finn",
+    "Designation": "Nemesis Asset Management LLP",
     "Reviewtext": "The team offers a personalised service, dedicating one point of contact for all your queries"
   },
   {
     "id": "3",
-    "Reviewrname": "Reviewer",
-    "Designation": "Designation & Company Name",
+    "Reviewrname": "Lili-Rae Port",
+    "Designation": "Nemesis Asset Management LLP",
     "Reviewtext": "A very efficient team that always delivers results.  This allows us to concentrate on our core business and grow."
   }
 ]
