@@ -1,6 +1,7 @@
 import "./teampageteamcard.css";
-import Link from "next/link";
-import Image from "next/image";
+import TeamPageTeamCardLeftSection from "../teammembersgridcard.js/teammembersgridcardmicrocomps/teampageteamcardleftsection";
+import TeamCardTeamPageRightSection from "../teammembersgridcard.js/teammembersgridcardmicrocomps/teamcardteampagerightsection";
+import TeamPageTeamSectionMobileImageContainer from "../teammembersgridcard.js/teammembersgridcardmicrocomps/teampageteamsectionmobileimagecontainer";
 
 export default function TeamPageTeamCard({
   photo,
@@ -17,126 +18,30 @@ export default function TeamPageTeamCard({
       {isReversed ? (
         <>
           {/* Right section first */}
-          <Image
-            src={photo}
-            alt="card icon"
-            width={310}
-            height={200}
-            className="teampageteamcard-mobile-image"
+         <TeamPageTeamSectionMobileImageContainer photo={photo} />
+          <TeamCardTeamPageRightSection
+            name={name}
+            designation={designation}
+            description={description}
+            facebooklink={facebooklink}
+            linkdinlink={linkdinlink}
+            xlink={xlink}
           />
-          <div className="teampageteamcard-rightsection">
-            {/* <Image
-              src={photo}
-              alt="card icon"
-              width={550}
-              height={350}
-              className="teampageteamcard-left-image"
-            /> */}
-
-            <h2 className="rightsection-heading font-robot-sarif">{name}</h2>
-            <h3 className="rightsection-designation font-inter text-light">
-              {designation}
-            </h3>
-            <p className="rightsection-description font-inter text-light">
-              {description}
-            </p>
-            <div className="rightsection-button-group">
-              <Link href={facebooklink} passHref>
-                <Image
-                  src="https://i.postimg.cc/bN3xJ6mH/facebook-dark.webp"
-                  alt="facebookicon"
-                  width={50}
-                  height={50}
-                  className="teampageteamcard-social-media"
-                />
-              </Link>
-              <Link href={linkdinlink} passHref>
-                <Image
-                  src="https://i.postimg.cc/rshNvgbJ/linkdin.webp"
-                  alt="lindinicon"
-                  width={50}
-                  height={50}
-                  className="teampageteamcard-social-media"
-                />
-              </Link>
-              <Link href={xlink} passHref>
-                <Image
-                  src="https://i.postimg.cc/1z0SDYf4/x.webp"
-                  alt="xicon"
-                  width={50}
-                  height={50}
-                  className="teampageteamcard-social-media"
-                />
-              </Link>
-            </div>
-          </div>
-          <div className="teampageteamcard-leftsection">
-            <Image
-              src={photo}
-              alt="card icon"
-              width={550}
-              height={350}
-              className="teampageteamcard-left-image"
-            />
-          </div>
+          <TeamPageTeamCardLeftSection photo={photo} />
         </>
       ) : (
         <>
-          <Image
-            src={photo}
-            alt="card icon"
-            width={310}
-            height={200}
-            className="teampageteamcard-mobile-image"
-          />
+           <TeamPageTeamSectionMobileImageContainer photo={photo} />
           {/* Left section first */}
-          <div className="teampageteamcard-leftsection">
-            <Image
-              src={photo}
-              alt="card icon"
-              width={550}
-              height={350}
-              className="teampageteamcard-left-image"
-            />
-          </div>
-          <div className="teampageteamcard-rightsection">
-            <h2 className="rightsection-heading font-robot-sarif">{name}</h2>
-            <h3 className="rightsection-designation font-inter text-light">
-              {designation}
-            </h3>
-            <p className="rightsection-description font-inter text-light">
-              {description}
-            </p>
-            <div className="rightsection-button-group">
-              <Link href={facebooklink} passHref>
-                <Image
-                  src="https://i.postimg.cc/bN3xJ6mH/facebook-dark.webp"
-                  alt="facebookicon"
-                  width={50}
-                  height={50}
-                  className="teampageteamcard-social-media"
-                />
-              </Link>
-              <Link href={linkdinlink} passHref>
-                <Image
-                  src="https://i.postimg.cc/rshNvgbJ/linkdin.webp"
-                  alt="lindinicon"
-                  width={50}
-                  height={50}
-                  className="teampageteamcard-social-media"
-                />
-              </Link>
-              <Link href={xlink} passHref>
-                <Image
-                  src="https://i.postimg.cc/1z0SDYf4/x.webp"
-                  alt="xicon"
-                  width={50}
-                  height={50}
-                  className="teampageteamcard-social-media"
-                />
-              </Link>
-            </div>
-          </div>
+          <TeamPageTeamCardLeftSection photo={photo} />
+          <TeamCardTeamPageRightSection
+            name={name}
+            designation={designation}
+            description={description}
+            facebooklink={facebooklink}
+            linkdinlink={linkdinlink}
+            xlink={xlink}
+          />
         </>
       )}
     </div>
