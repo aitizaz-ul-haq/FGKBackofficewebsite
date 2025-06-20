@@ -1,6 +1,8 @@
 import "./roundendscards.css";
 import Image from "next/image";
 import cardsData from "../../../../components/pagecomponents/servicespagecomps/data/roundcarddata.json";
+import RoundedCardTextSection from "./roundedendcardmicrocomps/roundedcardtextsection";
+import RoundedCardLeftCircularSection from "./roundedendcardmicrocomps/roundedcardleftcircularsection";
 
 export default function RoundEndsCards() {
   return (
@@ -23,52 +25,30 @@ export default function RoundEndsCards() {
           {index % 2 === 0 ? (
             <>
               {/* Right Details Section */}
-              <div className="right-details-section rounded-cards-details-margin">
-                <div className="right-roundedcard-heading font-inter text-light">
-                  {card.title}
-                </div>
-                <div className="right-roundedcard-description font-inter text-light">
-                  {card.description}
-                </div>
-                <div className="right-roundedcard-arrowhead-button font-inter text-light">
-                  {card.buttonText}
-                </div>
-              </div>
+              <RoundedCardTextSection
+                roundedcardheading={card.title}
+                roundedcarddescription={card.description}
+                roundedcardtext={card.buttonText}
+              />
               {/* Left Circular Section */}
-              <div className="left-circular-section">
-                <Image
-                  src={card.iconCircular}
-                  alt={`${card.title} circular icon`}
-                  width={410}
-                  height={410}
-                  className="teampageteamcard-main-image"
-                />
-              </div>
+              <RoundedCardLeftCircularSection
+                source={card.iconCircular}
+                cardtitle={card.title}
+              />
             </>
           ) : (
             <>
               {/* Left Circular Section */}
-              <div className="left-circular-section">
-                <Image
-                  src={card.iconCircular}
-                  alt={`${card.title} circular icon`}
-                  width={410}
-                  height={410}
-                  className="teampageteamcard-main-image"
-                />
-              </div>
+              <RoundedCardLeftCircularSection
+                source={card.iconCircular}
+                cardtitle={card.title}
+              />
               {/* Right Details Section */}
-              <div className="right-details-section rounded-cards-details-margin">
-                <div className="right-roundedcard-heading font-inter text-light">
-                  {card.title}
-                </div>
-                <div className="right-roundedcard-description font-inter text-light">
-                  {card.description}
-                </div>
-                <div className="right-roundedcard-arrowhead-button font-inter text-light">
-                  {card.buttonText}
-                </div>
-              </div>
+              <RoundedCardTextSection
+                roundedcardheading={card.title}
+                roundedcarddescription={card.description}
+                roundedcardtext={card.buttonText}
+              />
             </>
           )}
         </div>
