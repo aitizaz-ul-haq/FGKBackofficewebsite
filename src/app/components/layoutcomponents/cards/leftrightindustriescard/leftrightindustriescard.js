@@ -1,5 +1,6 @@
 import "./leftrightindustriescard.css";
-import Image from "next/image";
+import IndustriesCardRightSection from "./industriessectionmicrocomps/industriescardrightsection";
+import IndustriesCardLeftSection from "./industriessectionmicrocomps/industriescardleftsection";
 
 export default function LeftRightIndustriesCard({
   cardicon,
@@ -12,66 +13,22 @@ export default function LeftRightIndustriesCard({
       {isReversed ? (
         <>
           {/* Right section first */}
-          <div className="industriescard-rightsection">
-            <Image
-              src={cardicon}
-              alt="card icon"
-              width={150}
-              height={150}
-              className="industriescard-mobile-image"
-            />
-
-            <h2 className="rightsection-heading font-robot-sarif">
-              {cardheading}
-            </h2>
-            <p className="rightsection-description font-inter text-light">
-              {carddescription}
-            </p>
-            <button className="rightsection-button font-inter">
-              Get Expert Advice
-            </button>
-          </div>
-          <div className="industriescard-leftsection">
-            <Image
-              src={cardicon}
-              alt="card icon"
-              width={250}
-              height={250}
-              className="industriescard-left-image"
-            />
-          </div>
+          <IndustriesCardRightSection
+            cardicon={cardicon}
+            cardheading={cardheading}
+            carddescription={carddescription}
+          />
+          <IndustriesCardLeftSection cardicon={cardicon} />
         </>
       ) : (
         <>
           {/* Left section first */}
-          <div className="industriescard-leftsection">
-            <Image
-              src={cardicon}
-              alt="card icon"
-              width={250}
-              height={250}
-              className="industriescard-left-image"
-            />
-          </div>
-          <div className="industriescard-rightsection">
-            <Image
-              src={cardicon}
-              alt="card icon"
-              width={150}
-              height={150}
-              className="industriescard-mobile-image"
-            />
-
-            <h2 className="rightsection-heading font-robot-sarif">
-              {cardheading}
-            </h2>
-            <p className="rightsection-description font-inter text-light">
-              {carddescription}
-            </p>
-            <button className="rightsection-button font-inter">
-              Get Expert Advice
-            </button>
-          </div>
+          <IndustriesCardLeftSection cardicon={cardicon} />
+          <IndustriesCardRightSection
+            cardicon={cardicon}
+            cardheading={cardheading}
+            carddescription={carddescription}
+          />
         </>
       )}
     </div>
