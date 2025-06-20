@@ -1,9 +1,5 @@
 //importing sub componenets
 import UpperSection from "./subcomps/uppersection";
-// import MiddleSection from "./subcomps/middlesection";
-// import LastSection from "./subcomps/lastsection";
-// import ImageGrid from "./subcomps/imagegrid";
-// import ImageGridMobile from "./subcomps/imagegridmobile";
 
 //importing style files
 import "./styles/fullbodyaboutpage.css";

@@ -1,4 +1,6 @@
-import Image from "next/image";
+import LeftLogoSectionMobile from "./uppersectionmicrocomps/leftlogosectionmobile";
+import LeftLogoSection from "./uppersectionmicrocomps/leftlogosection";
+import RightIntroSection from "./uppersectionmicrocomps/rightintrosection";
 
 export default function UpperSection({
   companylogo,
@@ -8,39 +10,13 @@ export default function UpperSection({
 }) {
   return (
     <div className="aboutpagecontaent-logo-introsection">
-      <div className="left-logo-section-mobile">
-        <Image
-          src={companylogo}
-          alt="FGK logo"
-          width={180}
-          height={180}
-          className="fgk-logo-about-mobile"
-        />
-      </div>
-
-      <div className="left-logo-section">
-        <Image
-          src={companylogo}
-          alt="FGK logo"
-          width={380}
-          height={380}
-          className="fgk-logo-about"
-        />
-      </div>
-      <div className="right-intro-section">
-        <h2 className="right-heading-section font-inter text-light">
-          About Us
-        </h2>
-        <p className="right-description-section font-inter text-light">
-          {topdescriptionparaone}
-        </p>
-        <p className="right-description-section font-inter text-light">
-          {topdescriptionparatwo}
-        </p>
-         <p className="right-description-section font-inter text-light">
-          {topdescriptionparathree}
-        </p>
-      </div>
+      <LeftLogoSectionMobile companylogo={companylogo} />
+      <LeftLogoSection companylogo={companylogo} />
+      <RightIntroSection
+        topdesparaone={topdescriptionparaone}
+        topdescparatwo={topdescriptionparatwo}
+        topdescparathree={topdescriptionparathree}
+      />
     </div>
   );
 }
