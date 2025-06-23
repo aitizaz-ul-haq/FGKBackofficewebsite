@@ -1,4 +1,6 @@
 import "./servicestranscircularbackgroundcard.css";
+import NumericTitle from "./servicestranscircularmicrocomps/numerictitle";
+import AlphabaticTitle from "./servicestranscircularmicrocomps/alphabatictitle";
 
 export default function ServicesTransCircularBackgroundCard({
   numericitle,
@@ -7,12 +9,8 @@ export default function ServicesTransCircularBackgroundCard({
   return (
     <>
       <div className="circularcard-container">
-        <h2 className="circularcard-numeric-heading font-inter text-light">
-          {numericitle}
-        </h2>
-        <h3 className="circularcard-alphabatic-heading font-roboto-serif text-light">
-          {alphabaticheading}
-        </h3>
+        <NumericTitle numericitle={numericitle} />
+        <AlphabaticTitle alphabaticheading={alphabaticheading} />
       </div>
     </>
   );
