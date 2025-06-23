@@ -1,20 +1,19 @@
+import RightSectionHeading from "./rightsectionmicrocomps/rightsectionheading";
+import RightSectionParaOne from "./rightsectionmicrocomps/rightsectionparaone";
+import RightSectionParaTwo from "./rightsectionmicrocomps/rightsectionparatwo";
+import RightSectionParaThree from "./rightsectionmicrocomps/rightsectionparathree";
+
 export default function RightIntroSection({
-  topdescriptionparaone,
-  topdescriptionparatwo,
-  topdescriptionparathree,
+  topdesparaone,
+  topdescparatwo,
+  topdescparathree,
 }) {
   return (
     <div className="right-intro-section">
-      <h2 className="right-heading-section font-inter text-light">About Us</h2>
-      <p className="right-description-section font-inter text-light">
-        {topdescriptionparaone}
-      </p>
-      <p className="right-description-section font-inter text-light">
-        {topdescriptionparatwo}
-      </p>
-      <p className="right-description-section font-inter text-light">
-        {topdescriptionparathree}
-      </p>
+      <RightSectionHeading />
+      <RightSectionParaOne topdesparaone={topdesparaone} />
+      <RightSectionParaTwo topdescparatwo={topdescparatwo} />
+      <RightSectionParaThree topdescparathree={topdescparathree} />
     </div>
   );
 }
