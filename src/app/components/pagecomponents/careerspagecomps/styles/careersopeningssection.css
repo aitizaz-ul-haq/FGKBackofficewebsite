@@ -76,7 +76,7 @@
 
 /* Modal Content */
 .modal-content {
-  background-image: url("../../../../../../public/about_page_background_image.png");
+  background-image: url("https://i.postimg.cc/qBSMQpht/about-page-background-image.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -184,7 +184,7 @@
   }
 
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     padding: 1rem;
     max-height: 90vh;
   }
@@ -246,7 +246,7 @@
   }
 
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     padding: 1rem;
     max-height: 90vh;
   }
@@ -307,7 +307,7 @@
     width: 100%;
   }
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     padding: 1rem;
     max-height: 90vh;
   }
@@ -369,7 +369,7 @@
   }
 
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     padding: 1rem;
     max-height: 90vh;
   }
@@ -431,7 +431,7 @@
   }
 
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     padding: 1rem;
     max-height: 90vh;
   }
@@ -456,14 +456,14 @@
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
   }
 }
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     padding: 3rem;
     max-height: 90vh;
   }
@@ -488,7 +488,7 @@
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
   }
   .position-strip {
     display: flex;
@@ -518,7 +518,7 @@
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     max-width: 900px;
   }
 }
@@ -526,7 +526,7 @@
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     max-width: 1100px;
   }
 }
@@ -597,7 +597,7 @@
   }
 
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     max-width: 1200px;
   }
 }
@@ -605,7 +605,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     max-width: 1380px;
   }
 }
@@ -613,7 +613,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .modal-content {
-    background-image: url("../../../../../../public/320_modal_background_careers.png");
+    background-image: url("https://i.postimg.cc/g2brDGXz/320-modal-background-careers.webp");
     max-width: 1400px;
   }
 }

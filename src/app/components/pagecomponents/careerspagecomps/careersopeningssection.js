@@ -3,6 +3,16 @@
 import React, { useState } from "react";
 import "./styles/careersopeningssection.css";
 import openingsdata from "./data/careersopeningsdata.json";
+import CareersOpeningsDesignation from "./careersopeningssectionmicrocomps/careersopeningsdesignation";
+import CareersOpeningsDescription from "./careersopeningssectionmicrocomps/careersopeningsdescription";
+import CareersOpeningsHeading from "./careersopeningssectionmicrocomps/careersopeningsheading";
+import SelectedOpeningsDesignation from "./selectedopeningsmicrocomps/selectedopeningsdesignation";
+import SelectedOpeningsDescription from "./selectedopeningsmicrocomps/selectedopeningsdescription";
+import SelectedOpeningsOverSightDescription from "./selectedopeningsmicrocomps/selectedopeningsoversightdescription";
+import SelectedOpeningsOversightHeading from "./selectedopeningsmicrocomps/selectedopeningsoversightheading";
+import SelectedResponsibilitiesHeading from "./selectedopeningsmicrocomps/selectedresponsibilitiesheading";
+import SelectedOpeningsSystemHeading from "./selectedopeningsmicrocomps/selectedopeningssystems";
+import SelectedOpeningsReqSkilledHeading from "./selectedopeningsmicrocomps/selectedopeningsreqskilledheading";
 
 export default function CareersOpeningsSection() {
   const [selectedOpening, setSelectedOpening] = useState(null);
@@ -20,16 +30,12 @@ export default function CareersOpeningsSection() {
 
   return (
     <div className="openings-container">
-      <h2 className="openings-heading font-inter">Openings</h2>
+      <CareersOpeningsHeading />
       {openingsdata.map((opening, index) => (
         <div key={index} className="position-strip">
           <div className="position-description-details-button">
-            <h3 className="position-heading font-inter">
-              {opening.designation}
-            </h3>
-            <p className="position-description font-inter">
-              {opening.description}
-            </p>
+            <CareersOpeningsDesignation designation={opening.designation} />
+            <CareersOpeningsDescription description={opening.description} />
           </div>
           <div className="careers-details-button-container">
             <button
@@ -51,27 +57,25 @@ export default function CareersOpeningsSection() {
             <button className="modal-close-button" onClick={closeModal}>
               &times;
             </button>
-            <h3 className="modal-title font-roboto-sarif">
-              {selectedOpening.designation}
-            </h3>
-            <p className="modal-description font-inter">
-              {selectedOpening.description}
-            </p>
+            <SelectedOpeningsDesignation
+              designation={selectedOpening.designation}
+            />
+            <SelectedOpeningsDescription
+              description={selectedOpening.description}
+            />
 
             {selectedOpening.oversight && (
               <div>
-                <h3 className="modal-title font-roboto-sarif">Oversight</h3>
-                <p className="modal-description font-inter">
-                  {selectedOpening.oversight}
-                </p>
+                <SelectedOpeningsOversightHeading />
+                <SelectedOpeningsOverSightDescription
+                  description={selectedOpening.oversight}
+                />
               </div>
             )}
 
             {selectedOpening.responsibilities && (
               <div>
-                <h3 className="modal-title font-roboto-sarif">
-                  Responsibilities
-                </h3>
+                <SelectedResponsibilitiesHeading />
                 <ul className="modal-list font-inter">
                   {selectedOpening.responsibilities.map((item, index) => (
                     <li key={index}>{item}</li>
@@ -82,7 +86,7 @@ export default function CareersOpeningsSection() {
 
             {selectedOpening.systems && (
               <div>
-                <h3 className="modal-title font-roboto-sarif">Systems</h3>
+                <SelectedOpeningsSystemHeading />
                 <ul className="modal-list font-inter">
                   {selectedOpening.systems.map((item, index) => (
                     <li key={index}>{item}</li>
@@ -93,9 +97,7 @@ export default function CareersOpeningsSection() {
 
             {selectedOpening.requiredSkillset && (
               <div>
-                <h3 className="modal-title font-roboto-sarif">
-                  Required Skillset
-                </h3>
+                <SelectedOpeningsReqSkilledHeading />
                 <ul className="modal-list font-inter">
                   {selectedOpening.requiredSkillset.map((item, index) => (
                     <li key={index}>{item}</li>
