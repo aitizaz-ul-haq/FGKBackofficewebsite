@@ -1,15 +1,14 @@
 import "./homepageclientscard.css";
+import ClientCardReviewText from "./homepageclientcardmicrocomps/clientcardreviewtext";
+import ClientCardDesignation from "./homepageclientcardmicrocomps/clientcarddesignation";
+import ClientCardName from "./homepageclientcardmicrocomps/clietncardname";
 
 export default function HomepageClientsCard({ name, designation, reviewtext }) {
   return (
     <div className="homepage-client-card-container">
-      <div className="homepage-client-name-heading font-inter">{name}</div>
-      <div className="homepage-client-designation font-inter">
-        {designation}
-      </div>
-      <div className="homepage-clients-review-section font-inter">
-        {reviewtext}
-      </div>
+      <ClientCardName name={name} />
+      <ClientCardDesignation designation={designation} />
+      <ClientCardReviewText reviewtext={reviewtext} />
     </div>
   );
 }
