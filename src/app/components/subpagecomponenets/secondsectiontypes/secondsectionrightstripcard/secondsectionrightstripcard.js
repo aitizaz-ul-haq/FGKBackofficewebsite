@@ -1,5 +1,6 @@
 import "./styles/secondsectionrightstripcard.css";
-import Image from "next/image";
+import SecondStripRights from "./secondsectionrightstripmicrocomps/secondstriprights";
+import SecondStripLeft from "./secondsectionrightstripmicrocomps/secondstriplefts";
 
 export default function SecondSectionRightStripCard({
   striptitle,
@@ -8,22 +9,8 @@ export default function SecondSectionRightStripCard({
 }) {
   return (
     <div className="secondsectionstripcardright-container">
-      <div className="secondsectionstripcardright-rightsection">
-        <Image
-          src={stripicon}
-          width={40}
-          height={40}
-          className="secondsectionstripcardright-icon"
-        />
-      </div>
-      <div className="secondsectionstripcardright-leftsection">
-        <div className="secondsectionstripcardright-heading font-roboto-sarif">
-          {striptitle}
-        </div>
-        <div className="secondsectionstripcardright-description font-inter">
-          {stripdesc}
-        </div>
-      </div>
+      <SecondStripRights stripicon={stripicon} />
+      <SecondStripLeft striptitle={striptitle} stripdesc={stripdesc} />
     </div>
   );
 }
