@@ -1,5 +1,6 @@
 import "./styles/secondsectionleftstripcard.css";
-import Image from "next/image";
+import StripCardLeftSection from "./secondsectionstripcardmicrocomps/stripcardleftsection";
+import StripCardRightSection from "./secondsectionstripcardmicrocomps/stripcardrightsection";
 
 export default function SecondSectionLeftStripCard({
   striptitle,
@@ -8,22 +9,8 @@ export default function SecondSectionLeftStripCard({
 }) {
   return (
     <div className="secondsectionstripcard-container">
-      <div className="secondsectionstripcard-leftsection">
-        <div className="secondsectionstripcard-heading font-roboto-sarif">
-          {striptitle}
-        </div>
-        <div className="secondsectionstripcard-description font-inter">
-          {stripdesc}
-        </div>
-      </div>
-      <div className="secondsectionstripcard-rightsection">
-        <Image
-          src={stripicon}
-          width={40}
-          height={40}
-          className="secondsectionstripcard-icon"
-        />
-      </div>
+      <StripCardRightSection stripicon={stripicon} />
+      <StripCardLeftSection striptitle={striptitle} stripdesc={stripdesc} />
     </div>
   );
 }
