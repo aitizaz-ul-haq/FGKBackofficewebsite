@@ -1,6 +1,6 @@
 .subpagesadvantegessection-container {
   width: 100%;
-  background-image: url("https://i.postimg.cc/3wNxnNBv/accrep-advanteges-background.webp");
+  background-image: url("/images/accrep-advanteges_background.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -352,7 +352,7 @@
 @media (min-width: 1600px) {
   .subpagesadvantegessection-container {
     width: 100%;
-    background-image: url("https://i.postimg.cc/3wNxnNBv/accrep-advanteges-background.webp");
+    background-image: url("/images/accrep-advanteges_background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

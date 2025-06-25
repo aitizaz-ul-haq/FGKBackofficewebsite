@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Data Collection",
     "stripdesc": "Gather raw data from all relevant systems and sources.",
-    "stripicon": "/data_needs_assesment.png"
+    "stripicon": "/images/data_needs_assesment.webp"
   },
   {
     "id": "2",
     "striptitle": "Data Transformation",
     "stripdesc": "Reformat and structure data to make it analysis-ready.",
-    "stripicon": "/data_integration_third.png"
+    "stripicon": "/images/data_integration_third.webp"
   },
   {
     "id": "3",
     "striptitle": "Insight Analysis",
     "stripdesc": "Extract trends and patterns to guide business decisions.",
-    "stripicon": "/data_security_implementation.png"
+    "stripicon": "/images/data_security_implementation.webp"
   },
   {
     "id": "4",
     "striptitle": "Controlled Sharing",
     "stripdesc": "Distribute access responsibly across teams and departments.",
-    "stripicon": "/analytics_and_reporting_setup.png"
+    "stripicon": "/images/analytics_and_reporting_setup.webp"
   }
 ]

@@ -195,7 +195,7 @@
   .secondsectionrightsided-container {
     width: 100%;
     /* height: 100vh;  */
-    background-image: url("../../../../../../public/project_management_second_section.png");
+    background-image: url("/images/public/project_management_second_section.webp");
     background-size: cover; /* Ensure the image covers the section */
     background-position: center; /* Center the background */
     background-repeat: no-repeat;

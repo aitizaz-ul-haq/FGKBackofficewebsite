@@ -3,24 +3,24 @@
     "id": "0",
     "advlefttitle": "Reliable Data Quality",
     "advdesc": "Ensure accuracy, consistency, and integrity across all datasets.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "1",
     "advlefttitle": "Risk-Free Operations",
     "advdesc": "Minimise errors and data-related risks through automation.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   },
   {
     "id": "2",
     "advlefttitle": "Real Time Visibility",
     "advdesc": "Monitor data health and trends as they happen.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "3",
     "advlefttitle": "Tailored Data Strategy",
     "advdesc": "Solutions customised to meet your industry needs.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   }
 ]

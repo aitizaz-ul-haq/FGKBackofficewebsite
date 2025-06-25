@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Data Cleaning",
     "stripdesc": "Eliminate errors, duplicates, and inconsistencies for accuracy.",
-    "stripicon": "/data_archetechture_design.png"
+    "stripicon": "/images/data_archetechture_design.webp"
   },
   {
     "id": "2",
     "striptitle": "Secure Storage",
     "stripdesc": "Store processed data safely in compliant, structured systems.",
-    "stripicon": "/data_cleansning_and_quality_assurance.png"
+    "stripicon": "/images/data_cleansning_and_quality_assurance.webp"
   },
   {
     "id": "3",
     "striptitle": "Visual Reporting",
     "stripdesc": "Present findings in dashboards for clear interpretation.",
-    "stripicon": "/data_storage_backup.png"
+    "stripicon": "/images/data_storage_backup.webp"
   },
   {
     "id": "4",
     "striptitle": "Ongoing Monitoring",
     "stripdesc": "Continuously track data health and integrity in real time.",
-    "stripicon": "/ongoing_monitoring_and_optimization.png"
+    "stripicon": "/images/ongoing_monitoring_and_optimization.webp"
   }
 ]

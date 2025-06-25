@@ -3,36 +3,36 @@
     "id": "1",
     "striptitle": "Structured Data Foundation",
     "stripdesc": "We begin by organising and standardising your data sources.",
-    "stripicon": "/data_accuracy_and_reliablility.png"
+    "stripicon": "/images/data_accuracy_and_reliablility.webp"
   },
   {
     "id": "2",
     "striptitle": "End-to-End Visibility",
     "stripdesc": "Gain full control over your data lifecycle, from input to insight.",
-    "stripicon": "/scalibility.png"
+    "stripicon": "/images/scalibility.webp"
   },
   {
     "id": "3",
     "striptitle": "Secure Data Governance",
     "stripdesc": "Compliance, access control, and integrity are built into every step.",
-    "stripicon": "/data_security_first.png"
+    "stripicon": "/images/data_security_first.webp"
   },
   {
     "id": "4",
     "striptitle": "Automation and Accuracy",
     "stripdesc": "Automated processes reduce manual errors and improve consistency.",
-    "stripicon": "/customized_data_solutions.png"
+    "stripicon": "/images/customized_data_solutions.webp"
   },
   {
     "id": "5",
     "striptitle": "Business-Aligned Strategy",
     "stripdesc": "Data solutions tailored to meet your unique operational goals.",
-    "stripicon": "/compliance_and_governance.png"
+    "stripicon": "/images/compliance_and_governance.webp"
   },
   {
     "id": "6",
     "striptitle": "Scalable Architecture Design",
     "stripdesc": "We build data systems that grow as your business evolves.",
-    "stripicon": "/conyinious_improvement.png"
+    "stripicon": "/images/conyinious_improvement.webp"
   }
 ]
