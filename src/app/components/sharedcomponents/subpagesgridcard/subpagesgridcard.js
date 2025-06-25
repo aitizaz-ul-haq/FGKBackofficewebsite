@@ -1,5 +1,7 @@
 import "./subpagesgridcard.css";
-import Image from "next/image";
+import DataMaggridImagesSection from "./subpagesgridcardmicrocomps/datamaggridimagesection";
+import DataMaggridHeadingSection from "./subpagesgridcardmicrocomps/datamaggridheadingsection";
+import DataMaggridDescriptionSection from "./subpagesgridcardmicrocomps/datamaggriddescriptionsection";
 
 export default function SubPagesGridCard({
   gridcardicon,
@@ -8,18 +10,11 @@ export default function SubPagesGridCard({
 }) {
   return (
     <div className="subpagesgridcard-container">
-      <Image
-        src={gridcardicon}
-        width={70}
-        height={70}
-        className="subpagesgridcard-icon"
+      <DataMaggridImagesSection gridcardicon={gridcardicon} />
+      <DataMaggridHeadingSection gridcardheading={gridcardheading} />
+      <DataMaggridDescriptionSection
+        gridcarddescription={gridcarddescription}
       />
-      <div className="subpagesgridcard-card-heading font-inter">
-        {gridcardheading}
-      </div>
-      <div className="subpagesgridcard-card-description font-inter">
-        {gridcarddescription}
-      </div>
     </div>
   );
 }
