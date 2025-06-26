@@ -5,7 +5,7 @@ import { Inter, Roboto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "./components/layoutcomponents/header/header";
 import Footer from "./components/layoutcomponents/footer/footer";
-import Head from "next/head";
+// import Head from "next/head";
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
@@ -26,10 +26,10 @@ const robotoSerif = Roboto_Serif({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <link rel="preload" as="image" href="/images/Data-Management-1920px-hero-section-3x-min.png" type="image/png" />
         {/* <link rel="preload" as="image" href="/images/Data-Management-1920px-hero-section-3x-min.png" type="image/webp" /> */}
-      </Head>
+      </head>
       <body className={`${inter.variable} ${robotoSerif.variable}`}>
         <Header />
         {children}
