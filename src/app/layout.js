@@ -31,6 +31,13 @@ export default function RootLayout({ children }) {
         {/* <link rel="preload" as="image" href="/images/Data-Management-1920px-hero-section-3x-min.png" type="image/webp" /> */}
       </head>
       <body className={`${inter.variable} ${robotoSerif.variable}`}>
+        <img
+          src="/images/Data-Management-1920px-hero-section-3x-min.png"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
         <Header />
         {children}
         <footer>
