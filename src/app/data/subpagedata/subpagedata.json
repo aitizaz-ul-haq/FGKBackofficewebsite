@@ -24,15 +24,15 @@
     "id": "accounting-and-reporting",
     "title": "Expert Accounting. Clear Results",
     "paragraph": "FGK Back Office Services provides  precise, compliant, and insight-driven accounting solutions ",
-    "mobileImage": "https://i.postimg.cc/zBDVmp8V/Accounting-and-Reporting.webp",
-    "desktopImage": "https://i.postimg.cc/KzVF95zX/Accounting-Reporting-1920px-hero-section.webp"
+    "mobileImage": "https://i.postimg.cc/zBDVmp8V/Accounting-and-Reporting.png",
+    "desktopImage": "/images/Accounting-Reporting-1920px-hero-section.png"
   },
   {
     "id": "web-development",
     "title": "Custom Web Solutions That Perform",
     "paragraph": "At FGK Back Office Services, we craft high-end, fully tailored web applications that combine modern design with powerful functionality. Whether it's a corporate site, internal dashboard, or scalable web app, our solutions are built to reflect your vision, enhance user experience, and support your business goals with cutting-edge technology.",
     "mobileImage": "https://i.postimg.cc/zGBHtKnJ/web-dev.webp",
-    "desktopImage": "https://i.postimg.cc/3xSmYnK4/Web-Development-Support-1920px-hero-section.webp"
+    "desktopImage": "/images/Web-Development-Support-1920px-hero-section.png"
   },
   {
     "id": "human-resources",
