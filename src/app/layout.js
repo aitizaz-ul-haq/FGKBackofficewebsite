@@ -39,6 +39,12 @@ export default function RootLayout({ children }) {
           href="/images/Data-Management-1920px-hero-section-3x-min.png"
           type="image/png"
         />
+        <link
+          rel="preload"
+          as="image"
+          href="/images/Project-Management-Support-1920px-hero-section.png"
+          type="image/png"
+        />
       </head>
       <body className={`${inter.variable} ${robotoSerif.variable}`}>
          <img
@@ -50,6 +56,13 @@ export default function RootLayout({ children }) {
         />
         <img
           src="/images/Data-Management-1920px-hero-section-3x-min.png"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
+        <img
+          src="/images/Project-Management-Support-1920px-hero-section.png"
           alt=""
           width="1"
           height="1"
