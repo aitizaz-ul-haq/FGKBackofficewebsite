@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect } from "react";
 import DesktopHeader from "./headercomponents/desktopheader";
 import MobileHeader from "./headercomponents/mobileheader";

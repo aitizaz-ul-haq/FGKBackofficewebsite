@@ -1,11 +1,8 @@
 "use client";
-
 import { Inter, Roboto_Serif } from "next/font/google";
-
 import "./globals.css";
 import Header from "./components/layoutcomponents/header/header";
 import Footer from "./components/layoutcomponents/footer/footer";
-// import Head from "next/head";
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
