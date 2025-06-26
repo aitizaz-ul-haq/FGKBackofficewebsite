@@ -27,7 +27,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="preload" as="image" href="/images/Data-Management-1920px-hero-section-3x-min.png" type="image/webp" />
+        <link rel="preload" as="image" href="/images/Data-Management-1920px-hero-section-3x-min.png" type="image/png" />
+        {/* <link rel="preload" as="image" href="/images/Data-Management-1920px-hero-section-3x-min.png" type="image/webp" /> */}
       </Head>
       <body className={`${inter.variable} ${robotoSerif.variable}`}>
         <Header />
