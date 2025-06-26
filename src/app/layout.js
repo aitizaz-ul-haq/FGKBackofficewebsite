@@ -30,6 +30,12 @@ export default function RootLayout({ children }) {
         <link
           rel="preload"
           as="image"
+          href="/images/main-hero.webp"
+          type="image/webp"
+        />
+        <link
+          rel="preload"
+          as="image"
           href="/images/Operations-Support-1920px-hero-section-3x-compressed.png"
           type="image/png"
         />
@@ -59,6 +65,13 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={`${inter.variable} ${robotoSerif.variable}`}>
+        <img
+          src="/images/images/main-hero.webp"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
          <img
           src="/images/Operations-Support-1920px-hero-section-3x-compressed.png"
           alt=""
