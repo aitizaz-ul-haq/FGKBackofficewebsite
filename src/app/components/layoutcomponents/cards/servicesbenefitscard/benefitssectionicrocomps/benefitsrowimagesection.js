@@ -4,7 +4,7 @@ export default function BenefitsRowImageSection() {
   return (
     <div className="benefits-icon-box">
       <Image
-        src="https://i.postimg.cc/q7F7NKK7/services-benefits-icon.webp"
+        src="/images/services_benefits_icon.webp"
         alt="services benefit"
         width={40}
         height={40}

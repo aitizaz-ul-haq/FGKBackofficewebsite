@@ -4,7 +4,7 @@
     "title": "Operations Support",
     "description": "Our operations support services are tailored to keep your business running smoothly. We handle daily operational tasks, internal coordination and process optimisation to eliminate bottlenecks and improve overall efficiency, allowing your teams to stay focused on strategic goals.",
     "iconMobile": "https://i.postimg.cc/Dz80g6dh/operations-support-mobile-icon.webp",
-    "iconCircular": "https://i.postimg.cc/7PT7DHz4/operations-support-circular-icon.webp",
+    "iconCircular": "/images/operations_support_circular_icon.webp",
     "buttonText": "Consult with Us"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Data Management",
     "description": "Efficient and secure data management is at the core of every successful operation. We organise, store and maintain your business data with precision, ensuring easy access, compliance and accuracy. From digital record keeping to database structuring, our solutions support informed decision making and long term scalability.",
     "iconMobile": "https://i.postimg.cc/tJ4ZPbTq/data-management-mobile-icon.webp",
-    "iconCircular": "https://i.postimg.cc/qRhnZ4r1/data-management-circular-icon.webp",
+    "iconCircular": "/images/data_management_circular_icon.webp",
     "buttonText": "Consult with Us"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Project Management",
     "description": "Bring structure and clarity to your initiatives with our project management services. We plan, execute and monitor projects of all sizes, ensuring deadlines are met, resources are utilised efficiently and goals are achieved through a results driven approach.",
     "iconMobile": "https://i.postimg.cc/brYKxCkH/project-management-mobile-icon.webp",
-    "iconCircular": "https://i.postimg.cc/9XJ3m2Hx/project-management-circular-icon.webp",
+    "iconCircular": "/images/project_management_circular_icon.webp",
     "buttonText": "Consult with Us"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Accounting & Reporting",
     "description": "Stay financially informed and compliant with our professional accounting and reporting services. We manage expense tracking, budget planning, financial statements and regular reporting to ensure transparency and support effective financial oversight for your business.",
     "iconMobile": "https://i.postimg.cc/dVd7GL5t/accounting-and-reporting-mobile-icon.webp",
-    "iconCircular": "https://i.postimg.cc/zXyHXdWh/accounting-and-reporting-circular-icon.webp",
+    "iconCircular": "/images/accounting_and_reporting_circular_icon.webp",
     "buttonText": "Consult with Us"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Web Development",
     "description": "We build modern, scalable and user friendly web applications tailored to your business needs. From internal tools to public facing platforms, our development team leverages the latest technologies to deliver high performance solutions that drive engagement and productivity.",
     "iconMobile": "https://i.postimg.cc/44QKXBPf/web-development-mobile-icon.webp",
-    "iconCircular": "https://i.postimg.cc/vHyWz4qB/web-development-circular-icon.webp",
+    "iconCircular": "/images/web_development_circular_icon.webp",
     "buttonText": "Consult with Us"
   }
 ]

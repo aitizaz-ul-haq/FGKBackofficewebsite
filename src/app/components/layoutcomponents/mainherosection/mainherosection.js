@@ -14,7 +14,7 @@ export default function MainHeroSection({
     <div
       className="hero-section"
       style={{
-        backgroundImage: `url('https://i.postimg.cc/J0f7pCxC/services-1920px-hero-background.webp')`,
+        backgroundImage: `url('/images/services_1920px_hero_background.webp')`,
         "--mobile-image": `url(${mobileImage})`,
         "--desktop-image": `url(${desktopImage})`,
       }}
