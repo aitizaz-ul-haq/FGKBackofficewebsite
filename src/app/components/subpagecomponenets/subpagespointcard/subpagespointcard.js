@@ -1,19 +1,12 @@
 import "./subpagespointcard.css";
-import Image from "next/image";
+import PointCardDescriptionSection from "./subpagespointcardnicrocomps/pointcarddescriptionsection";
+import PointCardUpperSection from "./subpagespointcardnicrocomps/pointcarduppersection";
 
 export default function SubPagesPointCard({ advtitle, advdesc, advicon }) {
   return (
     <div className="subpagespointcard-container">
-      <div className="subpagespointcard-uppersection">
-        <Image
-          src={advicon}
-          width={20}
-          height={20}
-          className="subpagespointcard-bullet"
-        />
-        <div className="subpagespointcard-heading font-inter">{advtitle}</div>
-      </div>
-      <div className="subpagespointcard-description font-inter">{advdesc}</div>
+      <PointCardUpperSection advicon={advicon} advtitle={advtitle}/>
+      <PointCardDescriptionSection advdesc={advdesc} />
     </div>
   );
 }
