@@ -1,7 +1,7 @@
 .aboutpagecontent-container {
   width: 100%;
   /* height: 100vh; */
-  background-image: url("https://i.postimg.cc/qBSMQpht/about-page-background-image.webp");
+  background-image: url("/images/about_page_background_image.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -512,14 +512,14 @@
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .aboutpagecontent-container {
-    background-image: url("https://i.postimg.cc/qBSMQpht/about-page-background-image.webp");
+    background-image: url("/images/about_page_background_image.webp");
   }
 }
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .aboutpagecontent-container {
-    background-image: url("https://i.postimg.cc/VNqCPdtH/about-background-image-1024plus.webp");
+    background-image: url("/images/about_background_image_1024plus.webp");
   }
 
   .aboutpagecontaent-logo-introsection {
@@ -626,7 +626,7 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .aboutpagecontent-container {
-    background-image: url("https://i.postimg.cc/VNqCPdtH/about-background-image-1024plus.webp");
+    background-image: url("/images/about_background_image_1024plus.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -649,7 +649,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .aboutpagecontent-container {
-    background-image: url("https://i.postimg.cc/VNqCPdtH/about-background-image-1024plus.webp");
+    background-image: url("/images/about_background_image_1024plus.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -658,7 +658,7 @@
 
 @media (min-width: 1920px) {
   .aboutpagecontent-container {
-    background-image: url("https://i.postimg.cc/VNqCPdtH/about-background-image-1024plus.webp");
+    background-image: url("/images/about_background_image_1024plus.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
