@@ -3,24 +3,24 @@
     "id": "1",
     "advrighttitle": "Timely Report Delivery",
     "advdesc": "Get financial statements when you need them—on time.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "2",
     "advrighttitle": "Informed Decision Making",
     "advdesc": "Use reliable data to guide business strategy confidently.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   },
   {
     "id": "3",
     "advrighttitle": "Customised Reporting Solutions",
     "advdesc": "Receive reports tailored to your business model and goals.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "4",
     "advrighttitle": "Scalable Service Model",
     "advdesc": "Our solutions grow with your business at every stage.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   }
 ]

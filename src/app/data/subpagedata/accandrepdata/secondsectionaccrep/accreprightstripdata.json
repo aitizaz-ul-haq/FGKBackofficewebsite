@@ -3,18 +3,18 @@
     "id": "1",
     "striptitle": "Insight Analysis",
     "stripdesc": "We interpret trends, ratios, and variances for better strategy.",
-    "stripicon": "/scalibility_strip.png"
+    "stripicon": "/images/scalibility_strip.webp"
   },
   {
     "id": "2",
     "striptitle": "Data Validation",
     "stripdesc": "We ensure all entries meet accuracy and compliance standards.",
-    "stripicon": "/client_centric_approach.png"
+    "stripicon": "/images/client_centric_approach.webp"
   },
   {
     "id": "3",
     "striptitle": "Clear Reporting",
     "stripdesc": "Generate structured, easy-to-read financial statements and summaries.",
-    "stripicon": "/continioua_improvement.png"
+    "stripicon": "/images/continioua_improvement.webp"
   }
 ]

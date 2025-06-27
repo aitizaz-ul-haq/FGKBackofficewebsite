@@ -3,18 +3,18 @@
     "id": "1",
     "striptitle": "Needs Assessment",
     "stripdesc": "We start by understanding your financial goals and structure.",
-    "stripicon": "/accuracy_and_precision.png"
+    "stripicon": "/images/accuracy_and_precision.webp"
   },
   {
     "id": "2",
     "striptitle": "Accurate Recording",
     "stripdesc": "Every transaction is recorded promptly and precisely.",
-    "stripicon": "/transperency_and_compliance.png"
+    "stripicon": "/images/transperency_and_compliance.webp"
   },
   {
     "id": "3",
     "striptitle": "Strategic Advisory",
     "stripdesc": "Provide proactive guidance to support planning and growth.",
-    "stripicon": "/risk_data_driven_insights.png"
+    "stripicon": "/images/risk_data_driven_insights.webp"
   }
 ]

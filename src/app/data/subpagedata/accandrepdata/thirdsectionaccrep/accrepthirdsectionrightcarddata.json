@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Transaction Data Entry",
     "stripdesc": "Record all financial activities with speed and precision.",
-    "stripicon": "/initial_consultation.png"
+    "stripicon": "/images/initial_consultation.webp"
   },
   {
     "id": "2",
     "striptitle": "Account Reconciliation Process",
     "stripdesc": "Ensure internal records match bank and third-party data.",
-    "stripicon": "/system_setup_and_integration.png"
+    "stripicon": "/images/system_setup_and_integration.webp"
   },
   {
     "id": "3",
     "striptitle": "Variance and Ratio Analysis",
     "stripdesc": "Compare actuals vs. budgets and track financial performance.",
-    "stripicon": "/monthly_reconcilliation.png"
+    "stripicon": "/images/monthly_reconcilliation.webp"
   },
   {
     "id": "4",
     "striptitle": "Insightful Report Delivery",
     "stripdesc": "Provide stakeholders with timely, clear financial insights.",
-    "stripicon": "/regular_compliance_audits.png"
+    "stripicon": "/images/regular_compliance_audits.webp"
   }
 ]

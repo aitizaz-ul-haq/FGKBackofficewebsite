@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Categorisation and Coding",
     "stripdesc": "Assign transactions to appropriate accounts and cost centres.",
-    "stripicon": "/custom_financial_plan_development.png"
+    "stripicon": "/images/custom_financial_plan_development.webp"
   },
   {
     "id": "2",
     "striptitle": "Financial Statement Preparation",
     "stripdesc": "Generate balance sheets, income statements, and cash flows.",
-    "stripicon": "/daily_transaction_management.png"
+    "stripicon": "/images/daily_transaction_management.webp"
   },
   {
     "id": "3",
     "striptitle": "Tax Filing Preparation",
     "stripdesc": "Organise and report financials in line with tax obligations.",
-    "stripicon": "/financial_reporting_thirdsection.png"
+    "stripicon": "/images/financial_reporting_thirdsection.webp"
   },
   {
     "id": "4",
     "striptitle": "Strategic Advisory Review",
     "stripdesc": "Use reporting data to guide business planning and growth",
-    "stripicon": "/ongoing_review_and_optimization.png"
+    "stripicon": "/images/ongoing_review_and_optimization.webp"
   }
 ]

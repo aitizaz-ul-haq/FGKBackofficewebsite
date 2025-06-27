@@ -3,24 +3,24 @@
     "id": "0",
     "advlefttitle": "Accurate Financial Records",
     "advdesc": "Maintain precise, up-to-date books for full transparency.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "1",
     "advlefttitle": "Regulatory Compliance Support",
     "advdesc": "Ensure alignment with local tax laws and accounting standards.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   },
   {
     "id": "2",
     "advlefttitle": "Cost Efficiency Gains",
     "advdesc": "Reduce overhead through streamlined financial operations.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "3",
     "advlefttitle": "Performance Visibility Tools",
     "advdesc": "Track financial KPIs for improved operational control.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   }
 ]
