@@ -3,36 +3,36 @@
     "id": "1",
     "title": "Tailored Solutions",
     "paragraph": "Fully customised web development aligned with your business needs.",
-    "iconLink": "/custom_development.png"
+    "iconLink": "/images/custom_development.webp"
   },
   {
     "id": "2",
     "title": "Modern Design",
     "paragraph": "High-end, visually engaging UI built for performance and clarity.",
-    "iconLink": "/custom_web_design.png"
+    "iconLink": "/images/custom_web_design.webp"
   },
   {
     "id": "3",
     "title": "Responsive Layouts",
     "paragraph": "Seamless user experience across all devices and screen sizes.",
-    "iconLink": "/reponsive_web_design.png"
+    "iconLink": "/images/reponsive_web_design.webp"
   },
   {
     "id": "4",
     "title": "Site Maintenance",
     "paragraph": "Ongoing website maintenance to ensure security and smooth operation.",
-    "iconLink": "/website_maintainance.png"
+    "iconLink": "/images/website_maintainance.webp"
   },
   {
     "id": "5",
     "title": "SEO Optimization",
     "paragraph": "Boost visibility and ranking through on-page and technical SEO.",
-    "iconLink": "/seo_services.png"
+    "iconLink": "/images/seo_services.webp"
   },
   {
     "id": "6",
     "title": "Tech Integration",
     "paragraph": "Developed using the latest frameworks, tools, and web standards.",
-    "iconLink": "/latest_tech_stack.png"
+    "iconLink": "/images/latest_tech_stack.webp"
   }
 ]

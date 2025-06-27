@@ -3,18 +3,18 @@
     "id": "1",
     "striptitle": "Search Visibility",
     "stripdesc": "Built with SEO best practices to improve rankings and reach.",
-    "stripicon": "/seo_optimization.png"
+    "stripicon": "/images/seo_optimization.webp"
   },
   {
     "id": "2",
     "striptitle": "Built-In Security",
     "stripdesc": "Development with strong data protection and privacy compliance in mind.",
-    "stripicon": "/security_and_privacy.png"
+    "stripicon": "/images/security_and_privacy.webp"
   },
   {
     "id": "3",
     "striptitle": "Continual Support",
     "stripdesc": "Ongoing updates, monitoring, and maintenance for lasting performance.",
-    "stripicon": "/ongoing_support_and_maintainance.png"
+    "stripicon": "/images/ongoing_support_and_maintainance.webp"
   }
 ]

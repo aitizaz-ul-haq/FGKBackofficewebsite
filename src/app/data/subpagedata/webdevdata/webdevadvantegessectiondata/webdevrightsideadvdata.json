@@ -3,24 +3,24 @@
     "id": "1",
     "advrighttitle": "Modern Tech Stack",
     "advdesc": "Developed using the latest frameworks and best practices.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "2",
     "advrighttitle": "SEO-Friendly Structure",
     "advdesc": "Built from the ground up to rank better and load faster.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   },
   {
     "id": "3",
     "advrighttitle": "Secure by Design",
     "advdesc": "Integrated security protocols to protect your users and data.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "4",
     "advrighttitle": "Post-Launch Support",
     "advdesc": "Ongoing maintenance and updates to keep your site running smoothly.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   }
 ]

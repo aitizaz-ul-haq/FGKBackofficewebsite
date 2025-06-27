@@ -3,18 +3,18 @@
     "id": "1",
     "striptitle": "User Focused",
     "stripdesc": "Designs driven by user needs to maximise engagement and usability.",
-    "stripicon": "/user_centered_design.png"
+    "stripicon": "/images/user_centered_design.webp"
   },
   {
     "id": "2",
     "striptitle": "Flexible Layouts",
     "stripdesc": "Responsive and adaptive designs for seamless cross-device experience.",
-    "stripicon": "/responsive_and_adaptive_layouts.png"
+    "stripicon": "/images/responsive_and_adaptive_layouts.webp"
   },
   {
     "id": "3",
     "striptitle": "Scalable Architecture",
     "stripdesc": "Code that grows with your business—stable, fast, and maintainable.",
-    "stripicon": "/robut_scalable_code.png"
+    "stripicon": "/images/robut_scalable_code.webp"
   }
 ]

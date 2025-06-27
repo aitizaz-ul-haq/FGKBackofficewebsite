@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Planning Architecture",
     "stripdesc": "Define site structure, functionality, and user flow before design.",
-    "stripicon": "/listing_the_requisits.png"
+    "stripicon": "/images/listing_the_requisits.webp"
   },
   {
     "id": "2",
     "striptitle": "Visual Design",
     "stripdesc": "Design high-fidelity UI based on brand, usability, and trends.",
-    "stripicon": "/absolute_web_development.png"
+    "stripicon": "/images/absolute_web_development.webp"
   },
   {
     "id": "3",
     "striptitle": "Back-end Integration",
     "stripdesc": "Implement secure, scalable server-side logic and database support.",
-    "stripicon": "/ultimate_web_launch.png"
+    "stripicon": "/images/ultimate_web_launch.webp"
   },
   {
     "id": "4",
     "striptitle": "Launch & Support",
     "stripdesc": "Launch the final product with ongoing maintenance and updates.",
-    "stripicon": "/project_closure_and_review.png"
+    "stripicon": "/images/project_closure_and_review.webp"
   }
 ]

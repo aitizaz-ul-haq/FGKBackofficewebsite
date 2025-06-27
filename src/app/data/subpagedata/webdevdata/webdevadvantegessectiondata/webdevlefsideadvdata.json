@@ -3,24 +3,24 @@
     "id": "0",
     "advlefttitle": "Custom-Built Solutions",
     "advdesc": "Tailored websites that reflect your brand and business needs.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "1",
     "advlefttitle": "Responsive Experience Delivery",
     "advdesc": "Optimised for flawless performance across all screen sizes.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   },
   {
     "id": "2",
     "advlefttitle": "Scalable Codebase Architecture",
     "advdesc": "Web apps that evolve effortlessly with your business growth.",
-    "advicon": "/adv_green_bullet.png"
+    "advicon": "/images/adv_green_bullet.webp"
   },
   {
     "id": "3",
     "advlefttitle": "Fast Load Speed",
     "advdesc": "Performance optimised for speed, engagement, and conversions.",
-    "advicon": "/adv_black_bullet.png"
+    "advicon": "/images/adv_black_bullet.webp"
   }
 ]

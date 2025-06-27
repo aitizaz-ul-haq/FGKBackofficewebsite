@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Discovery Phase",
     "stripdesc": "We begin by understanding your goals, audience, and technical needs.",
-    "stripicon": "/final_discovery_and_forethought.png"
+    "stripicon": "/images/final_discovery_and_forethought.webp"
   },
   {
     "id": "2",
     "striptitle": "Wireframe Creation",
     "stripdesc": "Sketch layouts and UX pathways for client approval.",
-    "stripicon": "/design_and_prototype.png"
+    "stripicon": "/images/design_and_prototype.webp"
   },
   {
     "id": "3",
     "striptitle": "Front end Development",
     "stripdesc": "Build responsive layouts using modern, lightweight frameworks.",
-    "stripicon": "/web_quality_and_performance.png"
+    "stripicon": "/images/web_quality_and_performance.webp"
   },
   {
     "id": "4",
     "striptitle": "Testing & Optimisation",
     "stripdesc": "Cross-browser testing, speed tuning, and bug resolution.",
-    "stripicon": "/continuous_maintainnace.png"
+    "stripicon": "/images/continuous_maintainnace.webp"
   }
 ]
