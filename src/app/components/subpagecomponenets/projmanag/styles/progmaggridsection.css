@@ -1,7 +1,7 @@
 .progmag-grid-container {
   width: 100%;
   /* height: 100vh; */
-  background-image: url("../../../../../../public/progmag_grid_background.png");
+  background-image: url("/images/progmag_grid_background.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -193,7 +193,7 @@
   .progmag-grid-container {
     width: 100%;
     /* height: 100vh; */
-    background-image: url("../../../../../../public/progmag_grid_background.png");
+    background-image: url("/images/progmag_grid_background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

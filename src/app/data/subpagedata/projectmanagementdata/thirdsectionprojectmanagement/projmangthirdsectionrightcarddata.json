@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Project Briefing Stage",
     "stripdesc": "We begin by understanding your goals and defining scope.",
-    "stripicon": "/project_initation.png"
+    "stripicon": "/images/project_initation.webp"
   },
   {
     "id": "2",
     "striptitle": "Resource Allocation Setup",
     "stripdesc": "Teams, tools, and budgets are aligned for execution.",
-    "stripicon": "/resource_allocation_team.png"
+    "stripicon": "/images/resource_allocation_team.webp"
   },
   {
     "id": "3",
     "striptitle": "Monitoring & Tracking",
     "stripdesc": "Progress is reviewed continuously using smart tools.",
-    "stripicon": "/progress_tracking.png"
+    "stripicon": "/images/progress_tracking.webp"
   },
   {
     "id": "4",
     "striptitle": "Stakeholder Communication Loop",
     "stripdesc": "Regular updates keep all parties informed and involved.",
-    "stripicon": "/stakeholder-communication_and_updates.png"
+    "stripicon": "/images/stakeholder-communication_and_updates.webp"
   }
 ]

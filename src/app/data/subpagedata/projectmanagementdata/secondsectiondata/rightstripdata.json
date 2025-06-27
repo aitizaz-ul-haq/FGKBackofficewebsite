@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Clear Planning",
     "stripdesc": "We define goals, scope, and deliverables from the outset.",
-    "stripicon": "/expert_project_managers.png"
+    "stripicon": "/images/expert_project_managers.webp"
   },
   {
     "id": "2",
     "striptitle": "Team Alignment",
     "stripdesc": "Stakeholders and teams are aligned for unified execution.",
-    "stripicon": "/customized_solutions.png"
+    "stripicon": "/images/customized_solutions.webp"
   },
   {
     "id": "3",
     "striptitle": "Precise Execution",
     "stripdesc": "Every task is managed with structure and accountability.",
-    "stripicon": "/seamless_collaboration.png"
+    "stripicon": "/images/seamless_collaboration.webp"
   },
   {
     "id": "4",
     "striptitle": "Quality Assurance",
     "stripdesc": "Each phase undergoes review to ensure high standards.",
-    "stripicon": "/advanced_tools_and_technology.png"
+    "stripicon": "/images/advanced_tools_and_technology.webp"
   }
 ]

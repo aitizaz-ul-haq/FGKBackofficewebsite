@@ -3,24 +3,24 @@
     "id": "1",
     "striptitle": "Planning & Scheduling",
     "stripdesc": "Milestones, timelines, and deliverables are mapped out clearly.",
-    "stripicon": "/comprehensive_planning.png"
+    "stripicon": "/images/comprehensive_planning.webp"
   },
   {
     "id": "2",
     "striptitle": "Task Execution Phase",
     "stripdesc": "We initiate work with clear responsibilities and focus.",
-    "stripicon": "/execution_and_task_management.png"
+    "stripicon": "/images/execution_and_task_management.webp"
   },
   {
     "id": "3",
     "striptitle": "Performance Review Cycle",
     "stripdesc": "Issues are addressed early to maintain project integrity.",
-    "stripicon": "/risk_management_and_mitigation.png"
+    "stripicon": "/images/risk_management_and_mitigation.webp"
   },
   {
     "id": "4",
     "striptitle": "Final Project Closure",
     "stripdesc": "Delivery is completed and outcomes are formally evaluated.",
-    "stripicon": "/project_closure_review.png"
+    "stripicon": "/images/project_closure_review.webp"
   }
 ]

@@ -3,36 +3,36 @@
     "id": "1",
     "title": "Strategic Project Planning",
     "paragraph": "Align goals with structured roadmaps for success.",
-    "iconLink": "/end_to_end_project_management_icon.png"
+    "iconLink": "/images/end_to_end_project_management_icon.webp"
   },
   {
     "id": "2",
     "title": "End-to-End Execution",
     "paragraph": "We manage tasks from kickoff to delivery.",
-    "iconLink": "/project_planning_and_strategy.png"
+    "iconLink": "/images/project_planning_and_strategy.webp"
   },
   {
     "id": "3",
     "title": "Dedicated Project Managers",
     "paragraph": "Experienced leaders driving timelines and results.",
-    "iconLink": "/Resource_Allocation.png"
+    "iconLink": "/images/Resource_Allocation.webp"
   },
   {
     "id": "4",
     "title": "Real-Time Reporting",
     "paragraph": "Instant visibility into project status and KPIs.",
-    "iconLink": "/Risk_Management.png"
+    "iconLink": "/images/Risk_Management.webp"
   },
   {
     "id": "5",
     "title": "Proactive Risk Management",
     "paragraph": "Anticipate and resolve issues before they grow.",
-    "iconLink": "/Progress_monitoring.png"
+    "iconLink": "/images/Progress_monitoring.webp"
   },
   {
     "id": "6",
     "title": "Quality Assurance Control",
     "paragraph": "Maintain high standards at every project phase.",
-    "iconLink": "/Change_Management.png"
+    "iconLink": "/images/Change_Management.webp"
   }
 ]

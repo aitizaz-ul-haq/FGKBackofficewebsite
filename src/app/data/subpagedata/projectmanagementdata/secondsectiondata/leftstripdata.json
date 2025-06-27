@@ -3,12 +3,12 @@
     "id": "1",
     "striptitle": "Progress Tracking",
     "stripdesc": "Real-time updates keep projects on schedule and transparent.",
-    "stripicon": "/timely_delivery.png"
+    "stripicon": "/images/timely_delivery.webp"
   },
   {
     "id": "2",
     "striptitle": "Risk Mitigation",
     "stripdesc": "We identify and resolve risks before they escalate.",
-    "stripicon": "/risk_mitigation.png"
+    "stripicon": "/images/risk_mitigation.webp"
   }
 ]
