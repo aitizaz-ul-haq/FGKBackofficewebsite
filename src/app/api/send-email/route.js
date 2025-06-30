@@ -54,7 +54,7 @@ export async function POST(req) {
           <!-- Middle Section -->
           <h1 style="text-align: center; color: #333; font-size: 24px; font-weight: 300; font-family:inter, serif">Thank You for contacting FGK Back Office Services</h1>
           <p style="font-size: 16px; color: #555; text-align: center;">
-            We would like to inform you that we have revieved your email and a memeber of our team will get back to you as soon as possible
+            We would like to inform you that we have recieved your email and a member of our team will get back to you as soon as possible
           </p>
           <p style="font-size: 16px; color: #555; text-align: center;">
             In the meantime, feel free to contact us at <a href="mailto:fgkbackofficeservices@gmail.com">fgkbackofficeservices@gmail.com</a> for any queries or for more details, please visit our website at <a href="https://fgkbackofficeservices.com">fgkbackofficeservices.com</a>.
