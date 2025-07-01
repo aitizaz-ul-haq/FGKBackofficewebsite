@@ -14,10 +14,11 @@ import DatamagThirdSectionTextData from "@/app/data/subpagedata/datamanagementda
 import DatamagThirdSectionLeftCardData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectionleftcarddata.json";
 import DatamagThirdSectionRightCardData from "@/app/data/subpagedata/datamanagementdata/thirdsectiondatamag/datamagthirdsectionrightcarddata.json";
 import DataMangIndustriesectdata from "@/app/data/subpagedata/datamanagementdata/industriesdatamang.json";
-import DataMangadvtext from "@/app/data/subpagedata/datamanagementdata/datamangadvantegessectiondata/datamangadvtextdata.json";
 import DataMangadvleftdata from "@/app/data/subpagedata/datamanagementdata/datamangadvantegessectiondata/datamanglefsideadvdata.json";
 import DataMangadvrightdata from "@/app/data/subpagedata/datamanagementdata/datamangadvantegessectiondata/datamangrightsideadvdata.json";
 import DataManggetstarted from "@/app/data/subpagedata/datamanagementdata/datamanggetstrated.json";
+import DataMangadvtext from "@/app/data/subpagedata/datamanagementdata/datamangadvantegessectiondata/datamangadvtextdata.json";
+
 
 // importing utility menthods
 import { getHeroData } from "@/app/utils/gethreodata";
