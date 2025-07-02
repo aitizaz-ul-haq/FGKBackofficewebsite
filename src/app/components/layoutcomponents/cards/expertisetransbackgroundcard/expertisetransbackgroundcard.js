@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./expertisetransbackgroundcard.css";
 import TopRightCircularIconSection from "./cardcomps/toprightcirculariconsection";
 import TransCardHeadingSection from "./cardcomps/transcardheadingsection";
@@ -14,7 +15,9 @@ export default function ExpertiseTransBackgroundCard({
       <TopRightCircularIconSection cardicon={cardicon} />
       <TransCardHeadingSection cardtitle={cardtitle} />
       <TransCardDescriptionSection carddescription={carddescription} />
-      <button className="trans-card-button">Details</button>
+      <Link href={buttonlink}>
+        <button className="trans-card-button">Details</button>
+      </Link>
     </div>
   );
 }

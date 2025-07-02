@@ -1,6 +1,6 @@
 .trans-card-container {
   width: 23%;
-  height: 390px;
+  height: 400px;
   background: #59c3c338;
   padding: 2rem;
   display: flex;
@@ -237,7 +237,7 @@
 @media (min-width: 768px) {
   .trans-card-container {
     width: 98%; /* Reduce the width to fit within smaller screens */
-    height: auto; /* Allow height to adjust based on content */
+    height: 300px; /* Allow height to adjust based on content */
     padding: 1rem; /* Reduce padding for smaller screens */
     margin: 0 auto; /* Center the card horizontally */
     background: #59c3c338; /* Keep the background consistent */
@@ -266,7 +266,7 @@
 @media (min-width: 1024px) {
   .trans-card-container {
     width: 99%; /* Reduce the width to fit within smaller screens */
-    height: auto; /* Allow height to adjust based on content */
+    height: 320px; /* Allow height to adjust based on content */
     padding: 1rem; /* Reduce padding for smaller screens */
     margin: 0 auto; /* Center the card horizontally */
     background: #59c3c338; /* Keep the background consistent */
@@ -295,7 +295,7 @@
 @media (min-width: 1280px) {
   .trans-card-container {
     width: 99%; /* Reduce the width to fit within smaller screens */
-    height: auto; /* Allow height to adjust based on content */
+    height: 320px; /* Allow height to adjust based on content */
     padding: 1rem; /* Reduce padding for smaller screens */
     margin: 0 auto; /* Center the card horizontally */
     background: #59c3c338; /* Keep the background consistent */
@@ -328,7 +328,7 @@
 @media (min-width: 1600px) {
   .trans-card-container {
     width: 23%; /* Reduce the width to fit within smaller screens */
-    height: auto; /* Allow height to adjust based on content */
+    height: 320px; /* Allow height to adjust based on content */
     padding: 1rem; /* Reduce padding for smaller screens */
     margin: 0 auto; /* Center the card horizontally */
     background: #59c3c338; /* Keep the background consistent */

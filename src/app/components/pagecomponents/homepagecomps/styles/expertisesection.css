@@ -132,6 +132,7 @@
     padding-top: 6rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 
   .expertise-section-heading {
@@ -218,10 +219,29 @@
     max-width: calc(50% - 1rem); /* Ensure consistent width */
     box-sizing: border-box; /* Include padding and border in the size calculation */
   }
+
+  .ghost-card {
+    visibility: hidden;
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    width: 98%; /* Reduce the width to fit within smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 1rem; /* Reduce padding for smaller screens */
+    margin: 0 auto; /* Center the card horizontally */
+    background: #59c3c338; /* Keep the background consistent */
+    gap: 1rem;
+  }
 }
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .expertise-container {
+    padding-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6rem;
+  }
+
   .expertise-card-grid {
     display: flex;
     flex-direction: row;
@@ -262,6 +282,10 @@
 @media (min-width: 1440px) {
   .expertise-container {
     background-image: url("https://i.postimg.cc/0QBnbVkB/expertise-section-1440-image.webp");
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
   }
   .expertise-card-grid {
     display: flex;
@@ -270,8 +294,8 @@
     gap: 1rem;
     justify-content: space-between;
     align-items: left;
-    padding-left: 18rem;
-    padding-right: 18rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     padding-top: 2rem;
   }
 
@@ -284,6 +308,12 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .expertise-container {
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 8rem;
+  }
   .expertise-card-grid {
     display: flex;
     flex-direction: row;
@@ -291,8 +321,10 @@
     gap: 1rem;
     justify-content: space-between;
     align-items: left;
-    padding-left: 18rem;
-    padding-right: 18rem;
+    padding-top: 3rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 0rem;
   }
 
   .expertise-card-grid > * {
@@ -313,8 +345,8 @@
     gap: 1rem;
     justify-content: space-between;
     align-items: left;
-    padding-left: 25rem;
-    padding-right: 25rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
   }
 
   .expertise-card-grid > * {
