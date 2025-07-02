@@ -67,6 +67,10 @@
     align-items: center;
   }
 
+  .chooseus-heading {
+    font-size: 39px;
+  }
+
   .point-description {
     font-size: 16px;
   }
@@ -202,6 +206,12 @@
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .point-description {
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
