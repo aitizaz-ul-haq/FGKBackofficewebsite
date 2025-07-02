@@ -1,13 +1,76 @@
 {
-  "companylogo": "/images/fgk_circular_logo.webp",
-  "topdescriptionparaone": "FGK Back Office Services is an Islamabad based firm offering specialised support in data management, investment operations, accounting, compliance, and financial analysis. We deliver tailored solutions to help businesses enhance efficiency, reduce risk, and achieve operational excellence. Since our establishment in 2021, we have served clients across diverse sectors with precision and professionalism.",
-  "topdescriptionparatwo": "Our longstanding relationship with Nemesis Asset Management LLP includes the full range of our services, supporting their operations through reliable and efficient back-office solutions. We take pride in our ability to adapt to complex business requirements and deliver consistent, high-quality results. Our commitment to service excellence is reflected in the trust placed in us, by our international partners.",
-  "topdescriptionparathree": "In addition to core business services, we also provide complete custom web development solutions including design, SEO, and deployment. Our development approach combines modern technology with strategic insight to deliver scalable digital platforms. Every project we undertake is aligned with our clients’ business goals, ensuring functionality, performance, and long-term value.",
-  "middlesectionparaone": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  "middlesectionparatwo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  "lastsectionparaone": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  "aboutimageone": "/about1.jpg",
-  "aboutimagetwo": "/about2.jpg",
-  "aboutimagethree": "/about3.jpg",
-  "aboutgridfullimage": "/about_image_grid.png"
+  "sections": [
+    {
+      "heading": "General legal terms of use",
+      "content": "You declare that by accessing our web site www.fgkltd.com to have carefully read and accepted the following terms and conditions for usage of our website."
+    },
+    {
+      "heading": "Copyright",
+      "content": "The content of our website as well as any other material or content published by us or delivered by us via any way, including electronic means such as e-mail, telecommunication systems and social media is covered by copyright belonging to FGK Back Office Services (Private) Ltd which is the author of the publication. The Content and files are accessible solely for consultation. Every reproduction of the Content written and/or electronic, is allowed solely upon prior written consent by us. No implied consent or tolerance is admissible."
+    },
+    {
+      "heading": "Trademarks and Images",
+      "content": "Trademark, brands and images can be downloaded or copied but downloading, copying, or saving any Content from this website does not confer any rights over the aforesaid material. Nemesis Asset Management LLP reserves all rights deriving from the copyright and the ownership of the related marks and/or all the material published on this website."
+    },
+    {
+      "heading": "No reliance",
+      "content": "Any eventual opinion expressed within the Content is the opinion of FGK Back Office Services (Private) Ltd except in case we solely re-publish or tag opinion of other parties. We make our best effort to ensure the reliability of the Content published by us, but we do not guarantee the accuracy, reliability, or the completeness of the Content and maybe subject to change without notice."
+    },
+    {
+      "heading": "No guarantee",
+      "content": "We do not give any guarantee about the Content and about the functionality of the website. We do not give any guarantee about the fact that the website or the email sent by us do not contain any virus that may attack your system. We recommend you to scan the website and any email sent by us with suitable antivirus system. There is also a possibility for third parties access our IT system without authorisation to do so and amend the Contents. We decline any liability for non-authorised access to our content management system platform."
+    },
+    {
+      "heading": "Exemption of liability",
+      "content": "Nemesis Asset Management LLP is not responsible for any and all kinds of damages, direct or indirect, deriving from the usage of this website or following the inability to access it or make use of the Content."
+    },
+    {
+      "heading": "Privacy Policy",
+      "content": "FGK Back Office Services (Private) Ltd is committed to protecting the personal information of all individuals with whom we engage. We comply with applicable data protection laws including the Data Protection Act 1998, UK GDPR, and EU GDPR. We may update this Privacy Notice from time to time."
+    },
+    {
+      "heading": "How we collect and use your information",
+      "content": "Information about you that we collect includes identification data, product details, contact records, website activity, CCTV footage, and data about third parties you mention. This data is collected only when necessary, and with your explicit consent."
+    },
+    {
+      "heading": "How we obtain your information",
+      "content": "We collect your data directly through forms, calls, emails, meetings, and publicly available sources."
+    },
+    {
+      "heading": "Why we collect and use your information",
+      "content": "We collect and use your data only when it's lawful and necessary\u2014to provide services, fulfill legal obligations, improve offerings, or when you give consent. You may withdraw your consent at any time."
+    },
+    {
+      "heading": "Who we share your information with and why",
+      "content": "We may share your data internally and with trusted third-party partners, credit agencies, service providers, and law enforcement agencies for legitimate purposes. We never sell your data."
+    },
+    {
+      "heading": "How we protect your information",
+      "content": "Your data is protected using industry-standard security measures and restricted access policies to prevent loss, misuse, or unauthorised disclosure."
+    },
+    {
+      "heading": "How long we keep your information",
+      "content": "We retain your data as long as necessary to provide services and comply with legal obligations. Retention periods vary depending on legal requirements."
+    },
+    {
+      "heading": "Your rights",
+      "content": "You have the right to access, correct, erase, restrict, transfer, object to, or withdraw consent regarding your personal data. You can contact Arslan Ahmed at sahmed@fgkltd.com to exercise your rights."
+    },
+    {
+      "heading": "Marketing",
+      "content": "You have the right to opt-out of marketing communications at any time. Contact us in writing to do so."
+    },
+    {
+      "heading": "How to make a complaint",
+      "content": "If you believe your data has been misused, you can lodge a complaint by contacting sahmed@fgkltd.com or by post to FGK Back Office Services, I-8 Markaz, Islamabad."
+    },
+    {
+      "heading": "Hyperlinks",
+      "content": "Third-party website links may appear on our site. We are not responsible for their privacy practices and encourage users to read third-party policies."
+    },
+    {
+      "heading": "Cookies",
+      "content": "You can disable cookies in your browser settings. Some features of our website may not function properly if cookies are disabled. Please confirm if we actively use cookies."
+    }
+  ]
 }

@@ -3,21 +3,20 @@ import MainHeroSection from "../components/layoutcomponents/mainherosection/main
 import PrivacyPoints from "../components/pagecomponents/privacypagecomps/privacypoints";
 
 //importing componenet data
-import privacydata from "../data/privacypolicy/privacyherodata.json";
+import privacyherodata from "../data/privacypolicy/privacyherodata.json";
+import privacypolicydata from "../data/privacypolicy/privacypolicy.json";
+
 
 export default function PrivacyPolicy() {
   return (
     <>
       <MainHeroSection
-        title={privacydata.title}
-        paragraph={privacydata.paragraph}
-        mobileImage={privacydata.mobileImage}
-        desktopImage={privacydata.desktopImage}
+        title={privacyherodata.title}
+        paragraph={privacyherodata.paragraph}
+        mobileImage={privacyherodata.mobileImage}
+        desktopImage={privacyherodata.desktopImage}
       />
-
-      <PrivacyPoints />
-
-  
+      <PrivacyPoints privacydata={privacypolicydata.sections}/>
     </>
   );
 }
