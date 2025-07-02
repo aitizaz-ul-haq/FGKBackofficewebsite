@@ -1,5 +1,6 @@
 import "./homepageindustriescard.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePageIndustriesCard({ inddata, isLast }) {
   return (
@@ -22,9 +23,13 @@ export default function HomePageIndustriesCard({ inddata, isLast }) {
       <div className="homepage-industriescard-description font-inter text-light">
         {inddata.carddescription}
       </div>
-      <div className="homepage-industriescard-button font-inter text-light">
-        Discover More
-      </div>
+      <Link  href={inddata.buttonlink} legacyBehavior>
+        <button className="homepage-industriescard-button font-inter text-light">
+          Discover More
+        </button>
+      </Link>
+
+     
     </div>
   );
 }
