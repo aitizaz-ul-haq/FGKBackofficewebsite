@@ -83,35 +83,35 @@ export default function RootLayout({ children }) {
           style={{ display: "none" }}
         />
          <img
-          src="/images/Operations-Support-1920px-hero-section-3x-compressed.png"
+          src="/images/Operations-Support-1920px-hero-section-3x-compressed.webp"
           alt=""
           width="1"
           height="1"
           style={{ display: "none" }}
         />
         <img
-          src="/images/Data-Management-1920px-hero-section-3x-min.png"
+          src="/images/Data-Management-1920px-hero-section-3x-min.webp"
           alt=""
           width="1"
           height="1"
           style={{ display: "none" }}
         />
         <img
-          src="/images/Project-Management-Support-1920px-hero-section.png"
+          src="/images/Project-Management-Support-1920px-hero-section.webp"
           alt=""
           width="1"
           height="1"
           style={{ display: "none" }}
         />
         <img
-          src="/images/Accounting-Reporting-1920px-hero-section.png"
+          src="/images/Accounting-Reporting-1920px-hero-section.webp"
           alt=""
           width="1"
           height="1"
           style={{ display: "none" }}
         />
         <img
-          src="/images/Web-Development-Support-1920px-hero-section.png"
+          src="/images/Web-Development-Support-1920px-hero-section.webp"
           alt=""
           width="1"
           height="1"
