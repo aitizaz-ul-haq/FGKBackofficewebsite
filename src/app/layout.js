@@ -39,32 +39,32 @@ export default function RootLayout({ children }) {
         <link
           rel="preload"
           as="image"
-          href="/images/Operations-Support-1920px-hero-section-3x-compressed.png"
-          type="image/png"
+          href="/images/Operations-Support-1920px-hero-section-3x-compressed.webp"
+          type="image/webp"
         />
         <link
           rel="preload"
           as="image"
-          href="/images/Data-Management-1920px-hero-section-3x-min.png"
-          type="image/png"
+          href="/images/Data-Management-1920px-hero-section-3x-min.webp"
+          type="image/webp"
         />
         <link
           rel="preload"
           as="image"
-          href="/images/Project-Management-Support-1920px-hero-section.png"
-          type="image/png"
+          href="/images/Project-Management-Support-1920px-hero-section.webp"
+          type="image/webp"
         />
          <link
           rel="preload"
           as="image"
-          href="/images/Accounting-Reporting-1920px-hero-section.png"
-          type="image/png"
+          href="/images/Accounting-Reporting-1920px-hero-section.webp"
+          type="image/webp"
         />
          <link
           rel="preload"
           as="image"
-          href="/images/Web-Development-Support-1920px-hero-section.png"
-          type="image/png"
+          href="/images/Web-Development-Support-1920px-hero-section.webp"
+          type="image/webp"
         />
       </head>
       <body className={`${inter.variable} ${robotoSerif.variable}`}>
