@@ -1,6 +1,6 @@
 .industries-cards-inhomepage-container {
   width: 100%;
-  background-image: url("/images/service_benefits_section_background.webp");
+  background-image: url("/images/homepage-industries-section-background_revisited.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@
 @media (min-width: 1024px) {
   .industries-cards-inhomepage-container {
     width: 100%;
-    background-image: url("/images/service_benefits_section_background.webp");
+    background-image: url("/images/homepage-industries-section-background_revisited.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
