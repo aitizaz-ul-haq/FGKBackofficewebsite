@@ -78,7 +78,8 @@
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
   .homepage-clients-title {
-    font-size: 30px;
+    font-size: 33px;
+    font-weight: 200;
     text-align: center;
     margin-left: 0rem;
     margin-top: 8rem;
@@ -88,7 +89,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 8rem;
   }
 }
 
