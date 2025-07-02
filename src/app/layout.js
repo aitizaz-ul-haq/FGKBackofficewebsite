@@ -54,17 +54,38 @@ export default function RootLayout({ children }) {
           href="/images/Project-Management-Support-1920px-hero-section.webp"
           type="image/webp"
         />
-         <link
+        <link
           rel="preload"
           as="image"
           href="/images/Accounting-Reporting-1920px-hero-section.webp"
           type="image/webp"
         />
-         <link
+        <link
           rel="preload"
           as="image"
           href="/images/Web-Development-Support-1920px-hero-section.webp"
           type="image/webp"
+        />
+
+        <link
+          rel="preload"
+          as="image"
+          href="/images/homepage-clients-section-background_revisited.png"
+          type="image/png"
+        />
+
+        <link
+          rel="preload"
+          as="image"
+          href="/images/homepage-expertise-section-background_revisited.png"
+          type="image/png"
+        />
+
+        <link
+          rel="preload"
+          as="image"
+          href="/images/homepage-industries-section-background_revisited.png"
+          type="image/png"
         />
       </head>
       <body className={`${inter.variable} ${robotoSerif.variable}`}>
@@ -75,14 +96,14 @@ export default function RootLayout({ children }) {
           height="1"
           style={{ display: "none" }}
         />
-         <img
+        <img
           src="/images/services_1920px_hero_background.webp"
           alt=""
           width="1"
           height="1"
           style={{ display: "none" }}
         />
-         <img
+        <img
           src="/images/Operations-Support-1920px-hero-section-3x-compressed.webp"
           alt=""
           width="1"
@@ -112,6 +133,28 @@ export default function RootLayout({ children }) {
         />
         <img
           src="/images/Web-Development-Support-1920px-hero-section.webp"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
+
+        <img
+          src="/images/homepage-clients-section-background_revisited.png"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
+        <img
+          src="/images/homepage-expertise-section-background_revisited.png"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
+        <img
+          src="/images/homepage-industries-section-background_revisited.png"
           alt=""
           width="1"
           height="1"
