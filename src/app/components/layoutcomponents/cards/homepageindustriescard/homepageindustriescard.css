@@ -43,6 +43,16 @@
   text-decoration: none;
 }
 
+ .homepage-industriescard-button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .buttonlinkage {
+    /* color: white; */
+    text-decoration: none;
+  }
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
@@ -142,6 +152,18 @@
     color: white;
     text-decoration: none;
   }
+
+  .homepage-industriescard-button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .buttonlinkage {
+    /* color: white; */
+    text-decoration: none;
+  }
+
+ 
 }
 
 /* Large laptops and desktops (>= 1280px) */

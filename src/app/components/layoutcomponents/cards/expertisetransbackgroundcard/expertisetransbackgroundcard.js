@@ -15,7 +15,7 @@ export default function ExpertiseTransBackgroundCard({
       <TopRightCircularIconSection cardicon={cardicon} />
       <TransCardHeadingSection cardtitle={cardtitle} />
       <TransCardDescriptionSection carddescription={carddescription} />
-      <Link href={buttonlink}>
+      <Link href={buttonlink} title="Get More Service Details">
         <button className="trans-card-button">Details</button>
       </Link>
     </div>

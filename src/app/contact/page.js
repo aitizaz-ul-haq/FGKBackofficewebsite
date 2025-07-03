@@ -14,6 +14,7 @@ export default function Contact() {
         paragraph={testdata.paragraph}
         mobileImage={testdata.mobileImage}
         desktopImage={testdata.desktopImage}
+        mainhint={testdata.hint}
       />
 
       <ContactsPageBody

@@ -21,6 +21,7 @@ export default function HeaderRightSectionButtonSection() {
             style={{ textDecoration: "none" }}
             href={button.link}
             className="header-nobackground-button font-inter text-light"
+            title={button.hint}
           >
             {button.name}
           </Link>
@@ -34,6 +35,7 @@ export default function HeaderRightSectionButtonSection() {
                   href={subpage.link} // Use the link directly
                   passHref
                   className="header-dropdown-item font-inter"
+                  title={subpage.hint}
                 >
                   {subpage.name}
                 </Link>

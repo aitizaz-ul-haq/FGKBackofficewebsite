@@ -44,7 +44,7 @@ export default function HeaderMobileMenuButton() {
         onClick={handleMobileMenuToggle}
       >
         <Image
-          src="/mobile-menu-icon.png"
+          src="/images/mobile-menu-icon.webp"
           alt="Mobile Menu Icon"
           width={50}
           height={50}
@@ -58,13 +58,16 @@ export default function HeaderMobileMenuButton() {
           >
             &times;
           </button>
-          <Image
-            src="/fgk_circular_logo.png"
-            alt="Mobile Menu Icon"
-            width={70}
-            height={70}
-            className="mobile-menu-logo"
-          />
+          <Link href="/">
+            <Image
+              src="/images/fgk_circular_logo.webp"
+              alt="Mobile Menu Icon"
+              width={70}
+              height={70}
+              className="mobile-menu-logo"
+              onClick={handleMenuItemClick}
+            />
+          </Link>
           <ul>
             <li>
               <button
@@ -123,14 +126,14 @@ export default function HeaderMobileMenuButton() {
                     Web Development
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="/services/humanresources"
                     onClick={handleMenuItemClick}
                   >
                     Human Resources
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li>
@@ -147,7 +150,7 @@ export default function HeaderMobileMenuButton() {
               >
                 <li>
                   <Link
-                    href="/industries/technology"
+                    href="/industries#financial-services"
                     onClick={handleMenuItemClick}
                   >
                     Financial Services
@@ -155,7 +158,7 @@ export default function HeaderMobileMenuButton() {
                 </li>
                 <li>
                   <Link
-                    href="/industries/healthcare"
+                    href="/industries#accountancy-finance"
                     onClick={handleMenuItemClick}
                   >
                     Accountancy & Finance
@@ -163,7 +166,7 @@ export default function HeaderMobileMenuButton() {
                 </li>
                 <li>
                   <Link
-                    href="/industries/finance"
+                    href="/industries#tech-support"
                     onClick={handleMenuItemClick}
                   >
                     Tech Support
@@ -171,17 +174,17 @@ export default function HeaderMobileMenuButton() {
                 </li>
                 <li>
                   <Link
-                    href="/industries/education"
+                    href="/industries#fintech"
                     onClick={handleMenuItemClick}
                   >
                     Fintech
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/industries/retail" onClick={handleMenuItemClick}>
                     Insurance
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li>
@@ -202,6 +205,11 @@ export default function HeaderMobileMenuButton() {
             <li>
               <Link href="/contact" onClick={handleMenuItemClick}>
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link href="/privacypolicy" onClick={handleMenuItemClick}>
+                Privacy Policy
               </Link>
             </li>
           </ul>

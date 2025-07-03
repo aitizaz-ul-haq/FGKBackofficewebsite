@@ -9,6 +9,7 @@ export default function MainHeroSection({
   paragraph,
   mobileImage,
   desktopImage,
+  mainhint
 }) {
   return (
     <div
@@ -22,7 +23,7 @@ export default function MainHeroSection({
       <div className="hero-content">
         <HeroTitleComp title={title} />
         <HeroParaComp paragraph={paragraph} />
-        <HeroButtonComp />
+        <HeroButtonComp mainhint={mainhint}/>
         <HeroForwardImgComp />
       </div>
     </div>

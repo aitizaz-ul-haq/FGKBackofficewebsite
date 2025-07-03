@@ -13,6 +13,7 @@ export default function Careers() {
         paragraph={testdata.paragraph}
         mobileImage={testdata.mobileImage}
         desktopImage={testdata.desktopImage}
+        mainhint={testdata.hint}
       />
 
       <CareersFullBodyComp />

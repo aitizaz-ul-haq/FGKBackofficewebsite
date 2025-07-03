@@ -2,37 +2,75 @@
   {
     "name": "Services",
     "link": "/services",
+    "hint": "Explore our full range of support and consulting services",
     "subpages": [
-      { "name": "Operations Support", "link": "/services/operationssupport" },
+      {
+        "name": "Operations Support",
+        "link": "/services/operationssupport",
+        "hint": "Streamline operations with tailored back-office support"
+      },
       {
         "name": "Data Management",
-        "link": "/services/datamanagement"
+        "link": "/services/datamanagement",
+        "hint": "Maximize value and security of your business data"
       },
-      { "name": "Project Management", "link": "/services/projectmanagement" },
+      {
+        "name": "Project Management",
+        "link": "/services/projectmanagement",
+        "hint": "Deliver projects efficiently and on time"
+      },
       {
         "name": "Accounting & Reporting",
-        "link": "/services/accountingandreporting"
+        "link": "/services/accountingandreporting",
+        "hint": "Gain clarity and accuracy in financial reporting"
       },
-      { "name": "Web Development", "link": "/services/webdevelopment" }
+      {
+        "name": "Web Development",
+        "link": "/services/webdevelopment",
+        "hint": "Build and maintain modern, high-performance websites"
+      }
     ]
   },
   {
     "name": "Industries",
     "link": "/industries",
+    "hint": "See how we serve key industries with specialized expertise",
     "subpages": [
       {
         "name": "Financial Services",
-        "link": "/industries#financial-services"
+        "link": "/industries#financial-services",
+        "hint": "Solutions tailored for the financial services sector"
       },
       {
         "name": "Accountancy & Finance",
-        "link": "/industries#accountancy-finance"
+        "link": "/industries#accountancy-finance",
+        "hint": "Support services for accountancy and finance teams"
       },
-      { "name": "Tech Support", "link": "/industries#tech-support" },
-      { "name": "Fintech", "link": "/industries#fintech" }
+      {
+        "name": "Tech Support",
+        "link": "/industries#tech-support",
+        "hint": "Reliable tech support solutions for business continuity"
+      },
+      {
+        "name": "Fintech",
+        "link": "/industries#fintech",
+        "hint": "Technology-backed services for the fintech sector"
+      }
     ]
   },
-  { "name": "Team", "link": "/team" },
-  { "name": "About", "link": "/about" },
-  { "name": "Careers", "link": "/careers" }
+  {
+    "name": "Team",
+    "link": "/team",
+    "hint": "Meet the professionals behind FGK Back Office Services"
+  },
+  {
+    "name": "About",
+    "link": "/about",
+    "hint": "Learn more about our mission, values, and company history"
+  },
+  {
+    "name": "Careers",
+    "link": "/careers",
+    "hint": "Discover career opportunities and join our growing team"
+  }
 ]

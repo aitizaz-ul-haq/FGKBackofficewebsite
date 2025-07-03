@@ -18,6 +18,7 @@ export default function Services() {
         paragraph={testdata.paragraph}
         mobileImage={testdata.mobileImage}
         desktopImage={testdata.desktopImage}
+        mainhint={testdata.hint}
       />
       <ImportSection />
       <RoundedCardsSection />

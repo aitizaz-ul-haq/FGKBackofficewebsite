@@ -23,13 +23,15 @@ export default function HomePageIndustriesCard({ inddata, isLast }) {
       <div className="homepage-industriescard-description font-inter text-light">
         {inddata.carddescription}
       </div>
-      <Link  href={inddata.buttonlink} legacyBehavior>
+      <Link
+        href={inddata.buttonlink}
+        className="buttonlinkage"
+        title="Discover Industry Solutions"
+      >
         <button className="homepage-industriescard-button font-inter text-light">
           Discover More
         </button>
       </Link>
-
-     
     </div>
   );
 }

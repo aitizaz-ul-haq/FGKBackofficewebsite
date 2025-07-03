@@ -47,6 +47,15 @@
   margin-top: 1rem;
 }
 
+.main-page-hero-button:hover {
+  color: white;
+  background: black;
+}
+
+.manihero-linkage {
+  text-decoration: none;
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */

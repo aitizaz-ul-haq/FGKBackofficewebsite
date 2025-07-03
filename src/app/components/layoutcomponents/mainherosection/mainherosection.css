@@ -56,16 +56,21 @@
   font-size: 19px;
   font-weight: 400;
   gap: 1.2rem;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem;
   border-radius: 32px;
   background-color: #59c3c3;
+  text-decoration: none;
 }
 
 .hero-button:hover {
   color: black;
   background-color: white;
+}
+
+.linkage {
+  text-decoration: none;
 }
 
 /* Default styles (mobile-first approach) */

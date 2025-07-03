@@ -19,6 +19,7 @@ export default function Industries() {
         paragraph={testdata.paragraph}
         mobileImage={testdata.mobileImage}
         desktopImage={testdata.desktopImage}
+        mainhint={testdata.hint}
       />
       <IndustriesIntro />
       <Suspense fallback={null}>

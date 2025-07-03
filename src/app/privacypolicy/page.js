@@ -15,6 +15,7 @@ export default function PrivacyPolicy() {
         paragraph={privacyherodata.paragraph}
         mobileImage={privacyherodata.mobileImage}
         desktopImage={privacyherodata.desktopImage}
+        mainhint={privacyherodata.hint}
       />
       <PrivacyPoints privacydata={privacypolicydata.sections}/>
     </>

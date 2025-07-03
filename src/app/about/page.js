@@ -14,6 +14,7 @@ export default function About() {
         paragraph={testdata.paragraph}
         mobileImage={testdata.mobileImage}
         desktopImage={testdata.desktopImage}
+        mainhint={testdata.hint}
       />
       <FullBodyAboutPage
         companylogo={aboutdata.companylogo}

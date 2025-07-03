@@ -10,7 +10,7 @@ export default function MainPageHeroSection({ title, paragraph }) {
       <div className="main-page-hero-content">
         <MainPageHeroHeading heading={herodata.title} />
         <MainPageHeroPara paragraph={herodata.paragraph} />
-        <MainPageHeroButton />
+        <MainPageHeroButton buttonhint={herodata.buttonhint}/>
       </div>
     </div>
   );

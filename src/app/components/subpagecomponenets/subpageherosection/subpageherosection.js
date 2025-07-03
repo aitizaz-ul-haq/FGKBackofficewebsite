@@ -13,6 +13,7 @@ export default function SubPageHeroSection({ data }) {
       <SubPagesHeroContentContainer
         title={data.title}
         paragraph={data.paragraph}
+        buttonhint={data.hint}
       />
     </div>
   );

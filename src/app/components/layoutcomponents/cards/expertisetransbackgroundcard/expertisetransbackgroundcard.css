@@ -28,6 +28,11 @@
   border-radius: 7px;
 }
 
+.trans-card-button:hover {
+  background: white;
+  color: black;
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
@@ -56,6 +61,11 @@
     height: 35px; /* Adjust button height */
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
+  }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
   }
 }
 
@@ -86,6 +96,11 @@
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
   }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
+  }
 }
 
 /* Standard small phones (<= 360px) */
@@ -114,6 +129,11 @@
     height: 35px; /* Adjust button height */
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
+  }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
   }
 }
 
@@ -144,6 +164,11 @@
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
   }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
+  }
 }
 
 /* iPhone 14 Pro, 15 Pro */
@@ -172,6 +197,11 @@
     height: 35px; /* Adjust button height */
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
+  }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
   }
 }
 
@@ -202,6 +232,11 @@
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
   }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
+  }
 }
 
 /* Tablets (>= 600px) */
@@ -230,6 +265,11 @@
     height: 35px; /* Adjust button height */
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
+  }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
   }
 }
 
@@ -260,6 +300,11 @@
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
   }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
+  }
 }
 
 /* Medium laptops (>= 1024px) */
@@ -289,6 +334,11 @@
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
   }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
@@ -317,6 +367,11 @@
     height: 35px; /* Adjust button height */
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
+  }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
   }
 }
 
@@ -350,6 +405,11 @@
     height: 35px; /* Adjust button height */
     font-size: 14px; /* Smaller font size */
     align-self: left; /* Center the button */
+  }
+
+  .trans-card-button:hover {
+    background: white;
+    color: black;
   }
 }
 
