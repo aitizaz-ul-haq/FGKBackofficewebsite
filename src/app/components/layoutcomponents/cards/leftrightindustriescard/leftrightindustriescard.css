@@ -40,10 +40,15 @@
   height: 38px;
   background-color: #59c3c3;
   color: white;
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 16px;
   border: none;
   border-radius: 5px;
+}
+
+.rightsection-button:hover {
+  background-color: black;
+  color: white;
 }
 
 /* Default styles (mobile-first approach) */
@@ -186,6 +191,10 @@
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  /* .rightsection-button {
+    font-weight: 400;
+    font-size: 19px;
+  } */
 }
 
 /* Larger phones and phablets (>= 480px) */

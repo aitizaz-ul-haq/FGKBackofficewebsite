@@ -17,8 +17,7 @@ export default function FooterUpperSubSectionOne() {
 
       <p className="footer-address font-inter text-light">
         <a
-          // href="https://www.google.com/maps/place/33.6676645,73.0745194/@33.6676645,73.0745194,18z"
-          href="https://www.google.com/maps/place/Pakland+Vista/@33.6676661,73.0728132,18z/data=!4m7!3m6!1s0x38df954370c0617b:0x88947e846dd351fb!4b1!8m2!3d33.6676645!4d73.0745194!16s%2Fg%2F11sh298324?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"
+          href="https://www.google.com/maps/place/33.6676645,73.0745194/@33.6676645,73.0745194,18z"
           target="_blank"
           rel="noopener noreferrer"
           title="View our office location on Google Maps"

@@ -7,6 +7,8 @@ export default function IndustriesCardRightSection({
   cardicon,
   cardheading,
   carddescription,
+  cardlink,
+  cardhint,
 }) {
   return (
     <div className="industriescard-rightsection">
@@ -15,7 +17,7 @@ export default function IndustriesCardRightSection({
       <IndustriesCardRightSectionDescription
         carddescription={carddescription}
       />
-      <IndustriesCardRightSectionButtonCont />
+      <IndustriesCardRightSectionButtonCont cardlink={cardlink} cardhint={cardhint}/>
     </div>
   );
 }

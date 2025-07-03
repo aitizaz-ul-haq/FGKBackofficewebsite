@@ -13,6 +13,8 @@ export default function IndustriesIntro() {
             cardicon={industry.cardicon}
             cardheading={industry.cardheading}
             carddescription={industry.carddescription}
+            cardlink={industry.cardlink}
+            cardhint={industry.cardhint}
             isReversed={index % 2 !== 0}
           />
         </div>

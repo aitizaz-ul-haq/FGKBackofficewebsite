@@ -6,6 +6,8 @@ export default function LeftRightIndustriesCard({
   cardicon,
   cardheading,
   carddescription,
+  cardlink,
+  cardhint,
   isReversed,
 }) {
   return (
@@ -17,6 +19,8 @@ export default function LeftRightIndustriesCard({
             cardicon={cardicon}
             cardheading={cardheading}
             carddescription={carddescription}
+            cardlink={cardlink}
+            cardhint={cardhint}
           />
           <IndustriesCardLeftSection cardicon={cardicon} />
         </>
@@ -28,6 +32,8 @@ export default function LeftRightIndustriesCard({
             cardicon={cardicon}
             cardheading={cardheading}
             carddescription={carddescription}
+             cardlink={cardlink}
+            cardhint={cardhint}
           />
         </>
       )}
