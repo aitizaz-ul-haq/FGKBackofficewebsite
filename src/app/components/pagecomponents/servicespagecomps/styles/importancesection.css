@@ -59,6 +59,17 @@
   font-size: 16px;
 }
 
+.circularcard-button:hover { 
+  font-size: 20px;
+  background-color: black;
+  border: 3px solid #000000;
+  color: white;
+}
+
+.circular-linkage {
+  text-decoration: none;
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */

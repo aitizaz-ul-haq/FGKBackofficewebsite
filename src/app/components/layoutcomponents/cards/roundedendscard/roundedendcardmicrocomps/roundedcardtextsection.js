@@ -6,12 +6,13 @@ export default function RoundedCardTextSection({
   roundedcardheading,
   roundedcarddescription,
   roundedcardtext,
+  roundedcardhint,
 }) {
   return (
     <div className="right-details-section rounded-cards-details-margin">
       <RoundedCardHeading roundedcardheading={roundedcardheading} />
       <RoundedCardDescription roundedcarddescription={roundedcarddescription} />
-      <RoundedCardButton roundedcardtext={roundedcardtext} />
+      <RoundedCardButton roundedcardtext={roundedcardtext} roundedcardhint={roundedcardhint}/>
     </div>
   );
 }

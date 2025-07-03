@@ -29,6 +29,7 @@ export default function RoundEndsCards() {
                 roundedcardheading={card.title}
                 roundedcarddescription={card.description}
                 roundedcardtext={card.buttonText}
+                roundedcardhint={card.buttonhint}
               />
               {/* Left Circular Section */}
               <RoundedCardLeftCircularSection

@@ -36,6 +36,20 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.right-roundedcard-arrowhead-button:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+.buttonforcardlinkage {
+  text-decoration: none;
 }
 
 .rounded-cards-details-margin {
@@ -365,6 +379,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .right-roundedcard-arrowhead-button:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+  }
+
+  .buttonforcardlinkage {
+    text-decoration: none;
   }
 
   .rounded-cards-details-margin {
