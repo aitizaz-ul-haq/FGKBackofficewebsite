@@ -1,6 +1,6 @@
 .footer-container {
   position: relative; /* Ensures correct positioning for the overlay */
-  background-image: url("/website_footer_background.png"); /* Corrected path */
+  background-image: url("/images/website_footer_background.webp"); /* Corrected path */
   background-size: cover; /* Ensures the image covers the container */
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents image tiling */
@@ -48,7 +48,12 @@
   text-align: left;
   color: black;
   font-weight: 500;
+  text-decoration: none;
 }
+
+.footer-address:hover {
+    color:aliceblue;
+  }
 
 .footer-upper-subsection-two {
   display: flex;
@@ -93,6 +98,12 @@
 .footer-list-item {
   margin-top: 10px;
   margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-list-item:hover {
+  color: black;
 }
 
 .button-group {
@@ -116,9 +127,14 @@
 }
 
 .footer-rights-line {
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
+.footer-rights-line:hover {
+  color: black;
+  text-decoration: none;
+}
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
@@ -628,6 +644,10 @@
     margin-bottom: 10px;
   }
 
+  .footer-list-item:hover {
+    color: black;
+  }
+
   .button-group {
     margin-top: 6rem;
   }
@@ -649,7 +669,13 @@
   }
 
   .footer-rights-line {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer-rights-line:hover {
     color: black;
+    text-decoration: none;
   }
 }
 
