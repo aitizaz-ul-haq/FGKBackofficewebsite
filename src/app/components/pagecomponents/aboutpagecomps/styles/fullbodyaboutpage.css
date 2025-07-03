@@ -323,6 +323,7 @@
   .right-description-section {
     font-size: 16px;
     padding-bottom: 2rem;
+    text-align: center;
   }
 
   .aboutpagecontent-middle-section {
@@ -419,6 +420,7 @@
   .right-description-section {
     font-size: 16px;
     padding-bottom: 2rem;
+    text-align: center;
   }
 
   .aboutpagecontent-middle-section {
@@ -477,6 +479,11 @@
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .right-description-section {
+    font-size: 16px;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
@@ -520,6 +527,8 @@
 @media (min-width: 1280px) {
   .aboutpagecontent-container {
     background-image: url("/images/about_background_image_1024plus.webp");
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
 
   .aboutpagecontaent-logo-introsection {
@@ -544,6 +553,7 @@
 
   .right-description-section {
     font-size: 14px;
+    text-align: left;
   }
 
   .aboutpagecontent-middle-section {
@@ -653,6 +663,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
   }
 }
 
