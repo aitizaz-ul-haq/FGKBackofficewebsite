@@ -135,7 +135,7 @@ const ApplyForm = () => {
               Finance and Admin Manager
             </option>
             <option value="operations-manager">Operations Manager</option> */}
-             <option value="hr-admin-executive">HR & Admin Executive</option>
+            <option value="hr-admin-executive">HR & Admin Executive</option>
           </select>
         </div>
         <div className="form-row">
@@ -158,6 +158,7 @@ const ApplyForm = () => {
             accept=".pdf,.doc,.docx"
             ref={fileInputRef}
             onChange={handleFileChange}
+            className="file-upload"
             required
           />
         </div>
@@ -187,6 +188,13 @@ const ApplyForm = () => {
           background-color: rgb(89, 195, 195, 7%);
         }
 
+        .file-upload {
+          flex: 1 1 100%;
+          width: 100%; /* or a custom width like 220px */
+          padding: 8px;
+          background-color: white;
+        }
+
         h2 {
           margin-bottom: 20px;
           font-family: Inter, sans-serif;
@@ -195,7 +203,7 @@ const ApplyForm = () => {
 
         form {
           width: 100%;
-          max-width: 600px;
+          max-width: 240px;
           display: flex;
           flex-direction: column;
         }
@@ -252,6 +260,16 @@ const ApplyForm = () => {
 
         button:hover {
           background-color: #449f9f;
+        }
+
+        /* Medium laptops (>= 1024px) */
+        @media (min-width: 1024px) {
+          .form-container {
+            width: 500px;
+          }
+          form {
+            max-width: 435px;
+          }
         }
       `}</style>
     </div>
