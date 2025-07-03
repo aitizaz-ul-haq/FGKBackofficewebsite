@@ -269,6 +269,7 @@ const ApplyForm = () => {
           }
           form {
             max-width: 435px;
+            
           }
         }
       `}</style>

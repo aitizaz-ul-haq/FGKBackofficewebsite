@@ -193,6 +193,12 @@ const ContactUsForm = () => {
         button:hover {
           background-color: #449f9f;
         }
+        /* Medium laptops (>= 1024px) */
+        @media (min-width: 1024px) {
+          .form-container {
+            margin-bottom: 8rem;
+          }
+        }
       `}</style>
     </div>
   );
