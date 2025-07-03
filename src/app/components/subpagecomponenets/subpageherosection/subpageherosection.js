@@ -7,6 +7,7 @@ export default function SubPageHeroSection({ data }) {
       className="subpagehero-section"
       style={{
         "--background-desktop": `url(${data.desktopImage})`,
+        "--background-desktoptwo": `url(${data.desktopImagetwo})`,
         "--background-mobile": `url(${data.mobileImage})`,
       }}
     >

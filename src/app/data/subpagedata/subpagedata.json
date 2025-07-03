@@ -5,6 +5,7 @@
     "paragraph": "At FGK Back Office Services, we provide comprehensive operations support that empowers your business to run smoother, faster, and more efficiently. From investment operations to compliance reporting, our expert-driven solutions help reduce complexity, manage risk, and enhance performance—so you can stay focused on growth.",
     "mobileImage": "https://i.postimg.cc/YS9GPM7J/op-sup.webp",
     "desktopImage": "/images/Operations-Support-1920px-hero-section-3x-compressed.webp",
+    "desktopImagetwo": "/images/Operations-Support-1024px-hero-section.webp",
     "hint": "Request back-office support now"
   },
   {
@@ -21,7 +22,7 @@
     "paragraph": "At FGK Back Office Services, we offer end-to-end project management solutions tailored to your business goals. From planning to execution, our expert team ensures your projects are delivered on time, within budget, and to the highest standards. Whether you're launching a new initiative, managing complex operations, or scaling existing workflows, we provide the tools, structure, and strategic oversight needed to succeed.",
     "mobileImage": "https://i.postimg.cc/L8gG3ZY7/proj-mang.webp",
     "desktopImage": "/images/Project-Management-Support-1920px-hero-section.webp",
-     "hint": "Book a project strategy call"
+    "hint": "Book a project strategy call"
   },
   {
     "id": "accounting-and-reporting",
