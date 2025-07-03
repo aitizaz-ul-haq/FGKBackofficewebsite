@@ -3,10 +3,11 @@ import Link from "next/link";
 export default function RoundedCardButton({
   roundedcardtext,
   roundedcardhint,
+  roundedcardlink
 }) {
   return (
     <Link
-      href="/contact"
+      href={roundedcardlink}
       className="buttonforcardlinkage"
       title={roundedcardhint}
     >

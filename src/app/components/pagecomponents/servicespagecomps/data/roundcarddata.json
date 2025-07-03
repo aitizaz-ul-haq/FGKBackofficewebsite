@@ -6,7 +6,8 @@
     "iconMobile": "https://i.postimg.cc/Dz80g6dh/operations-support-mobile-icon.webp",
     "iconCircular": "/images/operations_support_circular_icon.webp",
     "buttonText": "Details",
-    "buttonhint":"Learn more about this service"
+    "buttonhint":"Learn more about this service",
+    "buttonlink" : "/services/operationssupport"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "iconMobile": "https://i.postimg.cc/tJ4ZPbTq/data-management-mobile-icon.webp",
     "iconCircular": "/images/data_management_circular_icon.webp",
     "buttonText": "Details",
-    "buttonhint":"Learn more about this service"
+    "buttonhint":"Learn more about this service",
+    "buttonlink" : "/services/datamanagement"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "iconMobile": "https://i.postimg.cc/brYKxCkH/project-management-mobile-icon.webp",
     "iconCircular": "/images/project_management_circular_icon.webp",
     "buttonText": "Details",
-    "buttonhint":"Learn more about this service"
+    "buttonhint":"Learn more about this service",
+    "buttonlink" : "/services/projectmanagement"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "iconMobile": "https://i.postimg.cc/dVd7GL5t/accounting-and-reporting-mobile-icon.webp",
     "iconCircular": "/images/accounting_and_reporting_circular_icon.webp",
     "buttonText": "Details",
-    "buttonhint":"Learn more about this service"
+    "buttonhint":"Learn more about this service",
+    "buttonlink" : "/services/accountingandreporting"
   },
   {
     "id": 5,
@@ -42,6 +46,7 @@
     "iconMobile": "https://i.postimg.cc/44QKXBPf/web-development-mobile-icon.webp",
     "iconCircular": "/images/web_development_circular_icon.webp",
     "buttonText": "Details",
-    "buttonhint":"Learn more about this service"
+    "buttonhint":"Learn more about this service",
+    "buttonlink" : "/services/webdevelopment"
   }
 ]

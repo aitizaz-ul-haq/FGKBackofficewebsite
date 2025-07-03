@@ -52,6 +52,10 @@
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
+  .benefits-heading {
+    font-size: 26px;
+    font-weight: 200;
+  }
   .benefits-card-container {
     width: 100%;
     justify-content: flex-start;
@@ -61,6 +65,10 @@
 
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
+  .benefits-heading {
+    font-size: 26px;
+    font-weight: 200;
+  }
   .benefits-card-container {
     width: 95%;
     justify-content: flex-start;

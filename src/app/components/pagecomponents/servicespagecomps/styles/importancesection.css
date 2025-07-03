@@ -1,7 +1,7 @@
 .importance-container {
   width: 100%;
   /* height: 100vh; */
-  background-image: url("/images/expertise-section-background.webp");
+  background-image: url("/images/expertise_section_background.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@
   font-size: 16px;
 }
 
-.circularcard-button:hover { 
+.circularcard-button:hover {
   font-size: 20px;
   background-color: black;
   border: 3px solid #000000;
@@ -208,6 +208,12 @@
   .circularcard-button {
     margin-top: 2rem;
   }
+
+  .circularcard-alphabatic-heading {
+    font-size: 17px;
+  }
+
+
 }
 
 /* iPhone 14, 15 (standard model) */
@@ -329,7 +335,7 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .importance-container {
-    background-image: url("/images/expertise-section-1440-image.webp");
+    background-image: url("/images/expertise_section_1440_image.webp");
   }
   .importance-card-grid {
     display: flex;
