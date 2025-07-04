@@ -97,18 +97,20 @@
   .subpagesindustries-text-container {
     width: 90%;
     margin-left: 0.5rem;
+    gap: 2rem;
   }
 
   .subpagesindustries-heading {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 200;
     padding-left: 1rem;
   }
 
   .subpagesindustries-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 200;
     padding-left: 1rem;
+    padding-top: 1rem;
   }
 }
 
@@ -127,14 +129,15 @@
 
   .subpagesindustries-heading {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 200;
     padding-left: 1rem;
   }
 
   .subpagesindustries-text {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 200;
     padding-left: 1rem;
+    padding-top: 1rem;
   }
 }
 
@@ -144,6 +147,12 @@
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .subpagesindustries-heading {
+    font-size: 2.2rem;
+    font-weight: 200;
+    padding-left: 1rem;
+    width: 72%;
+  }
 }
 
 /* Tablets (>= 600px) */
@@ -161,13 +170,14 @@
   }
 
   .subpagesindustries-heading {
-    font-size: 1.7rem;
-    font-weight: 100;
+    font-size: 2.4rem;
+    font-weight: 200;
     padding-left: 1rem;
+    width: 80%;
   }
 
   .subpagesindustries-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 200;
     padding-left: 1rem;
   }
@@ -189,13 +199,14 @@
   }
 
   .subpagesindustries-heading {
-    font-size: 1.7rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: 200;
     padding-left: 1rem;
+    width: 60%;
   }
 
   .subpagesindustries-text {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 200;
     padding-left: 1rem;
   }
@@ -217,11 +228,11 @@
   }
 
   .subpagesindustries-heading {
-    font-size: 2rem;
-    font-weight: 100;
+    font-size: 2.2rem;
+    font-weight: 200;
     padding-left: 1rem;
+    width: 100%;
   }
-
   .subpagesindustries-text {
     font-size: 1rem;
     font-weight: 200;
@@ -242,13 +253,13 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .subpagesindustries-heading {
-    font-size: 2.8rem;
-    font-weight: 100;
+    font-size: 3.4rem;
+    font-weight: 200;
     padding-left: 1rem;
   }
 
   .subpagesindustries-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 200;
     padding-left: 1rem;
   }
@@ -266,6 +277,19 @@
     /* padding-top: 3.3rem; */
     width: 45%;
   }
+
+  .subpagesindustries-heading {
+    font-size: 2.9rem;
+    font-weight: 200;
+    padding-left: 1rem;
+    width: 60%;
+  }
+
+  .subpagesindustries-text {
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding-left: 1rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
@@ -280,6 +304,12 @@
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .subpagesindustries-container {
+    padding-top: 43rem;
+    padding-left: 8rem;
+    padding-right: 0rem;
+    padding-bottom: 9rem;
+  }
 }
 
 /* Iphone SE */

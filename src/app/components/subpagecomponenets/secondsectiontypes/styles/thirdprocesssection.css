@@ -368,6 +368,10 @@
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
+  .thirdprocesssection-container {
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+  }
   .thirdprocesssection-leftsection-strips-container {
     width: 100%;
     gap: 1.9rem;
