@@ -78,6 +78,11 @@
   font-size: 15px;
 }
 
+.thirdprocesssection-leftsection-text-button:hover {
+  background-color: black;
+  color: white;
+}
+
 .thirdprocesssection-bottom-button {
   width: 300px;
   height: 67px;
@@ -88,6 +93,11 @@
   font-size: 22px;
   margin-top: 4rem;
   margin-bottom: 1rem;
+}
+
+.thirdprocesssection-bottom-button:hover {
+  background-color: black;
+  color: white;
 }
 
 /* Default styles (mobile-first approach) */
@@ -180,6 +190,9 @@
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
+  .thirdprocesssection-container {
+    padding-top: 2rem;
+  }
   .thirdprocesssection-sections-container {
     display: flex;
     flex-direction: row;
@@ -194,12 +207,13 @@
   }
 
   .thirdprocesssection-leftsection-text-heading {
-    font-size: 2.2rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: 200;
+    width: 80%;
   }
 
   .thirdprocesssection-leftsection-text-description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 200;
   }
 
@@ -237,12 +251,13 @@
   }
 
   .thirdprocesssection-leftsection-text-heading {
-    font-size: 2.2rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: 200;
+    width: 70%;
   }
 
   .thirdprocesssection-leftsection-text-description {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 200;
   }
 
@@ -266,10 +281,18 @@
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .thirdprocesssection-container {
+    padding-top: 2rem;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .thirdprocesssection-leftsection-text-heading {
+    font-size: 2.4rem;
+    font-weight: 200;
+    width: 70%;
+  }
 }
 
 /* Tablets (>= 600px) */
@@ -278,6 +301,24 @@
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
+  .thirdprocesssection-leftsection-text-heading {
+    font-size: 2rem;
+    font-weight: 200;
+    width: 46%;
+  }
+
+  .thirdprocesssection-leftsection-text-container {
+    width: 92%;
+    margin-left: 0.3rem;
+    padding-left: 0.6rem;
+    margin-left: 2rem;
+    gap: 1rem;
+  }
+
+  .thirdprocesssection-leftsection-text-description {
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
 }
 
 /* Medium laptops (>= 1024px) */
@@ -298,11 +339,12 @@
 
   .thirdprocesssection-leftsection-text-heading {
     font-size: 2.2rem;
-    font-weight: 100;
+    font-weight: 200;
+    width: 100%;
   }
 
   .thirdprocesssection-leftsection-text-description {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 200;
   }
 
@@ -337,8 +379,8 @@
   }
 
   .thirdprocesssection-leftsection-text-heading {
-    font-size: 2rem;
-    font-weight: 100;
+    font-size: 2.2rem;
+    font-weight: 200;
   }
 
   .thirdprocesssection-leftsection-text-description {
@@ -351,12 +393,17 @@
 @media (min-width: 1440px) {
   .thirdprocesssection-leftsection-text-heading {
     font-size: 3.4rem;
-    font-weight: 100;
+    font-weight: 200;
   }
 
   .thirdprocesssection-leftsection-text-description {
     font-size: 1rem;
     font-weight: 200;
+  }
+
+  .thirdprocesssection-container {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
   }
 }
 
@@ -375,8 +422,9 @@
   }
 
   .thirdprocesssection-leftsection-text-heading {
-    font-size: 4rem;
-    font-weight: 100;
+    font-size: 2.9rem;
+    font-weight: 200;
+    width: 60%;
   }
 
   .thirdprocesssection-leftsection-text-description {
@@ -387,10 +435,30 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
+  .thirdprocesssection-container {
+    padding-top: 17rem;
+    padding-bottom: 14rem;
+  }
+
+  .thirdprocesssection-leftsection-text-heading {
+    font-size: 2.9rem;
+    font-weight: 200;
+    width: 50%;
+  }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .thirdprocesssection-container {
+    padding-top: 47rem;
+    padding-bottom: 25rem;
+  }
+
+  .thirdprocesssection-leftsection-text-heading {
+    font-size: 2.9rem;
+    font-weight: 200;
+    width: 50%;
+  }
 }
 
 /* Iphone SE */
