@@ -50,6 +50,11 @@
     width: 100%;
     gap: 1rem;
   }
+
+  .subpagespointcard-heading {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
 }
 
 /* iPhone 14, 15 (standard model) */
@@ -59,10 +64,19 @@
     gap: 1rem;
     padding: 1rem;
   }
+
+  .subpagespointcard-heading {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .subpagespointcard-heading {
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */

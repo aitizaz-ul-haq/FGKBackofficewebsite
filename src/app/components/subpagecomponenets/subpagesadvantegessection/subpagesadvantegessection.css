@@ -192,6 +192,13 @@
 
   .subpagesadvantegessection-heading {
     font-size: 2rem;
+    font-weight: 200;
+  }
+
+  .subpagesadvantegessection-description {
+    font-size: 1rem;
+    font-weight: 200;
+    padding-top: 1rem;
   }
 
   .advantegespoints-container {
@@ -239,6 +246,13 @@
 
   .subpagesadvantegessection-heading {
     font-size: 2rem;
+    font-weight: 200;
+  }
+
+  .subpagesadvantegessection-description {
+    font-size: 1.1rem;
+    font-weight: 200;
+    padding-top: 1rem;
   }
 
   .advantegespoints-container {
@@ -278,6 +292,18 @@
     padding-left: 0rem;
     padding-right: 0rem;
   }
+
+  .subpagesadvantegessection-heading {
+    font-size: 2rem;
+    font-weight: 200;
+    width: 80%;
+  }
+
+  .subpagesadvantegessection-description {
+    font-size: 1.1rem;
+    font-weight: 200;
+    padding-top: 1rem;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
@@ -286,10 +312,20 @@
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .subpagesadvantegessection-heading {
+    font-size: 2rem;
+    font-weight: 200;
+    width: 50%;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
+  .subpagesadvantegessection-heading {
+    font-size: 2rem;
+    font-weight: 200;
+    width: 100%;
+  }
 }
 
 /* Medium laptops (>= 1024px) */
@@ -346,6 +382,10 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .subpagesadvantegessection-container {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
@@ -387,8 +427,8 @@
   }
 
   .subpagesadvantegessection-heading {
-    font-size: 2rem;
-    font-weight: 100;
+    font-size: 2.9rem;
+    font-weight: 200;
     border-left: 3px solid #59c3c3;
     padding-left: 1rem;
   }
@@ -433,12 +473,18 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .subpagesadvantegessection-heading {
-    font-size: 3rem;
+    font-size: 2.9rem;
   }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .subpagesadvantegessection-container {
+    padding-top: 43rem;
+  }
+  .subpagesadvantegessection-description {
+    width: 40%;
+  }
 }
 
 /* Iphone SE */
