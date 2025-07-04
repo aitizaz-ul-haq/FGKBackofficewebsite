@@ -39,12 +39,21 @@
   border-radius: 9px;
 }
 
+.subpagesgridcardsection-button:hover {
+  
+  background: black;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
   .subpagesgridcardsection-container {
     padding: 0.1rem;
+    gap: 2rem;
   }
   .subpagesgridcardsection-heading {
     font-size: 1.7rem;
@@ -57,6 +66,7 @@
 @media (max-width: 360px) {
   .subpagesgridcardsection-container {
     padding: 0.1rem;
+    gap: 2rem;
   }
   .subpagesgridcardsection-heading {
     font-size: 1.7rem;
@@ -69,11 +79,13 @@
 @media (max-width: 375px) {
   .subpagesgridcardsection-container {
     padding: 0.1rem;
+    gap: 2rem;
   }
   .subpagesgridcardsection-heading {
     font-size: 1.7rem;
     font-weight: 200;
     width: 100%;
+    text-align: center;
   }
 }
 
@@ -125,6 +137,10 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .operatsup-grid-container {
+    padding-top: 16rem;
+    padding-bottom: 2rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
@@ -137,12 +153,15 @@
     font-size: 3rem;
     text-align: left;
   }
+
+
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .subpagesgridcardsection-container {
     padding: 15.1rem;
+    
   }
 
   .subpagesgridcardsection-heading {

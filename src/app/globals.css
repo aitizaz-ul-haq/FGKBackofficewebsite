@@ -77,6 +77,10 @@ footer {
   line-height: var(--line-height-heading);
 }
 
+.general-linkage {
+  text-decoration: none;
+}
+
 :root {
   --Website-black-color: #505055;
   --Website-body-color: #f3eeed;

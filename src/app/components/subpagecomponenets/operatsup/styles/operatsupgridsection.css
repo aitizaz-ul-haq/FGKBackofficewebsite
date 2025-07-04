@@ -6,7 +6,6 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-
   padding-top: 12rem;
   padding-left: 8rem;
   padding-right: 8rem;
@@ -34,7 +33,7 @@
 }
 
 .operatsup-grid-text-description {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 200;
 }
 
@@ -44,11 +43,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid black;
+  border: 2px solid black;
   background-color: #59c3c3;
   border-radius: 0.5rem;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.operatsup-grid-text-button:hover {
+  background-color: black;
+  color: white;
 }
 
 .operatsup-grid-section-container {
@@ -127,10 +132,17 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 0.5rem;
+    gap: 1rem;
   }
 
   .operatsup-grid-text-heading {
     font-size: 1.8rem;
+  }
+
+  .operatsup-grid-text-description {
+    font-size: 1rem;
+    font-weight: 200;
   }
 
   .operatsup-grid-section-container {
@@ -153,10 +165,17 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 0.8rem;
+    gap: 1rem;
   }
 
   .operatsup-grid-text-heading {
     font-size: 1.8rem;
+  }
+
+  .operatsup-grid-text-button {
+    font-weight: 500;
+    font-size: 1rem;
   }
 
   .operatsup-grid-section-container {
@@ -182,6 +201,13 @@
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .operatsup-text-container {
+    width: 100%;
+    justify-content: left;
+    align-items: flex-start;
+    padding-left: 0.8rem;
+    gap: 1rem;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
@@ -193,16 +219,15 @@
   .operatsup-grid-container {
     width: 100%;
     /* height: 100vh; */
-    background-image: url("../../../../../../public/operatsup_grid_background.png");
+    background-image: url("/images/operatsup_grid_background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-
-    padding-top: 12rem;
+    padding-top: 6rem;
     padding-left: 0.1rem;
     padding-right: 0.1rem;
-    padding-bottom: 12rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -215,14 +240,18 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 2rem;
-    padding-left: 1.2rem;
+    gap: 1rem;
+    padding-left: 0.8rem;
     border-left: 4px solid #59c3c3;
   }
 }
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
+  .operatsup-grid-container {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+  }
   .operatsup-text-container {
     width: 67%;
   }
@@ -230,6 +259,10 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .operatsup-grid-container {
+    padding-top: 14rem;
+    padding-bottom: 2rem;
+  }
   .operatsup-text-container {
     width: 64%;
   }
@@ -237,12 +270,27 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .operatsup-grid-container {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+  }
+
+  .operatsup-grid-text-description {
+    font-size: 1.1rem;
+    font-weight: 200;
+    padding-right: 8rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
+  .operatsup-grid-text-description {
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding-right: 0rem;
+  }
   .operatsup-grid-container {
-    padding-top: 21rem;
+    padding-top: 17rem;
   }
   .operatsup-text-container {
     width: 65%;
