@@ -41,6 +41,11 @@
   font-size: 15px;
 }
 
+.subpagesgetstartedsection-button:hover {
+  color: white;
+  background-color: black;
+}
+
 .subpagesgetstartedsection-heading {
   font-size: 4rem;
   font-weight: 100;
