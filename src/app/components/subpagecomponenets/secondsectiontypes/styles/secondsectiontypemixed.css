@@ -62,6 +62,11 @@
   font-size: 15px;
 }
 
+.secondsectionmixed-leftsection-text-button:hover {
+  background-color: black;
+  color: white;
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
@@ -147,7 +152,7 @@
 
   .secondsectionmixed-leftsection-text-heading {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 200;
   }
 }
 
@@ -176,7 +181,12 @@
 
   .secondsectionmixed-leftsection-text-heading {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 200;
+  }
+
+  .secondsectionmixed-leftsection-text-description {
+    font-size: 1.1rem;
+    font-weight: 200;
   }
 }
 
@@ -186,10 +196,23 @@
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .secondsectionmixed-leftsection-text-container {
+    width: 98%;
+  }
+
+  .secondsectionmixed-leftsection-text-heading {
+    font-size: 2.4rem;
+    font-weight: 200;
+  }
 }
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .secondsectionmixed-leftsection-text-heading {
+    font-size: 2.4rem;
+    font-weight: 200;
+    width: 63%;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
@@ -202,7 +225,7 @@
     background-position: center; /* Center the background */
     background-repeat: no-repeat;
     position: relative;
-    padding-top: 4rem;
+    padding-top: 0rem;
     padding-bottom: 4rem;
     display: flex;
     flex-direction: row;
@@ -221,7 +244,7 @@
     width: 50%;
     /* margin-top: 4rem;
         margin-bottom: 4rem; */
-    padding-left: 4rem;
+    padding-left: 0rem;
   }
 
   .secondsectionmixed-leftsection-text-container {
@@ -237,12 +260,13 @@
   }
 
   .secondsectionmixed-leftsection-text-heading {
-    font-size: 1.4rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: 200;
+    width: 100%;
   }
 
   .secondsectionmixed-leftsection-text-description {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 200;
   }
 
@@ -259,13 +283,23 @@
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .secondsectionmixed-container {
+    padding-top: 8rem;
+  }
+
+  .secondsectionmixed-leftsection-text-heading {
+    font-size: 2.3rem;
+    font-weight: 200;
+    width: 100%;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .secondsectionmixed-leftsection-text-heading {
-    font-size: 2rem;
-    font-weight: 100;
+    font-size: 2.3rem;
+    font-weight: 200;
+    width: 60%;
   }
 
   .secondsectionmixed-leftsection-text-description {
@@ -278,7 +312,8 @@
 @media (min-width: 1440px) {
   .secondsectionmixed-leftsection-text-heading {
     font-size: 3.4rem;
-    font-weight: 100;
+    font-weight: 200;
+    width: 100%;
   }
 
   .secondsectionmixed-leftsection-text-description {
@@ -290,8 +325,9 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .secondsectionmixed-leftsection-text-heading {
-    font-size: 4rem;
-    font-weight: 100;
+    font-size: 2.9rem;
+    font-weight: 200;
+    width: 60%;
   }
 
   .secondsectionmixed-leftsection-text-description {
