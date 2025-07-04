@@ -45,10 +45,10 @@
 }
 
 .subpagehero-button:hover {
-    color: black;
-    background-color: white;
-    text-decoration: none;
-  }
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
 
 /* Default styles (mobile-first approach) */
 
@@ -342,15 +342,15 @@
   }
 
   .subpagehero-title {
-    font-size: 1.7rem; /* Adjust for responsiveness */
+    font-size: 3rem;
     margin-bottom: 1rem;
     font-weight: 200;
     text-align: left;
-    max-width: 90%;
+    max-width: 70%;
   }
 
   .subpagehero-paragraph-container {
-    width: 90%;
+    width: 72%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -358,8 +358,9 @@
   }
 
   .subpagehero-paragraph {
-    font-size: 0.9rem;
-    width: 53%;
+    font-size: 1.1rem;
+    width: 100%;
+    font-weight: 300;
   }
 
   .subpagehero-button-container {
@@ -408,15 +409,15 @@
   }
 
   .subpagehero-title {
-    font-size: 1.8rem; /* Adjust for responsiveness */
+    font-size: 3.4rem;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 200;
     text-align: left;
-    max-width: 90%;
+    max-width: 59%;
   }
 
   .subpagehero-paragraph-container {
-    width: 90%;
+    width: 71%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -436,16 +437,17 @@
     margin-left: 0px;
   }
 
- .subpagehero-button:hover {
+  .subpagehero-button:hover {
     color: black;
     background-color: white;
     text-decoration: none;
   }
   .subpagehero-paragraph {
-    font-size: 1rem;
-    font-weight: 300;
-    /* max-width: 776px; */
-    /* margin: 0 auto; */
+    font-size: 1.2rem;
+    max-width: 100%;
+    font-weight: 200;
+    /* max-width: 776px;
+    margin: 0 auto; */
   }
 }
 
@@ -473,15 +475,15 @@
   }
 
   .subpagehero-title {
-    font-size: 2.5rem; /* Adjust for responsiveness */
+    font-size: 3.5rem;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 200;
     text-align: left;
-    max-width: 90%;
+    max-width: 47%;
   }
 
   .subpagehero-paragraph-container {
-    width: 90%;
+    width: 66%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -501,14 +503,14 @@
     margin-left: 0px;
   }
 
- .subpagehero-button:hover {
+  .subpagehero-button:hover {
     color: black;
     background-color: white;
     text-decoration: none;
   }
   .subpagehero-paragraph {
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1.4rem;
+    font-weight: 200;
     /* max-width: 776px; */
     /* margin: 0 auto; */
   }
@@ -538,11 +540,11 @@
   }
 
   .subpagehero-title {
-    font-size: 3.1rem; /* Adjust for responsiveness */
+    font-size: 4rem;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 200;
     text-align: left;
-    max-width: 80%;
+    max-width: 58%;
   }
 
   .subpagehero-paragraph-container {
@@ -557,7 +559,7 @@
     margin-left: 0px;
   }
 
- .subpagehero-button:hover {
+  .subpagehero-button:hover {
     color: black;
     background-color: white;
     text-decoration: none;
@@ -572,8 +574,8 @@
     padding-top: 1.3rem;
   }
   .subpagehero-paragraph {
-    font-size: 1.2rem;
-    max-width: 976px;
+    font-size: 1.4rem;
+    max-width: 90%;
     /* margin: 0 auto; */
   }
 }
@@ -603,15 +605,15 @@
   }
 
   .subpagehero-title {
-    font-size: 3.1rem; /* Adjust for responsiveness */
+    font-size: 4.3rem;
     margin-bottom: 1rem;
     font-weight: 200;
     text-align: left;
-    max-width: 80%;
+    max-width: 55%;
   }
 
   .subpagehero-paragraph-container {
-    width: 84%;
+    width: 69%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -628,7 +630,7 @@
   }
   .subpagehero-paragraph {
     font-size: 1.5rem;
-    max-width: 860px;
+    max-width: 100%;
     font-weight: 200;
     /* margin: 0 auto; */
   }
@@ -637,7 +639,7 @@
     margin-left: 0px;
   }
 
- .subpagehero-button:hover {
+  .subpagehero-button:hover {
     color: black;
     background-color: white;
     text-decoration: none;
@@ -646,6 +648,19 @@
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .subpagehero-title {
+    font-size: 6.3rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    text-align: left;
+    max-width: 55%;
+  }
+
+  .subpagehero-paragraph {
+    font-size: 2.1rem;
+    max-width: 100%;
+    font-weight: 200;
+  }
   .subpagehero-content {
     margin-top: 29rem;
     margin-bottom: 22rem;

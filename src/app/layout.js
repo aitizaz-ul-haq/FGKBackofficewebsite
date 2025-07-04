@@ -42,16 +42,39 @@ export default function RootLayout({ children }) {
           href="/images/Operations-Support-1920px-hero-section-3x-compressed.webp"
           type="image/webp"
         />
+
+        <link
+          rel="preload"
+          as="image"
+          href="/images/Operations-Support-1024px-hero-section.webp"
+          type="image/webp"
+        />
         <link
           rel="preload"
           as="image"
           href="/images/Data-Management-1920px-hero-section-3x-min.webp"
           type="image/webp"
         />
+
+
+        <link
+          rel="preload"
+          as="image"
+          href="/images/Data-Management-1024px-hero-section.webp"
+          type="image/webp"
+        />
+
         <link
           rel="preload"
           as="image"
           href="/images/Project-Management-Support-1920px-hero-section.webp"
+          type="image/webp"
+        />
+
+        <link
+          rel="preload"
+          as="image"
+          href="/images/Project-Management-Support-1024px-hero-section.webp"
           type="image/webp"
         />
         <link
@@ -60,10 +83,24 @@ export default function RootLayout({ children }) {
           href="/images/Accounting-Reporting-1920px-hero-section.webp"
           type="image/webp"
         />
+
+        <link
+          rel="preload"
+          as="image"
+          href="/images/Accounting-Reporting-1024px-hero-section.webp"
+          type="image/webp"
+        />
         <link
           rel="preload"
           as="image"
           href="/images/Web-Development-Support-1920px-hero-section.webp"
+          type="image/webp"
+        />
+
+         <link
+          rel="preload"
+          as="image"
+          href="/images/Web_Development_Support_1024px_hero_section.webp"
           type="image/webp"
         />
 
@@ -110,6 +147,14 @@ export default function RootLayout({ children }) {
           height="1"
           style={{ display: "none" }}
         />
+
+        <img
+          src="/images/Data-Management-1024px-hero-section.webp"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
         <img
           src="/images/Data-Management-1920px-hero-section-3x-min.webp"
           alt=""
@@ -124,6 +169,14 @@ export default function RootLayout({ children }) {
           height="1"
           style={{ display: "none" }}
         />
+
+        <img
+          src="/images/Project-Management-Support-1024px-hero-section.webp"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
         <img
           src="/images/Accounting-Reporting-1920px-hero-section.webp"
           alt=""
@@ -131,8 +184,24 @@ export default function RootLayout({ children }) {
           height="1"
           style={{ display: "none" }}
         />
+
+        <img
+          src="/images/Accounting-Reporting-1024px-hero-section.webp"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
         <img
           src="/images/Web-Development-Support-1920px-hero-section.webp"
+          alt=""
+          width="1"
+          height="1"
+          style={{ display: "none" }}
+        />
+
+        <img
+          src="/images/Web_Development_Support_1024px_hero_section.webp"
           alt=""
           width="1"
           height="1"
