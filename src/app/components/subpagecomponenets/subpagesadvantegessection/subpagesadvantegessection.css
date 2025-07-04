@@ -378,6 +378,9 @@
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
+  .subpagesadvantegessection-heading {
+    font-size: 2.2rem;
+  }
 }
 
 /* Extra-large desktops (>= 1440px) */
@@ -385,6 +388,10 @@
   .subpagesadvantegessection-container {
     padding-top: 8rem;
     padding-bottom: 4rem;
+  }
+
+  .subpagesadvantegessection-heading {
+    font-size: 3.4rem;
   }
 }
 

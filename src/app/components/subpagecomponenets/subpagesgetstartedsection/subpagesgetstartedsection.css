@@ -134,7 +134,8 @@
 
   .subpagesgetstartedsection-heading {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 200;
+    width: 70%;
   }
 
   .subpagesgetstartedsection-description {
@@ -166,7 +167,8 @@
 
   .subpagesgetstartedsection-heading {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 200;
+    width: 65%;
   }
 
   .subpagesgetstartedsection-description {
@@ -183,15 +185,20 @@
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
-  .subpagesgetstartedsection-button {
-    margin-left: 5rem;
-    height: 47px;
+  .subpagesgetstartedsection-heading {
+    font-size: 2rem;
+    font-weight: 200;
     width: 60%;
   }
 }
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .subpagesgetstartedsection-heading {
+    font-size: 2.2rem;
+    font-weight: 200;
+    width: 55%;
+  }
 }
 
 /* Tablets (>= 600px) */
@@ -213,10 +220,21 @@
     font-weight: 600;
     font-size: 15px;
   }
+
+  .subpagesgetstartedsection-heading {
+    font-size: 2.4rem;
+    font-weight: 200;
+    width: 55%;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
+  .subpagesgetstartedsection-heading {
+    font-size: 2rem;
+    font-weight: 200;
+    width: 100%;
+  }
 }
 
 /* Medium laptops (>= 1024px) */
@@ -233,6 +251,11 @@
     margin-left: 4rem;
   }
 
+  .subpagesgetstartedsection-description {
+    font-size: 1.1rem;
+    font-weight: 200;
+  }
+
   .subpagesgetstartedsection-button {
     margin-left: 4rem;
   }
@@ -240,6 +263,17 @@
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
+  .subpagesgetstartedsection-container {
+    padding-top: 17rem;
+    padding-left: 13rem;
+    padding-right: 2rem;
+    padding-bottom: 17rem;
+  }
+
+  .subpagesgetstartedsection-description {
+    font-size: 1rem;
+    font-weight: 200;
+  }
 }
 
 /* Extra-large desktops (>= 1440px) */
@@ -256,6 +290,12 @@
     margin-left: 14rem;
   }
 
+  .subpagesgetstartedsection-heading {
+    font-size: 3.4rem;
+    font-weight: 200;
+    width: 100%;
+  }
+
   .subpagesgetstartedsection-button {
     margin-left: 14rem;
   }
@@ -263,6 +303,16 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .subpagesgetstartedsection-heading {
+    font-size: 2.9rem;
+    font-weight: 200;
+    width: 100%;
+  }
+
+  .subpagesgetstartedsection-description {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
