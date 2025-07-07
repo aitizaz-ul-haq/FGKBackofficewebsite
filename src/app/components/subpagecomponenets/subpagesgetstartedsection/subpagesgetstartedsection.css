@@ -314,6 +314,12 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+   .subpagesgetstartedsection-container {
+    padding-top: 22rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 17rem;
+  }
   .subpagesgetstartedsection-heading {
     font-size: 2.9rem;
     font-weight: 200;
@@ -347,6 +353,12 @@
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .subpagesgetstartedsection-container {
+    padding-top: 38rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-bottom: 32rem;
+  }
   .subpagesgetstartedsection-text-container {
     width: 50%;
     margin-left: 20rem;
