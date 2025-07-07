@@ -304,7 +304,7 @@
   .thirdprocesssection-leftsection-text-heading {
     font-size: 2rem;
     font-weight: 200;
-    width: 71%;
+    width: 85%;
   }
 
   .thirdprocesssection-leftsection-text-container {
@@ -332,7 +332,7 @@
   }
 
   .thirdprocesssection-leftsection-text-container {
-    width: 60%;
+    width: 68%;
     margin-left: 0.3rem;
     padding-left: 0.6rem;
   }
@@ -409,12 +409,18 @@
     padding-top: 5rem;
     padding-bottom: 7rem;
   }
+
+  .thirdprocesssection-leftsection-text-container {
+    width: 71%;
+    margin-left: 0.3rem;
+    padding-left: 0.6rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .thirdprocesssection-leftsection-text-container {
-    width: 45%;
+    width: 56%;
     margin-left: 0.3rem;
     padding-left: 0.6rem;
   }
