@@ -209,7 +209,7 @@
   .thirdprocesssection-leftsection-text-heading {
     font-size: 2rem;
     font-weight: 200;
-    width: 80%;
+    width: 93%;
   }
 
   .thirdprocesssection-leftsection-text-description {
@@ -253,7 +253,7 @@
   .thirdprocesssection-leftsection-text-heading {
     font-size: 2rem;
     font-weight: 200;
-    width: 70%;
+    width: 90%;
   }
 
   .thirdprocesssection-leftsection-text-description {
@@ -291,7 +291,7 @@
   .thirdprocesssection-leftsection-text-heading {
     font-size: 2.4rem;
     font-weight: 200;
-    width: 70%;
+    width: 87%;
   }
 }
 
@@ -304,7 +304,7 @@
   .thirdprocesssection-leftsection-text-heading {
     font-size: 2rem;
     font-weight: 200;
-    width: 46%;
+    width: 71%;
   }
 
   .thirdprocesssection-leftsection-text-container {
@@ -428,26 +428,31 @@
   .thirdprocesssection-leftsection-text-heading {
     font-size: 2.9rem;
     font-weight: 200;
-    width: 60%;
+    width: 99%;
   }
 
   .thirdprocesssection-leftsection-text-description {
     font-size: 1.2rem;
     font-weight: 200;
   }
+
+  .thirdprocesssection-container {
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .thirdprocesssection-container {
-    padding-top: 17rem;
+    padding-top: 23rem;
     padding-bottom: 14rem;
   }
 
   .thirdprocesssection-leftsection-text-heading {
     font-size: 2.9rem;
     font-weight: 200;
-    width: 50%;
+    width: 82%;
   }
 }
 

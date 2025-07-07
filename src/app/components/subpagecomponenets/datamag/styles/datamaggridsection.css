@@ -51,6 +51,11 @@
   font-weight: 600;
 }
 
+.datamag-grid-text-button:hover {
+  background-color: black;
+  color: white;
+}
+
 .datamag-grid-section-container {
   margin-top: 12rem;
   padding-left: 5rem;
@@ -127,10 +132,17 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 0.6rem;
   }
 
   .datamag-grid-text-heading {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+
+  .datamag-grid-text-description {
+    font-size: 1rem;
+    font-weight: 200;
   }
 
   .datamag-grid-section-container {
@@ -153,10 +165,17 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 0.7rem;
   }
 
   .datamag-grid-text-heading {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+
+  .datamag-grid-text-description {
+    font-size: 1.1rem;
+    font-weight: 200;
   }
 
   .datamag-grid-section-container {
@@ -169,19 +188,31 @@
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
   .datamag-grid-text-heading {
-    font-size: 2.4rem;
+    font-size: 1.9rem;
+    font-weight: 200;
   }
 }
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
   .datamag-grid-text-heading {
-    font-size: 2.9rem;
+    font-size: 2.2rem;
   }
 }
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .datamag-grid-text-heading {
+    font-size: 2.7rem;
+    font-weight: 200;
+  }
+  .datamag-text-container {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 0.7rem;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
@@ -238,6 +269,10 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .datamag-grid-text-description {
+    font-size: 1.4rem;
+    font-weight: 200;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */

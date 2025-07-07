@@ -60,6 +60,11 @@
   font-size: 15px;
 }
 
+.secondsectionrightsided-leftsection-text-button:hover {
+  background-color: black;
+  color: white;
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
@@ -135,17 +140,19 @@
 
   .secondsectionrightsided-rightsection {
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 0.4rem;
   }
 
   .secondsectionrightsided-leftsection-text-container {
     margin-left: 0.2rem;
     padding-left: 0.6rem;
+    width: 99%;
   }
 
   .secondsectionrightsided-leftsection-text-heading {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 200;
+    width: 76%;
   }
 }
 
@@ -170,24 +177,46 @@
   .secondsectionrightsided-leftsection-text-container {
     margin-left: 0.2rem;
     padding-left: 0.6rem;
+    width: 97%;
   }
 
   .secondsectionrightsided-leftsection-text-heading {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 200;
+    width: 85%;
+  }
+
+  .secondsectionrightsided-leftsection-text-description {
+    font-size: 1.1rem;
+    font-weight: 200;
   }
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .secondsectionrightsided-leftsection-text-heading {
+    font-size: 2rem;
+    font-weight: 200;
+    width: 70%;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .secondsectionrightsided-leftsection-text-heading {
+    font-size: 2.4rem;
+    font-weight: 200;
+    width: 71%;
+  }
 }
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .secondsectionrightsided-leftsection-text-heading {
+    font-size: 2.4rem;
+    font-weight: 200;
+    width: 66%;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
@@ -235,12 +264,13 @@
   }
 
   .secondsectionrightsided-leftsection-text-heading {
-    font-size: 1.4rem;
-    font-weight: 100;
+    font-size: 2rem;
+    font-weight: 200;
+    width: 95%;
   }
 
   .secondsectionrightsided-leftsection-text-description {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 200;
   }
 
@@ -257,6 +287,15 @@
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .secondsectionrightsided-leftsection-text-container {
+    margin-left: 0.8rem;
+  }
+
+  .secondsectionrightsided-leftsection-text-heading {
+    font-size: 2.3rem;
+    font-weight: 200;
+    width: 78%;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
@@ -270,26 +309,42 @@
     font-size: 1rem;
     font-weight: 200;
   }
+
+  .secondsectionrightsided-leftsection-text-heading {
+    font-size: 2.3rem;
+    font-weight: 200;
+    width: 56%;
+  }
+
+  .secondsectionrightsided-container {
+    padding-top: 6rem;
+  }
 }
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .secondsectionrightsided-leftsection-text-heading {
     font-size: 3.4rem;
-    font-weight: 100;
+    font-weight: 200;
+    width: 75%;
   }
 
   .secondsectionrightsided-leftsection-text-description {
     font-size: 1rem;
     font-weight: 200;
   }
+
+  .secondsectionrightsided-leftsection-text-container {
+    margin-left: 0.3rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .secondsectionrightsided-leftsection-text-heading {
-    font-size: 4rem;
-    font-weight: 100;
+    font-size: 2.9rem;
+    font-weight: 200;
+    width: 60%;
   }
 
   .secondsectionrightsided-leftsection-text-description {
@@ -300,10 +355,25 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
+  .secondsectionrightsided-container {
+    padding-top: 13rem;
+  }
+  .secondsectionrightsided-leftsection-text-container {
+    width: 94%;
+  }
+
+  .secondsectionrightsided-leftsection-text-heading {
+    font-size: 2.9rem;
+    font-weight: 200;
+    width: 50%;
+  }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .secondsectionrightsided-container {
+    padding-top: 34rem;
+  }
 }
 
 /* Iphone SE */
