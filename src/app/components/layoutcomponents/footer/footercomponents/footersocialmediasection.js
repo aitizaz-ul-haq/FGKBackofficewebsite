@@ -11,6 +11,7 @@ export default function FooterSocialMediaSection() {
           width={40}
           height={40}
           className="footer-social-icon"
+          title="Visit our official YouTube channel"
         />
       </Link>
       <Link href="/">
@@ -20,9 +21,10 @@ export default function FooterSocialMediaSection() {
           width={40}
           height={40}
           className="footer-social-icon"
+          title="Follow FGK Back Office Services on Facebook"
         />
       </Link>
-      <Link href="/">
+      {/* <Link href="/">
         <Image
           src="https://i.postimg.cc/1z0SDYf4/x.webp"
           alt="FGK logo"
@@ -30,7 +32,7 @@ export default function FooterSocialMediaSection() {
           height={40}
           className="footer-social-icon"
         />
-      </Link>
+      </Link> */}
       <Link href="/">
         <Image
           src="https://i.postimg.cc/rshNvgbJ/linkdin.webp"
@@ -38,9 +40,10 @@ export default function FooterSocialMediaSection() {
           width={40}
           height={40}
           className="footer-social-icon"
+          title="Connect with us on LinkedIn"
         />
       </Link>
-      <Link href="/">
+      {/* <Link href="/">
         <Image
           src="https://i.postimg.cc/VNyWQJ73/instagram.webp"
           alt="FGK logo"
@@ -48,7 +51,7 @@ export default function FooterSocialMediaSection() {
           height={40}
           className="footer-social-icon"
         />
-      </Link>
+      </Link> */}
     </div>
   );
 }
