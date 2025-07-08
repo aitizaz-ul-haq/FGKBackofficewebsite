@@ -23,11 +23,137 @@ import Webdevgetstarteddata from "@/app/data/subpagedata/webdevdata/webdevgettin
 // importing utility methods
 import { getHeroData } from "@/app/utils/gethreodata";
 
+export const metadata = {
+  title: "Web Development Services | FGK Back Office Services",
+  description:
+    "Transform your digital presence with FGK’s expert web development services. We build responsive, secure, and scalable websites tailored to your business goals.",
+  keywords: [
+    "Web Development Services",
+    "Website Design",
+    "Responsive Web Design",
+    "Custom Web Development",
+    "Frontend Development",
+    "Backend Development",
+    "Web Development Pakistan",
+    "FGK Web Services",
+    "Secure Web Applications",
+    "Business Website Development",
+  ],
+  metadataBase: new URL("https://www.fgkbackoffice.com"),
+  alternates: {
+    canonical: "https://www.fgkbackoffice.com/services/webdevelopment",
+  },
+  openGraph: {
+    title: "Web Development Services | FGK Back Office Services",
+    description:
+      "Unlock the power of the web with FGK’s custom development solutions – responsive, secure, and scalable.",
+    url: "https://www.fgkbackoffice.com/services/webdevelopment",
+    siteName: "FGK Back Office Services",
+    images: [
+      {
+        url: "/images/webdevelopment-page-preview.webp", // Ensure this image exists
+        width: 1200,
+        height: 630,
+        alt: "Web Development Services Overview",
+      },
+      {
+        url: "/images/fgk_circular_logo.webp",
+        width: 600,
+        height: 600,
+        alt: "FGK Circular Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Web Development Services | FGK Back Office Services",
+    description:
+      "Professional web development services for businesses. Build your online presence with FGK.",
+    images: ["/images/webdevelopment-page-preview.webp"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+  },
+};
+
 // web development services page main component
 export default function WebDevelopment() {
   const data = getHeroData("web-development");
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "@id":
+              "https://www.fgkbackoffice.com/services/webdevelopment#webdevservice",
+            name: "Web Development Services",
+            serviceType: "Business Web Development",
+            provider: {
+              "@type": "Organization",
+              name: "FGK Back Office Services",
+              url: "https://www.fgkbackoffice.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
+                width: 600,
+                height: 600,
+              },
+              sameAs: [
+                "https://www.linkedin.com/company/fgkbackoffice", // Replace with actual if different
+              ],
+            },
+            areaServed: {
+              "@type": "Country",
+              name: "Pakistan",
+            },
+            description:
+              "FGK delivers scalable and secure web development services, tailored to business goals using the latest frontend and backend technologies.",
+            url: "https://www.fgkbackoffice.com/services/webdevelopment",
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Web Development Offerings",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Frontend Development",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Backend Development",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Responsive Web Design",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Custom Website Development",
+                  },
+                },
+              ],
+            },
+          }),
+        }}
+      />
+
       <SubPageHeroSection data={data} />
       <WebDevGridSection />
       <SecondSectionTypeTopAndBottom

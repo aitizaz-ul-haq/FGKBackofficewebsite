@@ -23,10 +23,128 @@ import projmanggetstarteddata from "@/app/data/subpagedata/projectmanagementdata
 // importing utility method
 import { getHeroData } from "@/app/utils/gethreodata";
 
+export const metadata = {
+  title: "Project Management Services | FGK Back Office Services",
+  description:
+    "Deliver successful projects on time and within scope with FGK’s expert project management services. We use proven methodologies to plan, execute, and monitor your business initiatives.",
+  keywords: [
+    "Project Management",
+    "Project Planning",
+    "Execution Monitoring",
+    "Agile Project Delivery",
+    "Waterfall Methodology",
+    "Back Office Project Services",
+    "Project Coordination",
+    "Business Project Oversight",
+    "Pakistan Project Management",
+    "FGK Project Services",
+  ],
+  metadataBase: new URL("https://www.fgkbackoffice.com"),
+  alternates: {
+    canonical: "https://www.fgkbackoffice.com/services/projectmanagement",
+  },
+  openGraph: {
+    title: "Project Management Services | FGK Back Office Services",
+    description:
+      "Achieve your business goals through structured project delivery. FGK ensures successful execution with proven project management frameworks.",
+    url: "https://www.fgkbackoffice.com/services/projectmanagement",
+    siteName: "FGK Back Office Services",
+    images: [
+      {
+        url: "/images/projectmanagement-page-preview.webp", // Ensure this file exists
+        width: 1200,
+        height: 630,
+        alt: "Project Management Services Overview",
+      },
+      {
+        url: "/images/fgk_circular_logo.webp",
+        width: 600,
+        height: 600,
+        alt: "FGK Circular Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Project Management Services | FGK Back Office Services",
+    description:
+      "FGK provides tailored project management strategies to help your business deliver results efficiently and effectively.",
+    images: ["/images/projectmanagement-page-preview.webp"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+  },
+};
+
 export default function ProjectManagement() {
   const data = getHeroData("project-management");
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "@id": "https://www.fgkbackoffice.com/services/projectmanagement",
+            name: "Project Management Services",
+            serviceType: "Business Project Oversight",
+            provider: {
+              "@type": "Organization",
+              name: "FGK Back Office Services",
+              url: "https://www.fgkbackoffice.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
+                width: 600,
+                height: 600,
+              },
+              sameAs: [
+                "https://www.linkedin.com/company/fgk-back-office-services", // replace with actual LinkedIn if different
+              ],
+            },
+            areaServed: {
+              "@type": "Country",
+              name: "Pakistan",
+            },
+            description:
+              "FGK offers structured project management services to ensure timely delivery, stakeholder alignment, and effective execution of business goals.",
+            url: "https://www.fgkbackoffice.com/services/projectmanagement",
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Project Management Packages",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Agile Project Delivery",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Waterfall Methodology Support",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Custom Project Oversight",
+                  },
+                },
+              ],
+            },
+          }),
+        }}
+      />
+
       <SubPageHeroSection data={data} />
       <ProgMagGridSection />
       <SecondSectionTypeMixed
