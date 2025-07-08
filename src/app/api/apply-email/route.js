@@ -1,5 +1,6 @@
 import nodemailer from "nodemailer";
 import fs from "fs/promises";
+import path from "path";
 
 // ✅ Updated config for Next.js 14
 export const dynamic = "force-dynamic";
@@ -32,10 +33,23 @@ export async function POST(req) {
       },
     });
 
+    const imageAttachments = [
+      {
+        filename: "fgk_circular_logo.png",
+        path: path.join(process.cwd(), "public", "fgk_circular_logo.png"),
+        cid: "fgklogo",
+      },
+      {
+        filename: "fgk_letter_logo.png",
+        path: path.join(process.cwd(), "public", "fgk_letter_logo.png"),
+        cid: "fgkfooterlogo",
+      },
+    ];
+
     // Email to HR with the applicant's details and resume
     const hrMailOptions = {
       from: `${fields.firstName} ${fields.lastName} <${fields.email}>`,
-      to: "atz.softprgmr@gmail.com",
+      to: "sahmed@fgkltd.com",
       subject: `New Job Application from ${fields.firstName} ${fields.lastName}`,
       text: `
         Name: ${fields.firstName} ${fields.lastName}
@@ -62,30 +76,20 @@ export async function POST(req) {
       subject: "Thank You for Your Job Application!",
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; border: 1px solid #ddd;">
-          <!-- Header Section -->
           <table width="100%" style="border-collapse: collapse;">
             <tr>
               <td align="left">
-                <img src="https://i.postimg.cc/qv15pn6T/fgk-circular-logo.png" alt="FGK Back Office Services" style="height: 100px;">
+                <img src="cid:fgklogo" alt="FGK Back Office Services" style="height: 100px;">
               </td>
               <td align="right">
-                <!-- Empty right section -->
               </td>
             </tr>
           </table>
-          
-          <!-- Middle Section -->
           <h1 style="text-align: left; color: #333; font-size: 24px; font-weight: 300; font-family:inter, serif">Thank You for sharing your resume</h1>
           <p style="font-size: 16px; color: #555; text-align: left;">
             Dear ${fields.firstName} ${fields.lastName},<br> 
-            Thank you for taking interest in a career at FGK Back Office Services.We would like to inform you that we have received your job application for the position of ${fields.position}.
-            Our HR team will review your resume and get back to you shortly.
+            Thank you for taking interest in a career at FGK Back Office Services. We would like to inform you that we have received your job application for the position of ${fields.position}. Our HR team will review your resume and get back to you shortly.
           </p>
-          <p style="font-size: 16px; color: #555; text-align: left;">
-            For any further inquiries, feel free to contact us at <a href="mailto:fgkbackofficeservices@gmail.com">fgkbackofficeservices@gmail.com</a> or visit our website at <a href="https://fgkbackofficeservices.com">fgkbackofficeservices.com</a>.
-          </p>
-          
-          <!-- Footer Section -->
           <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
           <table width="100%" style="border-collapse: collapse;">
             <tr>
@@ -94,21 +98,21 @@ export async function POST(req) {
                 Office no 212, 213 Pakland VISTA,<br>
                 I-8 Markaz Islamabad.<br>
                 <p>Follow us on:
-                  <a href="https://twitter.com" target="_blank">Twitter</a> |
+                  <a href="https://instagram.com/" target="_blank">Instagram</a> |
                   <a href="https://facebook.com" target="_blank">Facebook</a> |
                   <a href="https://linkedin.com" target="_blank">LinkedIn</a>
                 </p>
               </td>
               <td align="right">
-                <img src="https://i.postimg.cc/QCZ6fJwp/fgk-letter-logo.png" alt="FGK Back Office Services" style="height: 25px;">
+                <img src="cid:fgkfooterlogo" alt="FGK Back Office Services" style="height: 25px;">
               </td>
             </tr>
           </table>
         </div>
       `,
+      attachments: imageAttachments,
     };
 
-    // Send emails
     await transporter.sendMail(hrMailOptions);
     await transporter.sendMail(thankYouMailOptions);
 
