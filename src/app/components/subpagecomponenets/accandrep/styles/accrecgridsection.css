@@ -51,6 +51,11 @@
   font-weight: 600;
 }
 
+.accandre-grid-text-button:hover {
+  background-color: black;
+  color: white;
+}
+
 .accandre-grid-section-container {
   margin-top: 12rem;
   padding-left: 5rem;
