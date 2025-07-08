@@ -10,6 +10,68 @@ import TrustedBySection from "../components/pagecomponents/servicespagecomps/tru
 import testdata from "../data/services/servicesherodata.json";
 // import reviewerdata from "../data/services/reviewsdata.json";
 
+export const metadata = {
+  title: "Our Services | FGK Back Office Services",
+  description:
+    "Explore our professional services including Web Development, Operations Support, Accounting & Reporting, Project Management, and Data Management – tailored for your business success.",
+  keywords: [
+  "FGK Back Office Services",
+  "Business Outsourcing",
+  "Web Development Pakistan",
+  "Next Developers Islamabad",
+  "Accounting and Reporting Services",
+  "Project Management Outsourcing",
+  "Data Management Solutions",
+  "Operations Support Pakistan",
+  "Payroll and Finance Services",
+  "Back Office Services Islamabad",
+  "Custom Software Development",
+  "Islamabad BPO Company",
+  "Outsourcing Company in Pakistan",
+  "Financial Compliance Services",
+  "Book Keeping Support Services"
+],
+  metadataBase: new URL("https://www.fgkbackoffice.com"),
+  alternates: {
+    canonical: "https://www.fgkbackoffice.com/services",
+  },
+  openGraph: {
+    title: "Our Services | FGK Back Office Services",
+    description:
+      "Discover how FGK Back Office Services empowers businesses through expert back office solutions tailored to your needs.",
+    url: "https://www.fgkbackoffice.com/services",
+    siteName: "FGK Back Office Services",
+    images: [
+      {
+        url: "/images/services-page-preview.webp",
+        width: 1200,
+        height: 630,
+        alt: "FGK Services Page Preview",
+      },
+      {
+        url: "/images/fgk_circular_logo.webp",
+        width: 600,
+        height: 600,
+        alt: "FGK Circular Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Services | FGK Back Office Services",
+    description:
+      "Professional business support services including web development, operations support, accounting and finance and project management.",
+    images: ["/images/services-page-preview.webp"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+  },
+};
+
 export default function Services() {
   return (
     <>
