@@ -1,3 +1,5 @@
+import Script from "next/script";
+
 import MainPageHeroSection from "./components/pagecomponents/homepagecomps/mainpageherosection";
 import ExpertiseSection from "./components/pagecomponents/homepagecomps/expertisesection";
 import ChooseUsSection from "./components/pagecomponents/homepagecomps/chooseussection";
@@ -75,6 +77,26 @@ export const metadata = {
 };
 
 export default function Home() {
+  <Script
+    id="jsonld-organization"
+    type="application/ld+json"
+    strategy="afterInteractive"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        name: "FGK Back Office Services",
+        url: "https://www.fgkbackoffice.com",
+        logo: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
+        sameAs: [
+          "https://www.linkedin.com/company/fgk-back-office",
+          "https://www.instagram.com/fgkbackoffice",
+          "https://www.facebook.com/fgkbackoffice",
+        ],
+      }),
+    }}
+  />;
+
   return (
     <main>
       <MainPageHeroSection

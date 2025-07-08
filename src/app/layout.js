@@ -56,7 +56,6 @@ export default function RootLayout({ children }) {
           type="image/webp"
         />
 
-
         <link
           rel="preload"
           as="image"
@@ -97,7 +96,7 @@ export default function RootLayout({ children }) {
           type="image/webp"
         />
 
-         <link
+        <link
           rel="preload"
           as="image"
           href="/images/Web_Development_Support_1024px_hero_section.webp"
@@ -124,6 +123,25 @@ export default function RootLayout({ children }) {
           href="/images/homepage-industries-section-background_revisited.png"
           type="image/png"
         />
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className={`${inter.variable} ${robotoSerif.variable}`}>
         <img
