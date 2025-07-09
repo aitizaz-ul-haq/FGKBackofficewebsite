@@ -59,16 +59,16 @@ export const metadata = {
     siteName: "FGK Back Office Services",
     images: [
       {
-        url: "/images/fgk_circular_logo.webp", // Add your logo or circular icon
-        width: 600,
-        height: 600,
-        alt: "FGK Back Office Circular Logo",
-      },
-      {
         url: "/images/homepage-metadata-preview.webp", // Keep hero image too
         width: 1200,
         height: 630,
         alt: "FGK Back Office Services Website Homepage Preview",
+      },
+      {
+        url: "/images/fgk_circular_logo.webp", // Add your logo or circular icon
+        width: 600,
+        height: 600,
+        alt: "FGK Back Office Circular Logo",
       },
     ],
     locale: "en_US",

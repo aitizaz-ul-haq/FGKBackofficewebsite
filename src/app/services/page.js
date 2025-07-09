@@ -63,7 +63,7 @@ export const metadata = {
         url: "/images/services-page-preview.webp",
         width: 1200,
         height: 630,
-        alt: "FGK Services Page Preview",
+        alt: "FGK Back Office Services Website Services Page Preview",
       },
       {
         url: "/images/fgk_circular_logo.webp",
