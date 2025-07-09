@@ -212,8 +212,9 @@
   }
 
   .hero-title {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    margin-bottom: 0.6rem;
+    font-weight: 200;
   }
   .hero-paragraph {
     font-size: 0.9rem;
@@ -296,13 +297,12 @@
   }
 
   .hero-title {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
+    font-size: 32px;
+    margin-bottom: 0.4rem;
   }
   .hero-paragraph {
-    font-size: 0.9rem;
+    font-size: 14px;
     max-width: 600px;
-    /* margin: 0 auto; */
   }
 
   .forward-image {
@@ -337,13 +337,12 @@
   }
 
   .hero-title {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
+    font-size: 36px;
+    margin-bottom: 0.3rem;
   }
   .hero-paragraph {
     font-size: 0.9rem;
     max-width: 600px;
-    /* margin: 0 auto; */
   }
 
   .forward-image {
@@ -378,11 +377,12 @@
   }
 
   .hero-title {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
+    font-size: 39px;
+    margin-bottom: 0.4rem;
   }
+
   .hero-paragraph {
-    font-size: 0.9rem;
+    font-size: 15px;
     max-width: 600px;
     margin-bottom: 1rem;
     /* margin: 0 auto; */
@@ -420,12 +420,12 @@
   }
 
   .hero-title {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
+    font-size: 30px;
+    margin-bottom: 0.5rem;
   }
   .hero-paragraph {
-    font-size: 0.9rem;
-    max-width: 600px;
+    font-size: 15px;
+    max-width: 708px;
     margin-bottom: 1rem;
     /* margin: 0 auto; */
   }
@@ -979,6 +979,7 @@
   .hero-content {
     width: 100%;
     margin-top: 58rem;
+    padding: 2rem;
   }
 
   .hero-title {
@@ -988,7 +989,7 @@
   }
 
   .hero-paragraph {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     max-width: 940px;
   }
 
@@ -1018,13 +1019,13 @@
   }
 
   .hero-title {
-    font-size: 20px; /* Adjust for responsiveness */
+    font-size: 35px;
     margin-bottom: 1rem;
     width: 100%;
   }
 
   .hero-paragraph {
-    font-size: 16px;
+    font-size: 14px;
     max-width: 940px;
   }
 
