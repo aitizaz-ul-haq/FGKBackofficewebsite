@@ -2,9 +2,7 @@ import Script from "next/script";
 import dynamic from "next/dynamic";
 import testdata from "./data/testdata/testherodata.json";
 
-const MainPageHeroSection = dynamic(() =>
-  import("./components/pagecomponents/homepagecomps/mainpageherosection")
-);
+import MainPageHeroSection from "./components/pagecomponents/homepagecomps/mainpageherosection";
 
 const ExpertiseSection = dynamic(() =>
   import("./components/pagecomponents/homepagecomps/expertisesection")
