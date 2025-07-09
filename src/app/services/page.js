@@ -4,9 +4,7 @@ import dynamic from "next/dynamic";
 import testdata from "../data/services/servicesherodata.json";
 
 // importing services page subcomponents
-const MainHeroSection = dynamic(() =>
-  import("../components/layoutcomponents/mainherosection/mainherosection")
-);
+import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
 
 const ImportSection = dynamic(() =>
   import("../components/pagecomponents/servicespagecomps/importancesection")
@@ -17,7 +15,9 @@ const RoundedCardsSection = dynamic(() =>
 );
 
 const ServicesBenefitsSection = dynamic(() =>
-  import("../components/pagecomponents/servicespagecomps/servicesbenefitssection")
+  import(
+    "../components/pagecomponents/servicespagecomps/servicesbenefitssection"
+  )
 );
 
 const TrustedBySection = dynamic(() =>
@@ -31,22 +31,22 @@ export const metadata = {
   description:
     "Explore our professional services including Web Development, Operations Support, Accounting & Reporting, Project Management, and Data Management – tailored for your business success.",
   keywords: [
-  "FGK Back Office Services",
-  "Business Outsourcing",
-  "Web Development Pakistan",
-  "Next Developers Islamabad",
-  "Accounting and Reporting Services",
-  "Project Management Outsourcing",
-  "Data Management Solutions",
-  "Operations Support Pakistan",
-  "Payroll and Finance Services",
-  "Back Office Services Islamabad",
-  "Custom Software Development",
-  "Islamabad BPO Company",
-  "Outsourcing Company in Pakistan",
-  "Financial Compliance Services",
-  "Book Keeping Support Services"
-],
+    "FGK Back Office Services",
+    "Business Outsourcing",
+    "Web Development Pakistan",
+    "Next Developers Islamabad",
+    "Accounting and Reporting Services",
+    "Project Management Outsourcing",
+    "Data Management Solutions",
+    "Operations Support Pakistan",
+    "Payroll and Finance Services",
+    "Back Office Services Islamabad",
+    "Custom Software Development",
+    "Islamabad BPO Company",
+    "Outsourcing Company in Pakistan",
+    "Financial Compliance Services",
+    "Book Keeping Support Services",
+  ],
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/services",
