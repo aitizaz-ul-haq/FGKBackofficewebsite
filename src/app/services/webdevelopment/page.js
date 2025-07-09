@@ -1,5 +1,6 @@
 // importing libraries
 import dynamic from "next/dynamic";
+import Script from "next/script";
 
 // importing json data for web developmnet services page components
 import webdevtextdata from "@/app/data/subpagedata/webdevdata/secondsectionwebdevelopment/webdevtextdata.json";
@@ -117,7 +118,7 @@ export default function WebDevelopment() {
   const data = getHeroData("web-development");
   return (
     <>
-      <script
+      <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({

@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import Script from "next/script";
 
 //importing componenet data
 import testdata from "../data/industries/industriesherodata.json";
@@ -81,6 +82,64 @@ export const metadata = {
 export default function Industries() {
   return (
     <>
+      <Script
+        id="jsonld-industries"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "@id": "https://www.fgkbackoffice.com/industries",
+            url: "https://www.fgkbackoffice.com/industries",
+            name: "Industries We Serve | FGK Back Office Services",
+            description:
+              "FGK Back Office Services delivers customised business support solutions to a range of industries including finance, legal, real estate, healthcare, and professional services.",
+            inLanguage: "en",
+            isPartOf: {
+              "@type": "WebSite",
+              "@id": "https://www.fgkbackoffice.com",
+              name: "FGK Back Office Services",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "FGK Back Office Services",
+              url: "https://www.fgkbackoffice.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
+                width: 600,
+                height: 600,
+              },
+            },
+            primaryImageOfPage: {
+              "@type": "ImageObject",
+              url: "https://www.fgkbackoffice.com/images/industries-page-preview.webp",
+              width: 1200,
+              height: 630,
+              caption: "Industries supported by FGK Back Office Services",
+            },
+            breadcrumb: {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://www.fgkbackoffice.com",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Industries",
+                  item: "https://www.fgkbackoffice.com/industries",
+                },
+              ],
+            },
+          }),
+        }}
+      />
+
       <MainHeroSection
         title={testdata.title}
         paragraph={testdata.paragraph}

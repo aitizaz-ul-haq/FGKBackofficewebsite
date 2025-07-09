@@ -1,5 +1,6 @@
 // importing libraries
 import dynamic from "next/dynamic";
+import Script from "next/script";
 
 // importing project management service page data
 import textdata from "@/app/data/subpagedata/projectmanagementdata/secondsectiondata/textdata.json";
@@ -116,7 +117,7 @@ export default function ProjectManagement() {
   const data = getHeroData("project-management");
   return (
     <>
-      <script
+      <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({

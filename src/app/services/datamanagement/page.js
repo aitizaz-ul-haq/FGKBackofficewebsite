@@ -1,5 +1,6 @@
 // importing library
 import dynamic from "next/dynamic";
+import Script from "next/script";
 
 // importing data management service page data
 import textdata from "@/app/data/subpagedata/datamanagementdata/secondsectiondatamanagementdata/datamagtextdata.json";
@@ -111,7 +112,7 @@ export default function DataManagement() {
   const data = getHeroData("data-management");
   return (
     <>
-      <script
+      <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({

@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import Script from "next/script";
 
 // importing component data
 import testdata from "../data/team/teamherodata.json";
@@ -69,6 +70,64 @@ export const metadata = {
 export default function Team() {
   return (
     <>
+      <Script
+        id="jsonld-team-page"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "@id": "https://www.fgkbackoffice.com/team",
+            url: "https://www.fgkbackoffice.com/team",
+            name: "Meet Our Team | FGK Back Office Services",
+            description:
+              "Get to know the professionals behind FGK Back Office Services – a dedicated team driving excellence in business support and outsourcing solutions.",
+            inLanguage: "en",
+            isPartOf: {
+              "@type": "WebSite",
+              "@id": "https://www.fgkbackoffice.com",
+              name: "FGK Back Office Services",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "FGK Back Office Services",
+              url: "https://www.fgkbackoffice.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
+                width: 600,
+                height: 600,
+              },
+            },
+            primaryImageOfPage: {
+              "@type": "ImageObject",
+              url: "https://www.fgkbackoffice.com/images/team-page-preview.webp",
+              width: 1200,
+              height: 630,
+              caption: "FGK Back Office Team Preview",
+            },
+            breadcrumb: {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://www.fgkbackoffice.com",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Team",
+                  item: "https://www.fgkbackoffice.com/team",
+                },
+              ],
+            },
+          }),
+        }}
+      />
+
       <MainHeroSection
         title={testdata.title}
         paragraph={testdata.paragraph}

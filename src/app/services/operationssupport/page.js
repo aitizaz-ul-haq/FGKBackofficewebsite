@@ -1,5 +1,6 @@
 // importing libraries
 import dynamic from "next/dynamic";
+import Script from "next/script";
 
 // importing operations support service page data
 import operatetextdata from "@/app/data/subpagedata/operatsup/secondsectionoperatsudata/operatsupsecondsectiontextdata.json";
@@ -116,7 +117,7 @@ export default function OperationsSupport() {
   const data = getHeroData("operations-support");
   return (
     <>
-      <script
+      <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({

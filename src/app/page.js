@@ -15,7 +15,9 @@ const ChooseUsSection = dynamic(() =>
 );
 
 const IndustriescardHomePageSection = dynamic(() =>
-  import("./components/pagecomponents/homepagecomps/industriescardhomepagesection")
+  import(
+    "./components/pagecomponents/homepagecomps/industriescardhomepagesection"
+  )
 );
 
 const HomepageBenefitsSection = dynamic(() =>
@@ -29,7 +31,6 @@ const HomepageClientsSection = dynamic(() =>
 const HomepageContactSection = dynamic(() =>
   import("./components/pagecomponents/homepagecomps/homepagecontactsection")
 );
-
 
 export const metadata = {
   title: "FGK Back Office Services | Professional Business Support Solutions",
@@ -102,24 +103,77 @@ export default function Home() {
   return (
     <>
       <Script
-        id="jsonld-organization"
+        id="jsonld-homepage"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "FGK Back Office Services",
-            url: "https://www.fgkbackoffice.com",
-            logo: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
-            sameAs: [
-              "https://www.linkedin.com/company/fgk-back-office",
-              "https://www.instagram.com/fgkbackoffice",
-              "https://www.facebook.com/fgkbackoffice",
+            "@graph": [
+              {
+                "@type": "WebSite",
+                "@id": "https://www.fgkbackoffice.com/#website",
+                url: "https://www.fgkbackoffice.com",
+                name: "FGK Back Office Services",
+                description:
+                  "FGK Back Office Services delivers professional outsourcing support for web development, accounting, operations, and data management.",
+                inLanguage: "en",
+                publisher: {
+                  "@id": "https://www.fgkbackoffice.com/#organization",
+                },
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://www.fgkbackoffice.com/#organization",
+                name: "FGK Back Office Services",
+                url: "https://www.fgkbackoffice.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
+                  width: 600,
+                  height: 600,
+                },
+                sameAs: [
+                  "https://www.linkedin.com/company/fgkbackoffice/",
+                  "https://www.instagram.com/fgkbackoffice",
+                  "https://www.facebook.com/fgkbackoffice",
+                ],
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://www.fgkbackoffice.com/#webpage",
+                url: "https://www.fgkbackoffice.com",
+                name: "FGK Back Office Services | Professional Business Support Solutions",
+                description:
+                  "FGK Back Office Services delivers world-class Web Development, Operations Support, Project Management, Accounting & Reporting, and Data Management from our Islamabad centre.",
+                inLanguage: "en",
+                isPartOf: {
+                  "@id": "https://www.fgkbackoffice.com/#website",
+                },
+                primaryImageOfPage: {
+                  "@type": "ImageObject",
+                  url: "https://www.fgkbackoffice.com/images/homepage-metadata-preview.webp",
+                  width: 1200,
+                  height: 630,
+                  caption: "FGK Back Office Services Website Homepage Preview",
+                },
+              },
+              {
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Home",
+                    item: "https://www.fgkbackoffice.com",
+                  },
+                ],
+              },
             ],
           }),
         }}
       />
+
       <main>
         <MainPageHeroSection
           title={testdata.title}

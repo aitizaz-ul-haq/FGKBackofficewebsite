@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import Script from "next/script";
 
 // importing services page data
 import testdata from "../data/services/servicesherodata.json";
@@ -91,6 +92,100 @@ export const metadata = {
 export default function Services() {
   return (
     <>
+      <Script
+        id="jsonld-services-overview"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "@id": "https://www.fgkbackoffice.com/services",
+            url: "https://www.fgkbackoffice.com/services",
+            name: "Our Services | FGK Back Office Services",
+            description:
+              "Explore our professional services including Web Development, Operations Support, Accounting & Reporting, Project Management, and Data Management – tailored for your business success.",
+            inLanguage: "en",
+            isPartOf: {
+              "@type": "WebSite",
+              "@id": "https://www.fgkbackoffice.com",
+              name: "FGK Back Office Services",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "FGK Back Office Services",
+              url: "https://www.fgkbackoffice.com",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
+                width: 600,
+                height: 600,
+              },
+            },
+            primaryImageOfPage: {
+              "@type": "ImageObject",
+              url: "https://www.fgkbackoffice.com/images/services-page-preview.webp",
+              width: 1200,
+              height: 630,
+              caption: "FGK Services Page Preview",
+            },
+            breadcrumb: {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://www.fgkbackoffice.com",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Services",
+                  item: "https://www.fgkbackoffice.com/services",
+                },
+              ],
+            },
+            mainEntity: {
+              "@type": "ItemList",
+              name: "FGK Service Categories",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  url: "https://www.fgkbackoffice.com/services/webdevelopment",
+                  name: "Web Development",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  url: "https://www.fgkbackoffice.com/services/accountingandreporting",
+                  name: "Accounting & Reporting",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  url: "https://www.fgkbackoffice.com/services/operationssupport",
+                  name: "Operations Support",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 4,
+                  url: "https://www.fgkbackoffice.com/services/projectmanagement",
+                  name: "Project Management",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 5,
+                  url: "https://www.fgkbackoffice.com/services/datamanagement",
+                  name: "Data Management",
+                },
+              ],
+            },
+          }),
+        }}
+      />
+
       <MainHeroSection
         title={testdata.title}
         paragraph={testdata.paragraph}
