@@ -50,6 +50,50 @@
   text-decoration: none;
 }
 
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInTop {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
@@ -347,6 +391,8 @@
     font-weight: 200;
     text-align: left;
     max-width: 70%;
+    animation: fadeInTop 0.4s ease-out 0.3s forwards;
+    opacity: 0;
   }
 
   .subpagehero-paragraph-container {
@@ -355,12 +401,14 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    animation: fadeInBottom 0.4s ease-out 0.3s forwards;
+    opacity: 0;
   }
 
   .subpagehero-paragraph {
     font-size: 1.1rem;
     width: 100%;
-    font-weight: 300;
+    font-weight: 00;
   }
 
   .subpagehero-button-container {
@@ -371,6 +419,8 @@
     align-items: flex-start;
     padding-top: 0.5rem;
     text-decoration: none;
+    animation: fadeInBottom 0.4s ease-out 0.3s forwards;
+    opacity: 0;
   }
 
   .subpagehero-button {
@@ -445,7 +495,7 @@
   .subpagehero-paragraph {
     font-size: 1.2rem;
     max-width: 100%;
-    font-weight: 200;
+    font-weight: 300;
     /* max-width: 776px;
     margin: 0 auto; */
   }
@@ -510,7 +560,7 @@
   }
   .subpagehero-paragraph {
     font-size: 1.4rem;
-    font-weight: 200;
+    font-weight: 300;
     /* max-width: 776px; */
     /* margin: 0 auto; */
   }
@@ -574,7 +624,8 @@
     padding-top: 1.3rem;
   }
   .subpagehero-paragraph {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    font-weight: 300;
     max-width: 90%;
     /* margin: 0 auto; */
   }
@@ -631,7 +682,7 @@
   .subpagehero-paragraph {
     font-size: 1.5rem;
     max-width: 100%;
-    font-weight: 200;
+    font-weight: 300;
     /* margin: 0 auto; */
   }
 
@@ -659,7 +710,7 @@
   .subpagehero-paragraph {
     font-size: 2.1rem;
     max-width: 100%;
-    font-weight: 200;
+    font-weight: 300;
   }
   .subpagehero-content {
     margin-top: 29rem;
