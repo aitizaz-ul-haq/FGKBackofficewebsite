@@ -30,7 +30,7 @@ const TrustedBySection = dynamic(() =>
 export const metadata = {
   title: "Our Services | FGK Back Office Services",
   description:
-    "Explore our professional services including Web Development, Operations Support, Accounting & Reporting, Project Management, and Data Management – tailored for your business success.",
+    "Explore our full range of back office services including Web Development, Project Management, Operations Support, Accounting and Data Management. We provide customised solutions designed to support business growth, improve efficiency and ensure operational excellence for clients worldwide.",
   keywords: [
     "FGK Back Office Services",
     "Business Outsourcing",
@@ -48,6 +48,11 @@ export const metadata = {
     "Financial Compliance Services",
     "Book Keeping Support Services",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/services",
@@ -55,7 +60,7 @@ export const metadata = {
   openGraph: {
     title: "Our Services | FGK Back Office Services",
     description:
-      "Discover how FGK Back Office Services empowers businesses through expert back office solutions tailored to your needs.",
+      "Explore our full range of back office services including Web Development, Project Management, Operations Support, Accounting and Data Management. We provide customised solutions designed to support business growth, improve efficiency and ensure operational excellence for clients worldwide.",
     url: "https://www.fgkbackoffice.com/services",
     siteName: "FGK Back Office Services",
     images: [
@@ -79,7 +84,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Our Services | FGK Back Office Services",
     description:
-      "Professional business support services including web development, operations support, accounting and finance and project management.",
+      "Explore our full range of back office services including Web Development, Project Management, Operations Support, Accounting and Data Management. We provide customised solutions designed to support business growth, improve efficiency and ensure operational excellence for clients worldwide.",
     images: ["/images/services-page-preview.webp"],
   },
   robots: {
@@ -104,8 +109,10 @@ export default function Services() {
             url: "https://www.fgkbackoffice.com/services",
             name: "Our Services | FGK Back Office Services",
             description:
-              "Explore our professional services including Web Development, Operations Support, Accounting & Reporting, Project Management, and Data Management – tailored for your business success.",
+              "Explore our full range of back office services including Web Development, Project Management, Operations Support, Accounting and Data Management. We provide customised solutions designed to support business growth, improve efficiency and ensure operational excellence for clients worldwide.",
             inLanguage: "en",
+            datePublished: "2024-10-25",
+            dateModified: "2025-07-09",
             isPartOf: {
               "@type": "WebSite",
               "@id": "https://www.fgkbackoffice.com",

@@ -59,7 +59,7 @@ import { getHeroData } from "@/app/utils/gethreodata";
 export const metadata = {
   title: "Project Management Services | FGK Back Office Services",
   description:
-    "Deliver successful projects on time and within scope with FGK’s expert project management services. We use proven methodologies to plan, execute, and monitor your business initiatives.",
+    "FGK’s project management services ensure on-time delivery, scope control, risk mitigation, and continuous client engagement. We implement Agile and Waterfall methodologies to deliver customised oversight, enhance communication, and streamline execution of strategic initiatives.",
   keywords: [
     "Project Management",
     "Project Planning",
@@ -72,6 +72,11 @@ export const metadata = {
     "Pakistan Project Management",
     "FGK Project Services",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/services/projectmanagement",
@@ -79,7 +84,7 @@ export const metadata = {
   openGraph: {
     title: "Project Management Services | FGK Back Office Services",
     description:
-      "Achieve your business goals through structured project delivery. FGK ensures successful execution with proven project management frameworks.",
+      "FGK’s project management services ensure on-time delivery, scope control, risk mitigation, and continuous client engagement. We implement Agile and Waterfall methodologies to deliver customised oversight, enhance communication, and streamline execution of strategic initiatives.",
     url: "https://www.fgkbackoffice.com/services/projectmanagement",
     siteName: "FGK Back Office Services",
     images: [
@@ -103,7 +108,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Project Management Services | FGK Back Office Services",
     description:
-      "FGK provides tailored project management strategies to help your business deliver results efficiently and effectively.",
+      "FGK’s project management services ensure on-time delivery, scope control, risk mitigation, and continuous client engagement. We implement Agile and Waterfall methodologies to deliver customised oversight, enhance communication, and streamline execution of strategic initiatives.",
     images: ["/images/projectmanagement-page-preview.webp"],
   },
   robots: {
@@ -145,7 +150,9 @@ export default function ProjectManagement() {
               name: "Pakistan",
             },
             description:
-              "FGK offers structured project management services to ensure timely delivery, stakeholder alignment, and effective execution of business goals.",
+              "FGK’s project management services ensure on-time delivery, scope control, risk mitigation, and continuous client engagement. We implement Agile and Waterfall methodologies to deliver customised oversight, enhance communication, and streamline execution of strategic initiatives.",
+            datePublished: "2024-12-24",
+            dateModified: "2025-07-09",
             url: "https://www.fgkbackoffice.com/services/projectmanagement",
             hasOfferCatalog: {
               "@type": "OfferCatalog",

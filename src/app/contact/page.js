@@ -14,7 +14,7 @@ const ContactsPageBody = dynamic(() =>
 export const metadata = {
   title: "Get in Touch | FGK Back Office Services",
   description:
-    "Connect with FGK Back Office Services for business enquiries, support, or partnership opportunities. Our team is ready to assist you.",
+    "Contact FGK Back Office Services for business enquiries, partnership proposals, or customer support. Whether you're a potential client, collaborator, or stakeholder, our professional team is ready to assist you with timely and tailored responses.",
   keywords: [
     "Contact FGK",
     "Get in Touch",
@@ -27,6 +27,11 @@ export const metadata = {
     "Connect with FGK",
     "FGK Contact Details",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/contact",
@@ -34,7 +39,7 @@ export const metadata = {
   openGraph: {
     title: "Get in Touch | FGK Back Office Services",
     description:
-      "Looking to collaborate or learn more about our services? Reach out to FGK Back Office Services today.",
+      "Contact FGK Back Office Services for business enquiries, partnership proposals, or customer support. Whether you're a potential client, collaborator, or stakeholder, our professional team is ready to assist you with timely and tailored responses.",
     url: "https://www.fgkbackoffice.com/contact",
     siteName: "FGK Back Office Services",
     images: [
@@ -58,7 +63,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Get in Touch | FGK Back Office Services",
     description:
-      "Have a question or proposal? Contact FGK Back Office Services – we're here to help.",
+      "Contact FGK Back Office Services for business enquiries, partnership proposals, or customer support. Whether you're a potential client, collaborator, or stakeholder, our professional team is ready to assist you with timely and tailored responses.",
     images: ["/images/contact-page-preview.webp"],
   },
   robots: {
@@ -83,8 +88,10 @@ export default function Contact() {
             url: "https://www.fgkbackoffice.com/contact",
             name: "Get in Touch | FGK Back Office Services",
             description:
-              "Connect with FGK Back Office Services for business enquiries, support, or partnership opportunities. Our team is ready to assist you.",
+              "Contact FGK Back Office Services for business enquiries, partnership proposals, or customer support. Whether you're a potential client, collaborator, or stakeholder, our professional team is ready to assist you with timely and tailored responses.",
             inLanguage: "en",
+            datePublished: "2024-10-25",
+            dateModified: "2025-07-09",
             isPartOf: {
               "@type": "WebSite",
               "@id": "https://www.fgkbackoffice.com",

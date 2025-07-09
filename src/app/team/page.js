@@ -13,7 +13,8 @@ const TeamFullComp = dynamic(() =>
 export const metadata = {
   title: "Meet Our Team | FGK Back Office Services",
   description:
-    "Get to know the professionals behind FGK Back Office Services – a dedicated team driving excellence in business support and outsourcing solutions.",
+    "Meet the experienced professionals behind FGK Back Office Services. Our team brings together expertise in operations, accounting, development, and support services to ensure seamless business processes. Learn more about the people who help power our client's success with commitment and excellence.",
+  inLanguage: "en",
   keywords: [
     "FGK Back Office Team",
     "Meet Our Team",
@@ -26,6 +27,11 @@ export const metadata = {
     "Finance Support Team",
     "Outsourcing Experts Pakistan",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/team",
@@ -33,7 +39,8 @@ export const metadata = {
   openGraph: {
     title: "Meet Our Team | FGK Back Office Services",
     description:
-      "Discover the skilled and passionate professionals powering FGK Back Office Services across departments like finance, development, and operations.",
+      "Meet the experienced professionals behind FGK Back Office Services. Our team brings together expertise in operations, accounting, development, and support services to ensure seamless business processes. Learn more about the people who help power our client's success with commitment and excellence.",
+    inLanguage: "en",
     url: "https://www.fgkbackoffice.com/team",
     siteName: "FGK Back Office Services",
     images: [
@@ -57,7 +64,8 @@ export const metadata = {
     card: "summary_large_image",
     title: "Meet Our Team | FGK Back Office Services",
     description:
-      "Explore the diverse and experienced professionals driving FGK Back Office Services forward.",
+      "Meet the experienced professionals behind FGK Back Office Services. Our team brings together expertise in operations, accounting, development, and support services to ensure seamless business processes. Learn more about the people who help power our client's success with commitment and excellence.",
+    inLanguage: "en",
     images: ["/images/team-page-preview.webp"],
   },
   robots: {
@@ -82,8 +90,11 @@ export default function Team() {
             url: "https://www.fgkbackoffice.com/team",
             name: "Meet Our Team | FGK Back Office Services",
             description:
-              "Get to know the professionals behind FGK Back Office Services – a dedicated team driving excellence in business support and outsourcing solutions.",
+              "Meet the experienced professionals behind FGK Back Office Services. Our team brings together expertise in operations, accounting, development, and support services to ensure seamless business processes. Learn more about the people who help power our client's success with commitment and excellence.",
             inLanguage: "en",
+            inLanguage: "en",
+            datePublished: "2024-10-25",
+            dateModified: "2025-07-09",
             isPartOf: {
               "@type": "WebSite",
               "@id": "https://www.fgkbackoffice.com",

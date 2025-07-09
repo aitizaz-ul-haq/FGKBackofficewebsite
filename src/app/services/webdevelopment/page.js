@@ -59,7 +59,7 @@ import { getHeroData } from "@/app/utils/gethreodata";
 export const metadata = {
   title: "Web Development Services | FGK Back Office Services",
   description:
-    "Transform your digital presence with FGK’s expert web development services. We build responsive, secure, and scalable websites tailored to your business goals.",
+    "FGK Back Office Services provides scalable, secure, and responsive web development solutions tailored to your business needs. We specialise in frontend and backend development, modern frameworks, and custom website delivery strategies.",
   keywords: [
     "Web Development Services",
     "Website Design",
@@ -72,6 +72,11 @@ export const metadata = {
     "Secure Web Applications",
     "Business Website Development",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/services/webdevelopment",
@@ -79,7 +84,7 @@ export const metadata = {
   openGraph: {
     title: "Web Development Services | FGK Back Office Services",
     description:
-      "Unlock the power of the web with FGK’s custom development solutions – responsive, secure, and scalable.",
+      "FGK Back Office Services provides scalable, secure, and responsive web development solutions tailored to your business needs. We specialise in frontend and backend development, modern frameworks, and custom website delivery strategies.",
     url: "https://www.fgkbackoffice.com/services/webdevelopment",
     siteName: "FGK Back Office Services",
     images: [
@@ -103,7 +108,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Web Development Services | FGK Back Office Services",
     description:
-      "Professional web development services for businesses. Build your online presence with FGK.",
+      "FGK Back Office Services provides scalable, secure, and responsive web development solutions tailored to your business needs. We specialise in frontend and backend development, modern frameworks, and custom website delivery strategies.",
     images: ["/images/webdevelopment-page-preview.webp"],
   },
   robots: {
@@ -147,7 +152,9 @@ export default function WebDevelopment() {
               name: "Pakistan",
             },
             description:
-              "FGK delivers scalable and secure web development services, tailored to business goals using the latest frontend and backend technologies.",
+              "FGK Back Office Services provides scalable, secure, and responsive web development solutions tailored to your business needs. We specialise in frontend and backend development, modern frameworks, and custom website delivery strategies.",
+            datePublished: "2024-12-24",
+            dateModified: "2025-07-09",
             url: "https://www.fgkbackoffice.com/services/webdevelopment",
             hasOfferCatalog: {
               "@type": "OfferCatalog",

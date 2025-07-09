@@ -14,9 +14,7 @@ import leftadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessecti
 import rightadvdata from "@/app/data/subpagedata/accandrepdata/accadvantegessectiondata/rightsideadvdata.json";
 import Accandrepgettingstarted from "@/app/data/subpagedata/accandrepdata/accandrepgettingstarted.json";
 
-
 import SubPageHeroSection from "@/app/components/subpagecomponenets/subpageherosection/subpageherosection";
-
 
 const AccRepGridSection = dynamic(() =>
   import("@/app/components/subpagecomponenets/accandrep/accrepgridsection")
@@ -53,7 +51,7 @@ import { getHeroData } from "@/app/utils/gethreodata";
 export const metadata = {
   title: "Accounting & Reporting Services | FGK Back Office Services",
   description:
-    "Discover our expert Accounting & Reporting services tailored for businesses. FGK Back Office Services ensures accurate financial tracking, compliance, and insightful reporting.",
+    "FGK Back Office Services provides expert accounting and financial reporting tailored to your business. Our offerings include bookkeeping, payroll, compliance reporting, and statement preparation – all designed to ensure accuracy, efficiency, and regulatory alignment.",
   keywords: [
     "Accounting Services",
     "Financial Reporting",
@@ -66,6 +64,11 @@ export const metadata = {
     "Payroll Management",
     "Business Financial Support",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/services/accountingandreporting",
@@ -73,7 +76,7 @@ export const metadata = {
   openGraph: {
     title: "Accounting & Reporting Services | FGK Back Office Services",
     description:
-      "Streamline your finances with FGK’s Accounting & Reporting solutions. Accurate records. Real-time insights. Full compliance.",
+      "FGK Back Office Services provides expert accounting and financial reporting tailored to your business. Our offerings include bookkeeping, payroll, compliance reporting, and statement preparation – all designed to ensure accuracy, efficiency, and regulatory alignment.",
     url: "https://www.fgkbackoffice.com/services/accountingandreporting",
     siteName: "FGK Back Office Services",
     images: [
@@ -97,7 +100,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Accounting & Reporting Services | FGK Back Office Services",
     description:
-      "Get expert financial reporting and accounting services for your business by FGK Back Office Services.",
+      "FGK Back Office Services provides expert accounting and financial reporting tailored to your business. Our offerings include bookkeeping, payroll, compliance reporting, and statement preparation – all designed to ensure accuracy, efficiency, and regulatory alignment.",
     images: ["/images/accounting-page-preview.webp"],
   },
   robots: {
@@ -124,7 +127,9 @@ export default function AccountingAndReporting() {
             serviceType: "Financial Reporting and Accounting",
             url: "https://www.fgkbackoffice.com/services/accountingandreporting",
             description:
-              "Accurate accounting and financial reporting tailored to your business needs.",
+              "FGK Back Office Services provides expert accounting and financial reporting tailored to your business. Our offerings include bookkeeping, payroll, compliance reporting, and statement preparation – all designed to ensure accuracy, efficiency, and regulatory alignment.",
+            datePublished: "2024-10-26",
+            dateModified: "2025-07-09",
             provider: {
               "@type": "Organization",
               name: "FGK Back Office Services",

@@ -14,7 +14,7 @@ const FullBodyAboutPage = dynamic(() =>
 export const metadata = {
   title: "About Us | FGK Back Office Services",
   description:
-    "Learn more about FGK Back Office Services – our mission, values, team, and our commitment to providing reliable business support solutions tailored for global success.",
+    "Learn more about FGK Back Office Services – our values, our people, and our mission to deliver exceptional business support tailored for global excellence.",
   keywords: [
     "About FGK Back Office Services",
     "Back Office Experts",
@@ -27,6 +27,11 @@ export const metadata = {
     "Back Office Operations",
     "Company Values and Mission",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/about",
@@ -34,7 +39,7 @@ export const metadata = {
   openGraph: {
     title: "About Us | FGK Back Office Services",
     description:
-      "Discover who we are at FGK Back Office Services and what drives our dedication to exceptional business support solutions.",
+      "Learn more about FGK Back Office Services – our values, our people, and our mission to deliver exceptional business support tailored for global excellence.",
     url: "https://www.fgkbackoffice.com/about",
     siteName: "FGK Back Office Services",
     images: [
@@ -58,7 +63,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "About Us | FGK Back Office Services",
     description:
-      "Get to know FGK Back Office Services – our purpose, approach, and the team behind our success.",
+      "Learn more about FGK Back Office Services – our values, our people, and our mission to deliver exceptional business support tailored for global excellence.",
     images: ["/images/about-page-preview.webp"],
   },
   robots: {
@@ -83,8 +88,10 @@ export default function About() {
             url: "https://www.fgkbackoffice.com/about",
             name: "About Us | FGK Back Office Services",
             description:
-              "Learn more about FGK Back Office Services – our mission, values, team, and our commitment to providing reliable business support solutions tailored for global success.",
+              "Learn more about FGK Back Office Services – our values, our people, and our mission to deliver exceptional business support tailored for global excellence.",
             inLanguage: "en",
+            datePublished: "2024-10-26",
+            dateModified: "2025-07-09",
             isPartOf: {
               "@type": "WebSite",
               "@id": "https://www.fgkbackoffice.com",

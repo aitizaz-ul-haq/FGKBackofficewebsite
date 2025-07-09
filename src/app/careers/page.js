@@ -13,7 +13,7 @@ const CareersFullBodyComp = dynamic(() =>
 export const metadata = {
   title: "Careers at FGK | Join Our Growing Team",
   description:
-    "Explore career opportunities at FGK Back Office Services. Join a dynamic team shaping the future of business outsourcing in Pakistan.",
+    "Explore career opportunities at FGK Back Office Services. Join a team of skilled professionals making a mark in the outsourcing industry through innovation, dedication, and excellence.",
   keywords: [
     "FGK Careers",
     "Jobs at FGK",
@@ -26,6 +26,11 @@ export const metadata = {
     "Back Office Careers",
     "Careers in Outsourcing",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/careers",
@@ -33,7 +38,7 @@ export const metadata = {
   openGraph: {
     title: "Careers at FGK | Join Our Growing Team",
     description:
-      "Find open positions and grow your career with FGK Back Office Services – a leader in business support and outsourcing.",
+      "Explore career opportunities at FGK Back Office Services. Join a team of skilled professionals making a mark in the outsourcing industry through innovation, dedication, and excellence.",
     url: "https://www.fgkbackoffice.com/careers",
     siteName: "FGK Back Office Services",
     images: [
@@ -57,7 +62,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Careers at FGK | Join Our Growing Team",
     description:
-      "Explore open roles at FGK Back Office Services and be part of a professional team shaping the future of outsourcing.",
+      "Explore career opportunities at FGK Back Office Services. Join a team of skilled professionals making a mark in the outsourcing industry through innovation, dedication, and excellence.",
     images: ["/images/careers-page-preview.webp"],
   },
   robots: {
@@ -82,8 +87,10 @@ export default function Careers() {
             url: "https://www.fgkbackoffice.com/careers",
             name: "Careers at FGK | Join Our Growing Team",
             description:
-              "Explore career opportunities at FGK Back Office Services. Join a dynamic team shaping the future of business outsourcing in Pakistan.",
+              "Explore career opportunities at FGK Back Office Services. Join a team of skilled professionals making a mark in the outsourcing industry through innovation, dedication, and excellence.",
             inLanguage: "en",
+            datePublished: "2024-10-26",
+            dateModified: "2025-07-09",
             isPartOf: {
               "@type": "WebSite",
               "@id": "https://www.fgkbackoffice.com",

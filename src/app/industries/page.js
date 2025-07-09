@@ -22,7 +22,7 @@ const IndustriesIntro = dynamic(() =>
 export const metadata = {
   title: "Industries We Serve | FGK Back Office Services",
   description:
-    "FGK Back Office Services delivers customised business support solutions to a range of industries including finance, legal, real estate, healthcare, and professional services.",
+    "FGK Back Office Services delivers customised business support solutions tailored to the needs of finance, legal, real estate, healthcare, and professional service industries. Our expert teams ensure compliance, accuracy, and operational efficiency across diverse business sectors.",
   keywords: [
     "Industries We Serve",
     "Finance Back Office Support",
@@ -38,6 +38,11 @@ export const metadata = {
     "Industry-specific support Pakistan",
     "Customised business solutions",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/industries",
@@ -45,7 +50,7 @@ export const metadata = {
   openGraph: {
     title: "Industries We Serve | FGK Back Office Services",
     description:
-      "Discover how FGK Back Office Services empowers various industries with reliable outsourcing solutions tailored to sector-specific needs.",
+      "FGK Back Office Services delivers customised business support solutions tailored to the needs of finance, legal, real estate, healthcare, and professional service industries. Our expert teams ensure compliance, accuracy, and operational efficiency across diverse business sectors.",
     url: "https://www.fgkbackoffice.com/industries",
     siteName: "FGK Back Office Services",
     images: [
@@ -69,7 +74,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Industries We Serve | FGK Back Office Services",
     description:
-      "Explore industry-specific business support solutions including finance, fintech, Accountancy and Tech.",
+      "FGK Back Office Services delivers customised business support solutions tailored to the needs of finance, legal, real estate, healthcare, and professional service industries. Our expert teams ensure compliance, accuracy, and operational efficiency across diverse business sectors.",
     images: ["/images/industries-page-preview.webp"],
   },
   robots: {
@@ -94,8 +99,10 @@ export default function Industries() {
             url: "https://www.fgkbackoffice.com/industries",
             name: "Industries We Serve | FGK Back Office Services",
             description:
-              "FGK Back Office Services delivers customised business support solutions to a range of industries including finance, legal, real estate, healthcare, and professional services.",
+              "FGK Back Office Services delivers customised business support solutions tailored to the needs of finance, legal, real estate, healthcare, and professional service industries. Our expert teams ensure compliance, accuracy, and operational efficiency across diverse business sectors.",
             inLanguage: "en",
+            datePublished: "2024-10-25",
+            dateModified: "2025-07-09",
             isPartOf: {
               "@type": "WebSite",
               "@id": "https://www.fgkbackoffice.com",

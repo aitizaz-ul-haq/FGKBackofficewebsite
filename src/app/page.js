@@ -33,7 +33,7 @@ const HomepageContactSection = dynamic(() =>
 export const metadata = {
   title: "FGK Back Office Services | Professional Business Support Solutions",
   description:
-    "FGK Back Office Services delivers world-class Web Development, Operations Support, Project Management, Accounting & Reporting, and Data Management from our Islamabad centre.",
+    "FGK Back Office Services delivers expert outsourcing in Web Development, Project Management, Accounting, Data Management, and Operations Support from Islamabad.",
   keywords: [
     "FGK Back Office Services",
     "Web Development Islamabad",
@@ -54,7 +54,8 @@ export const metadata = {
   openGraph: {
     title: "FGK Back Office Services | Professional Business Support Solutions",
     description:
-      "Reliable and expert outsourcing services in Web Development, Accounting, Data Management, and more.",
+      "FGK Back Office Services delivers expert outsourcing in Web Development, Project Management, Accounting, Data Management, and Operations Support from Islamabad.",
+
     url: "https://www.fgkbackoffice.com",
     siteName: "FGK Back Office Services",
     images: [
@@ -78,7 +79,8 @@ export const metadata = {
     card: "summary_large_image",
     title: "FGK Back Office Services | Trusted Back Office Partner",
     description:
-      "Offering professional business solutions including web development, operations, and reporting services.",
+      "FGK Back Office Services delivers expert outsourcing in Web Development, Project Management, Accounting, Data Management, and Operations Support from Islamabad.",
+
     images: ["/images/fgk_circular_logo.webp"],
     creator: "@fgkbackoffice",
   },
@@ -114,8 +116,10 @@ export default function Home() {
                 url: "https://www.fgkbackoffice.com",
                 name: "FGK Back Office Services",
                 description:
-                  "FGK Back Office Services delivers professional outsourcing support for web development, accounting, operations, and data management.",
+                  "FGK Back Office Services delivers expert outsourcing in Web Development, Project Management, Accounting, Data Management, and Operations Support from Islamabad.",
                 inLanguage: "en",
+                datePublished: "2024-10-24",
+                dateModified: "2025-07-09",
                 publisher: {
                   "@id": "https://www.fgkbackoffice.com/#organization",
                 },
@@ -143,7 +147,7 @@ export default function Home() {
                 url: "https://www.fgkbackoffice.com",
                 name: "FGK Back Office Services | Professional Business Support Solutions",
                 description:
-                  "FGK Back Office Services delivers world-class Web Development, Operations Support, Project Management, Accounting & Reporting, and Data Management from our Islamabad centre.",
+                  "FGK Back Office Services delivers expert outsourcing in Web Development, Project Management, Accounting, Data Management, and Operations Support from Islamabad.",
                 inLanguage: "en",
                 isPartOf: {
                   "@id": "https://www.fgkbackoffice.com/#website",

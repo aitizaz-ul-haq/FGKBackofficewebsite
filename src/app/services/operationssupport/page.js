@@ -59,7 +59,7 @@ import { getHeroData } from "@/app/utils/gethreodata";
 export const metadata = {
   title: "Operations Support Services | FGK Back Office Services",
   description:
-    "Enhance your business operations with FGK’s expert operations support. From process mapping to real-time data flow and issue resolution, we streamline your workflows.",
+    "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
   keywords: [
     "Operations Support",
     "Process Mapping",
@@ -72,6 +72,11 @@ export const metadata = {
     "Issue Resolution Services",
     "FGK Back Office Operations",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/services/operationssupport",
@@ -79,7 +84,7 @@ export const metadata = {
   openGraph: {
     title: "Operations Support Services | FGK Back Office Services",
     description:
-      "Optimise your operations with FGK Back Office Services – from planning and monitoring to resolution and communication.",
+      "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
     url: "https://www.fgkbackoffice.com/services/operationssupport",
     siteName: "FGK Back Office Services",
     images: [
@@ -103,7 +108,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Operations Support Services | FGK Back Office Services",
     description:
-      "Explore FGK’s comprehensive operations support services – process mapping, data tracking, regulatory checks, and more.",
+      "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
     images: ["/images/operations-page-preview.webp"],
   },
   robots: {
@@ -144,7 +149,9 @@ export default function OperationsSupport() {
               name: "Pakistan",
             },
             description:
-              "Comprehensive operations support including process mapping, real-time data monitoring, compliance checks, and efficient issue resolution.",
+              "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
+            datePublished: "2024-12-24",
+            dateModified: "2025-07-09",
             url: "https://www.fgkbackoffice.com/services/operationssupport",
             hasOfferCatalog: {
               "@type": "OfferCatalog",

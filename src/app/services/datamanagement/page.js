@@ -47,14 +47,13 @@ const SubPagesGetStartedSection = dynamic(() =>
   )
 );
 
-
 // importing utility menthods
 import { getHeroData } from "@/app/utils/gethreodata";
 
 export const metadata = {
   title: "Data Management Services | FGK Back Office Services",
   description:
-    "Streamline and safeguard your business data with FGK's Data Management solutions. From collection to compliance, we deliver intelligent, secure, and scalable data operations.",
+    "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
   keywords: [
     "Data Management",
     "Data Governance",
@@ -67,6 +66,11 @@ export const metadata = {
     "Data Operations",
     "FGK Data Management",
   ],
+  authors: [
+    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+  ],
+  creator: "FGK Back Office Services",
+  publisher: "FGK Back Office Services",
   metadataBase: new URL("https://www.fgkbackoffice.com"),
   alternates: {
     canonical: "https://www.fgkbackoffice.com/services/datamanagement",
@@ -74,7 +78,7 @@ export const metadata = {
   openGraph: {
     title: "Data Management Services | FGK Back Office Services",
     description:
-      "Unlock the full potential of your business data. FGK offers secure, efficient, and compliant data management for modern businesses.",
+      "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
     url: "https://www.fgkbackoffice.com/services/datamanagement",
     siteName: "FGK Back Office Services",
     images: [
@@ -98,7 +102,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Data Management Services | FGK Back Office Services",
     description:
-      "Secure and scalable data management services tailored for growing enterprises. Powered by FGK Back Office Services.",
+      "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
     images: ["/images/datamanagement-page-preview.webp"],
   },
   robots: {
@@ -124,7 +128,9 @@ export default function DataManagement() {
             serviceType: "Business Data Solutions",
             url: "https://www.fgkbackoffice.com/services/datamanagement",
             description:
-              "Secure and scalable data management solutions including data flow monitoring, governance, compliance, and optimisation for growing businesses.",
+              "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
+            datePublished: "2024-11-01",
+            dateModified: "2025-07-09",
             provider: {
               "@type": "Organization",
               name: "FGK Back Office Services",
