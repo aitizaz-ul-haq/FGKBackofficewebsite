@@ -1,9 +1,13 @@
-// importing subcomponents
-import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
-import CareersFullBodyComp from "../components/pagecomponents/careerspagecomps/careersfullbodycomp";
-
+import dynamic from "next/dynamic";
 // importing component data
 import testdata from "../data/careers/careersherodata.json";
+
+// importing subcomponents
+import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
+
+const CareersFullBodyComp = dynamic(() =>
+  import("../components/pagecomponents/careerspagecomps/careersfullbodycomp")
+);
 
 export const metadata = {
   title: "Careers at FGK | Join Our Growing Team",

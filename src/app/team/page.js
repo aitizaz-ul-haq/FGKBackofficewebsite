@@ -1,9 +1,13 @@
-// importing subcomponents
-import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
-import TeamFullComp from "../components/pagecomponents/teampagecomps/teamfullcomp";
+import dynamic from "next/dynamic";
 
 // importing component data
 import testdata from "../data/team/teamherodata.json";
+
+import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
+
+const TeamFullComp = dynamic(() =>
+  import("../components/pagecomponents/teampagecomps/teamfullcomp")
+);
 
 export const metadata = {
   title: "Meet Our Team | FGK Back Office Services",

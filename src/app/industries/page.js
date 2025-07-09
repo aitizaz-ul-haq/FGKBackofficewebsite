@@ -1,15 +1,22 @@
-//importing library
-import { Suspense } from "react";
-
-// importing subcomponenets
-import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
-import IndustriesIntro from "../components/pagecomponents/industriespagecomps/industriesintrosection";
+import dynamic from "next/dynamic";
 
 //importing componenet data
 import testdata from "../data/industries/industriesherodata.json";
 
 //importing utility function
 import ScrollToHash from "../components/pagecomponents/industriespagecomps/scrolltohash";
+
+//importing library
+import { Suspense } from "react";
+
+// Lazy load larger components
+import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
+
+const IndustriesIntro = dynamic(() =>
+  import(
+    "../components/pagecomponents/industriespagecomps/industriesintrosection"
+  )
+);
 
 export const metadata = {
   title: "Industries We Serve | FGK Back Office Services",

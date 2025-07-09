@@ -1,10 +1,14 @@
-//importing subcomponenets
-import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
-import FullBodyAboutPage from "../components/pagecomponents/aboutpagecomps/fullbodyaboutpage";
-
+import dynamic from "next/dynamic";
 //importing componenet data
 import testdata from "../data/about/aboutherodata.json";
 import aboutdata from "../data/about/fullbodyaboutpagedata.json";
+
+//importing subcomponenets
+import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
+
+const FullBodyAboutPage = dynamic(() =>
+  import("../components/pagecomponents/aboutpagecomps/fullbodyaboutpage")
+);
 
 export const metadata = {
   title: "About Us | FGK Back Office Services",
@@ -62,7 +66,6 @@ export const metadata = {
     nocache: false,
   },
 };
-
 
 export default function About() {
   return (

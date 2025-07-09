@@ -1,11 +1,5 @@
-// importing project management service page subcomponents
-import SubPageHeroSection from "@/app/components/subpagecomponenets/subpageherosection/subpageherosection";
-import ProgMagGridSection from "@/app/components/subpagecomponenets/projmanag/promaggridsection";
-import SecondSectionTypeMixed from "@/app/components/subpagecomponenets/secondsectiontypes/secondsectiontypemixed";
-import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
-import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
-import SubPagesAdvantegesSection from "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection";
-import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
+// importing libraries
+import dynamic from "next/dynamic";
 
 // importing project management service page data
 import textdata from "@/app/data/subpagedata/projectmanagementdata/secondsectiondata/textdata.json";
@@ -19,6 +13,44 @@ import projadvtextdata from "@/app/data/subpagedata/projectmanagementdata/projma
 import leftprojmangdata from "@/app/data/subpagedata/projectmanagementdata/projmanagementadvantegessectiondata/lefsideadvdataprojmang.json";
 import rightprojmangdata from "@/app/data/subpagedata/projectmanagementdata/projmanagementadvantegessectiondata/rightsideadvdataprojmang.json";
 import projmanggetstarteddata from "@/app/data/subpagedata/projectmanagementdata/projmanggetstarted.json";
+
+// importing shared component
+import SubPageHeroSection from "@/app/components/subpagecomponenets/subpageherosection/subpageherosection";
+
+// lazy-loading other subcomponents
+const ProgMagGridSection = dynamic(() =>
+  import("@/app/components/subpagecomponenets/projmanag/promaggridsection")
+);
+
+const SecondSectionTypeMixed = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/secondsectiontypes/secondsectiontypemixed"
+  )
+);
+
+const ThirdProcessSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection"
+  )
+);
+
+const SubPagesIndustriesSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection"
+  )
+);
+
+const SubPagesAdvantegesSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection"
+  )
+);
+
+const SubPagesGetStartedSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection"
+  )
+);
 
 // importing utility method
 import { getHeroData } from "@/app/utils/gethreodata";

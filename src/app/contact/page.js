@@ -1,10 +1,14 @@
-// importing subcomponents
-import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
-import ContactsPageBody from "../components/pagecomponents/contactspagecomps/contactspagebody";
+import dynamic from "next/dynamic";
 
 // importing component data
 import testdata from "../data/contact/contactherodata.json";
 import contactspagedata from "../components/pagecomponents/contactspagecomps/data/contactspagedate.json";
+
+import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
+
+const ContactsPageBody = dynamic(() =>
+  import("../components/pagecomponents/contactspagecomps/contactspagebody")
+);
 
 export const metadata = {
   title: "Get in Touch | FGK Back Office Services",

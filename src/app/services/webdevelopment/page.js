@@ -1,11 +1,5 @@
-// importing web development services page subcomponenets
-import SubPageHeroSection from "@/app/components/subpagecomponenets/subpageherosection/subpageherosection";
-import WebDevGridSection from "@/app/components/subpagecomponenets/webdev/webdevgridsection";
-import SecondSectionTypeTopAndBottom from "@/app/components/subpagecomponenets/secondsectiontypes/secondsectiontypetopandbottom";
-import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
-import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
-import SubPagesAdvantegesSection from "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection";
-import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
+// importing libraries
+import dynamic from "next/dynamic";
 
 // importing json data for web developmnet services page components
 import webdevtextdata from "@/app/data/subpagedata/webdevdata/secondsectionwebdevelopment/webdevtextdata.json";
@@ -19,6 +13,44 @@ import webdevadv from "@/app/data/subpagedata/webdevdata/webdevadvantegessection
 import leftadvdata from "@/app/data/subpagedata/webdevdata/webdevadvantegessectiondata/webdevlefsideadvdata.json";
 import rightadvdata from "@/app/data/subpagedata/webdevdata/webdevadvantegessectiondata/webdevrightsideadvdata.json";
 import Webdevgetstarteddata from "@/app/data/subpagedata/webdevdata/webdevgettingstarted.json";
+
+// importing shared hero section normally for SEO benefits
+import SubPageHeroSection from "@/app/components/subpagecomponenets/subpageherosection/subpageherosection";
+
+// lazy-loaded subcomponents
+const WebDevGridSection = dynamic(() =>
+  import("@/app/components/subpagecomponenets/webdev/webdevgridsection")
+);
+
+const SecondSectionTypeTopAndBottom = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/secondsectiontypes/secondsectiontypetopandbottom"
+  )
+);
+
+const ThirdProcessSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection"
+  )
+);
+
+const SubPagesIndustriesSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection"
+  )
+);
+
+const SubPagesAdvantegesSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection"
+  )
+);
+
+const SubPagesGetStartedSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection"
+  )
+);
 
 // importing utility methods
 import { getHeroData } from "@/app/utils/gethreodata";

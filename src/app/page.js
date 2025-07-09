@@ -1,13 +1,35 @@
 import Script from "next/script";
-
-import MainPageHeroSection from "./components/pagecomponents/homepagecomps/mainpageherosection";
-import ExpertiseSection from "./components/pagecomponents/homepagecomps/expertisesection";
-import ChooseUsSection from "./components/pagecomponents/homepagecomps/chooseussection";
-import IndustriescardHomePageSection from "./components/pagecomponents/homepagecomps/industriescardhomepagesection";
-import HomepageBenefitsSection from "./components/pagecomponents/homepagecomps/homepagebenefitssection";
-import HomepageClientsSection from "./components/pagecomponents/homepagecomps/homepageclientssection";
-import HomepageContactSection from "./components/pagecomponents/homepagecomps/homepagecontactsection";
+import dynamic from "next/dynamic";
 import testdata from "./data/testdata/testherodata.json";
+
+const MainPageHeroSection = dynamic(() =>
+  import("./components/pagecomponents/homepagecomps/mainpageherosection")
+);
+
+const ExpertiseSection = dynamic(() =>
+  import("./components/pagecomponents/homepagecomps/expertisesection")
+);
+
+const ChooseUsSection = dynamic(() =>
+  import("./components/pagecomponents/homepagecomps/chooseussection")
+);
+
+const IndustriescardHomePageSection = dynamic(() =>
+  import("./components/pagecomponents/homepagecomps/industriescardhomepagesection")
+);
+
+const HomepageBenefitsSection = dynamic(() =>
+  import("./components/pagecomponents/homepagecomps/homepagebenefitssection")
+);
+
+const HomepageClientsSection = dynamic(() =>
+  import("./components/pagecomponents/homepagecomps/homepageclientssection")
+);
+
+const HomepageContactSection = dynamic(() =>
+  import("./components/pagecomponents/homepagecomps/homepagecontactsection")
+);
+
 
 export const metadata = {
   title: "FGK Back Office Services | Professional Business Support Solutions",
@@ -77,39 +99,40 @@ export const metadata = {
 };
 
 export default function Home() {
-  <Script
-    id="jsonld-organization"
-    type="application/ld+json"
-    strategy="afterInteractive"
-    dangerouslySetInnerHTML={{
-      __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        name: "FGK Back Office Services",
-        url: "https://www.fgkbackoffice.com",
-        logo: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
-        sameAs: [
-          "https://www.linkedin.com/company/fgk-back-office",
-          "https://www.instagram.com/fgkbackoffice",
-          "https://www.facebook.com/fgkbackoffice",
-        ],
-      }),
-    }}
-  />;
-
   return (
-    <main>
-      <MainPageHeroSection
-        title={testdata.title}
-        paragraph={testdata.paragraph}
-        forwardImage={testdata.forwardImage}
+    <>
+      <Script
+        id="jsonld-organization"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "FGK Back Office Services",
+            url: "https://www.fgkbackoffice.com",
+            logo: "https://www.fgkbackoffice.com/images/fgk_circular_logo.webp",
+            sameAs: [
+              "https://www.linkedin.com/company/fgk-back-office",
+              "https://www.instagram.com/fgkbackoffice",
+              "https://www.facebook.com/fgkbackoffice",
+            ],
+          }),
+        }}
       />
-      <ExpertiseSection />
-      <ChooseUsSection />
-      <IndustriescardHomePageSection />
-      <HomepageBenefitsSection />
-      <HomepageClientsSection />
-      <HomepageContactSection />
-    </main>
+      <main>
+        <MainPageHeroSection
+          title={testdata.title}
+          paragraph={testdata.paragraph}
+          forwardImage={testdata.forwardImage}
+        />
+        <ExpertiseSection />
+        <ChooseUsSection />
+        <IndustriescardHomePageSection />
+        <HomepageBenefitsSection />
+        <HomepageClientsSection />
+        <HomepageContactSection />
+      </main>
+    </>
   );
 }

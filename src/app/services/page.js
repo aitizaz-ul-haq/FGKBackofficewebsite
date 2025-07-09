@@ -1,13 +1,29 @@
-// importing services page subcomponents
-import MainHeroSection from "../components/layoutcomponents/mainherosection/mainherosection";
-import ImportSection from "../components/pagecomponents/servicespagecomps/importancesection";
-import RoundedCardsSection from "../components/pagecomponents/servicespagecomps/roundedcardsection";
-import ServicesBenefitsSection from "../components/pagecomponents/servicespagecomps/servicesbenefitssection";
-import TrustedBySection from "../components/pagecomponents/servicespagecomps/trustedbysection";
-// import ServicesReviewsSection from "../components/pagecomponents/servicespagecomps/servicesreviewssection";
+import dynamic from "next/dynamic";
 
 // importing services page data
 import testdata from "../data/services/servicesherodata.json";
+
+// importing services page subcomponents
+const MainHeroSection = dynamic(() =>
+  import("../components/layoutcomponents/mainherosection/mainherosection")
+);
+
+const ImportSection = dynamic(() =>
+  import("../components/pagecomponents/servicespagecomps/importancesection")
+);
+
+const RoundedCardsSection = dynamic(() =>
+  import("../components/pagecomponents/servicespagecomps/roundedcardsection")
+);
+
+const ServicesBenefitsSection = dynamic(() =>
+  import("../components/pagecomponents/servicespagecomps/servicesbenefitssection")
+);
+
+const TrustedBySection = dynamic(() =>
+  import("../components/pagecomponents/servicespagecomps/trustedbysection")
+);
+// import ServicesReviewsSection from "../components/pagecomponents/servicespagecomps/servicesreviewssection";
 // import reviewerdata from "../data/services/reviewsdata.json";
 
 export const metadata = {

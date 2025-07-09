@@ -1,11 +1,5 @@
-// importing data management pages services subcomponents
-import SubPageHeroSection from "@/app/components/subpagecomponenets/subpageherosection/subpageherosection";
-import DataMagGridSection from "@/app/components/subpagecomponenets/datamag/datamaggridsection";
-import SecondSectionRightSided from "@/app/components/subpagecomponenets/secondsectiontypes/secondsectiontyperightsided";
-import ThirdProcessSection from "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection";
-import SubPagesIndustriesSection from "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection";
-import SubPagesAdvantegesSection from "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection";
-import SubPagesGetStartedSection from "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection";
+// importing library
+import dynamic from "next/dynamic";
 
 // importing data management service page data
 import textdata from "@/app/data/subpagedata/datamanagementdata/secondsectiondatamanagementdata/datamagtextdata.json";
@@ -18,6 +12,40 @@ import DataMangadvleftdata from "@/app/data/subpagedata/datamanagementdata/datam
 import DataMangadvrightdata from "@/app/data/subpagedata/datamanagementdata/datamangadvantegessectiondata/datamangrightsideadvdata.json";
 import DataManggetstarted from "@/app/data/subpagedata/datamanagementdata/datamanggetstrated.json";
 import DataMangadvtext from "@/app/data/subpagedata/datamanagementdata/datamangadvantegessectiondata/datamangadvtextdata.json";
+
+// hero section (not lazy loaded)
+import SubPageHeroSection from "@/app/components/subpagecomponenets/subpageherosection/subpageherosection";
+
+// dynamic imports (lazy loaded, SSR enabled)
+const DataMagGridSection = dynamic(() =>
+  import("@/app/components/subpagecomponenets/datamag/datamaggridsection")
+);
+const SecondSectionRightSided = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/secondsectiontypes/secondsectiontyperightsided"
+  )
+);
+const ThirdProcessSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/secondsectiontypes/thirdprocesssection"
+  )
+);
+const SubPagesIndustriesSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/subpagesindustriessection/subpagesindustriessection"
+  )
+);
+const SubPagesAdvantegesSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/subpagesadvantegessection/subpagesadvantegessection"
+  )
+);
+const SubPagesGetStartedSection = dynamic(() =>
+  import(
+    "@/app/components/subpagecomponenets/subpagesgetstartedsection/subpagesgetstartedsection"
+  )
+);
+
 
 // importing utility menthods
 import { getHeroData } from "@/app/utils/gethreodata";
