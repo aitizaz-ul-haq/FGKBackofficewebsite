@@ -47,7 +47,7 @@ export async function POST(req) {
       // `,
       html: `
         <div style="font-family: Arial, sans-serif; padding: 10px;">
-          <img src="cid:fgklogo" alt="FGK Logo" style="height: 80px;" />
+          <img src="cid:fgklogo" alt="FGK Logo" style="height: 30px;" />
           <h2>Contact Form Submission</h2>
           <p><strong>Name:</strong> ${firstName} ${lastName}</p>
           <p><strong>Company:</strong> ${company}</p>
