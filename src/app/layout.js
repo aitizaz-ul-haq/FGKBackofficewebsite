@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           href="/images/main-hero.webp"
           type="image/webp"
         />
-        <link
+        {/* <link
           rel="preload"
           as="image"
           href="/images/services_1920px_hero_background.webp"
@@ -101,7 +101,7 @@ export default function RootLayout({ children }) {
           as="image"
           href="/images/Web_Development_Support_1024px_hero_section.webp"
           type="image/webp"
-        />
+        /> */}
 
         {/* <link
           rel="preload"
@@ -116,13 +116,13 @@ export default function RootLayout({ children }) {
           href="/images/homepage-expertise-section-background_revisited.png"
           type="image/png"
         /> */}
-
+{/* 
         <link
           rel="preload"
           as="image"
           href="/images/homepage-industries-section-background_revisited.png"
           type="image/png"
-        />
+        /> */}
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="icon"
@@ -151,7 +151,7 @@ export default function RootLayout({ children }) {
           height="1"
           style={{ display: "none" }}
         />
-        <img
+        {/* <img
           src="/images/services_1920px_hero_background.webp"
           alt=""
           width="1"
@@ -226,13 +226,13 @@ export default function RootLayout({ children }) {
           style={{ display: "none" }}
         />
 
-        {/* <img
+        <img
           src="/images/homepage-clients-section-background_revisited.png"
           alt=""
           width="1"
           height="1"
           style={{ display: "none" }}
-        /> */}
+        />
         <img
           src="/images/homepage-expertise-section-background_revisited.png"
           alt=""
@@ -246,7 +246,7 @@ export default function RootLayout({ children }) {
           width="1"
           height="1"
           style={{ display: "none" }}
-        />
+        /> */}
         <Header />
         {children}
         <footer>
