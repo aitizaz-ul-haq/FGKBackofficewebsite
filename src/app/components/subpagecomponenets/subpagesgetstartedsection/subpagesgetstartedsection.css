@@ -35,8 +35,8 @@
   width: 169px;
   border: 2px solid black;
   border-radius: 0.4rem;
-  color: white;
-  background-color: #59c3c3;
+  color: var(--recomended-button-text-color);
+  background-color: var(--recomended-button-background-color);
   font-weight: 600;
   font-size: 15px;
 }
@@ -226,8 +226,8 @@
     width: 169px;
     border: 2px solid black;
     border-radius: 0.4rem;
-    color: white;
-    background-color: #59c3c3;
+    color: var(--recomended-button-text-color);
+    background-color: var(--recomended-button-background-color);
     font-weight: 600;
     font-size: 15px;
   }
@@ -314,7 +314,7 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
-   .subpagesgetstartedsection-container {
+  .subpagesgetstartedsection-container {
     padding-top: 22rem;
     padding-left: 2rem;
     padding-right: 2rem;

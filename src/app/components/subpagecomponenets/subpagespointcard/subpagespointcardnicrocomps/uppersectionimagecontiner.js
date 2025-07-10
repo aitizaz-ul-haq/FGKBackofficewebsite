@@ -7,6 +7,7 @@ export default function UpperSectionImageContainer({advicon}) {
           width={20}
           height={20}
           className="subpagespointcard-bullet"
+          alt="bullet-image"
         />
     );
 }
