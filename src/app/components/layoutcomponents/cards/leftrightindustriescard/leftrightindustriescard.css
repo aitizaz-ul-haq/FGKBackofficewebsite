@@ -38,8 +38,8 @@
 .rightsection-button {
   width: 159px;
   height: 38px;
-  background-color: #59c3c3;
-  color: white;
+  background-color: var(--recomended-button-background-color);
+  color: var(--recomended-button-text-color);
   font-weight: 400;
   font-size: 16px;
   border: none;
