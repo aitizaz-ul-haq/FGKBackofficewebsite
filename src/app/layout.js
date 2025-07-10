@@ -106,15 +106,15 @@ export default function RootLayout({ children }) {
         <link
           rel="preload"
           as="image"
-          href="/images/homepage-clients-section-background_revisited.png"
-          type="image/png"
+          href="/images/homepage-clients-section-background_revisited.webp"
+          type="image/webp"
         />
 
         <link
           rel="preload"
           as="image"
-          href="/images/homepage-expertise-section-background_revisited.png"
-          type="image/png"
+          href="/images/homepage-expertise-section-background_revisited.webp"
+          type="image/webp"
         />
 
         <link
