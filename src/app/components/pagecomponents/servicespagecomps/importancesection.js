@@ -1,10 +1,23 @@
-// importing subcomponents
-import { ImportanceHeadingSection } from "./subcomps/importanceheadingsection";
-import { ImportanceCardGridSection } from "./subcomps/importancecardgridsection";
-import { CircularCardButtonContainer } from "./subcomps/circularcardbuttoncontainer";
-
-// importing style files
+import dynamic from "next/dynamic";
 import "./styles/importancesection.css";
+
+const ImportanceHeadingSection = dynamic(() =>
+  import("./subcomps/importanceheadingsection").then(
+    (mod) => mod.ImportanceHeadingSection
+  )
+);
+
+const ImportanceCardGridSection = dynamic(() =>
+  import("./subcomps/importancecardgridsection").then(
+    (mod) => mod.ImportanceCardGridSection
+  )
+);
+
+const CircularCardButtonContainer = dynamic(() =>
+  import("./subcomps/circularcardbuttoncontainer").then(
+    (mod) => mod.CircularCardButtonContainer
+  )
+);
 
 export default function ImportSection() {
   return (
