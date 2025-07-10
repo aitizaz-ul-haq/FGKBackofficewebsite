@@ -48,6 +48,19 @@
   font-weight: 200;
 }
 
+.our-motto-wrapper {
+  position: relative;
+  aspect-ratio: 1 / 1; /* Maintain square ratio */
+  width: 100%;
+  max-width: 550px;
+  /* height: auto; */
+  margin: 2rem auto;
+}
+
+.our-motto-img {
+  object-fit: contain; /* Or 'cover' depending on your design */
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
@@ -75,12 +88,12 @@
     font-size: 16px;
   }
 
-  .our-motto-img {
+  /* .our-motto-img {
     width: 320px;
     height: 320px;
     margin-top: 4rem;
     margin-bottom: 4rem;
-  }
+  } */
 }
 
 /* Standard small phones (<= 360px) */
@@ -104,12 +117,12 @@
     font-size: 16px;
   }
 
-  .our-motto-img {
+  /* .our-motto-img {
     width: 310px;
     height: 310px;
     margin-top: 4rem;
     margin-bottom: 4rem;
-  }
+  } */
 }
 
 /* Standard small phones (<= 360px) */
@@ -129,15 +142,16 @@
     align-items: center;
   }
 
+  .chooseus-right-section {
+    width: 100%;
+  }
+
   .point-description {
     font-size: 16px;
   }
 
-  .our-motto-img {
-    width: 320px;
-    height: 330px;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+  .our-motto-wrapper {
+    max-width: 630px;
   }
 }
 
@@ -162,11 +176,19 @@
     font-size: 16px;
   }
 
-  .our-motto-img {
+  /* .our-motto-img {
     width: 370px;
     height: 370px;
     margin-top: 4rem;
     margin-bottom: 4rem;
+  } */
+
+  .chooseus-right-section {
+    width: 100%;
+  }
+
+  .our-motto-wrapper {
+    max-width: 630px;
   }
 }
 
@@ -176,32 +198,32 @@
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
-  .our-motto-img {
+  /* .our-motto-img {
     width: 430px;
     height: 430px;
     margin-top: 4rem;
     margin-bottom: 4rem;
-  }
+  } */
 }
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
-  .our-motto-img {
+  /* .our-motto-img {
     width: 500px;
     height: 500px;
     margin-top: 4rem;
     margin-bottom: 4rem;
-  }
+  } */
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
-  .our-motto-img {
+  /* .our-motto-img {
     width: 580px;
     height: 580px;
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
+  } */
 }
 
 /* Medium laptops (>= 1024px) */
