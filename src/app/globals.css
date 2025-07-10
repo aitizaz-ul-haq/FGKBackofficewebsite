@@ -109,6 +109,9 @@ footer {
 
   --font-size-new-xl-large-heading: 122px;
   --font-size-new-xl-large-hero-heading: 115px;
+
+  --recomended-button-background-color: #449f9f;
+  --recomended-button-text-color: #ffffff;
 }
 
 /* Global scrollbar styles */

@@ -186,8 +186,8 @@ export default function HomePageContactLeftSection() {
 
         button {
           flex: 1 1 100%;
-          background-color: #59c3c3;
-          color: white;
+          color: var(--recomended-button-text-color);
+          background: var(--recomended-button-background-color);
           border: none;
           cursor: pointer;
           font-size: 18px;
@@ -195,7 +195,7 @@ export default function HomePageContactLeftSection() {
         }
 
         button:hover {
-          background-color: #449f9f;
+          background-color: black;
         }
       `}</style>
     </div>

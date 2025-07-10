@@ -22,8 +22,8 @@
   width: 129px;
   height: 38px;
   border: none;
-  background: #59c3c3;
-  color: white;
+  color: var(--recomended-button-text-color);
+  background: var(--recomended-button-background-color);
   font-size: 16px;
   border-radius: 7px;
 }

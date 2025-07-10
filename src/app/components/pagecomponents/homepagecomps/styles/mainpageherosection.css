@@ -37,8 +37,8 @@
 .main-page-hero-button {
   width: 191px;
   height: 38px;
-  color: white;
-  background: #59c3c3;
+  color: var(--recomended-button-text-color);
+  background: var(--recomended-button-background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -369,8 +369,8 @@
   .main-page-hero-button {
     width: 191px;
     height: 38px;
-    color: white;
-    background: #59c3c3;
+    color: var(--recomended-button-text-color);
+    background: var(--recomended-button-background-color);
     display: flex;
     flex-direction: column;
     justify-content: center;

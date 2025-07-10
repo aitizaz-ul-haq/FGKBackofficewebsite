@@ -49,8 +49,8 @@ textarea {
 
 .submit-button {
   display: inline-block;
-  background-color: #59c3c3;
-  color: #ffffff;
+  color: var(--recomended-button-text-color);
+  background: var(--recomended-button-background-color);
   border: none;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;

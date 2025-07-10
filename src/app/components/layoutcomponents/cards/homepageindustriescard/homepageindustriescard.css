@@ -31,27 +31,27 @@
 .homepage-industriescard-button {
   font-size: 14px;
   font-weight: 300;
-  background-color: #59c3c3;
   width: 123px;
   height: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--recomended-button-text-color);
+  background: var(--recomended-button-background-color);
   border: none;
   text-decoration: none;
 }
 
- .homepage-industriescard-button:hover {
-    background-color: white;
-    color: black;
-  }
+.homepage-industriescard-button:hover {
+  background-color: white;
+  color: black;
+}
 
-  .buttonlinkage {
-    /* color: white; */
-    text-decoration: none;
-  }
+.buttonlinkage {
+  /* color: white; */
+  text-decoration: none;
+}
 
 /* Default styles (mobile-first approach) */
 
@@ -142,14 +142,14 @@
   .homepage-industriescard-button {
     font-size: 14px;
     font-weight: 300;
-    background-color: #59c3c3;
     width: 123px;
     height: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--recomended-button-text-color);
+    background: var(--recomended-button-background-color);
     text-decoration: none;
   }
 
@@ -162,8 +162,6 @@
     /* color: white; */
     text-decoration: none;
   }
-
- 
 }
 
 /* Large laptops and desktops (>= 1280px) */

@@ -4,14 +4,13 @@
   padding: 0.5rem;
   border: none;
   border-radius: 7px;
-  background: #59c3c3;
+  background: var(--recomended-button-background-color);
   font-size: 16px;
-  color: #ffffff;
+  color: var(--recomended-button-text-color);
   font-weight: 600;
 }
 
-
-.header-contact-button:hover { 
+.header-contact-button:hover {
   background: black;
   color: #ffffff;
 }
