@@ -52,9 +52,10 @@
 .circularcard-button {
   width: 303px;
   height: 67px;
-  background-color: #59c3c3;
+  background-color: var(--recomended-button-background-color);
+  color: var(--recomended-button-text-color);
   border: 3px solid #000000;
-  color: white;
+
   border-radius: 10px;
   font-size: 16px;
 }
@@ -114,6 +115,7 @@
   }
   .circularcard-button {
     margin-top: 2rem;
+    
   }
 }
 
@@ -212,8 +214,6 @@
   .circularcard-alphabatic-heading {
     font-size: 17px;
   }
-
-
 }
 
 /* iPhone 14, 15 (standard model) */
