@@ -182,8 +182,8 @@ const ContactUsForm = () => {
 
         button {
           flex: 1 1 100%;
-          background-color: #59c3c3;
-          color: white;
+          background-color: var(--recomended-button-background-color);
+          color: var(--recomended-button-text-color);
           border: none;
           cursor: pointer;
           font-size: 18px;
