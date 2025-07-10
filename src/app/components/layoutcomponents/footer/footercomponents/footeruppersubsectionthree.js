@@ -5,43 +5,57 @@ export default function FooterUpperSubSectionThree() {
     <div className="footer-upper-subsection-three">
       <div className="industries-listing">
         <ul className="footer-list-main font-inter">
-          <Link
-            href="/contact"
-            className="footer-list-item text-light"
-            title="Connect with us now"
-          >
-            <li className="footer-list-title">Industries</li>
-          </Link>
-          <Link
-            className="footer-list-item text-light"
-            href="/industries#fintech"
-            title="Explore Fintech industry services"
-          >
-            <li className="footer-list-item text-light">Fintech</li>
-          </Link>
-          <Link
-            className="footer-list-item text-light"
-            href="/industries#tech-support"
-            title="View solutions for technology and IT support"
-          >
-            <li className="footer-list-item text-light">Tech Support</li>
-          </Link>
-          <Link
-            className="footer-list-item text-light"
-            href="/industries#financial-services"
-            title="Learn about our financial service expertise"
-          >
-            <li className="footer-list-item text-light">Financial Services</li>
-          </Link>
-          <Link
-            className="footer-list-item text-light"
-            href="/industries#accountancy-finance"
-            title="Discover our accountancy and finance offerings"
-          >
-            <li className="footer-list-item text-light">
+          <li className="footer-list-title">Industries</li>
+          <li className="footer-list-item">
+            <Link
+              href="/contact"
+              className="footer-list-item text-light"
+              title="Connect with us now"
+            >
+              Industries
+            </Link>
+          </li>
+
+          <li className="footer-list-item text-light">
+            <Link
+              className="footer-list-item text-light"
+              href="/industries#fintech"
+              title="Explore Fintech industry services"
+            >
+              Fintech
+            </Link>
+          </li>
+
+          <li className="footer-list-item text-light">
+            {" "}
+            <Link
+              className="footer-list-item text-light"
+              href="/industries#tech-support"
+              title="View solutions for technology and IT support"
+            >
+              Tech Support
+            </Link>
+          </li>
+
+          <li className="footer-list-item text-light">
+            <Link
+              className="footer-list-item text-light"
+              href="/industries#financial-services"
+              title="Learn about our financial service expertise"
+            >
+              Financial Services
+            </Link>
+          </li>
+
+          <li className="footer-list-item text-light">
+            <Link
+              className="footer-list-item text-light"
+              href="/industries#accountancy-finance"
+              title="Discover our accountancy and finance offerings"
+            >
               Accountancy & Finance
-            </li>
-          </Link>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
