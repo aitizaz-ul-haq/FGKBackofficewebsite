@@ -7,7 +7,7 @@ export default function FooterSocialMediaSection() {
       <Link href="/">
         <Image
           src="https://i.postimg.cc/8CxvrcfT/youtube.webp"
-          alt="FGK logo"
+          alt="FGK Social Media logo"
           width={40}
           height={40}
           className="footer-social-icon"
@@ -17,7 +17,7 @@ export default function FooterSocialMediaSection() {
       <Link href="/">
         <Image
           src="https://i.postimg.cc/DwnNVY8r/facebook.webp"
-          alt="FGK logo"
+          alt="FGK Social Media logo"
           width={40}
           height={40}
           className="footer-social-icon"
@@ -36,7 +36,7 @@ export default function FooterSocialMediaSection() {
       <Link href="/">
         <Image
           src="https://i.postimg.cc/rshNvgbJ/linkdin.webp"
-          alt="FGK logo"
+          alt="FGK Social Media logo"
           width={40}
           height={40}
           className="footer-social-icon"

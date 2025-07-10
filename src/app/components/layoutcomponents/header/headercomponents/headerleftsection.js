@@ -7,7 +7,7 @@ export default function HeaderLeftSection() {
       <Link href="/">
         <Image
           src="https://i.postimg.cc/Nj2KcbS0/fgk-letter-logo.webp"
-          alt="FGK logo"
+          alt="FGK logo for header"
           width={170}
           height={28}
         />
