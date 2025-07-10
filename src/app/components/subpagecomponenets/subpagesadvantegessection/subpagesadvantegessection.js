@@ -1,6 +1,13 @@
+import dynamic from "next/dynamic";
 import "./subpagesadvantegessection.css";
-import SectionLeftSide from "./subpagesadvmicrocomps/sectionleftside";
-import SectionRightSide from "./subpagesadvmicrocomps/sectionrightside";
+
+const SectionLeftSide = dynamic(() =>
+  import("./subpagesadvmicrocomps/sectionleftside")
+);
+
+const SectionRightSide = dynamic(() =>
+  import("./subpagesadvmicrocomps/sectionrightside")
+);
 
 export default function SubPagesAdvantegesSection({
   advtitle,

@@ -1,6 +1,13 @@
+import dynamic from "next/dynamic";
 import "./subpagesgetstartedsection.css";
-import GetStartedTextContainer from "./getstartedmicrocomps/getstartedtextcontainer";
-import GetStartedSectionButton from "./getstartedmicrocomps/getstartedsectionbutton";
+
+const GetStartedTextContainer = dynamic(() =>
+  import("./getstartedmicrocomps/getstartedtextcontainer")
+);
+
+const GetStartedSectionButton = dynamic(() =>
+  import("./getstartedmicrocomps/getstartedsectionbutton")
+);
 
 export default function SubPagesGetStartedSection({
   headinggetstarted,

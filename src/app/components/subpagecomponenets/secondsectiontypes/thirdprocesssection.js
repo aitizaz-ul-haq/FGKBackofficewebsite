@@ -1,7 +1,17 @@
+import dynamic from "next/dynamic";
 import "./styles/thirdprocesssection.css";
-import ThirdProcessSectionsContainer from "./thirdprocessmicrocomps/thirdprocesssectionscontainer";
-import ThirdProcessSectionBottomContiner from "./thirdprocessmicrocomps/thirdprocesssectionbottomcontainer";
-import ThirdProcessButton from "./thirdprocessmicrocomps/thirdprocessbutton";
+
+const ThirdProcessSectionsContainer = dynamic(() =>
+  import("./thirdprocessmicrocomps/thirdprocesssectionscontainer")
+);
+
+const ThirdProcessSectionBottomContiner = dynamic(() =>
+  import("./thirdprocessmicrocomps/thirdprocesssectionbottomcontainer")
+);
+
+const ThirdProcessButton = dynamic(() =>
+  import("./thirdprocessmicrocomps/thirdprocessbutton")
+);
 
 export default function ThirdProcessSection({
   textdata,
