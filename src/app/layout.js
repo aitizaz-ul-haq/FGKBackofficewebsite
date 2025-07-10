@@ -103,19 +103,19 @@ export default function RootLayout({ children }) {
           type="image/webp"
         />
 
-        <link
+        {/* <link
           rel="preload"
           as="image"
-          href="/images/homepage-clients-section-background_revisited.webp"
-          type="image/webp"
+          href="/images/homepage-clients-section-background_revisited.png"
+          type="image/png"
         />
 
         <link
           rel="preload"
           as="image"
-          href="/images/homepage-expertise-section-background_revisited.webp"
-          type="image/webp"
-        />
+          href="/images/homepage-expertise-section-background_revisited.png"
+          type="image/png"
+        /> */}
 
         <link
           rel="preload"
@@ -226,13 +226,13 @@ export default function RootLayout({ children }) {
           style={{ display: "none" }}
         />
 
-        <img
+        {/* <img
           src="/images/homepage-clients-section-background_revisited.png"
           alt=""
           width="1"
           height="1"
           style={{ display: "none" }}
-        />
+        /> */}
         <img
           src="/images/homepage-expertise-section-background_revisited.png"
           alt=""
