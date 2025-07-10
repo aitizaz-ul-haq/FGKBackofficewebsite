@@ -5,7 +5,7 @@ export default function TopRightCircularIconSection({ cardicon }) {
     <div className="top-right-circular-icon">
       <Image
         src={cardicon}
-        alt="FGK logo"
+        alt="FGK services logo"
         width={90}
         height={90}
         className="footer-social-icon"

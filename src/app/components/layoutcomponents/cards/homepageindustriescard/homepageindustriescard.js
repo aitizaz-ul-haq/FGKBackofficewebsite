@@ -15,6 +15,7 @@ export default function HomePageIndustriesCard({ inddata, isLast }) {
           width={123}
           height={123}
           className="homepage-industriescard-circular-icon"
+          alt="industries icons image"
         />
       </div>
       <div className="homepage-industriescard-heading font-inter text-light">

@@ -8,6 +8,7 @@ export default function ChooseUsRightSection() {
         width={550}
         height={550}
         className="our-motto-img"
+        alt="our motto image"
       />
     </div>
   );
