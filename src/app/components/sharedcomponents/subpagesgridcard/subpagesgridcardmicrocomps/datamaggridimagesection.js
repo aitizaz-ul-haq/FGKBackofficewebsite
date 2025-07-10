@@ -7,6 +7,7 @@ export default function DataMaggridImagesSection({ gridcardicon }) {
       width={70}
       height={70}
       className="subpagesgridcard-icon"
+      alt="gridcard-icon"
     />
   );
 }
