@@ -52,7 +52,7 @@
   width: 263px;
   display: flex;
   flex-direction: row;
-  color: white;
+  
   font-size: 19px;
   font-weight: 400;
   gap: 1.2rem;
@@ -60,7 +60,8 @@
   align-items: center;
   padding: 1rem;
   border-radius: 32px;
-  background-color: #59c3c3;
+  color: var(--recomended-button-text-color);
+  background-color: var(--recomended-button-background-color);
   text-decoration: none;
 }
 

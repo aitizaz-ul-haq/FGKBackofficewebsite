@@ -12,6 +12,7 @@ export default function HeroButtonComp({mainhint}) {
               width={37}
               height={37}
               className="right-hero-icon"
+              alt="hero section button arrow"
             />
           </div>
           </Link>
