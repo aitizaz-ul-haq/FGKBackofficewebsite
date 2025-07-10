@@ -10,6 +10,8 @@ export default function HeaderLeftSection() {
           alt="FGK logo for header"
           width={170}
           height={28}
+          priority // ← Loads image with high priority
+          fetchPriority="high" // ← Explicitly adds fetchpriority attribute (newer browsers)
         />
       </Link>
     </div>
