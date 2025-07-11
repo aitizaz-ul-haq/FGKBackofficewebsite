@@ -6,16 +6,6 @@ export default function FooterUpperSubSectionThree() {
       <div className="industries-listing">
         <ul className="footer-list-main font-inter">
           <li className="footer-list-title">Industries</li>
-          <li className="footer-list-item">
-            <Link
-              href="/contact"
-              className="footer-list-item text-light"
-              title="Connect with us now"
-            >
-              Industries
-            </Link>
-          </li>
-
           <li className="footer-list-item text-light">
             <Link
               className="footer-list-item text-light"
