@@ -54,8 +54,8 @@
   width: 169px;
   height: 47px;
   border-radius: 8px;
-  background-color: #59c3c3;
-  color: white;
+  background-color: var(--recomended-button-background-color);
+  color: var(--recomended-button-text-color);
   font-weight: 600;
   font-size: 15px;
 }
@@ -278,8 +278,8 @@
     width: 169px;
     height: 47px;
     border-radius: 8px;
-    background-color: #59c3c3;
-    color: white;
+    background-color: var(--recomended-button-background-color);
+    color: var(--recomended-button-text-color);
     font-weight: 600;
     font-size: 15px;
   }

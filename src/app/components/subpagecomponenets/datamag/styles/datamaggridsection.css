@@ -45,9 +45,9 @@
   justify-content: center;
   align-items: center;
   border: 3px solid black;
-  background-color: #59c3c3;
   border-radius: 0.5rem;
-  color: white;
+  background-color: var(--recomended-button-background-color);
+  color: var(--recomended-button-text-color);
   font-weight: 600;
 }
 
