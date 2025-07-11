@@ -35,6 +35,7 @@ export default function FooterSocialMediaSection() {
       </Link> */}
       <Link href="/">
         <Image
+          href="https://www.linkedin.com/company/fgk-back-office-services-private-limited/posts/?feedView=all&viewAsMember=true"
           src="https://i.postimg.cc/rshNvgbJ/linkdin.webp"
           alt="FGK Social Media logo"
           width={40}
