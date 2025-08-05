@@ -58,10 +58,9 @@ import { getHeroData } from "@/app/utils/gethreodata";
 
 export const metadata = {
   title: "Operations Support Services | FGK Back Office Services",
-  description:
-    "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
+  description: "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
   keywords: [
-    "Operations Support",
+  "Operations Support",
     "Process Mapping",
     "Operational Efficiency",
     "Back Office Operations",
@@ -72,24 +71,26 @@ export const metadata = {
     "Issue Resolution Services",
     "FGK Back Office Operations",
   ],
+
   authors: [
-    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+    {
+      name: "FGK Back Office Services",
+      url: "https://www.fgkbackoffice.com",
+    },
   ],
   creator: "FGK Back Office Services",
   publisher: "FGK Back Office Services",
+
   metadataBase: new URL("https://www.fgkbackoffice.com"),
-  alternates: {
-    canonical: "https://www.fgkbackoffice.com/services/operationssupport",
-  },
+
   openGraph: {
     title: "Operations Support Services | FGK Back Office Services",
-    description:
-      "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
+    description: "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
     url: "https://www.fgkbackoffice.com/services/operationssupport",
     siteName: "FGK Back Office Services",
     images: [
       {
-        url: "/images/operations-page-preview.webp", // Ensure this image exists in public/images/
+        url: "/images/operations-page-preview.webp",
         width: 1200,
         height: 630,
         alt: "Operations Support Overview",
@@ -104,19 +105,66 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Operations Support Services | FGK Back Office Services",
-    description:
-      "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
+    description: "FGK provides expert operations support including process mapping, data flow monitoring, regulatory checks, and fast issue resolution to enhance your workflow management.",
     images: ["/images/operations-page-preview.webp"],
+    creator: "@fgkbackoffice",
+    site: "@fgkbackoffice",
   },
+
+  icons: {
+    icon: [
+      { url: "/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "/images/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/images/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/images/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    shortcut: [{ url: "/images/favicon.ico", type: "image/x-icon" }],
+  },
+
+  manifest: "/manifest.webmanifest",
+
+  themeColor: "#59c3c3a8",
+
   robots: {
     index: true,
     follow: true,
     nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      maxVideoPreview: -1,
+      maxImagePreview: "large",
+      maxSnippet: -1,
+    },
   },
+
+  alternates: {
+    canonical: "https://www.fgkbackoffice.com/services/operationssupport",
+  },
+
+  category: "Operations Support Services", // Optional, for blog posts or services
 };
+
 
 export default function OperationsSupport() {
   const data = getHeroData("operations-support");

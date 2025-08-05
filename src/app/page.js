@@ -30,6 +30,7 @@ const HomepageContactSection = dynamic(() =>
   import("./components/pagecomponents/homepagecomps/homepagecontactsection")
 );
 
+
 export const metadata = {
   title: "FGK Back Office Services | Professional Business Support Solutions",
   description:
@@ -45,17 +46,22 @@ export const metadata = {
     "Back Office Services",
     "Business Process Outsourcing Pakistan",
   ],
+
   authors: [
-    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+    {
+      name: "FGK Back Office Services",
+      url: "https://www.fgkbackoffice.com",
+    },
   ],
   creator: "FGK Back Office Services",
   publisher: "FGK Back Office Services",
+
   metadataBase: new URL("https://www.fgkbackoffice.com"),
+
   openGraph: {
     title: "FGK Back Office Services | Professional Business Support Solutions",
     description:
       "FGK Back Office Services delivers expert outsourcing in Web Development, Project Management, Accounting, Data Management, and Operations Support from Islamabad.",
-
     url: "https://www.fgkbackoffice.com",
     siteName: "FGK Back Office Services",
     images: [
@@ -75,28 +81,64 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "FGK Back Office Services | Trusted Back Office Partner",
-    description:
-      "FGK Back Office Services delivers expert outsourcing in Web Development, Project Management, Accounting, Data Management, and Operations Support from Islamabad.",
-
-    images: ["/images/fgk_circular_logo.webp"],
+    description:  "FGK Back Office Services delivers expert outsourcing in Web Development, Project Management, Accounting, Data Management, and Operations Support from Islamabad.",
+    images: ["/images/homepage-metadata-preview.webp"],
     creator: "@fgkbackoffice",
+    site: "@fgkbackoffice",
   },
+
   icons: {
-    icon: "/images/fgk_circular_logo.webp",
-    shortcut: "/images/fgk_circular_logo.webp",
-    apple: "/images/fgk_circular_logo.webp",
+    icon: [
+      { url: "/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "/images/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/images/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/images/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    shortcut: [{ url: "/images/favicon.ico", type: "image/x-icon" }],
   },
+
+  manifest: "/manifest.webmanifest",
+
+  themeColor: "#59c3c3a8", 
+
   robots: {
     index: true,
     follow: true,
     nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      maxVideoPreview: -1,
+      maxImagePreview: "large",
+      maxSnippet: -1,
+    },
   },
+
   alternates: {
     canonical: "https://www.fgkbackoffice.com",
   },
+
+  category: "Business Support Services", // Optional, for blog posts or services
 };
 
 export default function Home() {

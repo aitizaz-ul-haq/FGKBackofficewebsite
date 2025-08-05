@@ -52,8 +52,7 @@ import { getHeroData } from "@/app/utils/gethreodata";
 
 export const metadata = {
   title: "Data Management Services | FGK Back Office Services",
-  description:
-    "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
+  description: "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
   keywords: [
     "Data Management",
     "Data Governance",
@@ -66,24 +65,26 @@ export const metadata = {
     "Data Operations",
     "FGK Data Management",
   ],
+
   authors: [
-    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+    {
+      name: "FGK Back Office Services",
+      url: "https://www.fgkbackoffice.com",
+    },
   ],
   creator: "FGK Back Office Services",
   publisher: "FGK Back Office Services",
+
   metadataBase: new URL("https://www.fgkbackoffice.com"),
-  alternates: {
-    canonical: "https://www.fgkbackoffice.com/services/datamanagement",
-  },
+
   openGraph: {
     title: "Data Management Services | FGK Back Office Services",
-    description:
-      "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
+    description: "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
     url: "https://www.fgkbackoffice.com/services/datamanagement",
     siteName: "FGK Back Office Services",
     images: [
       {
-        url: "/images/datamanagement-page-preview.webp", // Confirm this file exists
+        url: "/images/datamanagement-page-preview.webp",
         width: 1200,
         height: 630,
         alt: "Data Management Service Overview",
@@ -98,19 +99,66 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Data Management Services | FGK Back Office Services",
-    description:
-      "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
+    description: "FGK Back Office Services offers scalable and secure data management solutions, including governance, compliance, flow monitoring, and information architecture tailored for businesses seeking operational efficiency and data integrity.",
     images: ["/images/datamanagement-page-preview.webp"],
+    creator: "@fgkbackoffice",
+    site: "@fgkbackoffice",
   },
+
+  icons: {
+    icon: [
+      { url: "/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "/images/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/images/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/images/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    shortcut: [{ url: "/images/favicon.ico", type: "image/x-icon" }],
+  },
+
+  manifest: "/manifest.webmanifest",
+
+  themeColor: "#59c3c3a8",
+
   robots: {
     index: true,
     follow: true,
     nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      maxVideoPreview: -1,
+      maxImagePreview: "large",
+      maxSnippet: -1,
+    },
   },
+
+  alternates: {
+    canonical: "https://www.fgkbackoffice.com/services/datamanagement",
+  },
+
+  category: "Data Management Services", // Optional, for blog posts or services
 };
+
 
 export default function DataManagement() {
   const data = getHeroData("data-management");

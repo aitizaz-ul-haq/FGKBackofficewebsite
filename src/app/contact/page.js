@@ -27,15 +27,18 @@ export const metadata = {
     "Connect with FGK",
     "FGK Contact Details",
   ],
+
   authors: [
-    { name: "FGK Back Office Services", url: "https://www.fgkbackoffice.com" },
+    {
+      name: "FGK Back Office Services",
+      url: "https://www.fgkbackoffice.com",
+    },
   ],
   creator: "FGK Back Office Services",
   publisher: "FGK Back Office Services",
+
   metadataBase: new URL("https://www.fgkbackoffice.com"),
-  alternates: {
-    canonical: "https://www.fgkbackoffice.com/contact",
-  },
+
   openGraph: {
     title: "Get in Touch | FGK Back Office Services",
     description:
@@ -44,10 +47,10 @@ export const metadata = {
     siteName: "FGK Back Office Services",
     images: [
       {
-        url: "/images/contact-page-preview.webp", // Ensure this image exists
+        url: "/images/contact-page-preview.webp",
         width: 1200,
         height: 630,
-        alt: "Contact FGK Back Office Services",
+        alt: "Contact FGK page preview",
       },
       {
         url: "/images/fgk_circular_logo.webp",
@@ -59,18 +62,65 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Get in Touch | FGK Back Office Services",
     description:
       "Contact FGK Back Office Services for business enquiries, partnership proposals, or customer support. Whether you're a potential client, collaborator, or stakeholder, our professional team is ready to assist you with timely and tailored responses.",
     images: ["/images/contact-page-preview.webp"],
+    creator: "@fgkbackoffice",
+    site: "@fgkbackoffice",
   },
+
+  icons: {
+    icon: [
+      { url: "/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "/images/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/images/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/images/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+    shortcut: [{ url: "/images/favicon.ico", type: "image/x-icon" }],
+  },
+
+  manifest: "/manifest.webmanifest",
+
+  themeColor: "#59c3c3a8",
+
   robots: {
     index: true,
     follow: true,
     nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      maxVideoPreview: -1,
+      maxImagePreview: "large",
+      maxSnippet: -1,
+    },
   },
+
+  alternates: {
+    canonical: "https://www.fgkbackoffice.com/contact",
+  },
+
+  category: "Business Support Services", // Optional, for blog posts or services
 };
 
 export default function Contact() {
