@@ -24,6 +24,7 @@
 @media (max-width: 320px) {
   .teammemebersgrid {
     flex-direction: column;
+    margin-top: 2rem;
   }
 }
 
@@ -31,6 +32,7 @@
 @media (max-width: 360px) {
   .teammemebersgrid {
     flex-direction: column;
+    margin-top: 2rem;
   }
 }
 
@@ -38,6 +40,8 @@
 @media (max-width: 375px) {
   .teammemebersgrid {
     flex-direction: column;
+    margin-top: 0rem;
+    gap: 1.6rem;
   }
 }
 
@@ -45,15 +49,23 @@
 @media (min-width: 390px) {
   .teammemebersgrid {
     flex-direction: column;
+    margin-top: 0rem;
+    gap: 1.6rem;
   }
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .teammemebersgrid {
+    gap: 1.6rem;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .teammemebersgrid {
+    gap: 1.6rem;
+  }
 }
 
 /* Tablets (>= 600px) */
@@ -64,23 +76,43 @@
 @media (min-width: 768px) {
   .teammemebersgrid {
     flex-direction: row;
+    gap: 6rem;
   }
 }
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .teammemebersgrid {
+    gap: 2rem;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
+  .teammemebersgrid {
+    gap: 5rem;
+  }
 }
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .teammemebersgrid {
+    gap: 5rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .teammemebersgrid {
+    gap: 6rem;
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1920px) {
+  .teammemebersgrid {
+    gap: 7rem;
+  }
 }
 
 /* 4K screens (>= 1920px) */

@@ -44,6 +44,7 @@
 @media (max-width: 375px) {
   .memeberscard-container {
     width: 100%;
+    gap: 0rem;
   }
 }
 
@@ -51,25 +52,43 @@
 @media (min-width: 390px) {
   .memeberscard-container {
     width: 100%;
+    gap: 0rem;
   }
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .memeberscard-container {
+    width: 100%;
+    gap: 0rem;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .memeberscard-container {
+    width: 100%;
+    gap: 0rem;
+  }
 }
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .memeberscard-container {
+    width: 100%;
+    gap: 0rem;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
   .memeberscard-container {
     width: 42%;
+  }
+
+  .teammemberscard-name-heading {
+    font-size: 24px;
+    width: 100%;
   }
 }
 
@@ -86,7 +105,7 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
-   .memeberscard-container {
+  .memeberscard-container {
     gap: 0.2rem;
   }
 }
