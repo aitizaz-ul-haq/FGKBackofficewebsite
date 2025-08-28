@@ -20,6 +20,8 @@ export default function TeamMembersGridSection() {
             facebooklink={teammembersgriddata.facebooklink}
             xlink={teammembersgriddata.xlink}
             linkdinlink={teammembersgriddata.linkdinlink}
+            width={teammembersgriddata.width}
+            height={teammembersgriddata.height}
           />
         ))}
       </div>

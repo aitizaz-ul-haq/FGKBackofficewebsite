@@ -86,10 +86,16 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+   .memeberscard-container {
+    gap: 0.2rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .memeberscard-container {
+    gap: 0.2rem;
+  }
 }
 
 /* 4K screens (>= 1920px) */

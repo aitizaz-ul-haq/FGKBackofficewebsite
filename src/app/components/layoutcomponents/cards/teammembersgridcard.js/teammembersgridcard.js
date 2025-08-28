@@ -11,18 +11,20 @@ export default function TeamMembersGridCard({
   facebooklink,
   xlink,
   linkdinlink,
+  width,
+  height,
 }) {
   return (
     <>
       <div className="memeberscard-container">
-        <TeamCardImageContainer photo={photo} />
+        <TeamCardImageContainer photo={photo} width={width} height={height} />
         <TeamMembersHeadingSection name={name} />
         <TeamCardDesignationSection designation={designation} />
-        <TeamCardSocialMediaSection
+        {/* <TeamCardSocialMediaSection
           facebooklink={facebooklink}
           xlink={xlink}
           linkdinlink={linkdinlink}
-        />
+        /> */}
       </div>
     </>
   );
