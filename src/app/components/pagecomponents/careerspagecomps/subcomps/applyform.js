@@ -136,6 +136,7 @@ const ApplyForm = () => {
             </option>
             <option value="operations-manager">Operations Manager</option> */}
             <option value="hr-admin-executive">HR & Admin Executive</option>
+             <option value="hr-admin-executive">Trainee Analyst Financial Data & Operations</option>
           </select>
         </div>
         <div className="form-row">

@@ -1,45 +1,120 @@
 [
-  
   {
     "designation": "HR & Admin Executive",
-    "description": "Responsible for managing recruitment, payroll, employee relations, and office administration including procurement, vendor coordination, and facility management to ensure efficient operations.",
-    "oversight": "A London based asset management company established its office in Islamabad in 2021. The office has seen rapid growth since inception and continues to grow. The company provides middle and back-office services to our other offices in Monaco and Switzerland. London is the operational hub of the entire group. In 2021, the group set up FGK Back Office Services (Private) Limited in Islamabad as an offshore centre that supports the London operations. Due to the success of this office, we are now looking to hire additional people to support this office in Islamabad. FGK Back Office Services (Private) Limited is engaged in back office services and is registered with Securities and Exchange Commission of Pakistan (\"SECP\"). FGK Back Office Services (Private) Limited started  with a strategic decision and ambition to provide back office services to financial and banking sector companies working domestically and overseas. Our back-office services include but are not limited to: data management, operations support, and accounting & reporting. We are an \"IT Enabled Services\" company as defined by Pakistan Software Export Board (\"PSEB\"). As an IT enabled services company, we are among the few companies that export IT services worldwide and contribute our share to economic growth and utilise the true potential of talented individuals. Recently, FGK Back Office Services (Private) Limited contracted with a growing asset management company based in the United Kingdom. We, at FGK, have been providing back office services to an asset management that includes but is not limited to data entry & analytics, account reconciliations, transaction processing and updating portfolio accounts. So, to execute these tasks we require an \"data analyst\" to join a high-performing and professional team at Islamabad.",
-    "responsibilities": [
-      "Assist in the recruitment and selection process by screening resumes, scheduling interviews, and conducting initial assessments.",
-      "Prepare and maintain accurate employee records, including personal data, contracts, and performance evaluations.",
-      "Handle employee onboarding and orientation programs to ensure smooth onboarding into the company.",
-      "Manage payroll processing, attendance records, and leave management.",
-      "Assist in performance management and appraisals.",
-      "Maintain and update HR policies and ensure compliance with labour laws and company regulations.",
-      "Address employee queries regarding compensation, benefits, and workplace issues.",
-      "Organize training and development sessions for staff, assist in conducting employee engagement activities to promote a positive work environment.",
-      "Oversee daily office operations to maintain a productive and efficient work environment.",
-      "Manage office supplies inventories, place orders as needed, and ensure uninterrupted operations.",
-      "Coordinate with vendors and service providers for office maintenance, repairs, utilities, and equipment management.",
-      "Maintain cleanliness and organization of office spaces, adhering to hygiene standards.",
-      "Manage office equipment, including maintenance and repairs, to ensure smooth functionality.",
-      "Identify office requirements and ensure timely procurement of supplies and equipment, maintaining cost-effectiveness through vendor evaluation and contract negotiation.",
-      "Establish and maintain relationships with suppliers and service providers to secure favorable terms and agreements.",
-      "Maintain accurate records of purchases, pricing, vendor agreements, and office assets to ensure proper utilization and budget tracking.",
-      "Conduct market research to identify quality products and obtain competitive quotes for procurement.",
-      "Develop and implement administrative systems to enhance operational efficiency and streamline processes.",
-      "Assist in organizing company events, meetings, and conferences, including logistics and coordination."
-    ],
-    "systems": [
-      "Proficiency in MS Office (Word, Excel, PowerPoint)",
-      "Microsoft Teams"
-    ],
-    "requiredSkillset": [
-      "Bachelor’s degree in human resource management, Business Administration, or related field.",
-      "Minimum 2 to 3 years of experience as an HR and Admin Executive or similar role.",
-      "Excellent interpersonal and communication skills.",
-      "Strong organizational and multitasking abilities.",
-      "Knowledge of labour laws and regulations.",
-      "Attention to detail and problem-solving skills.",
-      "Ability to maintain confidentiality and handle sensitive information.",
-      "Fluent in both written and spoken English",
-      "Self-starter and motivated",
-      "Willing to work as part of a team"
+    "sections": [
+      {
+        "heading": "Description",
+        "content": "Responsible for managing recruitment, payroll, employee relations, and office administration including procurement, vendor coordination, and facility management to ensure efficient operations."
+      },
+      {
+        "heading": "Oversight",
+        "content": "A London based asset management company established its office in Islamabad in 2021. The office has seen rapid growth since inception and continues to grow. The company provides middle and back-office services to our other offices in Monaco and Switzerland. London is the operational hub of the entire group. In 2021, the group set up FGK Back Office Services (Private) Limited in Islamabad as an offshore centre that supports the London operations. Due to the success of this office, we are now looking to hire additional people to support this office in Islamabad. FGK Back Office Services (Private) Limited is engaged in back office services and is registered with Securities and Exchange Commission of Pakistan (\"SECP\"). FGK Back Office Services (Private) Limited started  with a strategic decision and ambition to provide back office services to financial and banking sector companies working domestically and overseas. Our back-office services include but are not limited to: data management, operations support, and accounting & reporting. We are an \"IT Enabled Services\" company as defined by Pakistan Software Export Board (\"PSEB\"). As an IT enabled services company, we are among the few companies that export IT services worldwide and contribute our share to economic growth and utilise the true potential of talented individuals. Recently, FGK Back Office Services (Private) Limited contracted with a growing asset management company based in the United Kingdom. We, at FGK, have been providing back office services to an asset management that includes but is not limited to data entry & analytics, account reconciliations, transaction processing and updating portfolio accounts. So, to execute these tasks we require an \"data analyst\" to join a high-performing and professional team at Islamabad."
+      },
+      {
+        "heading": "Responsibilities",
+        "list": [
+          "Assist in the recruitment and selection process by screening resumes, scheduling interviews, and conducting initial assessments.",
+          "Prepare and maintain accurate employee records, including personal data, contracts, and performance evaluations.",
+          "Handle employee onboarding and orientation programs to ensure smooth onboarding into the company.",
+          "Manage payroll processing, attendance records, and leave management.",
+          "Assist in performance management and appraisals.",
+          "Maintain and update HR policies and ensure compliance with labour laws and company regulations.",
+          "Address employee queries regarding compensation, benefits, and workplace issues.",
+          "Organize training and development sessions for staff, assist in conducting employee engagement activities to promote a positive work environment.",
+          "Oversee daily office operations to maintain a productive and efficient work environment.",
+          "Manage office supplies inventories, place orders as needed, and ensure uninterrupted operations.",
+          "Coordinate with vendors and service providers for office maintenance, repairs, utilities, and equipment management.",
+          "Maintain cleanliness and organization of office spaces, adhering to hygiene standards.",
+          "Manage office equipment, including maintenance and repairs, to ensure smooth functionality.",
+          "Identify office requirements and ensure timely procurement of supplies and equipment, maintaining cost-effectiveness through vendor evaluation and contract negotiation.",
+          "Establish and maintain relationships with suppliers and service providers to secure favorable terms and agreements.",
+          "Maintain accurate records of purchases, pricing, vendor agreements, and office assets to ensure proper utilization and budget tracking.",
+          "Conduct market research to identify quality products and obtain competitive quotes for procurement.",
+          "Develop and implement administrative systems to enhance operational efficiency and streamline processes.",
+          "Assist in organizing company events, meetings, and conferences, including logistics and coordination."
+        ]
+      },
+      {
+        "heading": "Systems",
+        "list": [
+          "Proficiency in MS Office (Word, Excel, PowerPoint)",
+          "Microsoft Teams"
+        ]
+      },
+      {
+        "heading": "Required Skillset",
+        "list": [
+          "Bachelor’s degree in human resource management, Business Administration, or related field.",
+          "Minimum 2 to 3 years of experience as an HR and Admin Executive or similar role.",
+          "Excellent interpersonal and communication skills.",
+          "Strong organizational and multitasking abilities.",
+          "Knowledge of labour laws and regulations.",
+          "Attention to detail and problem-solving skills.",
+          "Ability to maintain confidentiality and handle sensitive information.",
+          "Fluent in both written and spoken English",
+          "Self-starter and motivated",
+          "Willing to work as part of a team"
+        ]
+      }
+    ]
+  },
+  {
+    "designation": "Trainee Analyst – Financial Data & Operations",
+    "sections": [
+      {
+        "heading": "Oversight",
+        "content": "A London based asset Management Company established its office in Islamabad in 2021. The office has seen rapid growth over the last 12 months and continues to grow in 2025. The company also provides middle and back-office services to our other office in Monaco and Switzerland. London is the operational hub of the entire group. In 2021, the group set up FGK Back Office Services in Islamabad as an offshore centre that supports the London operations. Due to the success of this office, we are now looking to offer the training program to fresh graduates. FGK Back Office Services (Private) Limited is engaged in Back Office Services and is registered with Securities and Exchange Commission of Pakistan. FGK Back Office Services (Private) Limited started its operations in November 2021 with a strategic decision and ambition to provide Back Office Services to Financial and Banking Sector Companies working domestically and overseas. Our Back Office Services includes but not limited to: DATA MANAGEMENT, OPERATIONS SUPPORT, ACCOUNTING & REPORTING, PORTFOLIO MANAGEMENT. We are an IT Enabled Services Company as defined by Pakistan Software Export Board (PSEB). As an IT Enabled Services Company, we are among the few Companies that Export IT Services worldwide, contribute our share in economic growth, and utilizes the true potential of talented individuals."
+      },
+      {
+        "heading": "Program Overview",
+        "content": "As a Trainee Analyst, you will receive structured training and hands-on experience in the core functions of our operations and data teams. The program is ideal for candidates looking to pursue careers in asset management, data analytics, and financial operations."
+      },
+      {
+        "heading": "Key Responsibilities (Training & Exposure)",
+        "list": [
+          "Assist in transaction processing and maintaining financial records.",
+          "Perform data entry and analysis tasks related to portfolio and account updates.",
+          "Support account and cash reconciliations under supervision.",
+          "Help in generating and formatting daily, weekly, and monthly performance reports.",
+          "Learn to maintain accurate data in portfolio management systems.",
+          "Assist in updating security prices, account openings, and KYC tracking.",
+          "Support documentation, recordkeeping, and meeting minutes preparation.",
+          "Collaborate with team members on data queries and operational tasks."
+        ]
+      },
+      {
+        "heading": "Learning Outcomes",
+        "list": [
+          "Understand the end-to-end workflow of asset management operations.",
+          "Be proficient in Microsoft Excel and other financial data tools.",
+          "Gain working knowledge of Bloomberg, data systems, and reconciliations.",
+          "Learn to handle performance reporting, compliance tracking, and account operations."
+        ]
+      },
+      {
+        "heading": "Eligibility Criteria",
+        "list": [
+          "Recent graduates or final-year students pursuing degrees in Finance, Banking, Accounting, Economics, or Management.",
+          "Strong academic record and keen interest in financial markets and data handling.",
+          "Proficient in MS Excel and Office Suite (basic to intermediate level).",
+          "Strong written and verbal communication skills in English.",
+          "Willingness to learn and contribute as a team player in a dynamic environment."
+        ]
+      },
+      {
+        "heading": "What We Offer",
+        "list": [
+          "Stipend-based internship.",
+          "Training by industry professionals.",
+          "Exposure to global financial operations.",
+          "Certificate of completion.",
+          "Potential full-time employment opportunity based on performance."
+        ]
+      },
+      {
+        "heading": "How to Apply",
+        "content": "If you believe your background meets the criteria, please visit www.fgkbackoffice.com/careers and submit your CV with a cover letter."
+      }
     ]
   }
 ]

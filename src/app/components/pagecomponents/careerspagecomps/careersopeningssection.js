@@ -7,12 +7,6 @@ import CareersOpeningsDesignation from "./careersopeningssectionmicrocomps/caree
 import CareersOpeningsDescription from "./careersopeningssectionmicrocomps/careersopeningsdescription";
 import CareersOpeningsHeading from "./careersopeningssectionmicrocomps/careersopeningsheading";
 import SelectedOpeningsDesignation from "./selectedopeningsmicrocomps/selectedopeningsdesignation";
-import SelectedOpeningsDescription from "./selectedopeningsmicrocomps/selectedopeningsdescription";
-import SelectedOpeningsOverSightDescription from "./selectedopeningsmicrocomps/selectedopeningsoversightdescription";
-import SelectedOpeningsOversightHeading from "./selectedopeningsmicrocomps/selectedopeningsoversightheading";
-import SelectedResponsibilitiesHeading from "./selectedopeningsmicrocomps/selectedresponsibilitiesheading";
-import SelectedOpeningsSystemHeading from "./selectedopeningsmicrocomps/selectedopeningssystems";
-import SelectedOpeningsReqSkilledHeading from "./selectedopeningsmicrocomps/selectedopeningsreqskilledheading";
 
 export default function CareersOpeningsSection() {
   const [selectedOpening, setSelectedOpening] = useState(null);
@@ -35,7 +29,12 @@ export default function CareersOpeningsSection() {
         <div key={index} className="position-strip">
           <div className="position-description-details-button">
             <CareersOpeningsDesignation designation={opening.designation} />
-            <CareersOpeningsDescription description={opening.description} />
+            {/* Optional description preview (first section or summary) */}
+            {opening.sections[0]?.content && (
+              <CareersOpeningsDescription
+                description={opening.sections[0].content.substring(0, 180) + "..."}
+              />
+            )}
           </div>
           <div className="careers-details-button-container">
             <button
@@ -57,54 +56,27 @@ export default function CareersOpeningsSection() {
             <button className="modal-close-button" onClick={closeModal}>
               &times;
             </button>
+
             <SelectedOpeningsDesignation
               designation={selectedOpening.designation}
             />
-            <SelectedOpeningsDescription
-              description={selectedOpening.description}
-            />
 
-            {selectedOpening.oversight && (
-              <div>
-                <SelectedOpeningsOversightHeading />
-                <SelectedOpeningsOverSightDescription
-                  description={selectedOpening.oversight}
-                />
+            {/* Loop through sections dynamically */}
+            {selectedOpening.sections.map((section, idx) => (
+              <div key={idx}>
+                <h3 className="modal-title">{section.heading}</h3>
+                {section.content && (
+                  <p className="modal-description">{section.content}</p>
+                )}
+                {section.list && (
+                  <ul className="modal-list">
+                    {section.list.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                )}
               </div>
-            )}
-
-            {selectedOpening.responsibilities && (
-              <div>
-                <SelectedResponsibilitiesHeading />
-                <ul className="modal-list font-inter">
-                  {selectedOpening.responsibilities.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {selectedOpening.systems && (
-              <div>
-                <SelectedOpeningsSystemHeading />
-                <ul className="modal-list font-inter">
-                  {selectedOpening.systems.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {selectedOpening.requiredSkillset && (
-              <div>
-                <SelectedOpeningsReqSkilledHeading />
-                <ul className="modal-list font-inter">
-                  {selectedOpening.requiredSkillset.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
+            ))}
           </div>
         </div>
       )}
