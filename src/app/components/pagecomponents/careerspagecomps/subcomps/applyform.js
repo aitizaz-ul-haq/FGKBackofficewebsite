@@ -14,6 +14,10 @@ const ApplyForm = () => {
     resume: null,
   });
 
+  const [submitting, setSubmitting] = useState(false);
+  const [dialogMessage, setDialogMessage] = useState("");
+  const [showDialog, setShowDialog] = useState(false);
+
   const fileInputRef = useRef(null);
 
   const handleChange = (e) => {
@@ -33,11 +37,13 @@ const ApplyForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (submitting) return; // 🚫 prevent duplicate submissions
+    setSubmitting(true);
 
     const data = new FormData();
-    for (const key in formData) {
-      data.append(key, formData[key]);
-    }
+    Object.entries(formData).forEach(([key, value]) => {
+      if (value !== null) data.append(key, value);
+    });
 
     try {
       const response = await fetch("/api/apply-email", {
@@ -48,13 +54,12 @@ const ApplyForm = () => {
       const result = await response.json();
 
       if (result.success) {
-        alert("Application submitted successfully!");
+        setDialogMessage("✅ Application submitted successfully!");
+        setShowDialog(true);
 
-        console.log("Application submitted successfully!");
-        // ✅ Reset the form visually and internally
+        // Reset form fields
         e.target.reset();
-
-        // ✅ Reset form data state
+        if (fileInputRef.current) fileInputRef.current.value = "";
         setFormData({
           firstName: "",
           lastName: "",
@@ -66,11 +71,15 @@ const ApplyForm = () => {
           resume: null,
         });
       } else {
-        alert("Failed to submit the application. Please try again.");
+        setDialogMessage("❌ Application submission failed. Please try again.");
+        setShowDialog(true);
       }
     } catch (error) {
       console.error("Error submitting application:", error);
-      alert("An error occurred. Please try again later.");
+      setDialogMessage("⚠️ An error occurred. Please try again later.");
+      setShowDialog(true);
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -130,13 +139,10 @@ const ApplyForm = () => {
             <option value="" disabled>
               Select Position
             </option>
-            {/* <option value="data-analyst">Data Analyst</option>
-            <option value="finance-admin-manager">
-              Finance and Admin Manager
-            </option>
-            <option value="operations-manager">Operations Manager</option> */}
             <option value="hr-admin-executive">HR & Admin Executive</option>
-             <option value="trainee-analyst-financial-data-and-operations">Trainee Analyst Financial Data & Operations</option>
+            <option value="trainee-analyst-financial-data-and-operations">
+              Trainee Analyst Financial Data & Operations
+            </option>
           </select>
         </div>
         <div className="form-row">
@@ -175,9 +181,22 @@ const ApplyForm = () => {
           ></textarea>
         </div>
         <div className="form-row">
-          <button type="submit">Submit Application</button>
+          <button type="submit" disabled={submitting}>
+            {submitting ? "Sending..." : "Submit Application"}
+          </button>
         </div>
       </form>
+
+      {/* ✅ Dialog Modal */}
+      {showDialog && (
+        <div className="dialog-overlay">
+          <div className="dialog-box">
+            <p>{dialogMessage}</p>
+            <button onClick={() => setShowDialog(false)}>Close</button>
+          </div>
+        </div>
+      )}
+
       <style jsx>{`
         .form-container {
           display: flex;
@@ -261,6 +280,45 @@ const ApplyForm = () => {
 
         button:hover {
           background-color: #449f9f;
+        }
+
+        button:disabled {
+          opacity: 0.6;
+          cursor: not-allowed;
+        }
+        button:hover:enabled {
+          background-color: #449f9f; /* keep hover only when enabled */
+        }
+
+        /* Dialog overlay + box */
+        .dialog-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.4);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 1000;
+        }
+        .dialog-box {
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          text-align: center;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+          max-width: 300px;
+        }
+        .dialog-box button {
+          margin-top: 15px;
+          padding: 8px 16px;
+          border: none;
+          border-radius: 5px;
+          background-color: var(--recomended-button-background-color);
+          color: var(--recomended-button-text-color);
+          cursor: pointer;
         }
 
         /* Medium laptops (>= 1024px) */
