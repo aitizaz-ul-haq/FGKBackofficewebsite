@@ -49,8 +49,8 @@ export async function POST(req) {
     // Email to HR with the applicant's details and resume
     const hrMailOptions = {
       from: `${fields.firstName} ${fields.lastName} <${fields.email}>`,
-      // to: "sahmed@fgkltd.com",
-      to: "atz.softprgmr@gmail.com",
+      to: "sahmed@fgkltd.com",
+      // to: "atz.softprgmr@gmail.com",
       subject: `New Job Application from ${fields.firstName} ${fields.lastName}`,
       text: `
         Name: ${fields.firstName} ${fields.lastName}
