@@ -10,7 +10,7 @@ export default function FooterLowerSection() {
             className="footer-rights-line"
             title="See our Privacy policy and Disclaimer"
           >
-            ©All Rights Reserved 2024 Policy Privacy Notice
+            ©All Rights Reserved 2025 Policy Privacy Notice
           </Link>
         </p>
       </div>

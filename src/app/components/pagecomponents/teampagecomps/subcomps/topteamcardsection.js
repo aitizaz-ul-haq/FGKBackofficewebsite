@@ -18,6 +18,8 @@ export const TopTeamCardSection = () => {
           xlink={teampagedata.xlink}
           linkdinlink={teampagedata.linkdinlink}
           isReversed={index % 2 !== 0} // Pass true for even cards (index is odd because it's 0-based)
+          width={teampagedata.width}
+          height={teampagedata.height}
         />
       ))}
     </>

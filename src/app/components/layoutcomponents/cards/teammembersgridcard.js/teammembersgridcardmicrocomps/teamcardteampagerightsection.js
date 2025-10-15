@@ -2,6 +2,7 @@ import RightSectionTeamName from "./rightsectionteamname";
 import RightSectionTeamDesignation from "./rightsectionteamdesignation";
 import RightSectionTeamDescription from "./rightsectionteamdescription";
 import RightSectionTeamSocialMediaCollection from "./rightsectionteamsocialmediacollection";
+// import Image from "next/image";
 
 export default function TeamCardTeamPageRightSection({
   name,

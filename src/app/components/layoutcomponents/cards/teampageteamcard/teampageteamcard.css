@@ -98,6 +98,9 @@
   }
 
   .teampageteamcard-mobile-image {
+    max-width: 100%;
+    height: auto; /* keeps aspect ratio */
+    object-fit: contain; /* or 'cover' if you want a crop instead of letterboxing */
     display: block;
   }
 
@@ -149,6 +152,9 @@
   }
 
   .teampageteamcard-mobile-image {
+    max-width: 100%;
+    height: auto; /* keeps aspect ratio */
+    object-fit: contain; /* or 'cover' if you want a crop instead of letterboxing */
     display: block;
   }
 
@@ -196,6 +202,9 @@
   }
 
   .teampageteamcard-mobile-image {
+    max-width: 100%;
+    height: auto; /* keeps aspect ratio */
+    object-fit: contain; /* or 'cover' if you want a crop instead of letterboxing */
     display: block;
   }
 
@@ -243,6 +252,9 @@
   }
 
   .teampageteamcard-mobile-image {
+    max-width: 100%;
+    height: auto; /* keeps aspect ratio */
+    object-fit: contain; /* or 'cover' if you want a crop instead of letterboxing */
     display: block;
   }
 
@@ -311,6 +323,10 @@
   .teampageteamcard-left-image {
     display: block;
     margin: 0rem;
+    /* max-width: 100%;
+    height: auto;  */
+    object-fit: contain; /* or 'cover' if you want a crop instead of letterboxing */
+    display: block;
   }
 }
 

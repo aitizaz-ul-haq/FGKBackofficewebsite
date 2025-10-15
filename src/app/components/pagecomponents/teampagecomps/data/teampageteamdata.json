@@ -1,29 +1,35 @@
 [
   {
-    "photo": "https://i.postimg.cc/13xcqgpJ/teambigphoto.webp",
+    "photo": "",
     "name": "Pier Alberto Furno",
     "designation": "Senior Board Member",
     "description": "A seasoned professional with a career spanning over 4 decades. Pier Alberto started his career with Shearson Lehman Brothers in 1987 in their Investment Management division. Over the years, Pier Alberto worked within well-established financial institutions, established himself as an experienced and well-respected portfolio manager. Over the decades Pier Alberto has delivering consistent results focusing on value investing. In 2008, Pier Alberto established an independent asset management company based in London and Monaco. Since then, the business has gone from strength to strength.",
     "facebooklink": "https://www.facebook.com/",
     "xlink": "https://www.youtube.com/",
-    "linkdinlink": "https://www.linkedin.com/"
+    "linkdinlink": "https://www.linkedin.com/",
+    "width": "536",
+    "height": "628"
   },
   {
-    "photo": "https://i.postimg.cc/13xcqgpJ/teambigphoto.webp",
+    "photo": "",
     "name": "Roberto Genasci-Borgna",
     "designation": "Senior Board Member",
     "description": "An established professional with over 30 years of experience spanning tourism, insurance, and a 20‑year career in wealth & asset management. Since 2017, he has served as Managing Partner in Monaco and London, driving international expansion, forging strategic partnerships, and recruiting top-tier Relationship Managers.  Previously held CEO/COO/CFO and Compliance Manager roles within private wealth services for elite athletes and high-net-worth individuals. Equipped with an Executive MBA and a Master’s in Compliance, he strengthened his expertise in finance, risk management, and process optimisation.",
     "facebooklink": "https://www.facebook.com/",
     "xlink": "https://www.youtube.com/",
-    "linkdinlink": "https://www.linkedin.com/"
+    "linkdinlink": "https://www.linkedin.com/",
+    "width": "536",
+    "height": "628"
   },
   {
-    "photo": "https://i.postimg.cc/13xcqgpJ/teambigphoto.webp",
+    "photo": "/images/wajid_khan_fgk.png",
     "name": "Wajid Khan",
     "designation": "Chief Executive Officer",
     "description": "An experienced C-Level executive with 19+ years of experience. Specialising in Investment Risk & Operations, Wajid has brought business transformational change to Nemesis Asset Management LLP. From a boutique investment manager to a multi-faceted and dynamic business, today the firm manages its own clients as well as collaborating with peers in the industry to deliver the very best outcomes for our clients. Responsible for growth and all aspects the business Wajid continually looks to enhance the colleague and client experience.",
     "facebooklink": "https://www.facebook.com/",
     "xlink": "https://www.youtube.com/",
-    "linkdinlink": "https://www.linkedin.com/"
+    "linkdinlink": "https://www.linkedin.com/",
+    "width": 536,
+    "height": 628
   }
 ]

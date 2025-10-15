@@ -12,13 +12,19 @@ export default function TeamPageTeamCard({
   xlink,
   linkdinlink,
   isReversed,
+  width,
+  height,
 }) {
   return (
     <div className="teampageteamcard-container">
       {isReversed ? (
         <>
           {/* Right section first */}
-         <TeamPageTeamSectionMobileImageContainer photo={photo} />
+          <TeamPageTeamSectionMobileImageContainer
+            photo={photo}
+            width={width}
+            height={height}
+          />
           <TeamCardTeamPageRightSection
             name={name}
             designation={designation}
@@ -27,13 +33,25 @@ export default function TeamPageTeamCard({
             linkdinlink={linkdinlink}
             xlink={xlink}
           />
-          <TeamPageTeamCardLeftSection photo={photo} />
+          <TeamPageTeamCardLeftSection
+            photo={photo}
+            width={width}
+            height={height}
+          />
         </>
       ) : (
         <>
-           <TeamPageTeamSectionMobileImageContainer photo={photo} />
+          <TeamPageTeamSectionMobileImageContainer
+            photo={photo}
+            width={width}
+            height={height}
+          />
           {/* Left section first */}
-          <TeamPageTeamCardLeftSection photo={photo} />
+          <TeamPageTeamCardLeftSection
+            photo={photo}
+            width={width}
+            height={height}
+          />
           <TeamCardTeamPageRightSection
             name={name}
             designation={designation}
