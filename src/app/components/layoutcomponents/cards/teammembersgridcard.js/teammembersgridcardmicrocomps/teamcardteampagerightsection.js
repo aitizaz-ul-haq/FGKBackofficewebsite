@@ -25,11 +25,11 @@ export default function TeamCardTeamPageRightSection({
       <RightSectionTeamName name={name} />
       <RightSectionTeamDesignation designation={designation} />
       <RightSectionTeamDescription description={description} />
-      <RightSectionTeamSocialMediaCollection
+      {/* <RightSectionTeamSocialMediaCollection
         facebooklink={facebooklink}
         linkdinlink={linkdinlink}
         xlink={xlink}
-      />
+      /> */}
     </div>
   );
 }
