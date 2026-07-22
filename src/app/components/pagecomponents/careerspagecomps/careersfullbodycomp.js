@@ -7,7 +7,7 @@ import CareersNoOpeningsSection from "./careersnoopeningssection";
 import "./styles/careersfullbodycomp.css";
 
 // Set to 1 to show openings, 0 to show no-openings message
-const SHOW_OPENINGS = 0;
+const SHOW_OPENINGS = 1;
 
 export default function CareersFullBodyComp() {
   return (
