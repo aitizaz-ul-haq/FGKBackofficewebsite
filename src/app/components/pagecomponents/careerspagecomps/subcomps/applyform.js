@@ -139,7 +139,7 @@ const ApplyForm = () => {
             <option value="" disabled>
               Select Position
             </option>
-            <option value="hr-admin-executive">HR & Admin Executive</option>
+            {/* <option value="hr-admin-executive">HR & Admin Executive</option> */}
             <option value="trainee-analyst-financial-data-and-operations">
               Trainee Analyst Financial Data & Operations
             </option>
