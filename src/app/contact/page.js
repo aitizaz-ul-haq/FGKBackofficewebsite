@@ -12,7 +12,7 @@ const ContactsPageBody = dynamic(() =>
 );
 
 export const metadata = {
-  title: "Get in Touch | FGK Back Office Services",
+  title: "Contact FGK Back Office Services | Get in Touch",
   description:
     "Contact FGK Back Office Services for business enquiries, partnership proposals, or customer support. Whether you're a potential client, collaborator, or stakeholder, our professional team is ready to assist you with timely and tailored responses.",
   keywords: [
@@ -40,7 +40,7 @@ export const metadata = {
   metadataBase: new URL("https://www.fgkbackoffice.com"),
 
   openGraph: {
-    title: "Get in Touch | FGK Back Office Services",
+    title: "Contact FGK Back Office Services | Get in Touch",
     description:
       "Contact FGK Back Office Services for business enquiries, partnership proposals, or customer support. Whether you're a potential client, collaborator, or stakeholder, our professional team is ready to assist you with timely and tailored responses.",
     url: "https://www.fgkbackoffice.com/contact",
@@ -65,7 +65,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Get in Touch | FGK Back Office Services",
+    title: "Contact FGK Back Office Services | Get in Touch",
     description:
       "Contact FGK Back Office Services for business enquiries, partnership proposals, or customer support. Whether you're a potential client, collaborator, or stakeholder, our professional team is ready to assist you with timely and tailored responses.",
     images: ["/images/contact-page-preview.webp"],
