@@ -140,9 +140,9 @@ const ApplyForm = () => {
               Select Position
             </option>
             <option value="hr-and-admin-officer">HR & Admin Officer</option>
-            {/* <option value="trainee-analyst-financial-data-and-operations">
+            <option value="trainee-analyst-financial-data-and-operations">
               Trainee Analyst Financial Data & Operations
-            </option> */}
+            </option>
           </select>
         </div>
         <div className="form-row">
