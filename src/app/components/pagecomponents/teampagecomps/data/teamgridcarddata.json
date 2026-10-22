@@ -52,6 +52,16 @@
     "linkdinlink": "https://www.linkedin.com/"
   },
   {
+    "photo": "/images/idrees.png",
+    "width": "304",
+    "height": "366",
+    "name": "Raja Idrees Farooq",
+    "designation": "Operations Analyst",
+    "facebooklink": "https://www.facebook.com/",
+    "xlink": "https://www.youtube.com/",
+    "linkdinlink": "https://www.linkedin.com/"
+  },
+  {
     "photo": "/images/umair.png",
     "width": "298",
     "height": "355",
@@ -62,11 +72,11 @@
     "linkdinlink": "https://www.linkedin.com/"
   },
   {
-    "photo": "/images/idrees.png",
-    "width": "304",
-    "height": "366",
-    "name": "Raja Idrees Farooq",
-    "designation": "Operations Analyst",
+    "photo": "/images/Imran.png",
+    "width": "298",
+    "height": "355",
+    "name": "Imran Danish",
+    "designation": "Financial Data Analyst",
     "facebooklink": "https://www.facebook.com/",
     "xlink": "https://www.youtube.com/",
     "linkdinlink": "https://www.linkedin.com/"
